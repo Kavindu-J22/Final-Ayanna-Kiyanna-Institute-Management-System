@@ -23,15 +23,9 @@ export default function Starting({ history }) {
            autoPlay
            loop
            muted
+           class = "back-video"
            style={{
-              position: "absolute",
-              width: "100%",
-              left: "50%",
-              top: "50%",
-              height: "100%",
-              objectFit: "cover",
-              transform: "translate(-50%, -50%)",
-              zIndex: "0",
+              
             }}>
             <source src={backgroundTheme} type="video/mp4" />
           </video>
@@ -44,7 +38,7 @@ export default function Starting({ history }) {
                         seeking a position in an IT position which will utilize the professional,
                         technical and skills developed through keep practicing in this field. I can provide clean code and pixel
                         perfect design. I also make the website mere & more interactive with web animations.
-            </p><br/><br/>
+            </p><br/>
 
             <form>
               <Link to="/login">

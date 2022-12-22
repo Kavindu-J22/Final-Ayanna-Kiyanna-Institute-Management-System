@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-.header{
+section{
     min-height: 100vh;
     width: 100%;
     background: #080808;
@@ -18,7 +18,26 @@
     justify-content: flex-start;
     background-size: cover;
     background-position: center;
+}
 
+.back-video{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    object-Fit: cover;
+    transform: translate(-50%, -50%);
+    z-Index: 0;
+}
+@media screen {
+    .back-video{
+        width: 100%;
+        height: 100%;
+    }
+  
 }
 
 .header span{
