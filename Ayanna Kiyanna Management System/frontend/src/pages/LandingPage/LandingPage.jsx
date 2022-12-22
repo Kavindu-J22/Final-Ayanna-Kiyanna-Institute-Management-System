@@ -23,10 +23,7 @@ export default function Starting({ history }) {
            autoPlay
            loop
            muted
-           class = "back-video"
-           style={{
-              
-            }}>
+           class = "back-video">
             <source src={backgroundTheme} type="video/mp4" />
           </video>
 
