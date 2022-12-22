@@ -6,18 +6,23 @@
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
+    height: auto;
+    
+}
+.fullmain{
+    background-color: #1d1d1d;
 }
 
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background: #080808;
+.home{
     position: relative;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background-size: cover;
     background-position: center;
+    padding-top: 5px;
 }
 
 .back-video{
@@ -132,4 +137,7 @@
 .content p{
     font-style: italic;
     color: #f0d5de;
+}
+hr{
+    color: #dac8ce;
 }

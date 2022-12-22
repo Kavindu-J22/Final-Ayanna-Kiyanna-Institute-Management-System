@@ -5,6 +5,7 @@ import AKlogo from "../../assets/images/AKlogo.png"
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import About from "./About"
+import Sehome from "./Sehome"
 
 export default function Starting({ history }) {
   useEffect(() => {
@@ -16,7 +17,7 @@ export default function Starting({ history }) {
   }, [history]);
 
   return (
-    <div>
+    <div className="fullmain">
       <section class="home">
        <div className="header">
          <video
@@ -43,7 +44,7 @@ export default function Starting({ history }) {
               </Link>
               <br /><br />
               <Link to="/teacher-login">
-              <button id ="LGbtnA" type="submit">Register With Us</button>
+              <button id ="LGbtnA" type="submit">Connect With Us</button>
               </Link>
             </form>
           </div>
@@ -51,6 +52,9 @@ export default function Starting({ history }) {
       </section>
 
         <div>
+          <hr/>
+          <Sehome/>
+          <hr/>
           <About/>
         </div>    
       
