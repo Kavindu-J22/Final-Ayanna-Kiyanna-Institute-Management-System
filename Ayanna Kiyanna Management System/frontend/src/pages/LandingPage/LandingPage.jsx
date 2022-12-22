@@ -17,7 +17,7 @@ export default function Starting({ history }) {
 
   return (
     <div>
-      <section>
+      <section class="home">
        <div className="header">
          <video
            autoPlay
@@ -49,7 +49,7 @@ export default function Starting({ history }) {
           </div>
         </div>
       </section>
-      
+
         <div>
           <About/>
         </div>    

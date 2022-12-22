@@ -12,8 +12,8 @@ function About(){
             <div class="main">
                 <img class="image-About" src={Ayanna} alt=""/>
                 <div class="about-text">
-                    <h2>About Us</h2>
-                    <h5>Institute <span>& Education Hub</span></h5>
+                    <h2>අපි ගැන යමක්..</h2>
+                    <h5>ශ්‍රී ලංකාවේ හොඳම <span>E-සිංහල </span>අධ්‍යාපන කේන්ද්‍රය</h5>
                     <p> A motivated, adaptable, and responsible computing undergraduate
                         seeking a position in an IT position which will utilize the professional,
                         technical and skills developed through keep practicing in this field. I can provide clean code and pixel
