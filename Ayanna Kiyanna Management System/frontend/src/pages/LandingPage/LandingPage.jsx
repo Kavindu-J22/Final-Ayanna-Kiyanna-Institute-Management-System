@@ -32,10 +32,7 @@ export default function Starting({ history }) {
             <img className="logo1" src= {AKlogo}  alt="" />
             <h1>Welcome to <span>අයන්න කියන්න..!</span></h1>
             <h2>- ජගත් කුමාර ජයසිංහ -</h2><br />
-            <p>A motivated, adaptable, and responsible computing undergraduate
-                        seeking a position in an IT position which will utilize the professional,
-                        technical and skills developed through keep practicing in this field. I can provide clean code and pixel
-                        perfect design. I also make the website mere & more interactive with web animations.
+            <p>“අයන්න කියන්න” මංගල කලාපය හුදෙක් දැනුම පමණක් කෙන්ද්‍ර කරගත්තක් නොවන්නේ ය. දැනුම වැඩි වැඩියෙන් ලබා දීම ඉදිරි කලාපයන්ට තබා අප කවුද, මොනවද කරන්නේ යන්න පිළිබඳ ව අප පාඨක රසවතුන් වෙත කියා පෑමට වැඩි ඉඩක් මෙතුළ වෙන් වී ඇත. සිංහල භාෂාව කෙරෙහි අපගෙන් ලැබී ඇති දායකත්වය පිළිබද ව ඇතැම් දෙය පවා මෙතුළින් විද්‍යමාන වන්නේ ය. නමුත් නුදුරු අනාගතයේ දී ම අමුතු ම ගණයේ සිංහල අධ්‍යාපනික සඟරාවක් බවට මෙය පත්වනු ඇත.
             </p><br/>
 
             <form>
@@ -52,9 +49,9 @@ export default function Starting({ history }) {
       </section>
 
         <div>
-          <hr/>
+          <hr class="Myhr"/>
           <Sehome/>
-          <hr/>
+          <hr class="Myhr"/>
           <About/>
         </div>    
       

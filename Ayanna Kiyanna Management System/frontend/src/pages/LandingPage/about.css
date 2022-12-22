@@ -22,6 +22,11 @@
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+.about-text h2:hover{
+    transform: scale(1.1);
 }
 .about-text h5{
     color: white;
@@ -36,8 +41,9 @@
     color: #fcfc;
     letter-spacing: 1px;
     line-height: 28px;
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 45px;
+    font-family: 'Noto Sans Sinhala',sans-serif;
 }
 button{
     background-color: #f9004d;
@@ -57,4 +63,11 @@ button:hover{
 .image-About{
     height: auto;
     width: 430px;
+    transition: .4s;
+}
+.image-About:hover{
+    transform: scale(1.1);
+}
+hr.Abhr{
+    color: aliceblue;
 }

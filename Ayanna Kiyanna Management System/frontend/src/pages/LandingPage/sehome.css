@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Sinhala:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Noto Sans Sinhala',sans-serif; */
 
 *{
     margin: 0;
@@ -18,6 +19,114 @@
     background-size: cover;
     background-position: center;
 }
-.selogo{
-    width: 10%;
+.sheader{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.selogo{
+    width: 15%;
+    opacity: 0.4;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.selogo:hover{
+    transform: scale(1.1);
+}
+.sheader .navigation a{
+    color: rgb(21, 19, 19);
+    border: 2px solid rgb(222, 166, 218);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: 0.6s;
+    transition-property: background;
+    text-shadow: 0px 0px 5px rgb(214, 199, 199),0px 0px 15px rgb(80, 75, 75);
+    font-size: 18px;
+}
+.sheader .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+.sheader .navigation a:hover{
+    background: rgb(222, 166, 218);
+}
+.scontent{
+   max-width: 90%;
+   margin: 60px 100px;
+   
+}
+.scontent .sinfo h2{
+    color: rgb(231, 219, 226);
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-bottom: 30px;
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    padding-top: 65px;
+    text-shadow: 0px 0px 5px #000,0px 0px 15px rgb(54, 51, 51);
+    cursor: pointer;
+}
+.scontent .sinfo h2 span{
+    color: rgb(210, 130, 152);
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    font-size: 47px; 
+}
+
+.scontent .sinfo p{
+    max-width: 65%;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-shadow: 0px 0px 5px rgb(90, 86, 86),0px 0px 15px rgb(238, 226, 226);
+    color: rgb(20, 2, 10);
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    transition: .4s;
+}
+.scontent .sinfo p:hover{
+    transform: scale(1.1);
+}
+.scontent .info-btn{
+    color: #fff;
+    background-color: rgb(101, 25, 69);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(19, 17, 17),0px 0px 15px rgb(167, 159, 159);
+    transition: .4s;
+    transition-property: background;
+}
+.scontent .info-btn:hover{
+    background: rgb(61, 16, 44);
+}
+.smedia-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.smedia-icons a{
+    position: relative;
+    color: #111;
+    font-size: 30px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.smedia-icons a:not(:last-child){
+    margin-right: 50px;
+}
+.smedia-icons a:hover{
+    transform: scale(1.5);
+}
+
+/* need to adjest media */

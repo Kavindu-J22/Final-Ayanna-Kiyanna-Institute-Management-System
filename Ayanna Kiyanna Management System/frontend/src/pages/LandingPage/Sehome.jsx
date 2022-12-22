@@ -10,7 +10,7 @@ function Sehome(){
     <div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <section className="Sehome">
-            <header>
+            <header className="sheader">
                 <img class="selogo" src={Logo} alt=""/>
                 <div className="navigation">
                     <a href="#">Home</a>
@@ -20,18 +20,16 @@ function Sehome(){
                     <a href="#">Contact</a>
                 </div>
             </header>
+
             <div className="scontent">
                 <div className="sinfo">
-                    <h2>ලෝබ නැතුව සතර බෙදන <br/>අසිරිමත් බුද්ධි මෙහෙවර !<span></span></h2>
-                    <p>A motivated, adaptable, and responsible computing undergraduate
-                        seeking a position in an IT position which will utilize the professional,
-                        technical and skills developed through keep practicing in this field. I can provide clean code and pixel
-                        perfect design.
+                    <h2>ලෝබ නැතුව සතර බෙදන <br/><span>අසිරිමත් බුද්ධි මෙහෙවර !</span></h2><br/>
+                    <p> “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය. සිංහල විෂය සාධන මට්ටම ඉහළ දැමීම මෙන් ම ළමා මණසෙහි සියුම් වූ වේදයිතයන් අවදිකර රසවින්දනයෙන් පෝෂිත සමාජයක් බිහිකරලීම මෙම සඟරාව කිරීමෙහි මූලික අභිලාෂයයි.
                     </p>
                     <a href="#" className="info-btn">More Info</a>
                 </div>
             </div>
-            <div className="media-icons">
+            <div className="smedia-icons">
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>

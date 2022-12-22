@@ -135,9 +135,27 @@
     cursor: pointer;
 }
 .content p{
+    color: #dbbdc7;
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    font-size: 12px;
     font-style: italic;
-    color: #f0d5de;
 }
-hr{
-    color: #dac8ce;
+
+
+hr.Myhr{
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.Myhr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
