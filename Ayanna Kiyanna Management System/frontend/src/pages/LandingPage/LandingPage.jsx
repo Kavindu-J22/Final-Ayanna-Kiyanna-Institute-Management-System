@@ -7,7 +7,8 @@ import { useEffect } from "react";
 import About from "./About"
 import Sehome from "./Sehome"
 import Boxes from "./Boxes"
-import Other from "../Other/Other"
+import Imageslider from "./ImageSlider"
+
 
 export default function Starting({ history }) {
   useEffect(() => {
@@ -69,7 +70,7 @@ export default function Starting({ history }) {
 
           <div className="ncard">
             <hr class="Myhr"/>
-            {/* imageSlider */}
+            <Imageslider/> 
           </div> 
 
       </div> 
