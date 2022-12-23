@@ -137,6 +137,7 @@ function MyNotes({ search }) {
         </MainScreen>
       </div>
     </div>
+    
   );
 }
 
