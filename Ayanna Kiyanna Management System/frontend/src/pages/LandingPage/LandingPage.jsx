@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import About from "./About"
 import Sehome from "./Sehome"
+import Boxes from "./Boxes"
 
 export default function Starting({ history }) {
   useEffect(() => {
@@ -53,6 +54,8 @@ export default function Starting({ history }) {
           <Sehome/>
           <hr class="Myhr"/>
           <About/>
+          <hr class="Myhr"/>
+          <Boxes/>
         </div>    
       
 
