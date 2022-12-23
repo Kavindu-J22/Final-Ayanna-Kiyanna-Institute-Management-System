@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import About from "./About"
 import Sehome from "./Sehome"
 import Boxes from "./Boxes"
+import Other from "../Other/Other"
 
 export default function Starting({ history }) {
   useEffect(() => {
@@ -49,14 +50,29 @@ export default function Starting({ history }) {
         </div>
       </section>
 
-        <div>
-          <hr class="Myhr"/>
-          <Sehome/>
-          <hr class="Myhr"/>
-          <About/>
-          <hr class="Myhr"/>
-          <Boxes/>
-        </div>    
+      <div className="cantainer">
+
+          <div className="ncard">
+            <hr class="Myhr"/>
+            <Sehome/>
+          </div>
+
+          <div className="ncard">
+            <hr class="Myhr"/>
+            <About/>
+          </div>
+          
+          <div className="ncard">
+            <hr class="Myhr"/>
+            <Boxes/>
+          </div>
+
+          <div className="ncard">
+            <hr class="Myhr"/>
+            {/* imageSlider */}
+          </div> 
+
+      </div> 
       
 
     </div>

@@ -1,91 +1,59 @@
-.jumbotron{
-    background-color: antiquewhite;
+.jumbotronbox{
+    background-color: #191919;
 }
 
-.text-center{
-    color: rgb(10, 12, 12);
-    padding-top: 10px;
+.jumbotronbox h2{
+    color: #e6d6df;
+    padding-top: 20px;
     font-size: 40px;
-    font-weight: bold;
-}
-.text-center2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: italic;
 }
-.center{
-    width: 100%;
-    padding: 100px 0px;
+.jumbotronbox h3{
+    color: #ddd8db;
+    padding-top: 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.col-sm{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-    transition: .4s;
-    cursor: pointer;
+.bimage-lgs{
+    max-width: 230px;
 }
-.col-sm:hover{
+.bcenter{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.bcards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bcol-sm{
+    padding-right: 50px;
+    transition: 0.4s;
+    cursor: pointer;  
+}
+.bcol-sm:hover{
     transform: scale(1.1);
 }
-.bg-image{
-    height: 365px;
-    width: 335px;
-    padding: 20px 35px;
-    background: #191919;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-.bg-image i{
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-    color: #f9004d;
-}
-h5{
-    color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
-}
-.pra p{
-    color: #fcfc;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
-}
-.bg-image .button{
-    background-color: #f9004d;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
+.bbg-image h5{
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: antiquewhite;
+    transition: .4s;
     font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-    transition: .4s;
 }
-.bg-image .button:hover{
-    background-color: transparent;
-    border: 2px solid #f9004d;
-    cursor: pointer;
-}
-.col-sm-l{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-    width: 100%;
-    margin-left: 100%;
-    transition: .4s;
-    cursor: pointer;
-}
-.col-sm-l:hover{
-    transform: scale(1.1);
+.bbg-image h5:hover{
+    color: #d48497;
 }
