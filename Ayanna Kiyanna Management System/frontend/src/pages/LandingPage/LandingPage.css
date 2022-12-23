@@ -45,12 +45,6 @@
   
 }
 
-.header span{
-    color: #eb1c53;
-    font-size: 75px;
-    text-shadow:  0px 0px 5px #000,0px 0px 15px #000000;
-}
-
 .content{
     position: absolute;
     left: 50%;
@@ -63,30 +57,26 @@
     padding-top: 50px;
 }
 
-.content h1{
-    font-size: 65px;
-    font-weight: 600;
-    margin-bottom: 40px;
-    font-weight: 700;
-    font-family: 'Josefin Sans', sans-serif; 
-    text-shadow: 0px 0px 5px #000,0px 0px 15px #000;
-    color:whitesmoke;
-    cursor: pointer;
-    transition: transform .7s;
+.logo2{
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    opacity: 0.9;
+    transition: .7s;
 }
-
-.content h1:hover{
+.logo2:hover{
     transform: scale(1.1);
 }
 
 .content form button{
     background: transparent;
-    color: rgb(231, 221, 221);
+    color: rgb(255, 254, 253);
     padding: 7px 30px;
     border: 2px solid #eadfe3;
     border-radius: 30px;
     cursor: pointer;
     font-weight: 900;
+    text-shadow: 0px 0px 5px #000,0px 0px 15px #4f4c4c;
     box-shadow: 0px 0px 5px #000,0px 0px 15px #4f4c4c;
     transition: .5s;
 }
@@ -137,9 +127,15 @@
 .content p{
     color: #000000;
     font-family: 'Noto Sans Sinhala',sans-serif;
+    text-shadow: 0px 0px 5px rgb(200, 195, 195),0px 0px 15px #5e5353;
     font-size: 12px;
     font-style: italic;
     font-weight: bold;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.content p:hover{
+    transform: scale(1.1);
 }
 
 hr.Myhr{

@@ -30,8 +30,8 @@ function Sehome(){
                 </div>
             </div>
             <div className="smedia-icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100066826185077"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@ayannakiyanna2242/videos"><i class="fa-brands fa-youtube"></i></a>
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </section> 
