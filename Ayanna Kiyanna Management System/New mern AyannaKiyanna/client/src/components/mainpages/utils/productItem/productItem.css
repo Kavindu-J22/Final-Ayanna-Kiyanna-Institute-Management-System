@@ -6,6 +6,7 @@
     box-shadow: 0 0 15px #ddd;
     margin: 10px 0;
     position: relative;
+    border-radius: 30px;
 }
 .product_card img{
     width: 100%;
@@ -38,7 +39,7 @@
     width: 100%;
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .row_btn a{
     width: 50%;
