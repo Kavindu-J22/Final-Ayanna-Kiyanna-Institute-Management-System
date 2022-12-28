@@ -2,7 +2,6 @@ import React, {useContext, useState} from 'react'
 import {GlobalState} from '../../GlobalState'
 import Menu from './icon/menu.svg'
 import Close from './icon/close.svg'
-import Cart from './icon/cart.svg'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
 
@@ -52,12 +51,15 @@ function Header() {
 
             <div className="logo">
                 <h1>
-                    <Link to="/">{isAdmin ? 'අයන්න කියන්න (Admin)' : 'අයන්න කියන්න'}</Link>
+                    <Link to="/">{isAdmin ? 'අයන්න කියන්න (Admin)' : 'අයන්න කියන්න.'}</Link>
                 </h1>
             </div>
 
             <ul style={styleMenu}>
                 <li><Link to="/">{isAdmin ? 'Home' : 'Home'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'About' : 'About'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Services' : 'Services'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Contact' : 'Contact'}</Link></li>
 
                 {isAdmin && adminRouter()}
 
@@ -70,16 +72,6 @@ function Header() {
                 </li>
 
             </ul>
-
-            {
-                isAdmin ? '' 
-                :<div className="cart-icon">
-                    <span>{cart.length}</span>
-                    <Link to="/cart">
-                        <img src={Cart} alt="" width="30" />
-                    </Link>
-                </div>
-            }
             
         </header>
     )

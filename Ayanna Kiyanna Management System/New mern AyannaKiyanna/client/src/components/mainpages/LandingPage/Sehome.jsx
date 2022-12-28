@@ -10,17 +10,7 @@ function Sehome(){
     <div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <section className="Sehome">
-            <header className="sheader">
-                <img class="selogo" src={Logo} alt=""/>
-                <div className="navigation">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Info</a>
-                    <a href="#">Services</a>
-                    <a href="#">Contact</a>
-                </div>
-            </header>
-
+        
             <div className="scontent">
                 <div className="sinfo">
                     <h2>ලෝබ නැතුව සතර බෙදන <br/><span>අසිරිමත් බුද්ධි මෙහෙවර !</span></h2><br/>

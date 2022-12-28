@@ -8,7 +8,8 @@ import { useEffect } from "react";
 import About from "./About"
 import Sehome from "./Sehome"
 import Boxes from "./Boxes"
-import Imageslider from "./ImageSlider"
+import Other from "../Other/Other"
+
 
 
 export default function Starting({ history }) {
@@ -64,9 +65,14 @@ export default function Starting({ history }) {
             <About/>
           </div>
           
-          <div className="ncard">
+          {/* <div className="ncard">
             <hr class="Myhr"/>
             <Boxes/>
+          </div>  */}
+
+          <div className="ncard">
+            <hr class="Myhr"/>
+            <Other/>
           </div> 
       </div> 
 

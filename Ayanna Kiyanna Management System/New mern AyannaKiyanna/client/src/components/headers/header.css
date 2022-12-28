@@ -1,5 +1,6 @@
 header{
-    min-height: 70px;
+    background-color: rgb(37, 41, 41);
+    min-height: 75px;
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -7,13 +8,18 @@ header{
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid #ddd;
+    transition: 0.4s;
+}
+header:hover{
+    background-color: rgb(55, 52, 52);
 }
 header .logo{
+    padding: 10px;
     flex: 1;
 }
 header a{
     text-transform: uppercase;
-    color: #555;
+    color: rgb(211, 205, 205);
 }
 header ul li{
     display: inline-block;
@@ -26,6 +32,7 @@ header ul li:hover{
 .menu{
     display: none;
 }
+
 .cart-icon{
     position: relative;
     margin-right: 20px;
