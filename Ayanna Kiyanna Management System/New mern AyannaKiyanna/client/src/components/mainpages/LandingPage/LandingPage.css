@@ -110,7 +110,7 @@
 .header .content .logo1{
     position: relative;
     align-items: center;
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
     opacity: 0.7;
     transition: .7s;
