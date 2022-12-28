@@ -45,7 +45,7 @@
     margin-bottom: 45px;
     font-family: 'Noto Sans Sinhala',sans-serif;
 }
-button{
+#Abtn{
     background-color: #f9004d;
     color: white;
     text-decoration: none;
@@ -55,7 +55,7 @@ button{
     border-radius: 30px;
     transition: .4s;
 }
-button:hover{
+#Abtn:hover{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
