@@ -67,6 +67,11 @@
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.B-text-card:hover{
+    transform: scale(1.1);
 }
 .B-text-card h3{
     font-size: 30px;
@@ -89,6 +94,10 @@
     padding: 13px 30px;
     border-radius: 30px;
     color: rgb(227, 227, 235);
+    transition: 0.5s;
+}
+.B-text-card .B-button:hover{
+    background-color: rgb(70, 27, 46);
 }
 
 @media (max-width:900px){
