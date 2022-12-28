@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main-box{
+    background-color: rgb(23, 22, 22);
+}
+
+.B-section{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B-container h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.B-section:nth-child(1){
+    color: rgb(23, 22, 22);
+    background: rgb(208, 203, 203);
+}
+
+.B-section:nth-child(2){
+    color: aliceblue;
+}
+
+.B-section:nth-child(3){
+    color: rgb(23, 22, 22);
+    background: rgb(208, 203, 203);
+}
+
+.B-section:nth-child(4){
+    color: aliceblue;
+}
+
+.B-section:nth-child(5){
+    color: rgb(23, 22, 22);
+    background: rgb(208, 203, 203);
+}
+
+.B-section:nth-child(6){
+    color: aliceblue;
+}
+
+.B-section .B-container{
+    margin: 100px;
+}
+
+.B-container h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    padding-bottom: 30px;
+}
+.B-cards{
+    display: flex;
+}
+
+.B-text-card{
+    background: rgb(158, 53, 71);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.B-text-card h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.B-text-card i{
+    font-size: 25px;
+}
+.B-text-card p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.B-text-card .B-button{
+    display: flex;
+    justify-content: center;
+    background: rgb(100, 16, 54);
+    padding: 13px 30px;
+    border-radius: 30px;
+    color: rgb(227, 227, 235);
+}
+
+@media (max-width:900px){
+    .B-cards{
+        flex-direction: column;
+    }
+}

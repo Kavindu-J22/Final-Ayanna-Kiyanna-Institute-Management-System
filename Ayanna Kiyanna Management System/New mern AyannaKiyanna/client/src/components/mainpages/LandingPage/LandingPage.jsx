@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import About from "./About"
 import Sehome from "./Sehome"
-import Boxes from "./Boxes"
+import Boxes from "../Other/Boxes"
 import Other from "../Other/Other"
 
 
@@ -65,15 +65,15 @@ export default function Starting({ history }) {
             <About/>
           </div>
           
-          {/* <div className="ncard">
-            <hr class="Myhr"/>
-            <Boxes/>
-          </div>  */}
-
           <div className="ncard">
             <hr class="Myhr"/>
+            <Boxes/>
+          </div>
+
+          {/* <div className="ncard">
+            <hr class="Myhr"/>
             <Other/>
-          </div> 
+          </div>  */}
       </div> 
 
     </div>

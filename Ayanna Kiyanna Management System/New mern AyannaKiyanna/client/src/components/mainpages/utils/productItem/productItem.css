@@ -3,10 +3,11 @@
     overflow: hidden;
     height: 500px;
     padding: 15px;
-    box-shadow: 0 0 15px #ddd;
+    box-shadow: 0 0 15px rgb(155, 150, 150);
     margin: 10px 0;
     position: relative;
     border-radius: 30px;
+    background-color: rgb(238, 230, 241);
 }
 .product_card img{
     width: 100%;
@@ -50,13 +51,12 @@
     letter-spacing: 2px;
     padding: 6px;
 }
-#btn_buy{
+/* #btn_buy{
     background: #555;
     margin-right: 5px;
-}
+} */
 #btn_view{
-    background: teal;
-    margin-left: 5px;
+    background: rgb(10, 75, 34);
 }
 .product_card input{
     position: absolute;

@@ -9,21 +9,16 @@ function Other(){
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <div className="jumbotron">
     <div>
-
-      
-   
-    <h2 className="text-center">- Other Categories -</h2>
-    <h3 className="text-center2" >Go through & Explore</h3>
+    <h2 className="text-center">- අපගේ සේවාවන් -</h2>
+    <h3 className="text-center2">Go through & Explore</h3>
 
     <table class="center">
-    
-    <br/>
     <tr>
       <th>
         <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-solid fa-newspaper"></i>
-        <h5>E - Magazines</h5>
+        <h5>ව්‍යාකරණ</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
@@ -39,7 +34,7 @@ function Other(){
     <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-sharp fa-solid fa-bell"></i>
-        <h5>Notifications</h5>
+        <h5>සාහිත්‍ය</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
@@ -55,7 +50,7 @@ function Other(){
     <div class="col-sm">
         <div className="bg-image" >
         <i class="fa-solid fa-paperclip"></i>
-        <h5>Paper Bucket</h5>
+        <h5>අක්ෂර මාලාව</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
@@ -161,23 +156,55 @@ function Other(){
      </th>
     <br/> 
   </tr>
+   
+
   <tr>
-  <th>
-    <div class="col-sm-l">
+      <th>
+        <div class="col-sm">
         <div className="bg-image" >
-        <i class="fa-brands fa-youtube"></i>
-        <h5>Our YouTube</h5>
+        <i class="fa-solid fa-newspaper"></i>
+        <h5>E - Magazines</h5>
         <div class="pra">
         <p>I can provide clean code and pixel
            perfect design. I also make the website mere & more interactive with web animations.</p>
-           <a class="button" href="https://www.youtube.com/@ayannakiyanna2242/videos">Visit Now</a>
+           <a class="button" href="#">See More</a>
         </div>
 
     </div></div>
      </th>
+          
+    
+    <br/>
+    <th>
+    <div class="col-sm">
+        <div className="bg-image" >
+        <i class="fa-sharp fa-solid fa-bell"></i>
+        <h5>Notifications</h5>
+        <div class="pra">
+        <p>I can provide clean code and pixel
+           perfect design. I also make the website mere & more interactive with web animations.</p>
+           <a class="button" href="#">See More</a>
+        </div>
+
+    </div></div>
+     </th>
+    
 
     <br/>
-    </tr> 
+    <th>
+    <div class="col-sm">
+        <div className="bg-image" >
+        <i class="fa-solid fa-paperclip"></i>
+        <h5>Paper Bucket</h5>
+        <div class="pra">
+        <p>I can provide clean code and pixel
+           perfect design. I also make the website mere & more interactive with web animations.</p>
+           <a class="button" href="#">See More</a>
+        </div>
+
+    </div></div>
+     </th>
+      </tr>
 
      
     </table>

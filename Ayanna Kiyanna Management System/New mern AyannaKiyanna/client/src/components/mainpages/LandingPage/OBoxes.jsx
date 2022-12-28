@@ -1,5 +1,5 @@
 import React from "react";
-import "./boxes.css";
+import "./oboxes.css";
 import { Link } from "react-router-dom";
 import Ask from "../../assets/images/Ask.png"
 import jayasinhala from "../../assets/images/Jayasinghala.png"
