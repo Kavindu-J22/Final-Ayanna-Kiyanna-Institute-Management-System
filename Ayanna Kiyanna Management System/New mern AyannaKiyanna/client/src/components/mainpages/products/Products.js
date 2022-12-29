@@ -59,9 +59,9 @@ function Products() {
 
     if(loading) return <div><Loading /></div>
     return (
-        <>
+        <div className='main-product-box'>
         <LandingPages />
-        <div>
+        <div className='product-text-card'>
             <h1>hello</h1>
         </div>
         <Filters />
@@ -87,7 +87,7 @@ function Products() {
 
         <LoadMore />
         {products.length === 0 && <Loading />}
-        </>
+        </div>
     )
 }
 
