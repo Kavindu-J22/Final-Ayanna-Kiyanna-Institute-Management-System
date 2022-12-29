@@ -11,6 +11,8 @@ import NotFound from './utils/not_found/NotFound'
 import Categories from './categories/Categories'
 import CreateProduct from './createProduct/CreateProduct'
 
+import Viyabox from './Other/ViyaBox'
+
 import {GlobalState} from '../../GlobalState'
 
 
@@ -24,6 +26,9 @@ function Pages() {
         <Switch>
             <Route path="/" exact component={Products} />
             <Route path="/detail/:id" exact component={DetailProduct} />
+
+            <Route path="/boxes/viyabox" exact component={isLogged ? Viyabox :Login} />
+
 
             <Route path="/login" exact component={isLogged ? NotFound : Login} />
             <Route path="/register" exact component={isLogged ? NotFound : Register} />

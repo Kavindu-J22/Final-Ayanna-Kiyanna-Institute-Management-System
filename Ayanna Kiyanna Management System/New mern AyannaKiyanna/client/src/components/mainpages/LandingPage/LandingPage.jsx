@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import About from "./About"
 import Sehome from "./Sehome"
 import Boxes from "../Other/Boxes"
-import Other from "../Other/Other"
+
 
 
 
