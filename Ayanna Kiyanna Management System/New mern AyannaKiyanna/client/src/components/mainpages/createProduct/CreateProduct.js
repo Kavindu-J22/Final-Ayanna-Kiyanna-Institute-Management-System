@@ -8,8 +8,8 @@ const initialState = {
     product_id: '',
     title: '',
     price: '',
-    description: 'How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.',
-    content: 'Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.',
+    description: '',
+    content: '',
     category: '',
     _id: ''
 }
@@ -138,39 +138,39 @@ function CreateProduct() {
 
             <form onSubmit={handleSubmit}>
                 <div className="row">
-                    <label htmlFor="product_id">Product ID</label>
+                    <label htmlFor="product_id">කාණ්ඩ අංකය (ID)</label>
                     <input type="text" name="product_id" id="product_id" required
                     value={product.product_id} onChange={handleChangeInput} disabled={onEdit} />
                 </div>
 
                 <div className="row">
-                    <label htmlFor="title">Title</label>
+                    <label htmlFor="title">මාතෘකාව</label>
                     <input type="text" name="title" id="title" required
                     value={product.title} onChange={handleChangeInput} />
                 </div>
 
                 <div className="row">
-                    <label htmlFor="price">Price</label>
-                    <input type="text" name="price" id="price" required
+                    <label htmlFor="price">කොටස/මිල</label>
+                    <input type="number" name="price" id="price" required
                     value={product.price} onChange={handleChangeInput} />
                 </div>
 
                 <div className="row">
-                    <label htmlFor="description">Description</label>
+                    <label htmlFor="description">හැඳින්වීම</label>
                     <textarea type="text" name="description" id="description" required
                     value={product.description} rows="5" onChange={handleChangeInput} />
                 </div>
 
                 <div className="row">
-                    <label htmlFor="content">Content</label>
+                    <label htmlFor="content">අන්තර්ගතය</label>
                     <textarea type="text" name="content" id="content" required
                     value={product.content} rows="7" onChange={handleChangeInput} />
                 </div>
 
                 <div className="row">
-                    <label htmlFor="categories">Categories: </label>
+                    <label htmlFor="categories">ප්‍රවර්ගය: </label>
                     <select name="category" value={product.category} onChange={handleChangeInput} >
-                        <option value="">Please select a category</option>
+                        <option value="">කරුණාකර ප්‍රවර්ගය ඇතුලත් කරන්න</option>
                         {
                             categories.map(category => (
                                 <option value={category._id} key={category._id}>

@@ -2,11 +2,15 @@
     background-color: rgb(234, 226, 215);
 }
 .product-text-card{
+    align-items: center;
     margin: 15px;
-    display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
-
+.product-text-card h4{
+    font-style: italic;
+    color: rgb(73, 72, 72);
+}
 .products{
     width: 100%;
     display: grid;
@@ -63,6 +67,9 @@
     margin: 0 10px;
     border-radius: 20px;
 }
+.filter_menu span{
+    font-weight: bold;
+}
 
 /* -------------------- Load More --------------- */
 .load_more{
@@ -73,4 +80,9 @@
     margin-bottom: 20px;
     border: 1px solid #555;
     text-transform: capitalize;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.load_more button:hover{
+    background-color: rgb(173, 120, 151);
 }

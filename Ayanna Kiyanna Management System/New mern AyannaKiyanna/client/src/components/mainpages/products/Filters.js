@@ -18,9 +18,9 @@ function Filters() {
     return (
         <div className="filter_menu">
             <div className="row">
-                <span>Filters: </span>
+                <span>වෙන්කරන්න : </span>
                 <select name="category" value={category} onChange={handleCategory} >
-                    <option value=''>All Products</option>
+                    <option value=''>සියලුම විශේෂාංග</option>
                     {
                         categories.map(category => (
                             <option value={"category=" + category._id} key={category._id}>
@@ -31,16 +31,16 @@ function Filters() {
                 </select>
             </div>
 
-            <input type="text" value={search} placeholder="Enter your search!"
+            <input type="text" value={search} placeholder="ඔබගේ සෙවුම ඇතුලත් කරන්න!"
             onChange={e => setSearch(e.target.value.toLowerCase())} />
 
             <div className="row sort">
-                <span>Sort By: </span>
+                <span>පිළිවෙල සකසන්න : </span>
                 <select value={sort} onChange={e => setSort(e.target.value)} >
-                    <option value=''>Newest</option>
-                    <option value='sort=oldest'>Oldest</option>
-                    <option value='sort=-price'>Price: Hight-Low</option>
-                    <option value='sort=price'>Price: Low-Hight</option>
+                    <option value=''>නවතම</option>
+                    <option value='sort=oldest'>මුල සිට</option>
+                    <option value='sort=-price'>කොටස/මිල : වැඩි-අඩු</option>
+                    <option value='sort=price'>කොටස/මිල : අඩු-වැඩි</option>
                 </select>
             </div>
         </div>

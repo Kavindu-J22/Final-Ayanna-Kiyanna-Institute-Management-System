@@ -51,12 +51,17 @@
     letter-spacing: 2px;
     padding: 6px;
 }
-/* #btn_buy{
-    background: #555;
+ #btn_buy{
+    background: rgb(181, 51, 61);
     margin-right: 5px;
-} */
+    padding: 10px;
+    border-radius: 10px;
+} 
 #btn_view{
     background: rgb(10, 75, 34);
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 .product_card input{
     position: absolute;

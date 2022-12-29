@@ -20,16 +20,17 @@
     height: 35px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid rgb(39, 37, 37);
 }
 .categories input{
     width: 210px;
 }
 .categories button{
     width: 70px;
-    background: #555;
+    background: rgb(91, 8, 53);
     color: white;
     margin-left: 10px;
+    border-radius: 10px;
 }
 .categories .row{
     min-width: 290px;
