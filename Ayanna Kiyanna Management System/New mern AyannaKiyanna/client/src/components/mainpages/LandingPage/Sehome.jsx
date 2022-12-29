@@ -1,7 +1,5 @@
 import React from "react";
 import "./sehome.css";
-import Logo from "../../assets/images/AKlogo.png"
-import { Link } from "react-router-dom";
 
 function Sehome(){
 

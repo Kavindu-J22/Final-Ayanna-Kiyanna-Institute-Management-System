@@ -1,3 +1,67 @@
 .v-main-box{
     background-color: rgb(218, 214, 214);
 }
+.v-section{
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.v-container h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.v-container h4{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    padding-bottom: 30px;
+}
+.v-cards{
+    display: flex;
+}
+.v-text-card{
+    background: rgb(158, 53, 71);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.v-text-card:hover{
+    transform: scale(1.1);
+}
+.v-text-card h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.v-text-card i{
+    font-size: 25px;
+}
+.v-text-card p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.v-text-card .v-button{
+    display: flex;
+    justify-content: center;
+    background: rgb(100, 16, 54);
+    padding: 13px 30px;
+    border-radius: 30px;
+    color: rgb(227, 227, 235);
+    transition: 0.5s; 
+}
+.v-text-card .v-button:hover{
+    background-color: rgb(70, 27, 46);
+}
+
+@media (max-width:900px){
+    .v-cards{
+        flex-direction: column;
+    }
+}

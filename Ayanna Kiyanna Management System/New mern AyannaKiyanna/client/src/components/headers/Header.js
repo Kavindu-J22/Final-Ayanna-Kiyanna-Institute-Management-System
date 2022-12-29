@@ -59,6 +59,7 @@ function Header() {
                 <li><Link to="/">{isAdmin ? 'Home' : 'Home'}</Link></li>
                 <li><Link to="/">{isAdmin ? 'About' : 'About'}</Link></li>
                 <li><Link to="/">{isAdmin ? 'Services' : 'Services'}</Link></li>
+                <li><Link to="/">{isAdmin ? 'Info' : 'Info'}</Link></li>
                 <li><Link to="/">{isAdmin ? 'Contact' : 'Contact'}</Link></li>
 
                 {isAdmin && adminRouter()}
