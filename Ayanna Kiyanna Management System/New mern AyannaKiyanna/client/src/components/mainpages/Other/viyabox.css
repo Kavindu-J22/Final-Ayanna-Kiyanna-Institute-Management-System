@@ -2,6 +2,7 @@
     background-color: rgb(218, 214, 214);
 }
 .v-section{
+    margin: 10px;
     min-height: 30vh;
     display: flex;
     justify-content: center;
@@ -21,44 +22,47 @@
 }
 .v-cards{
     display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
 }
 .v-text-card{
-    background: rgb(158, 53, 71);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    transition: 0.4s;
+    background: antiquewhite;
+    box-shadow: 0 0 15px rgb(126, 121, 121);
+    margin: 15px;
+    padding: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
     cursor: pointer;
+    border: 1px solid rgb(158, 53, 71) ;
 }
 .v-text-card:hover{
-    transform: scale(1.1);
+    background: rgb(216, 146, 158);
+    transform: translateY(-10px);
 }
 .v-text-card h3{
     font-size: 30px;
     text-align: center;
     margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .v-text-card i{
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
-.v-text-card p{
+.v-text-card h5{
     display: flex;
-    justify-content: center;
+    text-align: center;
     padding-bottom: 15px;
+    font-size: 15px;
 }
-.v-text-card .v-button{
-    display: flex;
-    justify-content: center;
-    background: rgb(100, 16, 54);
-    padding: 13px 30px;
-    border-radius: 30px;
-    color: rgb(227, 227, 235);
-    transition: 0.5s; 
+.v-link{
+    color: black;
 }
-.v-text-card .v-button:hover{
-    background-color: rgb(70, 27, 46);
-}
+
 
 @media (max-width:900px){
     .v-cards{

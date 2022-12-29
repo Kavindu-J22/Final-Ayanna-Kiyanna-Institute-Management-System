@@ -10,10 +10,17 @@
 .loader div{
     width: calc(100% - 15px);
     height: calc(100% - 15px);
-    border: 2px solid #fff;
-    border-top: 2px solid crimson;
+    border: 2px solid rgb(228, 152, 211);
+    border-top: 2px solid rgb(11, 195, 158);
     border-radius: 50%;
-    animation: rotate 10s linear infinite alternate-reverse;
+    animation: rotate 15s linear infinite alternate-reverse;
+}
+.loard-logo{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
 }
 @keyframes rotate{
     50%{

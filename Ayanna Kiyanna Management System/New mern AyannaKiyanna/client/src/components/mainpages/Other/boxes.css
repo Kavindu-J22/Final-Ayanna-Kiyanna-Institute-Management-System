@@ -64,6 +64,7 @@
 
 .B-text-card{
     background: rgb(158, 53, 71);
+    box-shadow: 0 0 15px rgb(79, 77, 77);
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
