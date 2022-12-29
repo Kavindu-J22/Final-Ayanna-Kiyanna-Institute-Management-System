@@ -8,6 +8,11 @@
     position: relative;
     border-radius: 30px;
     background-color: rgb(238, 230, 241);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.product_card:hover{
+    transform: scale(0.9);
 }
 .product_card img{
     width: 100%;
@@ -58,10 +63,15 @@
     border-radius: 10px;
 } 
 #btn_view{
-    background: rgb(10, 75, 34);
+    background: rgb(8, 59, 26);
     margin-right: 5px;
     padding: 10px;
     border-radius: 10px;
+    transition: 0.4s;
+}
+#btn_view:hover{
+    background-color: #08683e;
+    box-shadow: 0 0 15px rgb(177, 171, 171);
 }
 .product_card input{
     position: absolute;
