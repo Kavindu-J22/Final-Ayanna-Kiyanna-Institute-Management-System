@@ -5,7 +5,7 @@ import {GlobalState} from '../../../../GlobalState'
 function BtnRender({product, deleteProduct}) {
     const state = useContext(GlobalState)
     const [isAdmin] = state.userAPI.isAdmin
-    const addCart = state.userAPI.addCart
+    
 
     
     return (

@@ -32,7 +32,6 @@ function Header() {
     const loggedRouter = () =>{
         return(
             <>
-                <li><Link to="/history">Payment History</Link></li>
                 <li><Link to="/" onClick={logoutUser}>Logout</Link></li>
             </>
         )

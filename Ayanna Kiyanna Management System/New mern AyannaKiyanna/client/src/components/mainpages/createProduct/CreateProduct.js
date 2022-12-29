@@ -7,7 +7,7 @@ import {useHistory, useParams} from 'react-router-dom'
 const initialState = {
     product_id: '',
     title: '',
-    price: 0,
+    price: '',
     description: 'How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.',
     content: 'Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.',
     category: '',
@@ -151,7 +151,7 @@ function CreateProduct() {
 
                 <div className="row">
                     <label htmlFor="price">Price</label>
-                    <input type="number" name="price" id="price" required
+                    <input type="text" name="price" id="price" required
                     value={product.price} onChange={handleChangeInput} />
                 </div>
 

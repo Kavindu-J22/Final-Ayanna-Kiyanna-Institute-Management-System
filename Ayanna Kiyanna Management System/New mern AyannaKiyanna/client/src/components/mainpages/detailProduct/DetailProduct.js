@@ -1,5 +1,5 @@
 import React, {useContext, useState, useEffect} from 'react'
-import {useParams, Link} from 'react-router-dom'
+import {useParams} from 'react-router-dom'
 import {GlobalState} from '../../../GlobalState'
 import ProductItem from '../utils/productItem/ProductItem'
 
@@ -8,7 +8,6 @@ function DetailProduct() {
     const params = useParams()
     const state = useContext(GlobalState)
     const [products] = state.productsAPI.products
-    const addCart = state.userAPI.addCart
     const [detailProduct, setDetailProduct] = useState([])
 
     useEffect(() =>{
@@ -29,16 +28,12 @@ function DetailProduct() {
                 <div className="box-detail">
                     <div className="row">
                         <h2>{detailProduct.title}</h2>
-                        <h6>#id: {detailProduct.product_id}</h6>
+                        <h6>id: {detailProduct.product_id}</h6>
                     </div>
-                    <span>$ {detailProduct.price}</span>
+                    <span>(Part/Rs):-{detailProduct.price}</span>
                     <p>{detailProduct.description}</p>
                     <p>{detailProduct.content}</p>
-                    <p>Sold: {detailProduct.sold}</p>
-                    <Link to="/cart" className="cart"
-                    onClick={() => addCart(detailProduct)}>
-                        Buy Now
-                    </Link>
+                    
                 </div>
             </div>
 
