@@ -349,6 +349,7 @@ function Login() {
 
                                 <div className="login-page">
                                     <div className='login-page-content'>
+                                        <h2 id='maxtitle'>“අයන්න කියන්න”</h2>
                                         <h2>SIGN IN</h2>
                                         
                                             <form className='L-form' onSubmit={loginSubmit}>

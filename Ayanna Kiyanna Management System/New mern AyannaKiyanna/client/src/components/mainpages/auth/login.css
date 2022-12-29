@@ -51,7 +51,7 @@
     transition: 1.5s;
 }
 .L-section span:hover{
-    background: #f9004d;
+    background: #ad093d;
     transition: 0s;
 }
 
@@ -135,6 +135,10 @@
     color: #f9004d;
     font-size: 16px;
     font-style: italic;
+    transition: 0.4s;
+}
+#reglink:hover{
+    transform: scale(1.1);
 }
 .L-form .L-inputBx input[type="submit"]{
     padding: 10px;
@@ -144,6 +148,10 @@
     font-size: 1.25em;
     letter-spacing: 0.05em;
     cursor: pointer;
+    transition: 0.4s;
+}
+.L-form .L-inputBx input[type="submit"]:hover{
+    transform: scale(1.1);
 }
 
 @media (max-width: 900px){
@@ -152,6 +160,10 @@
         width: calc(10vw - 2px);
         height: calc(10vw - 2px);
     }
+}
+
+#maxtitle{
+    font-size: 40px;
 }
 
 @media (max-width: 600px){
