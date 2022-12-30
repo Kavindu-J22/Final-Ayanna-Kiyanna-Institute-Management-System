@@ -35,6 +35,7 @@ import Vishayanirdesha from './Other/TeachersBook/VNgradelist'
 import Guruathpoth from './Other/TeachersBook/GAgradelist'
 import ClassDetails from './Other/ClassDetails/Classdetaitls'
 import StudentColors from './Other/StudentColours/StudentColors'
+import PhotoBucket from './Other/PhothBucket/Photobucket'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -62,6 +63,7 @@ function Pages() {
             <Route path="/boxes/TeacherBook" exact component={isLogged ? TeacherBook :Login} />
             <Route path="/boxes/ClassDetails" exact component={isLogged ? ClassDetails :Login} />
             <Route path="/boxes/StudentColors" exact component={isLogged ? StudentColors :Login} />
+            <Route path="/boxes/PhotoBucket" exact component={isLogged ? PhotoBucket :Login} />
 
 
             <Route path="/sahithya/gadya" exact component={Gadya} />

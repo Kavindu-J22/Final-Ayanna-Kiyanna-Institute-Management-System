@@ -128,7 +128,7 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Photo<br/>bucket</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-                            <Link to="/">
+                            <Link to="/boxes/PhotoBucket">
                                 <a class="B-button" type="submit">See More</a>
                             </Link>
                         </div>
