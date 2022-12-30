@@ -79,7 +79,7 @@
 }
 .login-page-content h2{
     font-size: 2em;
-    color: #f9004d;
+    color: #d91654;
 }
 .L-form{
     width: 100%;
@@ -132,7 +132,7 @@
     font-size: 12px;
 }
 #reglink{
-    color: #f9004d;
+    color: #df205c;
     font-size: 16px;
     font-style: italic;
     transition: 0.4s;
