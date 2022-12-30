@@ -13,14 +13,14 @@ function Emagazine() {
                     <div className='B-cards'>
                         <div className='B-text-card'>
                             <i class="fa-solid fa-newspaper"></i>
-                            <h3>මෙම මාසයේ සඟරාව</h3>
+                            <h3>අලුත්ම සඟරාව බලන්න</h3>
 
                                 <a href="https://drive.google.com/file/d/1mhKoTfOKHe0RcbWl2Ihdz67EEbb8WZCg/view?usp=share_link" class="B-button" type="submit">View</a>
                             
                         </div>
                         <div className='B-text-card'>
                             <i class="fa-solid fa-newspaper"></i>
-                            <h3>සියලුම සඟරා ලයිස්තුව</h3>
+                            <h3>සියලුම සඟරා ලයිස්තුව<br/>බලන්න</h3>
                             
                                 <a href="#" class="B-button" type="submit">View</a>
                             
