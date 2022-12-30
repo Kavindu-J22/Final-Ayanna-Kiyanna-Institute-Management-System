@@ -23,6 +23,7 @@ import Oegrade from './Other/OnlineExams/OEgrade'
 import Olonline from './Other/OnlineExams/OeOlExList'
 import AlOnline from './Other/OnlineExams/OeAlExList'
 import LitOnline from './Other/OnlineExams/OeLitExList'
+import Qtgrade from './Other/QuickTests/QtGrade'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -44,6 +45,7 @@ function Pages() {
             <Route path="/boxes/AksharaMalawa" exact component={isLogged ? AksharaMalawa :Login} />
             <Route path="/boxes/Paperbank" exact component={isLogged ? Paperbank :Login} />
             <Route path="/boxes/OnlineExams" exact component={isLogged ? OnlineExams :Login} />
+            <Route path="/boxes/Qtgrade" exact component={isLogged ? Qtgrade :Login} />
 
 
             <Route path="/sahithya/gadya" exact component={Gadya} />
