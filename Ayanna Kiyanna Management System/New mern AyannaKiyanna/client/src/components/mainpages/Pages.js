@@ -24,6 +24,10 @@ import Olonline from './Other/OnlineExams/OeOlExList'
 import AlOnline from './Other/OnlineExams/OeAlExList'
 import LitOnline from './Other/OnlineExams/OeLitExList'
 import Qtgrade from './Other/QuickTests/QtGrade'
+import Qtnine from './Other/QuickTests/QtlistNine'
+import QtTen from './Other/QuickTests/QtlistTen'
+import QtEleven from './Other/QuickTests/QtlistEleven'
+import QtAl from './Other/QuickTests/QtlistAL'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -57,6 +61,10 @@ function Pages() {
             <Route path="/OnlineExam/LitOnline" exact component={LitOnline} />
             <Route path="/Oegrade/Olonline" exact component={Olonline} />
             <Route path="/Oegrade/AlOnline" exact component={AlOnline} />
+            <Route path="/Qtgrade/Qtnine" exact component={Qtnine} />
+            <Route path="/Qtgrade/QtTen" exact component={QtTen} />
+            <Route path="/Qtgrade/QtEleven" exact component={QtEleven} />
+            <Route path="/Qtgrade/QtAl" exact component={QtAl} />
 
 
             

@@ -17,7 +17,7 @@ function Qtgrade() {
                             <h3>9 ශ්‍රේණිය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
 
-                                <Link to="/" class="B-button" type="submit">See More</Link>
+                                <Link to="/Qtgrade/Qtnine" class="B-button" type="submit">See More</Link>
                             
                         </div>
                         <div className='B-text-card'>
@@ -25,7 +25,7 @@ function Qtgrade() {
                             <h3>10 ශ්‍රේණිය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
                             
-                            <Link to="/" class="B-button" type="submit">See More</Link>
+                            <Link to="/Qtgrade/QtTen" class="B-button" type="submit">See More</Link>
                             
                         </div>
                         <div className='B-text-card'>
@@ -33,7 +33,7 @@ function Qtgrade() {
                             <h3>11 ශ්‍රේණිය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
                             
-                            <Link to="/" class="B-button" type="submit">See More</Link>
+                            <Link to="/Qtgrade/QtEleven" class="B-button" type="submit">See More</Link>
                             
                         </div>
                         <div className='B-text-card'>
@@ -41,7 +41,7 @@ function Qtgrade() {
                             <h3>A/L</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
                             
-                            <Link to="/" class="B-button" type="submit">See More</Link>
+                            <Link to="/Qtgrade/QtAl" class="B-button" type="submit">See More</Link>
                             
                         </div>
                     </div>
