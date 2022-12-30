@@ -33,6 +33,7 @@ import Rasavindana from './Other/Rasavindana/Rasavindana'
 import TeacherBook from './Other/TeachersBook/Teacherbook'
 import Vishayanirdesha from './Other/TeachersBook/VNgradelist'
 import Guruathpoth from './Other/TeachersBook/GAgradelist'
+import ClassDetails from './Other/ClassDetails/Classdetaitls'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -58,6 +59,7 @@ function Pages() {
             <Route path="/boxes/Emagazine" exact component={isLogged ? Emagazine :Login} />
             <Route path="/boxes/Rasavindana" exact component={isLogged ? Rasavindana :Login} />
             <Route path="/boxes/TeacherBook" exact component={isLogged ? TeacherBook :Login} />
+            <Route path="/boxes/ClassDetails" exact component={isLogged ? ClassDetails :Login} />
 
 
             <Route path="/sahithya/gadya" exact component={Gadya} />
