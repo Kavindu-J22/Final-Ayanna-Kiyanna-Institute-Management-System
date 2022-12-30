@@ -28,6 +28,7 @@ import Qtnine from './Other/QuickTests/QtlistNine'
 import QtTen from './Other/QuickTests/QtlistTen'
 import QtEleven from './Other/QuickTests/QtlistEleven'
 import QtAl from './Other/QuickTests/QtlistAL'
+import Emagazine from './Other/Emagazine/Emagazine'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -50,6 +51,7 @@ function Pages() {
             <Route path="/boxes/Paperbank" exact component={isLogged ? Paperbank :Login} />
             <Route path="/boxes/OnlineExams" exact component={isLogged ? OnlineExams :Login} />
             <Route path="/boxes/Qtgrade" exact component={isLogged ? Qtgrade :Login} />
+            <Route path="/boxes/Emagazine" exact component={isLogged ? Emagazine :Login} />
 
 
             <Route path="/sahithya/gadya" exact component={Gadya} />
