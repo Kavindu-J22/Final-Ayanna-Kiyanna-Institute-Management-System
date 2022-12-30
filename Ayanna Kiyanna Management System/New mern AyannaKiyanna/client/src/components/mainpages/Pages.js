@@ -14,6 +14,7 @@ import Sahithyabox from './Other/SahithyaBox/LitboxMain'
 import Gadya from './Other/SahithyaBox/Gadya'
 import Padya from './Other/SahithyaBox/Padya'
 import Natya from './Other/SahithyaBox/Natya'
+import Nuthanagadya from './Other/SahithyaBox/Nuthanagadya'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -37,6 +38,7 @@ function Pages() {
             <Route path="/sahithya/gadya" exact component={Gadya} />
             <Route path="/sahithya/padya" exact component={Padya} />
             <Route path="/sahithya/natya" exact component={Natya} />
+            <Route path="/gadya/Nuthanagadya" exact component={Nuthanagadya} />
 
 
             <Route path="/login" exact component={isLogged ? NotFound : Login} />
