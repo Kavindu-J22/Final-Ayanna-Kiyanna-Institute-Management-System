@@ -15,6 +15,7 @@ import Gadya from './Other/SahithyaBox/Gadya'
 import Padya from './Other/SahithyaBox/Padya'
 import Natya from './Other/SahithyaBox/Natya'
 import Nuthanagadya from './Other/SahithyaBox/Nuthanagadya'
+import AksharaMalawa from './Other/Aksharamalawa/Akshara'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -33,13 +34,14 @@ function Pages() {
 
             <Route path="/boxes/viyabox" exact component={isLogged ? Viyabox :Login} />
             <Route path="/boxes/litbox" exact component={isLogged ? Sahithyabox :Login} />
+            <Route path="/boxes/AksharaMalawa" exact component={isLogged ? AksharaMalawa :Login} />
 
 
             <Route path="/sahithya/gadya" exact component={Gadya} />
             <Route path="/sahithya/padya" exact component={Padya} />
             <Route path="/sahithya/natya" exact component={Natya} />
             <Route path="/gadya/Nuthanagadya" exact component={Nuthanagadya} />
-
+            
 
             <Route path="/login" exact component={isLogged ? NotFound : Login} />
             <Route path="/register" exact component={isLogged ? NotFound : Register} />
