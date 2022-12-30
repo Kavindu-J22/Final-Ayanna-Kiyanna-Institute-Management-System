@@ -11,6 +11,10 @@ import CreateProduct from './createProduct/CreateProduct'
 import Viyabox from './Other/ViyaBox'
 import Sahithyabox from './Other/SahithyaBox/LitboxMain'
 
+import Gadya from './Other/SahithyaBox/Gadya'
+import Padya from './Other/SahithyaBox/Padya'
+import Natya from './Other/SahithyaBox/Natya'
+
 import {GlobalState} from '../../GlobalState'
 
 
@@ -28,6 +32,11 @@ function Pages() {
 
             <Route path="/boxes/viyabox" exact component={isLogged ? Viyabox :Login} />
             <Route path="/boxes/litbox" exact component={isLogged ? Sahithyabox :Login} />
+
+
+            <Route path="/sahithya/gadya" exact component={Gadya} />
+            <Route path="/sahithya/padya" exact component={Padya} />
+            <Route path="/sahithya/natya" exact component={Natya} />
 
 
             <Route path="/login" exact component={isLogged ? NotFound : Login} />
