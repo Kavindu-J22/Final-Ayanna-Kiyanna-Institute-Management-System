@@ -30,6 +30,9 @@ import QtEleven from './Other/QuickTests/QtlistEleven'
 import QtAl from './Other/QuickTests/QtlistAL'
 import Emagazine from './Other/Emagazine/Emagazine'
 import Rasavindana from './Other/Rasavindana/Rasavindana'
+import TeacherBook from './Other/TeachersBook/Teacherbook'
+import Vishayanirdesha from './Other/TeachersBook/VNgradelist'
+import Guruathpoth from './Other/TeachersBook/GAgradelist'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -54,6 +57,7 @@ function Pages() {
             <Route path="/boxes/Qtgrade" exact component={isLogged ? Qtgrade :Login} />
             <Route path="/boxes/Emagazine" exact component={isLogged ? Emagazine :Login} />
             <Route path="/boxes/Rasavindana" exact component={isLogged ? Rasavindana :Login} />
+            <Route path="/boxes/TeacherBook" exact component={isLogged ? TeacherBook :Login} />
 
 
             <Route path="/sahithya/gadya" exact component={Gadya} />
@@ -69,6 +73,8 @@ function Pages() {
             <Route path="/Qtgrade/QtTen" exact component={QtTen} />
             <Route path="/Qtgrade/QtEleven" exact component={QtEleven} />
             <Route path="/Qtgrade/QtAl" exact component={QtAl} />
+            <Route path="/TeacherBook/Vishayanirdesha" exact component={Vishayanirdesha} />
+            <Route path="/TeacherBook/Guruathpoth" exact component={Guruathpoth} />
 
 
             
