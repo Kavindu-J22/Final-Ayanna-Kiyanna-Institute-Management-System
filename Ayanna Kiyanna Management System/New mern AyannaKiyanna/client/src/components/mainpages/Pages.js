@@ -9,6 +9,7 @@ import Categories from './categories/Categories'
 import CreateProduct from './createProduct/CreateProduct'
 
 import Viyabox from './Other/ViyaBox'
+import Sahithyabox from './Other/SahithyaBox/LitboxMain'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -26,6 +27,7 @@ function Pages() {
 
 
             <Route path="/boxes/viyabox" exact component={isLogged ? Viyabox :Login} />
+            <Route path="/boxes/litbox" exact component={isLogged ? Sahithyabox :Login} />
 
 
             <Route path="/login" exact component={isLogged ? NotFound : Login} />
