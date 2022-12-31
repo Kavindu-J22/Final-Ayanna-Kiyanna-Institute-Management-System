@@ -17,10 +17,11 @@ header .logo{
     padding: 10px;
     flex: 1;
     font-size: 15px;
+    opacity: 0.7;
     transition: 0.4s;
 }
 header .logo:hover{
-    opacity: 0.5;
+    opacity: 1;
 }
 header a{
     text-transform: uppercase;
