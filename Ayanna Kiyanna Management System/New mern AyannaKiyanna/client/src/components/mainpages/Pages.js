@@ -40,6 +40,14 @@ import VideoLessons from './Other/VideoLessons/Videolessons'
 import PaperStructures from './Other/PaperStructures/PaperStructures'
 import SpeOthers from './Other/SpeOthers/SpeOthers'
 
+// Main Grade Selector
+
+import MainGradeNine from './Other/MainGradeSelector/Grade9/MainGradenine'
+import MainGradeTen from './Other/MainGradeSelector/Grade10/MainGradeTen'
+import MainGradeEleven from './Other/MainGradeSelector/Grade11/MainGradeEleven'
+import MainGradeAL from './Other/MainGradeSelector/AdvanceLevel/MainAL'
+import MainGradeLit from './Other/MainGradeSelector/Lit/MainLit'
+
 import {GlobalState} from '../../GlobalState'
 
 
@@ -70,6 +78,12 @@ function Pages() {
             <Route path="/boxes/VideoLessons" exact component={isLogged ? VideoLessons :Login} />
             <Route path="/boxes/PaperStructures" exact component={isLogged ? PaperStructures :Login} />
             <Route path="/boxes/SpeOthers" exact component={isLogged ? SpeOthers :Login} />
+
+            <Route path="/boxes/MainGradeNine" exact component={isLogged ? MainGradeNine :Login} />
+            <Route path="/boxes/MainGradeTen" exact component={isLogged ? MainGradeTen :Login} />
+            <Route path="/boxes/MainGradeEleven" exact component={isLogged ? MainGradeEleven :Login} />
+            <Route path="/boxes/MainGradeAL" exact component={isLogged ? MainGradeAL :Login} />
+            <Route path="/boxes/MainGradeLit" exact component={isLogged ? MainGradeLit :Login} />
 
 
             <Route path="/sahithya/gadya" exact component={Gadya} />

@@ -176,7 +176,7 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>9 ශ්‍රේණිය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/">
+                            <Link to="/boxes/MainGradeNine">
                                 <a class="B-button" type="submit">See More</a>
                             </Link>
                         </div>
@@ -184,7 +184,7 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>10 ශ්‍රේණිය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/">
+                            <Link to="/boxes/MainGradeTen">
                                 <a class="B-button" type="submit">See More</a>
                             </Link>
                         </div>
@@ -192,7 +192,7 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>11 ශ්‍රේණිය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/">
+                            <Link to="/boxes/MainGradeEleven">
                                 <a class="B-button" type="submit">See More</a>
                             </Link>
                         </div>
@@ -200,7 +200,7 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>A/L</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/">
+                            <Link to="/boxes/MainGradeAL">
                                 <a class="B-button" type="submit">See More</a>
                             </Link>
                         </div>
@@ -210,7 +210,7 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>සිංහල සාහිත්‍යය<br/>(කාණ්ඩ විෂය)</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/">
+                            <Link to="/boxes/MainGradeLit">
                                 <a class="B-button" type="submit">See More</a>
                             </Link>
                         </div>
