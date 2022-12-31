@@ -56,10 +56,11 @@ function Header() {
 
             <ul style={styleMenu}>
                 <li><Link to="/">{isAdmin ? 'Home' : 'Home'}</Link></li>
-                <li><Link to="/Home/Info">{isAdmin ? 'Info' : 'Info'}</Link></li>
-                <li><Link to="/Home/About">{isAdmin ? 'About' : 'About'}</Link></li>
-                <li><Link to="/Home/Service">{isAdmin ? 'Services' : 'Services'}</Link></li>
-                <li><Link to="/">{isAdmin ? 'Contact' : 'Contact'}</Link></li>
+                <li><a href="#SemomeDiv">{isAdmin ? 'Info' : 'Info'}</a></li>
+                <li><a href="#MAboutDiv">{isAdmin ? 'About' : 'About'}</a></li>
+                <li><a href="#MBoxesDiv">{isAdmin ? 'Services' : 'Services'}</a></li>
+                <li><a href="#foryouDiv">{isAdmin ? 'for you' : 'for you'}</a></li>
+                <li><a href="/">{isAdmin ? 'Contact' : 'Contact'}</a></li>
 
                 {isAdmin && adminRouter()}
 

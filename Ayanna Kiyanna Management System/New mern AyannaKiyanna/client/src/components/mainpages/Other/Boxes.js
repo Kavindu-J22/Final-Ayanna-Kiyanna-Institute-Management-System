@@ -104,7 +104,7 @@ function Boxes() {
                 </div>
             </section>
 
-            <section className='B-section'>
+            <section className='B-section' id='OurAcadaminDiv'>
                 <div className='B-container'>
                     <h2>✥ Our Academic information ✥</h2>
                     <div className='B-cards'>

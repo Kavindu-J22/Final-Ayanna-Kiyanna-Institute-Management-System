@@ -61,36 +61,38 @@ function Products() {
     return (
         <div className='main-product-box'>
         <LandingPages />
-        <div className='product-text-card'>
-            <h1>✥ අයන්න කියන්න - විශේෂිත විශේෂාංග</h1><hr/>
-            <h4>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.
-            “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.
-            </h4>
-        </div>
-        <Filters />
-        
-        
-        {
-            isAdmin && 
-            <div className="delete-all">
-                <span>Select all</span>
-                <input type="checkbox" checked={isCheck} onChange={checkAll} />
-                <button onClick={deleteAll}>Delete ALL</button>
+        <div id='foryouDiv'>
+            <div className='product-text-card'>
+                <h1>✥ අයන්න කියන්න - විශේෂිත විශේෂාංග</h1><hr/>
+                <h4>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.
+                “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.
+                </h4>
             </div>
-        }
-
-        <div className="products">
+            <Filters />
+            
+            
             {
-                products.map(product => {
-                    return <ProductItem key={product._id} product={product}
-                    isAdmin={isAdmin} deleteProduct={deleteProduct} handleCheck={handleCheck} />
-                })
-            } 
-        </div>
+                isAdmin && 
+                <div className="delete-all">
+                    <span>Select all</span>
+                    <input type="checkbox" checked={isCheck} onChange={checkAll} />
+                    <button onClick={deleteAll}>Delete ALL</button>
+                </div>
+            }
 
-        <LoadMore />
-        {products.length === 0 && <Loading />}
-        </div>
+            <div className="products">
+                {
+                    products.map(product => {
+                        return <ProductItem key={product._id} product={product}
+                        isAdmin={isAdmin} deleteProduct={deleteProduct} handleCheck={handleCheck} />
+                    })
+                } 
+            </div>
+
+            <LoadMore />
+            {products.length === 0 && <Loading />}
+            </div>
+        </div> 
     )
 }
 
