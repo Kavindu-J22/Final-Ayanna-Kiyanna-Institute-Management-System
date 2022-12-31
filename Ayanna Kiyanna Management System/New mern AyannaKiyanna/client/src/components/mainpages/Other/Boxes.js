@@ -144,7 +144,7 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>වීඩියෝ පාඩම්</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-                            <Link to="/">
+                            <Link to="/boxes/VideoLessons">
                                 <a class="B-button" type="submit">See More</a>
                             </Link>
                         </div>
@@ -153,7 +153,7 @@ function Boxes() {
                             <h3>Paper Structures</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                             <Link to="/">
-                                <a class="B-button" type="submit">Visit Now</a>
+                                <a class="B-button" type="submit">See More</a>
                             </Link>
                         </div>
                         <div className='B-text-card'>
@@ -199,6 +199,16 @@ function Boxes() {
                         <div className='B-text-card'>
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>A/L</h3>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <Link to="/">
+                                <a class="B-button" type="submit">See More</a>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className='B-last-content'>
+                        <div className='B-text-card' id='B-text-card-last'>
+                            <i class="fa-solid fa-newspaper"></i>
+                            <h3>සිංහල සාහිත්‍යය<br/>(කාණ්ඩ විෂය)</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
                             <Link to="/">
                                 <a class="B-button" type="submit">See More</a>
