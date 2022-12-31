@@ -1,5 +1,5 @@
 .v-main-box{
-    background:rgb(230, 201, 201);
+    background:rgb(4, 45, 44);
 }
 .v-section{
     min-height: 30vh;
@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    color: rgb(218, 222, 226);
 }
 .v-container h4{
     font-size: 14px;
@@ -20,8 +21,8 @@
     font-family: 'Noto Sans Sinhala',sans-serif;
     padding-bottom: 20px;
     font-style: italic;
-    color: rgb(50, 47, 47);
-    font-weight: 800;
+    color: rgb(223, 217, 217);
+    font-weight: 600;
 }
 .v-cards{
     display: flex;
@@ -30,7 +31,7 @@
     margin-top: 40px;
 }
 .v-text-card{
-    background: antiquewhite;
+    background: rgba(230, 224, 224, 0.6);
     box-shadow: 0 0 15px rgb(48, 45, 45);
     margin: 15px;
     padding: 30px;

@@ -37,7 +37,6 @@
     font-weight: 700;
 }
 .sa-section{
-    min-height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
