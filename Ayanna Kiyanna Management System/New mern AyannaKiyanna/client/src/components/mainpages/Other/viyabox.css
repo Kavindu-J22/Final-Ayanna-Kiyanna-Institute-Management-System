@@ -1,34 +1,37 @@
 .v-main-box{
-    background-color: rgb(226, 209, 209);
+    background:rgb(230, 201, 201);
 }
 .v-section{
-    margin: 10px;
     min-height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .v-container h1{
-    font-size: 35px;
+    margin: 10px;
+    font-size: 38px;
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
 }
 .v-container h4{
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     font-family: 'Noto Sans Sinhala',sans-serif;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    font-style: italic;
+    color: rgb(50, 47, 47);
+    font-weight: 800;
 }
 .v-cards{
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+    grid-gap: 25px;
+    margin-top: 40px;
 }
 .v-text-card{
     background: antiquewhite;
-    box-shadow: 0 0 15px rgb(126, 121, 121);
+    box-shadow: 0 0 15px rgb(48, 45, 45);
     margin: 15px;
     padding: 30px;
     font-size: 13px;
@@ -36,7 +39,7 @@
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
     cursor: pointer;
-    border: 1px solid rgb(158, 53, 71) ;
+    border: none ;
 }
 .v-text-card:hover{
     background: rgb(216, 146, 158);
@@ -58,6 +61,7 @@
     text-align: center;
     padding-bottom: 15px;
     font-size: 15px;
+    color: rgb(85, 26, 26);
 }
 .v-link{
     color: black;

@@ -1,0 +1,74 @@
+.Lit-main-box{
+    min-height: 100vh;
+    background-color: rgb(202, 246, 231);
+}
+.sa-cards{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+    margin-top: 40px;
+}
+.sa-text-card{
+    background: rgb(22, 69, 46);
+    box-shadow: 0 0 15px rgb(48, 45, 45);
+    margin: 15px;
+    padding: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    cursor: pointer;
+    border: none ;
+}
+.sa-container h1{
+    margin: 10px;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.sa-container h4{
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    padding-bottom: 20px;
+    font-style: italic;
+    color: rgb(50, 47, 47);
+    font-weight: 700;
+}
+.sa-section{
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sa-text-card:hover{
+    background: rgb(19, 119, 99);
+    transform: translateY(-10px);
+}
+.sa-text-card h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+.sa-text-card i{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+.sa-text-card h5{
+    display: flex;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: rgb(214, 221, 228);
+}
+
+@media (max-width:900px){
+    .sa-cards{
+        flex-direction: column;
+    }
+}
