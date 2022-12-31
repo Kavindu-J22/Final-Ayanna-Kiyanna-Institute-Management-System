@@ -1,6 +1,6 @@
 .Gadya-main-box{
     min-height: 100vh;
-    background:rgb(204, 182, 111);
+    background:rgb(202, 184, 123);
 }
 .Gadya-section{
     display: flex;
@@ -44,7 +44,7 @@
     max-width: 300px;
 }
 .Gadya-text-card:hover{
-    background: rgb(216, 146, 158);
+    background: rgb(221, 163, 172);
     transform: translateY(-10px);
 }
 .Gadya-text-card h3{

@@ -42,7 +42,7 @@
     align-items: center;
 }
 .sa-text-card:hover{
-    background: rgb(19, 119, 99);
+    background: rgb(14, 95, 79);
     transform: translateY(-10px);
 }
 .sa-text-card h3{
