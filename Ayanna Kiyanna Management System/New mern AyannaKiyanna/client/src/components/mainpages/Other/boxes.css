@@ -4,22 +4,20 @@
     box-sizing: border-box;
 
 }
-.main-box{
-    background-color: rgb(23, 22, 22);
+
+.B-container h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    padding-bottom: 25px;
+}
+.B-container h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    padding-bottom: 20px;
 }
 
-.B-section{
-    min-height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.B-container h1{
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 40px;
-}
 
 .B-section:nth-child(1){
     color: rgb(23, 22, 22);
@@ -48,74 +46,131 @@
     color: rgb(217, 223, 229);
 }
 
-.B-section .B-container{
-    margin: 100px;
+
+.B-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: #111;
 }
 
-.B-container h2{
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Noto Sans Sinhala',sans-serif;
-    padding-bottom: 30px;
-}
 .B-cards{
-    display: flex;
-}
-
-.B-text-card{
-    background: rgb(158, 53, 71);
-    box-shadow: 0 0 15px rgb(79, 77, 77);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    transition: 0.4s;
-    cursor: pointer;
-}
-.B-text-card:hover{
-    transform: scale(1.1);
-}
-.B-text-card h3{
-    font-size: 33px;
-    text-align: center;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-
-.B-text-card i{
-    font-size: 25px;
-}
-.B-text-card p{
+    position: relative;
     display: flex;
     justify-content: center;
-    text-align: center;
-    padding-bottom: 15px;
-    font-weight: 600;
-    opacity: 0.9;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
 }
-.B-text-card .B-button{
+.B-cards .B-text-card{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    color: #fff;
+    background: #111;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background: rgb(100, 16, 54);
-    padding: 13px 30px;
-    border-radius: 30px;
-    color: rgb(227, 227, 235);
+    align-items: center;
+    margin: 20px 20px;
     transition: 0.5s;
 }
-.B-text-card .B-button:hover{
-    background-color: rgb(70, 27, 46);
+.B-cards .B-text-card:hover{
+    transform: translateY(-20px);
 }
-.B-last-content{
-    
-    display: flex;
-    justify-content: center;
+.B-cards .B-text-card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
 }
-#B-text-card-last{
-    max-width: 270px;
-    height: auto;
+.B-cards .B-text-card::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#ffbc00,#ff0058);
+    filter: blur(30px);
 }
 
-@media (max-width:900px){
-    .B-cards{
-        flex-direction: column;
-    }
+.B-cards .B-text-card:nth-child(2)::before,
+.B-cards .B-text-card:nth-child(2)::after{
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+}
+
+.B-cards .B-text-card:nth-child(3)::before,
+.B-cards .B-text-card:nth-child(3)::after{
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+}
+
+.B-cards .B-text-card:nth-child(4)::before,
+.B-cards .B-text-card:nth-child(4)::after{
+    background: linear-gradient(315deg,#22a2c3,#c4872c);
+}
+
+.B-cards .B-text-card:nth-child(5)::before,
+.B-cards .B-text-card:nth-child(5)::after{
+    background: linear-gradient(315deg,#ff8503,#7300ff);
+}
+
+.B-cards .B-text-card span{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: #000;
+    background: rgba(0,0,0,0.6);
+    z-index: 2;
+}
+.B-cards .B-text-card span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
+}
+.B-cards .B-text-card .B-content{
+    position: relative;
+    z-index: 10;
+    padding: 20px 40px;
+}
+.B-cards .B-text-card .B-content i{
+    font-size: 30px;
+}
+.B-cards .B-text-card .B-content h3{
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.B-cards .B-text-card .B-content p{
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+    padding: 5px;
+}
+.B-cards .B-text-card .B-content a{
+   display: inline-block;
+   font-size: 1.1em;
+   color: #111;
+   background: rgb(232, 229, 229);
+   padding: 5px;
+   text-decoration: none;
+   font-weight: 700; 
+   border-radius: 10px;
+   transition: .4s;
+}
+.B-cards .B-text-card .B-content a:hover{
+    transform: scale(0.9);
 }
