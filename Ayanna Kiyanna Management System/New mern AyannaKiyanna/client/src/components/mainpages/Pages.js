@@ -48,6 +48,14 @@ import MainGradeEleven from './Other/MainGradeSelector/Grade11/MainGradeEleven'
 import MainGradeAL from './Other/MainGradeSelector/AdvanceLevel/MainAL'
 import MainGradeLit from './Other/MainGradeSelector/Lit/MainLit'
 
+// header Re-Derects
+
+import About from './LandingPage/About'
+import Sehome from './LandingPage/Sehome'
+import Boxes from './Other/Boxes'
+
+
+
 import {GlobalState} from '../../GlobalState'
 
 
@@ -79,6 +87,7 @@ function Pages() {
             <Route path="/boxes/PaperStructures" exact component={isLogged ? PaperStructures :Login} />
             <Route path="/boxes/SpeOthers" exact component={isLogged ? SpeOthers :Login} />
 
+
             <Route path="/boxes/MainGradeNine" exact component={isLogged ? MainGradeNine :Login} />
             <Route path="/boxes/MainGradeTen" exact component={isLogged ? MainGradeTen :Login} />
             <Route path="/boxes/MainGradeEleven" exact component={isLogged ? MainGradeEleven :Login} />
@@ -103,8 +112,11 @@ function Pages() {
             <Route path="/TeacherBook/Guruathpoth" exact component={Guruathpoth} />
 
 
-            
+            <Route path="/Home/About" exact component={About} />
+            <Route path="/Home/Info" exact component={Sehome} />
+            <Route path="/Home/Service" exact component={Boxes} />
 
+            
             <Route path="/login" exact component={isLogged ? NotFound : Login} />
             <Route path="/register" exact component={isLogged ? NotFound : Register} />
             <Route path="/category" exact component={isAdmin ? Categories : NotFound} />
