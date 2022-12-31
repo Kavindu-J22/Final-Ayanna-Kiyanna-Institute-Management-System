@@ -13,7 +13,11 @@ function Loading() {
                                 <div>
                                     <div>
                                         <div>
-                                            <div><img className="loard-logo" src= {AKlogo}  alt="" /></div>
+                                            <div>
+                                                <section>
+                                                    <img className="loard-logo" src= {AKlogo}  alt="" />
+                                                </section>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

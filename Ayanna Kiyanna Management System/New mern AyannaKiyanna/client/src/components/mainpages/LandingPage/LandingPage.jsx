@@ -41,11 +41,11 @@ export default function Starting({ history }) {
             </p><br/>
 
             <form>
-              <Link to="/">
+              <Link to="/Home/Info">
               <button id ="LGbtn" type="submit">Explore</button>
               </Link>
               <br /><br />
-              <Link to="/">
+              <Link to="#">
               <button id ="LGbtnA" type="submit">Connect With Us</button>
               </Link>
             </form>
