@@ -6,6 +6,7 @@ import axios from 'axios'
 import Filters from './Filters'
 import LoadMore from './LoadMore'
 import LandingPages from '../LandingPage/LandingPage'
+import Header from '../../../components/headers/Header'
 
 
 function Products() {
@@ -60,6 +61,7 @@ function Products() {
     if(loading) return <div><Loading /></div>
     return (
         <div className='main-product-box'>
+        <Header />
         <LandingPages />
         <div id='foryouDiv'>
             <div className='product-text-card'>
