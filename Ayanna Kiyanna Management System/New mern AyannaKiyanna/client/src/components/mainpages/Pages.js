@@ -37,6 +37,7 @@ import ClassDetails from './Other/ClassDetails/Classdetaitls'
 import StudentColors from './Other/StudentColours/StudentColors'
 import PhotoBucket from './Other/PhothBucket/Photobucket'
 import VideoLessons from './Other/VideoLessons/Videolessons'
+import PaperStructures from './Other/PaperStructures/PaperStructures'
 
 import {GlobalState} from '../../GlobalState'
 
@@ -66,6 +67,7 @@ function Pages() {
             <Route path="/boxes/StudentColors" exact component={isLogged ? StudentColors :Login} />
             <Route path="/boxes/PhotoBucket" exact component={isLogged ? PhotoBucket :Login} />
             <Route path="/boxes/VideoLessons" exact component={isLogged ? VideoLessons :Login} />
+            <Route path="/boxes/PaperStructures" exact component={isLogged ? PaperStructures :Login} />
 
 
             <Route path="/sahithya/gadya" exact component={Gadya} />
