@@ -27,7 +27,7 @@
 }
 
 .B-section:nth-child(2){
-    color: aliceblue;
+    color: rgb(217, 223, 229);
 }
 
 .B-section:nth-child(3){
@@ -36,7 +36,7 @@
 }
 
 .B-section:nth-child(4){
-    color: aliceblue;
+    color: rgb(217, 223, 229);
 }
 
 .B-section:nth-child(5){
@@ -45,7 +45,7 @@
 }
 
 .B-section:nth-child(6){
-    color: aliceblue;
+    color: rgb(217, 223, 229);
 }
 
 .B-section .B-container{
@@ -75,9 +75,10 @@
     transform: scale(1.1);
 }
 .B-text-card h3{
-    font-size: 30px;
+    font-size: 33px;
     text-align: center;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .B-text-card i{
@@ -86,7 +87,10 @@
 .B-text-card p{
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-bottom: 15px;
+    font-weight: 600;
+    opacity: 0.9;
 }
 .B-text-card .B-button{
     display: flex;
