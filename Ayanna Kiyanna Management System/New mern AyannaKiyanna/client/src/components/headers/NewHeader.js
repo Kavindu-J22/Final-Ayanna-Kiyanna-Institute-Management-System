@@ -52,6 +52,7 @@ function NewHeader() {
                 <li><Link className='newheadlink' to="/Home/Info" data-text="Info">{isAdmin ? 'Info' : 'Info'}</Link></li>
                 <li><Link className='newheadlink' to="/Home/About" data-text="About">{isAdmin ? 'About' : 'About'}</Link></li>
                 <li><Link className='newheadlink' to="/Home/Service" data-text="Services">{isAdmin ? 'Services' : 'Services'}</Link></li>
+                <li><Link className='newheadlink' to="/Home/ProductsTow" data-text="For - You">{isAdmin ? 'For You' : 'For You'}</Link></li>
                 <li><Link className='newheadlink' to="#" data-text="Contact">{isAdmin ? 'Contact' : 'Contact'}</Link></li>
 
                 {isAdmin && adminRouter()}
