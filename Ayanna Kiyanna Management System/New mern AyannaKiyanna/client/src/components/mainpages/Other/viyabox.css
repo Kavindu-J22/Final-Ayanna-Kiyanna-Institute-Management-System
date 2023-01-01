@@ -61,7 +61,9 @@
     max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
+    padding: 15px;
 }
+
 .v-cards .v-text-card{
     position: relative;
     width: 200px;
@@ -123,4 +125,8 @@
 }
 .v-cards .v-text-card .v-content a:hover{
     opacity: 0.7;
+}
+
+#v-text-card-lastitem{
+    width: 300px;
 }

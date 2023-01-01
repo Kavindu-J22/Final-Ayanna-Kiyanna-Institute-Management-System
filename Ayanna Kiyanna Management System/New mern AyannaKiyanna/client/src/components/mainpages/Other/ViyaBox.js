@@ -154,6 +154,23 @@ function ViyaBox() {
                     </div>
                 
             </section>
+            <section className='v-section'>
+                
+                    <div className='v-cards'>
+
+                        <div className='v-text-card' id='v-text-card-lastitem'>
+                            <div className='v-content'>
+                                <h2>12</h2>
+                                
+                                <h3>ශ්‍රේණියේ අනුව හදාරන්න</h3>
+                                <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
+                                <a href='#'>Explore</a>
+                                </div>
+                        </div>
+
+                    </div>
+                
+            </section>
 
             </div>
     )
