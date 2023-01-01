@@ -160,7 +160,7 @@ function ViyaBox() {
 
                         <div className='v-text-card' id='v-text-card-lastitem'>
                             <div className='v-content'>
-                                <h2>12</h2>
+                                <h2>13</h2>
                                 
                                 <h3>ශ්‍රේණියේ අනුව හදාරන්න</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
