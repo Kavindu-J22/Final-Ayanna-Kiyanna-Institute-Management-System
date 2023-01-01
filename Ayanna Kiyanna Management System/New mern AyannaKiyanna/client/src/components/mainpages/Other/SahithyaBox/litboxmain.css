@@ -8,7 +8,7 @@
 }
 .Lit-main-box::before{
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -18,7 +18,7 @@
 }
 .Lit-main-box::after{
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
