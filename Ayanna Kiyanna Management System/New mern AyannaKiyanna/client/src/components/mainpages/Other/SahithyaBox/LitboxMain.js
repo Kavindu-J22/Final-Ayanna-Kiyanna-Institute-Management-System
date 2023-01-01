@@ -8,42 +8,76 @@ function LitboxMain() {
     return (
         <div className="Lit-main-box">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-            <section className='sa-section'>
-                <div className='sa-container'>
-                    <h1>✥ සාහිත්‍යය </h1><hr/>
-                    <h4>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</h4>
-                    <div className='sa-cards'>
-                        <div className='sa-text-card'>
-                        <Link className='v-link' to="/sahithya/gadya">
-                            <i class="fa-solid fa-newspaper"></i>
-                            <h3>ගද්‍ය</h3>
-                            <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                        </Link>
-                        </div>
-                        <div className='sa-text-card'>
-                        <Link className='v-link' to="/sahithya/padya">
-                            <i class="fa-solid fa-newspaper"></i>
-                            <h3>පද්‍ය</h3>
-                            <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>
-                        </Link>
-                        </div>
-                        <div className='sa-text-card'>
-                        <Link className='v-link' to="/sahithya/natya">
-                            <i class="fa-solid fa-newspaper"></i>
-                            <h3>නාට්‍ය</h3>
-                            <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>  
-                        </Link>
-                        </div>
-                        <div className='sa-text-card'>
-                        <Link className='v-link' to="#">
-                            <i class="fa-solid fa-newspaper"></i>
-                            <h3>වෙනත්</h3>
-                            <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>
-                        </Link>
-                        </div>
+            
+            <div className='newthinkMenu'><Link to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
+
+            <section className='v-section'>
+                    <div className='v-text-container'>
+                        <h1>✥ සාහිත්‍යය </h1>
+                        <h4>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</h4>
                     </div>
-                </div>
+                    <div className='v-cards'>
+                        <div className='v-text-card'>
+                            <div className='v-content'>
+                                <h2>01</h2>
+                                
+                                <h3>ගද්‍ය</h3>
+                                <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
+                                <Link className='v-link' to="/sahithya/gadya">Explore</Link>
+                            </div>
+                        </div>
+
+                        <div className='v-text-card'>
+                            <div className='v-content'>
+                                <h2>02</h2>
+                                
+                                <h3>පද්‍ය</h3>
+                                <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
+                                <Link className='v-link' to="/sahithya/padya">Explore</Link>
+                                </div>
+                        </div>
+
+                        <div className='v-text-card'>
+                            <div className='v-content'>
+                                <h2>03</h2>
+                                
+                                <h3>නාට්‍ය</h3>
+                                <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
+                                <Link className='v-link' to="/sahithya/natya">Explore</Link>
+                                </div>
+                        </div>
+
+                        <div className='v-text-card'>
+                            <div className='v-content'>
+                                <h2>04</h2>
+                                
+                                <h3>වෙනත්</h3>
+                                <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
+                                <Link className='v-link' to="#">Explore</Link>
+                                </div>
+                        </div>
+
+                    </div>
+                
             </section>
+            <section className='v-section'>
+                
+                    <div className='v-cards'>
+
+                        <div className='v-text-card' id='v-text-card-lastitem'>
+                            <div className='v-content'>
+                                <h2>05</h2>
+                                
+                                <h3>ශ්‍රේණියේ අනුව හදාරන්න</h3>
+                                <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
+                                <Link className='v-link' to="#">Explore</Link>
+                                </div>
+                        </div>
+
+                    </div>
+                
+            </section>
+            
             </div>
     )
 }

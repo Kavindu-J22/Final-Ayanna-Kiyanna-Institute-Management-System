@@ -24,9 +24,9 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(rgb(2, 155, 155),rgb(210, 9, 210));
-    clip-path: circle(10% at 5% 35%);
-    
+    clip-path: circle(10% at 5% 35%);  
 }
+
 .v-section{
     display: flex;
     flex-direction: column;
