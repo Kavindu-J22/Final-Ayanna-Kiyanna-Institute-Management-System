@@ -50,6 +50,7 @@ import MainGradeLit from './Other/MainGradeSelector/Lit/MainLit'
 
 // header Re-Derects
 
+import NewHeader from '../headers/NewHeader'
 import About from './LandingPage/About'
 import Sehome from './LandingPage/Sehome'
 import Boxes from './Other/Boxes'
@@ -69,6 +70,7 @@ function Pages() {
         <Switch>
             <Route path="/" exact component={Products} />
             <Route path="/detail/:id" exact component={DetailProduct} />
+            <Route path="/Header/NewHeader" exact component={NewHeader} />
 
 
             <Route path="/boxes/viyabox" exact component={isLogged ? Viyabox :Login} />
