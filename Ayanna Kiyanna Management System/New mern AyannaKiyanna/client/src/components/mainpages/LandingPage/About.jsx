@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import Ayanna from "../../assets/images/Ayanna.png"
+import { Link } from "react-router-dom";
 
 function About(){
 
@@ -8,6 +9,8 @@ function About(){
 
     <div>
       <section class="about">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <div className='newthinkMenu'><Link to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
             <div class="main">
                 <img class="image-About" src={Ayanna} alt=""/>
                 <div class="about-text">
