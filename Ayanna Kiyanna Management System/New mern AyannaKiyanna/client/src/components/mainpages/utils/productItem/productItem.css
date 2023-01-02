@@ -160,6 +160,9 @@
     text-shadow: 0 0 15px rgb(56, 54, 54);
     margin-bottom: 10px;
 }
+.product_box h3{
+    color: rgb(244, 199, 199);
+}
 .product_box p{
     font-size: 1em;
     margin-bottom: 10px;
