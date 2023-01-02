@@ -152,21 +152,28 @@ button{
   border-radius: 10px;
 }
 .newthinkMenu{
-  position: relative;
+  position: fixed;
   display: flex;
-  width: 100%;
-  max-height: 15px;
-  padding: 15px;
-  
+  flex-wrap: wrap;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.051);
 
 }
 .newthinkMenu i{
-  position: fixed;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.4;
   font-size: 1.5em;
   transition: .3s;
   cursor: pointer;
 }
 .newthinkMenu i:hover{
   transform: scale(1.1);
+  opacity: 1;
 }

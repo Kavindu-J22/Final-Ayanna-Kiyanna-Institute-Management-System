@@ -7,6 +7,7 @@ import Filters from './Filters'
 import LoadMore from './LoadMore'
 import LandingPages from '../LandingPage/LandingPage'
 import Header from '../../../components/headers/Header'
+import { Link } from 'react-router-dom'
 
 
 function Products() {
@@ -62,6 +63,7 @@ function Products() {
     return (
         <div className='main-product-box'>
         <Header />
+        <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
         <LandingPages />
         <div id='foryouDiv'>
             <div className='product-text-card'>
