@@ -41,7 +41,7 @@ export default function Starting({ history }) {
             </p><br/>
 
             <form>
-              <a href="#SemomeDiv" id ="Scrolbtn">Explore</a>
+              <a href="#MAboutDiv" id ="Scrolbtn">Explore</a>
               <br /><br />
               <Link to="#">
               <button id ="LGbtnA" type="submit">Connect With Us</button>
@@ -53,14 +53,14 @@ export default function Starting({ history }) {
 
       <div className="cantainer">
 
-          <div className="ncard" id="SemomeDiv">
-            <hr class="Myhr"/>
-            <Sehome/>
-          </div>
-
           <div className="ncard" id="MAboutDiv">
             <hr class="Myhr"/>
             <About/>
+          </div>
+
+          <div className="ncard" id="SemomeDiv">
+            <hr class="Myhr"/>
+            <Sehome/>
           </div>
           
           <div className="ncard" id="MBoxesDiv">
