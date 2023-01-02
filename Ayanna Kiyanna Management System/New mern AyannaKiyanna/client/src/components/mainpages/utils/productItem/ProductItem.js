@@ -5,20 +5,35 @@ function ProductItem({product, isAdmin, deleteProduct, handleCheck}) {
 
     return (
         <div className="product_card">
-            {
-                isAdmin && <input type="checkbox" checked={product.checked}
-                onChange={() => handleCheck(product._id)} />
-            }
-            <img src={product.images.url} alt="" />
+            <div className='N-productBox'>
+                <span></span>
+                <div className='N-product-Content'>
 
-            <div className="product_box">
+                    {
+                    isAdmin && <input type="checkbox" checked={product.checked}
+                    onChange={() => handleCheck(product._id)} />
+                    }
+                    <img src={product.images.url} alt="" />
+                    
+                    <div className="product_box">
+                    <h2 title={product.title}>{product.title}</h2>
+                    <h3>(Part/Rs):-{product.price}</h3>
+                    <p>{product.description}</p>
+                    </div>
+
+                    <BtnRender product={product} deleteProduct={deleteProduct} />
+
+                </div>
+            </div>
+
+            {/* <div className="product_box">
                 <h2 title={product.title}>{product.title}</h2>
                 <span>(Part/Rs):-{product.price}</span>
                 <p>{product.description}</p>
             </div>
 
             
-            <BtnRender product={product} deleteProduct={deleteProduct} />
+            <BtnRender product={product} deleteProduct={deleteProduct} /> */}
         </div>
     )
 }
