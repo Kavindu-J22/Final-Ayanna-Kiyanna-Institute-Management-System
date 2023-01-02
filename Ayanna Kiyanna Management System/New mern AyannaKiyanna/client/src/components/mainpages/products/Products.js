@@ -94,6 +94,7 @@ function Products() {
             <LoadMore />
             {products.length === 0 && <Loading />}
             </div>
+            <a className='gotopbtn' href='#'><i class="fa-solid fa-up-long"></i></a>
         </div> 
     )
 }

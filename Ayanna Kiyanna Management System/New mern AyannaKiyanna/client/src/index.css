@@ -154,3 +154,18 @@ button{
     margin: 20px 0;
   }
 }
+.gotopbtn{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background: rgba(185, 112, 29, 0.608);
+  bottom: 40px;
+  right: 50px;
+  color: rgba(238, 232, 232, 0.752);
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  border-radius: 10px;
+}

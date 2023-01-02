@@ -172,6 +172,8 @@ function ViyaBox() {
                 
             </section>
 
+            <a className='gotopbtn' href='#'><i class="fa-solid fa-up-long"></i></a>
+
             </div>
     )
 }
