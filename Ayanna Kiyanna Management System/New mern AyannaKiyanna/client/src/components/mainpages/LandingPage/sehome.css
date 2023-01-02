@@ -17,7 +17,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(../../assets/images/Sehome-Back.jpg)no-repeat;
+    background: linear-gradient(350deg,rgb(0, 0, 0),rgb(220, 216, 227));
     background-size: cover;
     background-position: center;
 }
