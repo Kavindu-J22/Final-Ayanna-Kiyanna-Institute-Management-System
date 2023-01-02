@@ -35,24 +35,6 @@ button{
   background: transparent;
   cursor: pointer;
 }
-.newthinkMenu{
-  position: relative;
-  display: flex;
-  width: 100%;
-  max-height: 15px;
-  padding: 15px;
-  
-
-}
-.newthinkMenu i{
-  color: #fff;
-  font-size: 1.5em;
-  transition: .3s;
-  cursor: pointer;
-}
-.newthinkMenu i:hover{
-  transform: scale(1.1);
-}
 
 /* ---------------- Header ------------ */
 @import url("./components/headers/header.css");
@@ -168,4 +150,23 @@ button{
   font-size: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.4);
   border-radius: 10px;
+}
+.newthinkMenu{
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-height: 15px;
+  padding: 15px;
+  
+
+}
+.newthinkMenu i{
+  position: fixed;
+  color: #fff;
+  font-size: 1.5em;
+  transition: .3s;
+  cursor: pointer;
+}
+.newthinkMenu i:hover{
+  transform: scale(1.1);
 }
