@@ -6,9 +6,10 @@ function Contactfooter(){
 
   return(
 
-    <div className="my-contact-big">
-
         <div className="Contact-Footer-main">
+
+            
+
             <footer className="myfooter">
                 <div className="Fwaves">
                     <div className="wave" id="wave1"></div>
@@ -35,7 +36,7 @@ function Contactfooter(){
             </footer>
         
         </div> 
-    </div>
+    
   );
 }
 export default Contactfooter
