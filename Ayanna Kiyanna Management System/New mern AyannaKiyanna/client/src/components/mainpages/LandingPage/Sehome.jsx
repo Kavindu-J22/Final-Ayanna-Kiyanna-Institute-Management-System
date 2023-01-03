@@ -46,7 +46,92 @@ function Sehome(){
             </div>
 
             
-            
+          <div className="info-Awsome-container">
+
+            <div className="info-Awsome-container-card">
+              <div className="info-Awsome-container-imgbx" data-text="Home">
+              </div>
+              <div className="info-Awsome-container-content">
+                <div>
+                  <h3>Home</h3>
+                  <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                     නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූය.</p>
+                  <a href="#">Let's Go</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="info-Awsome-container-card">
+              <div className="info-Awsome-container-imgbx" data-text="About">
+                <img src="" alt="" />
+              </div>
+              <div className="info-Awsome-container-content">
+                <div>
+                  <h3>About</h3>
+                  <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                     නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූය.</p>
+                  <a href="#">Let's Go</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="info-Awsome-container-card">
+              <div className="info-Awsome-container-imgbx" data-text="Info">
+                <img src="" alt="" />
+              </div>
+              <div className="info-Awsome-container-content">
+                <div>
+                  <h3>Info</h3>
+                  <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                     නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූය.</p>
+                  <a href="#">Let's Go</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="info-Awsome-container-card">
+              <div className="info-Awsome-container-imgbx" data-text="Services">
+                <img src="" alt="" />
+              </div>
+              <div className="info-Awsome-container-content">
+                <div>
+                  <h3>Services</h3>
+                  <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                     නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූය.</p>
+                  <a href="#">Let's Go</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="info-Awsome-container-card">
+              <div className="info-Awsome-container-imgbx" data-text="For You">
+                <img src="" alt="" />
+              </div>
+              <div className="info-Awsome-container-content">
+                <div>
+                  <h3>For You</h3>
+                  <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                     නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූය.</p>
+                  <a href="#">Let's Go</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="info-Awsome-container-card">
+              <div className="info-Awsome-container-imgbx" data-text="Contact">
+                <img src="" alt="" />
+              </div>
+              <div className="info-Awsome-container-content">
+                <div>
+                  <h3>Contact</h3>
+                  <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                     නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූය.</p>
+                  <a href="#">Let's Go</a>
+                </div>
+              </div>
+            </div>
+
+          </div>  
 
             
 
