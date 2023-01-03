@@ -7,7 +7,7 @@ import Filters from './Filters'
 import LoadMore from './LoadMore'
 import LandingPages from '../LandingPage/LandingPage'
 import Header from '../../../components/headers/Header'
-import { Link } from 'react-router-dom'
+import Contactfooter from '../LandingPage/contactFooter'
 
 
 function Products() {
@@ -95,6 +95,8 @@ function Products() {
             <LoadMore />
             {products.length === 0 && <Loading />}
             </div>
+            <Contactfooter />
+            
             <a className='gotopbtn' href='#'><i class="fa-solid fa-up-long"></i></a>
         </div> 
     )

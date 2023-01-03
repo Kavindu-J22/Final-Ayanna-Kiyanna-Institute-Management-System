@@ -55,6 +55,7 @@ import About from './LandingPage/About'
 import Sehome from './LandingPage/Sehome'
 import Boxes from './Other/Boxes'
 import ProductsTow from './products/ProductsTow'
+import Contactfooter from './LandingPage/contactFooter'
 
 
 
@@ -119,6 +120,7 @@ function Pages() {
             <Route path="/Home/Info" exact component={Sehome} />
             <Route path="/Home/Service" exact component={Boxes} />
             <Route path="/Home/ProductsTow" exact component={ProductsTow} />
+            <Route path="/Home/Contactfooter" exact component={Contactfooter} />
 
             
             <Route path="/login" exact component={isLogged ? NotFound : Login} />
