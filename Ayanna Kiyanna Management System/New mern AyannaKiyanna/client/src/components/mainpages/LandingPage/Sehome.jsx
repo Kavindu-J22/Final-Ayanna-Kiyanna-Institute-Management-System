@@ -25,7 +25,7 @@ function Sehome(){
         </div>
 
       <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
-        <h2>ලෝබ නැතුව සතර බෙදන <br/><span>අසිරිමත් බුද්ධි මෙහෙවර..!</span></h2><br/>
+        <h2>✥ ලෝබ නැතුව සතර බෙදන ✥<br/><span>අසිරිමත් බුද්ධි මෙහෙවර..!</span></h2><br/>
             <div className="scontent">
               
                 <div className="Sehome-largeimage-container">
