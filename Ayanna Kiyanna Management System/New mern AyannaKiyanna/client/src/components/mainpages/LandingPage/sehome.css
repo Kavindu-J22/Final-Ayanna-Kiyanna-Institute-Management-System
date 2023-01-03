@@ -15,7 +15,7 @@
 
 .Sehome h2{
     color: rgba(245, 242, 228, 0.89);
-    font-size: 45px;
+    font-size: 55px;
     margin-top: 40px;
     transition: .4s;
     font-weight: bold;
@@ -24,16 +24,18 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    text-transform: uppercase;
 }
 .Sehome h2 span{
-    font-size: 35px;
+    font-size: 42px;
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #d2abc3;
+    color: #d7c4cf;
     font-family:'Noto Sans Sinhala', sans-serif;
-    padding-top: 20px;
+    padding-top: 10px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 .scontent{
     width: 1280px;
@@ -66,7 +68,7 @@
     height: 100%;
     transition: 0.5s;
     border-radius: 8px;
-    border: 2px solid rgba(29, 2, 20, 0.438);
+    border: 1px solid rgba(158, 154, 157, 0.477);
     opacity: 0.5;
     box-shadow: 0 45px 250px rgba(164, 159, 159, 0.136);
 }

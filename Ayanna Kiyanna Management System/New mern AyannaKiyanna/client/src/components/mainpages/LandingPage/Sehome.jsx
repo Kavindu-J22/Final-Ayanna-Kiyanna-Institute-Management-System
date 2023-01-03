@@ -1,7 +1,7 @@
 import React from "react";
 import "./sehome.css";
 import { Link } from "react-router-dom";
-import Sehomeimg from "../../assets/images/SEphoto.jpg"
+import Sehomeimg from "../../assets/images/SEphoto.png"
 
 function Sehome(){
 
@@ -25,7 +25,7 @@ function Sehome(){
         </div>
 
       <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
-        <h2>✥ ලෝබ නැතුව සතර බෙදන ✥<br/><span>අසිරිමත් බුද්ධි මෙහෙවර..!</span></h2><br/>
+        <h2>- The Sri Lanka's Best -<br/><span>E - Sinhala Platform</span></h2><br/>
             <div className="scontent">
               
                 <div className="Sehome-largeimage-container">
