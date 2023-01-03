@@ -5,11 +5,16 @@
     flex-wrap: wrap;
     width: 100%;
     min-height: 100vh;
-    background: #fff;
-    
+    background: rgb(208, 203, 203);
+}
+.Contactinfo-mainmy-box{
+    position: relative;
+    margin: 200px;
+}
+
 
 /* footer */
-}
+
 .myfooter{
     position: relative;
     bottom: 0;
