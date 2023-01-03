@@ -110,7 +110,7 @@ function Sehome(){
               </div>
               <div className="info-Awsome-container-content">
                 <div>
-                  <h3>For You</h3>
+                  <h3>For-You</h3>
                   <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
                      නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූය.</p>
                   <a href="#">Let's Go</a>
