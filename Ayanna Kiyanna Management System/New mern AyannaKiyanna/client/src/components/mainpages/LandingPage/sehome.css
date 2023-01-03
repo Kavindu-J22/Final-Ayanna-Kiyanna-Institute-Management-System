@@ -237,7 +237,7 @@
     flex-wrap: wrap;
     width: 200px;
     height: 45px;
-    margin: 55px;
+    margin: 20px;
     text-align: center;
     justify-content: center;
     line-height: 50px;
@@ -313,9 +313,17 @@
     font-size: 4em;
     text-shadow: 0 0 60px rgba(101, 101, 108, 0.851);
     transition: 0.5s ease-in-out;
+    padding: 30px 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 250, 250, 0.248);
+    border-radius: 30px;
+    background: rgba(2, 1, 30, 0.229);
 }
 .info-Awsome-container .info-Awsome-container-card .info-Awsome-container-imgbx i:hover{
     max-width: 75px;
+    border: 2px solid transparent;
 }
 .info-Awsome-container .info-Awsome-container-card .info-Awsome-container-imgbx{
     position: absolute;
@@ -328,7 +336,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(244, 228, 228, 0.94);
+    color: rgba(242, 232, 232, 0.94);
     overflow: hidden;
     transition: 0.5s ease-in-out;
     border-radius: 8px;
@@ -402,4 +410,19 @@
     display: flex;
     flex-direction: column;
     margin-left: 30px;
+}
+
+.Semenutitlebox h2{
+    margin: 0;
+    padding-bottom: 40px;
+    font-size: 40px;
+    color: #b7cec5;
+}
+
+.Selogbtn_main-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 25%;
+    margin: 40px;
 }

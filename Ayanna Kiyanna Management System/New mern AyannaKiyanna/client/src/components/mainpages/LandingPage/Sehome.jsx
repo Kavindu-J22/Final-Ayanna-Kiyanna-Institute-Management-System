@@ -25,7 +25,7 @@ function Sehome(){
         </div>
 
       <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
-        <h2>- The Sri Lanka's Best -<br/><span>✥ E - Sinhala Platform ✥</span></h2><br/>
+        <h2>- The Sri Lanka's Best -<br/><span>✠ E - Sinhala Platform ✠</span></h2><br/>
             <div className="scontent">
               
                 <div className="Sehome-largeimage-container">
@@ -41,16 +41,19 @@ function Sehome(){
                       <p> “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය. සිංහල විෂය සාධන මට්ටම ඉහළ දැමීම මෙන් ම ළමා මණසෙහි සියුම් වූ වේදයිතයන් අවදිකර රසවින්දනයෙන් පෝෂිත සමාජයක් බිහිකරලීම මෙම සඟරාව කිරීමෙහි මූලික අභිලාෂයයි.
                       </p>
                   </div>
-                  <div>
-                      <a href="#" className="selog-btn">Login - Sign Up</a>
-                      <a href="#" className="selog-btn">View Menu</a>
+                    <div className="Selogbtn_main-box">
+                      <a href="#" className="selog-btn">➥ Login - Sign Up</a>
+                      <a href="#" className="selog-btn">⛚ View Menu</a>
                     </div>
                   </div>
                 </div>
                   
             </div>
 
-            
+           <div className="Semenutitlebox">
+            <h2>● Go Thoruth And Explore ●</h2>
+          </div>
+
           <div className="info-Awsome-container">
 
             <div className="info-Awsome-container-card">
