@@ -55,7 +55,7 @@
     width: 290px;
     height: 650px;
     background: rgba(0,0,0,.3);
-    transform: rotate(-5deg) skew(7deg) scale(.8);
+    transform: rotate(-7deg) skew(8deg) scale(.8);
     transition: 0.5s;
     margin-top: 50px;
     border-radius: 8px;
@@ -68,9 +68,9 @@
     height: 100%;
     transition: 0.5s;
     border-radius: 8px;
-    border: 1px solid rgba(158, 154, 157, 0.477);
-    opacity: 0.5;
+    border: 1px solid rgba(147, 143, 146, 0.477);
     box-shadow: 0 45px 250px rgba(164, 159, 159, 0.136);
+    opacity: 0.8;
 }
 .Sehome-largeimage-container:hover img:nth-child(4){
     transform: translate(160px,-160px);
