@@ -54,22 +54,18 @@ export default function Starting({ history }) {
       <div className="cantainer">
 
           <div className="ncard" id="MAboutDiv">
-            <hr class="Myhr"/>
             <About/>
           </div>
 
           <div className="ncard" id="SemomeDiv">
-            <hr class="Myhr"/>
             <Sehome/>
           </div>
           
           <div className="ncard" id="MBoxesDiv">
-            <hr class="Myhr"/>
             <Boxes/>
           </div>
 
           {/* <div className="ncard">
-            <hr class="Myhr"/>
             <Other/>
           </div>  */}
       </div> 
