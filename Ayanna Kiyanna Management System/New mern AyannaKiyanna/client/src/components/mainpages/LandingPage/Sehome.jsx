@@ -55,7 +55,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="Home">
-                <i class="fa-solid fa-house"></i>
+              <i class="fa-solid fa-house"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -69,7 +69,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="About">
-                <i class="fa-solid fa-address-card"></i>
+              <i class="fa-regular fa-address-card"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -97,7 +97,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="Services">
-                <i class="fa-solid fa-book-open"></i>
+              <i class="fa-solid fa-book"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -111,7 +111,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="ForYou">
-                <i class="fa-solid fa-pen-nib"></i>
+              <i class="fa-solid fa-file-pen"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -125,7 +125,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="Contact">
-                <i class="fa-solid fa-phone"></i>
+              <i class="fa-solid fa-square-phone-flip"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
