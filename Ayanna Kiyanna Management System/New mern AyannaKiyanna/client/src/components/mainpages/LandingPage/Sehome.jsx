@@ -50,6 +50,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="Home">
+                <i class="fa-solid fa-house"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -63,7 +64,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="About">
-                <img src="" alt="" />
+                <i class="fa-solid fa-address-card"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -77,7 +78,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="Info">
-                <img src="" alt="" />
+              <i class="fa-solid fa-circle-info"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -91,7 +92,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="Services">
-                <img src="" alt="" />
+                <i class="fa-solid fa-book-open"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -104,8 +105,8 @@ function Sehome(){
             </div>
 
             <div className="info-Awsome-container-card">
-              <div className="info-Awsome-container-imgbx" data-text="For You">
-                <img src="" alt="" />
+              <div className="info-Awsome-container-imgbx" data-text="ForYou">
+                <i class="fa-solid fa-pen-nib"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -119,7 +120,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="Contact">
-                <img src="" alt="" />
+                <i class="fa-solid fa-phone"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
