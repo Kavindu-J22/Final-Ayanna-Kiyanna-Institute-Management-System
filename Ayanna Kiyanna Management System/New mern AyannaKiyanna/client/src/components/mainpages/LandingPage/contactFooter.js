@@ -31,6 +31,7 @@ function Contactfooter(){
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <p>©Sinhala Institute Of Ayanna Kiyanna | All Rights Reserved</p>
+                <li className="mymymy">Wbe Developer and Designer :<a href="https://github.com/Kavindu-J22"> @Kavindu Jayasinghe</a></li>
             </footer>
         
         </div> 
