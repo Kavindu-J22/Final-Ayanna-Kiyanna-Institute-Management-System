@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(3deg, rgb(16, 9, 9)0%, rgb(28, 28, 52)35%, rgb(234, 231, 212));
+    background: linear-gradient(3deg, rgb(16, 9, 9)0%, rgb(22, 22, 46)35%, rgb(242, 215, 236));
     overflow: hidden;
 }
 
@@ -20,12 +20,13 @@
     transition: .4s;
     font-weight: 800;
     font-family: 'Oswald', sans-serif;
-    text-shadow: 0 32px 20px rgba(51, 49, 49, 0.448);
+    text-shadow: 0 32px 20px rgba(51, 49, 49, 0.379);
     display: flex;
     flex-direction: column;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2.5px;
+    transition: 0.4s;
 }
 .Sehome h2 span{
     font-size: 43px;
@@ -38,6 +39,9 @@
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 2.5px;
+}
+.Sehome h2:hover{
+    transform: scale(1.1);
 }
 .scontent{
     width: 95%;
@@ -227,7 +231,7 @@
     position: absolute;
     width: 150px;
     height: 750px;
-    background: linear-gradient(#00ff99,#d400d4);
+    background: linear-gradient(#00ffc8,#ff16cd);
     animation: rotateboder 4s linear infinite;
 }
 @keyframes rotateboder{
