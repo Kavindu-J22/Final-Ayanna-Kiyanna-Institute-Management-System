@@ -38,12 +38,37 @@ function Sehome(){
       <div className="SEconteudo-main">
         <div className="SEconteudo">
           <div className="Secarrousel">
-              <div className="Secarrousel-img"><a href="https://www.youtube.com/@ayannakiyanna2242"><img src={Sli1} alt="" /></a></div>
-              <div className="Secarrousel-img"><a><img src={Sli2} alt="" /></a></div>
-              <div className="Secarrousel-img"><a><img src={Sli3} alt="" /></a></div>
-              <div className="Secarrousel-img"><a><img src={Sli4} alt="" /></a></div>
-              <div className="Secarrousel-img"><a><img src={Sli2} alt="" /></a></div>
-              <div className="Secarrousel-img"><a><img src={Sli1} alt="" /></a></div>
+
+              <div className="Secarrousel-img">
+                <a href="https://www.youtube.com/@ayannakiyanna2242"><img src={Sli1} alt="" /></a>
+                <h2></h2>
+                </div>
+
+              <div className="Secarrousel-img">
+                <a><img src={Sli2} alt="" /></a>
+                <h2></h2>
+                </div>
+
+              <div className="Secarrousel-img">
+                <a><img src={Sli3} alt="" /></a>
+                <h2></h2>
+                </div>
+
+              <div className="Secarrousel-img">
+                <a><img src={Sli4} alt="" /></a>
+                <h2></h2>
+                </div>
+
+              <div className="Secarrousel-img">
+                <a><img src={Sli2} alt="" /></a>
+                <h2></h2>
+                </div>
+
+              <div className="Secarrousel-img">
+                <a><img src={Sli1} alt="" /></a>
+                <h2></h2>
+                </div>
+
           </div>
         </div>
         </div>

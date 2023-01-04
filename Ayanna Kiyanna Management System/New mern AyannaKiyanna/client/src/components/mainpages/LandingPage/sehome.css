@@ -541,7 +541,9 @@
     display: flex;
     width: 900px;
     height: 400px;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Secarrousel-img img{
@@ -552,4 +554,7 @@
 }
 .Secarrousel-img img:hover{
     filter: brightness(1);
+}
+.Secarrousel-img h2{
+    position: fixed;
 }
