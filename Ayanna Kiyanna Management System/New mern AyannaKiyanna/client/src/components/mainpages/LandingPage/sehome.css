@@ -477,8 +477,8 @@
     height: 400px;
     transform: translateY(-50%,-50%);
     overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 10px 25px 30px rgba(3, 3, 32, 0.338);
+    border-radius: 6px;
+    box-shadow: 10px 20px 30px rgba(1, 1, 22, 0.57);
     transition: .4s;
     cursor: pointer;
 }
