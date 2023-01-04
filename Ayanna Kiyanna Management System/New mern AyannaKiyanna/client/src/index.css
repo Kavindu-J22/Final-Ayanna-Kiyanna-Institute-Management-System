@@ -28,6 +28,7 @@ code {
   padding: 0 0px;
   box-shadow: 0 0 35px rgb(158, 153, 153);
 }
+
 a{
   text-decoration: none;
 }
@@ -153,7 +154,7 @@ button{
   text-align: center;
   line-height: 50px;
   font-size: 20px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.289);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.178);
   border-radius: 10px;
   transition: 0.3s;
   text-shadow: 0 5px 15px rgba(0,0,0,0.5);
