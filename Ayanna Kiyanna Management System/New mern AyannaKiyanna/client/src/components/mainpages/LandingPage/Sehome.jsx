@@ -2,6 +2,10 @@ import React from "react";
 import "./sehome.css";
 import { Link } from "react-router-dom";
 import Sehomeimg from "../../assets/images/SEphoto.png"
+import Sli1 from "../../assets/images/sli1.png"
+import Sli2 from "../../assets/images/sli2.png"
+import Sli3 from "../../assets/images/sli3.png"
+import Sli4 from "../../assets/images/sli4.png"
 
 function Sehome(){
 
@@ -31,10 +35,20 @@ function Sehome(){
 
       <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
         <h2>➷ The Sri Lanka's Best ⦁<br/><span>⟿ E - Sinhala Platform ⟿</span></h2><br/>
-
-        <div className="SEconte">
-          
+      <div className="SEconteudo-main">
+        <div className="SEconteudo">
+          <div className="Secarrousel">
+              <div className="Secarrousel-img"><img src={Sli1} alt="" /></div>
+              <div className="Secarrousel-img"><img src={Sli2} alt="" /></div>
+              <div className="Secarrousel-img"><img src={Sli3} alt="" /></div>
+              <div className="Secarrousel-img"><img src={Sli4} alt="" /></div>
+              <div className="Secarrousel-img"><img src={Sli2} alt="" /></div>
+              <div className="Secarrousel-img"><img src={Sli1} alt="" /></div>
+          </div>
         </div>
+        </div>
+
+
             <div className="scontent">
               
                 <div className="Sehome-largeimage-container">
