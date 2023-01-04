@@ -31,6 +31,7 @@ function Contactfooter(){
                 <ul className="myfooter-social-icons">
                     <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                     <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
                 </ul>
