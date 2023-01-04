@@ -59,7 +59,7 @@ function NewHeader() {
                 {isAdmin && adminRouter()}
 
                 {
-                    isLogged ? loggedRouter() : <li><i class="fa-sharp fa-solid fa-link"></i><Link className='newheadlink' to="/login" data-text="Login ✥ Register">Login ✥ Register</Link></li>
+                    isLogged ? loggedRouter() : <li><i class="fa-sharp fa-solid fa-link"></i><Link className='newheadlink' to="/login" data-text="Login ✦ Register">Login ✦ Register</Link></li>
                 }
 
             </ul>
