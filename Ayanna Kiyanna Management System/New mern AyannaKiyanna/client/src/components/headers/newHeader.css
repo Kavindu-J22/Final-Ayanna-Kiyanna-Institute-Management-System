@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #222;
+    background: rgb(21, 20, 25);
     overflow: hidden;
 }
 .newheader ul{

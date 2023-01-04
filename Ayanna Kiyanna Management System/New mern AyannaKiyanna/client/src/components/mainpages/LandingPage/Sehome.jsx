@@ -1,6 +1,5 @@
 import React from "react";
 import "./sehome.css";
-import { Link } from "react-router-dom";
 import Sehomeimg from "../../assets/images/SEphoto.png"
 import Sli1 from "../../assets/images/sli1.png"
 import Sli2 from "../../assets/images/sli2.png"
@@ -33,7 +32,6 @@ function Sehome(){
           <div></div>
         </div>
 
-      <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
         <h2>➷ The Sri Lanka's Best ⦁<br/><span>⟿ E - Sinhala Platform ⟿</span></h2><br/>
       <div className="SEconteudo-main">
         <div className="SEconteudo">
