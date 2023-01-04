@@ -472,51 +472,84 @@
 
 .SEconteudo{
     margin-top: 50px;
-    width: 750px;
+    margin-bottom: 20px;
+    width: 900px;
     height: 400px;
     transform: translateY(-50%,-50%);
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+    box-shadow: 10px 25px 30px rgba(3, 3, 32, 0.338);
+    transition: .4s;
+    cursor: pointer;
+}
+.SEconteudo:hover{
+    transform: translateY(-15px);
 }
 .Secarrousel{
     width: 100%;
     display: flex;
-    animation: Seslide 12s infinite;
+    animation: Seslide 20s infinite;
 }
 @keyframes Seslide{
     0%{
         transform: translateX(0);
     }
-    25%{
+    10%{
         transform: translateX(0);
     }
+    15%{
+        transform: translateX(-100%);
+    }
+    
+    25%{
+        transform: translateX(-100%);
+    }
+    
     30%{
-        transform: translateX(-100%);
-    }
-    50%{
-        transform: translateX(-100%);
-    }
-    55%{
         transform: translateX(-200%);
+    }
+    
+    40%{
+        transform: translateX(-200%);
+    }
+    
+    45%{
+        transform: translateX(-300%);
+    }
+
+    55%{
+        transform: translateX(-300%);
+    }
+    60%{
+        transform: translateX(-400%);
+    }
+    70%{
+        transform: translateX(-400%);
     }
     75%{
-        transform: translateX(-200%);
+        transform: translateX(-500%);
     }
-    80%{
-        transform: translateX(-300%);
+    85%{
+        transform: translateX(-500%);
     }
     100%{
-        transform: translateX(-300%);
+        transform: translateX(0);
     }
 }
 
 .Secarrousel-img{
     display: flex;
-    width: 750px;
+    width: 900px;
     height: 400px;
+    z-index: 1;
 }
+
 .Secarrousel-img img{
-    width: 750px;
+    width: 900px;
     height: 400px;
+    filter: brightness(.7);
+    transition: .4s;
+}
+.Secarrousel-img img:hover{
+    filter: brightness(1);
 }
