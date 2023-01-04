@@ -54,7 +54,7 @@
     position: relative;
     width: 310px;
     height: 700px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.4);
     transform: rotate(-7deg) skew(8deg) scale(.8);
     transition: 0.5s;
     margin-top: 50px;
