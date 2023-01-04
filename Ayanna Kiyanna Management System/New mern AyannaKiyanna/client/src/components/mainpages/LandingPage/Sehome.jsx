@@ -25,7 +25,7 @@ function Sehome(){
         </div>
 
       <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
-        <h2>- The Sri Lanka's Best -<br/><span>✠ E - Sinhala Platform ✠</span></h2><br/>
+        <h2>➷ The Sri Lanka's Best ⦁<br/><span>⟿ E - Sinhala Platform ⟿</span></h2><br/>
             <div className="scontent">
               
                 <div className="Sehome-largeimage-container">
@@ -51,7 +51,7 @@ function Sehome(){
             </div>
 
            <div className="Semenutitlebox">
-            <h2>● Go Thoruth And Explore ●</h2>
+            <h2>❱❱ Go Thoruth And Explore ❱❱</h2>
           </div>
 
           <div className="info-Awsome-container">

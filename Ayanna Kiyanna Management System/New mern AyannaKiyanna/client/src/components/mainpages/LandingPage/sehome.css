@@ -9,36 +9,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(70deg, rgb(7, 7, 8)0%, rgb(28, 28, 47)35%, rgb(92, 89, 110)100%);
+    background: linear-gradient(3deg, rgb(16, 9, 9)0%, rgb(28, 28, 52)35%, rgb(234, 231, 212));
     overflow: hidden;
 }
 
 .Sehome h2{
-    color: rgba(245, 242, 228, 0.89);
-    font-size: 55px;
+    color: rgba(33, 6, 30, 0.89);
+    font-size: 65px;
     margin-top: 40px;
     transition: .4s;
-    font-weight: bold;
-    font-family:'Noto Sans Sinhala', sans-serif;
-    text-shadow: 0 15px 20px rgb(12, 12, 12);
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 32px 20px rgba(51, 49, 49, 0.448);
     display: flex;
     flex-direction: column;
     cursor: pointer;
     text-transform: uppercase;
+    letter-spacing: 2.5px;
 }
 .Sehome h2 span{
-    font-size: 35px;
+    font-size: 43px;
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #eecae0;
-    font-family:'Noto Sans Sinhala', sans-serif;
+    color: #540b37;
+    font-family: 'Oswald', sans-serif;
     padding-top: 10px;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
+    letter-spacing: 2.5px;
 }
 .scontent{
-    width: 97%;
+    width: 95%;
     max-width: 97%;
     margin-top: 20px;
     display: flex;
@@ -52,12 +54,12 @@
     position: relative;
     width: 310px;
     height: 700px;
-    background: rgba(0,0,0,.03);
+    background: rgba(0,0,0,0.4);
     transform: rotate(-7deg) skew(8deg) scale(.8);
     transition: 0.5s;
     margin-top: 50px;
     border-radius: 8px;
-    box-shadow: 0 0 200px rgba(164, 158, 158, 0.393);
+    box-shadow: 0 0 200px rgba(40, 37, 37, 0.544);
     margin-left: 20px;
     
 }
@@ -190,6 +192,7 @@
     border-radius: 20px;
     transition: .4s;
     cursor: pointer;
+    box-shadow: 0 15px 100px rgba(0, 0, 0, 0.451);
 }
 .sinfo:hover{
     transform: scale(1.1);
@@ -253,7 +256,7 @@
     background-size: 400%;
     border-radius: 30px;
     z-index: 1;
-    box-shadow: 0 30px 20px rgba(0, 1, 14, 0.344);
+    box-shadow: 0 20px 25px rgba(0, 1, 14, 0.429);
 }
 .selog-btn:hover{
     animation: Sebtnlogani 8s linear infinite;
@@ -331,7 +334,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(3, 35, 54, 0.979);
+    background: rgba(7, 40, 59, 0.979);
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -411,12 +414,21 @@
     flex-direction: column;
     margin-left: 30px;
 }
-
+.Semenutitlebox{
+    position: relative;
+    display: flex;
+    width: 100%;
+    left: 0;
+    margin-left: 10%;
+}
 .Semenutitlebox h2{
     margin: 0;
     padding-bottom: 40px;
-    font-size: 40px;
-    color: #b7cec5;
+    font-size: 35px;
+    color: #d4ece3dc;
+    letter-spacing: 2.5px;
+    text-shadow: 0 15px 20px rgba(0, 0, 0, 0.725);
+    font-style: italic;
 }
 
 .Selogbtn_main-box{
