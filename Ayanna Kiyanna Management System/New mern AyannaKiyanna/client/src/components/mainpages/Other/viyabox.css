@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     background: #161623;
-    min-height: 100%;
+    min-height: 100vh;
 }
 .v-main-box::before{
     content: '';
