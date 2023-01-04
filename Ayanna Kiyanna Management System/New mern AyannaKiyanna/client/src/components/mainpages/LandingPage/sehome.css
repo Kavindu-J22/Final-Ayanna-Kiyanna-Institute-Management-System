@@ -54,7 +54,7 @@
     position: relative;
     width: 310px;
     height: 700px;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.3);
     transform: rotate(-7deg) skew(8deg) scale(.8);
     transition: 0.5s;
     margin-top: 50px;
@@ -70,7 +70,7 @@
     transition: 0.5s;
     border-radius: 8px;
     border: 1px solid rgba(147, 143, 146, 0.477);
-    opacity: 0.8;
+    opacity: 0.95;
     
 }
 .Sehome-largeimage-container:hover img:nth-child(4){
@@ -167,6 +167,31 @@
     top: 20%;
     left: 80%;
     animation: Sanimation 5s linear infinite;
+}
+.se-anime-back div:nth-child(11){
+    top: 40%;
+    left: 50%;
+    animation: Sanimation 7s linear infinite;
+}
+.se-anime-back div:nth-child(12){
+    top: 55%;
+    left: 30%;
+    animation: Sanimation 8s linear infinite;
+}
+.se-anime-back div:nth-child(13){
+    top: 55%;
+    left: 50%;
+    animation: Sanimation 6s linear infinite;
+}
+.se-anime-back div:nth-child(14){
+    top: 95%;
+    left: 80%;
+    animation: Sanimation 9s linear infinite;
+}
+.se-anime-back div:nth-child(15){
+    top: 75%;
+    left: 40%;
+    animation: Sanimation 7s linear infinite;
 }
 @keyframes Sanimation{
     0%{
