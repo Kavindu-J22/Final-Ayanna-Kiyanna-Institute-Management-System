@@ -13,12 +13,18 @@
     align-items: center;
     margin-bottom: 80px;
     width: 100%;
-    min-height: 80vh;
+    min-height: 40vh;
+    margin-top: 30px;
 }
 .SosialIconRack{
+    position: relative;
+    width: 40%;
+    left: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
+    margin-bottom: 150px;
 }
 .SosialIconRack ul{
     position: relative;
@@ -202,6 +208,7 @@
     align-items: center;
     flex-direction: column;
 }
+
 .myfooter .myfooter-social-icons,
 .myfooter .myFooter-menu{
     position: relative;

@@ -31,6 +31,10 @@ function Sehome(){
 
       <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
         <h2>➷ The Sri Lanka's Best ⦁<br/><span>⟿ E - Sinhala Platform ⟿</span></h2><br/>
+
+        <div className="SEconte">
+          
+        </div>
             <div className="scontent">
               
                 <div className="Sehome-largeimage-container">
