@@ -305,7 +305,7 @@
     display: flex;
     width: 30%;
     margin: 30px 0;
-    border-radius: 8px;
+    border-radius: 17px;
     box-shadow: 0 30px 20px rgba(0, 1, 14, 0.419);
 }
 .info-Awsome-container .info-Awsome-container-card .info-Awsome-container-imgbx i{
@@ -339,7 +339,7 @@
     color: rgba(242, 232, 232, 0.94);
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    border-radius: 8px;
+    border-radius: 15px;
     border-top: 1px solid rgba(171, 167, 167, 0.37);
     border-right: 1px solid rgba(230, 224, 224, 0.21);
 }

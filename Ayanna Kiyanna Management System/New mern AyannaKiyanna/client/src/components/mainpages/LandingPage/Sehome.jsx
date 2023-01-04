@@ -58,7 +58,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="Home">
-              <i class="fa-solid fa-house"></i>
+              <i class="fa-solid fa-house-laptop"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>
@@ -114,7 +114,7 @@ function Sehome(){
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="ForYou">
-              <i class="fa-solid fa-file-pen"></i>
+              <i class="fa-sharp fa-solid fa-feather-pointed"></i>
               </div>
               <div className="info-Awsome-container-content">
                 <div>

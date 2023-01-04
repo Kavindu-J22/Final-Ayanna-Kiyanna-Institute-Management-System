@@ -59,7 +59,7 @@ function Header() {
                 <li><a href="#SemomeDiv">{isAdmin ? 'Info' : 'Info'}</a></li>
                 <li><a href="#MBoxesDiv">{isAdmin ? 'Services' : 'Services'}</a></li>
                 <li><a href="#foryouDiv">{isAdmin ? 'for you' : 'for you'}</a></li>
-                <li><a href="/">{isAdmin ? 'Contact' : 'Contact'}</a></li>
+                <li><a href="#Contactfooter">{isAdmin ? 'Contact' : 'Contact'}</a></li>
 
                 {isAdmin && adminRouter()}
 

@@ -95,7 +95,10 @@ function Products() {
             <LoadMore />
             {products.length === 0 && <Loading />}
             </div>
+
+            <div id='Contactfooter'>
             <Contactfooter />
+            </div>
             
             <a className='gotopbtn' href='#'><i class="fa-solid fa-up-long"></i></a>
         </div> 
