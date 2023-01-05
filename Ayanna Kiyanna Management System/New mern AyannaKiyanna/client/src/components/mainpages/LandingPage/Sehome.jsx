@@ -3,7 +3,6 @@ import {GlobalState} from '../../../GlobalState'
 import axios from 'axios'
 import swal from 'sweetalert'
 import "./sehome.css";
-import { Link } from 'react-router-dom';
 import Sehomeimg from "../../assets/images/SEphoto.png"
 import Sli1 from "../../assets/images/sli1.png"
 import Sli2 from "../../assets/images/sli2.png"

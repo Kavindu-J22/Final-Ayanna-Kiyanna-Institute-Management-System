@@ -58,19 +58,21 @@ function NewHeader() {
             
 
             <img className="logoHead" src= {Aklogo}  alt="" />
+                    <div className='logoHead-titlenew'>
+                        <h2>- User Menu -</h2>
+                        <h2>- User Menu -</h2>
+                    </div>
 
-                <h1><span>අ</span>යන්න කි<span>යන්</span>න User Menu</h1>
-                
                 <div className='MyCloseBtn'><a onClick={() => window.history.back()}><i class="fa-solid fa-circle-xmark"></i></a></div>
             
-                
+                <div className='listofnewmenu'>
                 <ul style={styleMenu}>
-                    <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="Home">{isAdmin ? 'Home' : 'Home'}</Link></li>
-                    <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="About">{isAdmin ? 'About' : 'About'}</Link></li>
-                    <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="Info">{isAdmin ? 'Info' : 'Info'}</Link></li>
-                    <li><i class="fa-solid fa-book-open"></i><Link className='newheadlink' to="/Home/Service" data-text="Services">{isAdmin ? 'Services' : 'Services'}</Link></li>
-                    <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/ProductsTow" data-text="For - You">{isAdmin ? 'For You' : 'For You'}</Link></li>
-                    <li><i class="fa-solid fa-phone"></i><Link className='newheadlink' to="/Home/Contactfooter" data-text="Contact">{isAdmin ? 'Contact' : 'Contact'}</Link></li>
+                    <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="මුල් පිටුවට යන්න">{isAdmin ? 'Home' : 'Home'}</Link></li>
+                    <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="අප ගැන දැනගන්න">{isAdmin ? 'About' : 'About'}</Link></li>
+                    <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="වෙබ් අඩවිය පිළිබඳව">{isAdmin ? 'Info' : 'Info'}</Link></li>
+                    <li><i class="fa-solid fa-book-open"></i><Link className='newheadlink' to="/Home/Service" data-text="ඔබට අවශ්‍ය සේවාව ලබාගන්න">{isAdmin ? 'Services' : 'Services'}</Link></li>
+                    <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/ProductsTow" data-text="ඔබ සඳහා ඇති විශේෂිත විශේෂාංග">{isAdmin ? 'For You' : 'For You'}</Link></li>
+                    <li><i class="fa-solid fa-phone"></i><Link className='newheadlink' to="/Home/Contactfooter" data-text="ඔබගේ අදහස් අපට කියන්න">{isAdmin ? 'Contact' : 'Contact'}</Link></li>
                 
                     {isAdmin && adminRouter()}
 
@@ -79,6 +81,7 @@ function NewHeader() {
                     }
 
                 </ul>
+                </div>
             
         </section>
     )
