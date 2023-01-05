@@ -4,6 +4,7 @@ import {DataProvider} from './GlobalState'
 import MainPages from './components/mainpages/Pages'
 import './app.css'
 import { Link } from 'react-router-dom';
+import Staklogo from './components/assets/images/AKlogo.png'
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <Router>
         <div className="App">
           <MainPages />
+          <div className='AkstableLogo'><Link to="/"><img src={Staklogo}></img></Link></div>
           <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
           <a className='gotopbtn' href='#'><i class="fa-solid fa-up-long"></i></a>
         </div>

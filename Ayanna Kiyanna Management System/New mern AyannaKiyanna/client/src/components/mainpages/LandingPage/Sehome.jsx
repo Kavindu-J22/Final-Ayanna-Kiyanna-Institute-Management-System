@@ -32,7 +32,10 @@ function Sehome(){
           <div></div>
         </div>
 
-        <h2>➷ The Sri Lanka's Best ⦁<br/><span>⟿ E - Sinhala Platform ⟿</span></h2><br/>
+      <div className="SeNeonText-tltle">
+      <h2>➷ The Sri Lanka's Best ⦁<br/><span>⟿ E - Sinhala Platform ⟿</span></h2><br/>
+      </div>
+        
       <div className="SEconteudo-main">
         <div className="SEconteudo">
           <div className="Secarrousel">
