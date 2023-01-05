@@ -18,22 +18,11 @@ function Header() {
         localStorage.removeItem('firstLogin')
         
         swal({
-            title: 'Are you sure?',
-            text: "You won't be able to Logout at this moment!",
-            icon: 'info',
-            showCancelButton: true,
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes, Logout Me!'
-          }).then((result) => {
-            if (result.isConfirmed) {
-              swal(
-                'Logout!',
-                'Your has been Logout.',
-                'success'
-              )
-            }
-          })
+            title: "Done!",
+            text: "You are now loged out.!",
+            icon: "info",
+            button: "Okay!"
+        })
         .then((value) => {
             swal(window.location.href = "/");
         });

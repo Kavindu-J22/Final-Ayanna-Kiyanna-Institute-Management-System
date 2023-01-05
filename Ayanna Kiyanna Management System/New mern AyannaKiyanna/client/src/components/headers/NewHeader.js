@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import axios from 'axios'
 import "./newHeader.css"
 import Aklogo from "../assets/images/AKlogo.png"
+import swal from 'sweetalert'
 
 function NewHeader() {
     const state = useContext(GlobalState)
@@ -16,7 +17,16 @@ function NewHeader() {
         
         localStorage.removeItem('firstLogin')
         
-        window.location.href = "/";
+        swal({
+            title: "Done!",
+            text: "You are now loged out.!",
+            icon: "info",
+            button: "Okay!"
+        })
+        .then((value) => {
+            swal(window.location.href = "/");
+        });
+
     }
 
     const adminRouter = () =>{
