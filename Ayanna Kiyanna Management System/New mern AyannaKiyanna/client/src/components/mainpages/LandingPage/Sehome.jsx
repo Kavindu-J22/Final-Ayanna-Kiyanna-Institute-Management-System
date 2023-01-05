@@ -1,12 +1,48 @@
-import React from "react";
+import React, {useContext, useState} from 'react'
+import {GlobalState} from '../../../GlobalState'
+import axios from 'axios'
+import swal from 'sweetalert'
 import "./sehome.css";
+import { Link } from 'react-router-dom';
 import Sehomeimg from "../../assets/images/SEphoto.png"
 import Sli1 from "../../assets/images/sli1.png"
 import Sli2 from "../../assets/images/sli2.png"
 import Sli3 from "../../assets/images/sli3.png"
 import Sli4 from "../../assets/images/sli4.png"
 
+
+
 function Sehome(){
+
+  const state = useContext(GlobalState)
+    const [isLogged] = state.userAPI.isLogged
+    const [isAdmin] = state.userAPI.isAdmin
+    const [menu, setMenu] = useState(false)
+
+    const logoutUser = async () =>{
+        await axios.get('/user/logout')
+        
+        localStorage.removeItem('firstLogin')
+        
+        swal({
+            title: "Done!",
+            text: "You are now loged out.!",
+            icon: "info",
+            button: false
+        })
+        .then((value) => {
+            swal(window.location.href = "/");
+        });
+
+    }
+
+    const loggedRouter = () =>{
+      return(
+          <>
+              <a className='selog-btn' to="/" onClick={logoutUser}>⟲ Logout</a>
+          </>
+      )
+  }
 
   return(
 
@@ -92,11 +128,19 @@ function Sehome(){
                       <p> “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය. සිංහල විෂය සාධන මට්ටම ඉහළ දැමීම මෙන් ම ළමා මණසෙහි සියුම් වූ වේදයිතයන් අවදිකර රසවින්දනයෙන් පෝෂිත සමාජයක් බිහිකරලීම මෙම සඟරාව කිරීමෙහි මූලික අභිලාෂයයි.
                       </p>
                   </div>
+
                     <div className="Selogbtn_main-box">
-                      <a href="#" className="selog-btn">➥ Login - Sign Up</a>
+
                       <a href="#" className="selog-btn">⛚ View Menu</a>
+
+                      {
+                      isLogged ? loggedRouter() : <a className="selog-btn" href="/login">➥ Login - Sign Up</a>
+                      }
+
                     </div>
+
                   </div>
+                  
                 </div>
                   
             </div>
