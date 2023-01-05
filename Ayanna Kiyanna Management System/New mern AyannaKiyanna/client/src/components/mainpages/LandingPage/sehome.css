@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(3deg, rgb(16, 9, 9)0%, rgb(242, 215, 236),#161922 78%);
+    background: linear-gradient(3deg, rgb(16, 9, 9)0%, rgb(245, 210, 237),#161922 80%);
     overflow: hidden;
 }
 
@@ -142,7 +142,7 @@
     transition: 0.5s;
     margin-top: 50px;
     border-radius: 8px;
-    box-shadow: 0 0 200px rgba(40, 37, 37, 0.544);
+    box-shadow: 0 0 150px rgba(26, 24, 24, 0.662);
     margin-left: 20px;
     
 }
@@ -524,6 +524,7 @@
     margin-left: 30px;
 }
 .Semenutitlebox{
+    margin-top: 20px;
     position: relative;
     display: flex;
     width: 100%;
@@ -534,9 +535,12 @@
     margin: 0;
     padding-bottom: 40px;
     font-size: 35px;
-    color: #d4ece3dc;
-    letter-spacing: 3px;
-    text-shadow: 0 15px 20px rgba(0, 0, 0, 0.725);
+    color: #3a2038dc;
+    letter-spacing: 0;
+    text-shadow: 0 30px 20px rgba(0, 0, 0, 0.451);
+    font-weight: 900;
+    font-style: italic;
+    text-transform: capitalize;
 }
 
 .Selogbtn_main-box{
@@ -546,8 +550,6 @@
     left: 25%;
     margin: 40px;
 }
-
-
 
 .SEconteudo{
     margin-top: 50px;
