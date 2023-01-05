@@ -59,26 +59,26 @@ function NewHeader() {
 
             <img className="logoHead" src= {Aklogo}  alt="" />
 
-            <div className='NewhedderTopbar'>
-                    <h1><span>අ</span>යන්න කි<span>යන්</span>න User Menu</h1>
+                <h1><span>අ</span>යන්න කි<span>යන්</span>න User Menu</h1>
+                
                 <div className='MyCloseBtn'><a onClick={() => window.history.back()}><i class="fa-solid fa-circle-xmark"></i></a></div>
-            </div>
+            
+                
+                <ul style={styleMenu}>
+                    <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="Home">{isAdmin ? 'Home' : 'Home'}</Link></li>
+                    <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="About">{isAdmin ? 'About' : 'About'}</Link></li>
+                    <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="Info">{isAdmin ? 'Info' : 'Info'}</Link></li>
+                    <li><i class="fa-solid fa-book-open"></i><Link className='newheadlink' to="/Home/Service" data-text="Services">{isAdmin ? 'Services' : 'Services'}</Link></li>
+                    <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/ProductsTow" data-text="For - You">{isAdmin ? 'For You' : 'For You'}</Link></li>
+                    <li><i class="fa-solid fa-phone"></i><Link className='newheadlink' to="/Home/Contactfooter" data-text="Contact">{isAdmin ? 'Contact' : 'Contact'}</Link></li>
+                
+                    {isAdmin && adminRouter()}
 
-            <ul style={styleMenu}>
-                <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="Home">{isAdmin ? 'Home' : 'Home'}</Link></li>
-                <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="About">{isAdmin ? 'About' : 'About'}</Link></li>
-                <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="Info">{isAdmin ? 'Info' : 'Info'}</Link></li>
-                <li><i class="fa-solid fa-book-open"></i><Link className='newheadlink' to="/Home/Service" data-text="Services">{isAdmin ? 'Services' : 'Services'}</Link></li>
-                <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/ProductsTow" data-text="For - You">{isAdmin ? 'For You' : 'For You'}</Link></li>
-                <li><i class="fa-solid fa-phone"></i><Link className='newheadlink' to="/Home/Contactfooter" data-text="Contact">{isAdmin ? 'Contact' : 'Contact'}</Link></li>
+                    {
+                        isLogged ? loggedRouter() : <li><i class="fa-sharp fa-solid fa-link"></i><Link className='newheadlink' to="/login" data-text="Login ✦ Register">Login ✦ Register</Link></li>
+                    }
 
-                {isAdmin && adminRouter()}
-
-                {
-                    isLogged ? loggedRouter() : <li><i class="fa-sharp fa-solid fa-link"></i><Link className='newheadlink' to="/login" data-text="Login ✦ Register">Login ✦ Register</Link></li>
-                }
-
-            </ul>
+                </ul>
             
         </section>
     )
