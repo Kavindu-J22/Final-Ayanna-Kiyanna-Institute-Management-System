@@ -5,6 +5,7 @@ import axios from 'axios'
 import "./newHeader.css"
 import Aklogo from "../assets/images/AKlogo.png"
 import swal from 'sweetalert'
+import topbaranimevi from "../assets/videos/particles.mp4"
 
 function NewHeader() {
     const state = useContext(GlobalState)
@@ -57,10 +58,10 @@ function NewHeader() {
             
 
             <img className="logoHead" src= {Aklogo}  alt="" />
-            
+
             <div className='NewhedderTopbar'>
-            <div className='TopbarAnime'><h1>“අයන්න කියන්න” User Menu</h1></div>
-            <div className='MyCloseBtn'><a onClick={() => window.history.back()}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                    <h1><span>අ</span>යන්න කි<span>යන්</span>න User Menu</h1>
+                <div className='MyCloseBtn'><a onClick={() => window.history.back()}><i class="fa-solid fa-circle-xmark"></i></a></div>
             </div>
 
             <ul style={styleMenu}>
