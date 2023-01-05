@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
 import "./register.css"
+import swal from 'sweetalert'
 
 function Register() {
     const [user, setUser] = useState({
@@ -20,8 +21,16 @@ function Register() {
 
             localStorage.setItem('firstLogin', true)
 
-            
-            window.location.href = "/Header/NewHeader";
+            swal({
+                title: "Done!",
+                text: "Registration Successfull",
+                icon: "success",
+                button: "Okay!"
+            })
+            .then((value) => {
+                swal(window.location.href = "/Header/NewHeader");
+            });
+
         } catch (err) {
             alert(err.response.data.msg)
         }

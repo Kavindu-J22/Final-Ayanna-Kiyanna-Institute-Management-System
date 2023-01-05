@@ -4,6 +4,7 @@ import Menu from './icon/menu.svg'
 import Close from './icon/close.svg'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
+import swal from 'sweetalert'
 
 function Header() {
     const state = useContext(GlobalState)
@@ -16,7 +17,27 @@ function Header() {
         
         localStorage.removeItem('firstLogin')
         
-        window.location.href = "/";
+        swal({
+            title: 'Are you sure?',
+            text: "You won't be able to Logout at this moment!",
+            icon: 'info',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, Logout Me!'
+          }).then((result) => {
+            if (result.isConfirmed) {
+              swal(
+                'Logout!',
+                'Your has been Logout.',
+                'success'
+              )
+            }
+          })
+        .then((value) => {
+            swal(window.location.href = "/");
+        });
+
     }
 
     const adminRouter = () =>{
