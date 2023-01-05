@@ -57,9 +57,11 @@ function NewHeader() {
             
 
             <img className="logoHead" src= {Aklogo}  alt="" />
-
+            
+            <div className='NewhedderTopbar'>
+            <div className='TopbarAnime'><h1>“අයන්න කියන්න” User Menu</h1></div>
             <div className='MyCloseBtn'><a onClick={() => window.history.back()}><i class="fa-solid fa-circle-xmark"></i></a></div>
-
+            </div>
 
             <ul style={styleMenu}>
                 <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="Home">{isAdmin ? 'Home' : 'Home'}</Link></li>
