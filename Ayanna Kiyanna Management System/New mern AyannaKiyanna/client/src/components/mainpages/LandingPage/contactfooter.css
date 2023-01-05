@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     width: 100%;
     min-height: 100vh;
-    background: rgb(208, 203, 203);
+    background: linear-gradient(90deg,#161922 0%,#161922 ,30%,#595e68 30%,#434750 100%);
 }
 .Contactinfo-mainmy-box{
     display: flex;
@@ -321,4 +321,70 @@
 }
 .mymymy a:hover{
     color: #fff;
+}
+
+/* 3 boxes */
+.Contactmainf-body{
+    width: 100%;
+}
+.Contactmainf-content{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+.Contactmainf-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.Contactmainf-title h2{
+    color: rgba(246, 238, 238, 0.941);
+    font-weight: 700;
+    text-shadow: 0 5px 35px rgba(0, 0, 0, 0.635);
+}
+.form{
+    grid-area: form;
+}
+.info{
+    grid-area: info;
+}
+.map{
+    grid-area: map;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.56);
+    border-radius: 10px;
+}
+.Contactmainf-threeboxes{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas:
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* contact form */
+
+.contact-form-container{
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    padding: 50px;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }

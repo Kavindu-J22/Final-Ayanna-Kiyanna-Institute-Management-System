@@ -372,8 +372,9 @@
     overflow: hidden;
     transition: 0.5s ease-in-out;
     border-radius: 15px;
-    border-top: 1px solid rgba(171, 167, 167, 0.37);
-    border-right: 1px solid rgba(230, 224, 224, 0.21);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 .info-Awsome-container .info-Awsome-container-card:hover .info-Awsome-container-imgbx{
     width: 100px;

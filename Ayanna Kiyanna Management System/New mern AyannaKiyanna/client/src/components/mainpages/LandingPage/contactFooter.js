@@ -9,18 +9,94 @@ function Contactfooter(){
         <div className="Contact-Footer-main">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<div className="Sinfo-mainmy-box">
-                  <div>
-                  <div className="sinfo">
-                      <p> “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය. සිංහල විෂය සාධන මට්ටම ඉහළ දැමීම මෙන් ම ළමා මණසෙහි සියුම් වූ වේදයිතයන් අවදිකර රසවින්දනයෙන් පෝෂිත සමාජයක් බිහිකරලීම මෙම සඟරාව කිරීමෙහි මූලික අභිලාෂයයි.
-                      </p>
-                  </div>
-                    <div className="Selogbtn_main-box">
-                      <a href="#" className="selog-btn">➥ Login - Sign Up</a>
-                      <a href="#" className="selog-btn">⛚ View Menu</a>
-                    </div>
-                  </div>
+        <div className="Contactmainf-body">
+            <div className="Contactmainf-content">
+
+                <div className="Contactmainf-title">
+                    <h2>Contact Us</h2>
                 </div>
+                <div className="Contactmainf-threeboxes">
+
+                    {/* contact form */}
+
+
+                    <div className="contact form">
+
+                        <div className="contact-form-container">
+                            <h2>ඔබේ අදහස් අපට කියන්න..</h2>
+                        
+                            <div className="ctrow100">
+                                <div className="ctcol">
+                                    <div className="ctinpubox">
+                                        <input type="text" name="" required="" />
+                                        <span className="cttext">frist name</span>
+                                        <span className="ctline"></span>
+                                    </div>
+                                </div>
+                                <div className="ctcol">
+                                    <div className="ctinpubox">
+                                        <input type="text" name="" required="" />
+                                        <span className="cttext">Last name</span>
+                                        <span className="ctline"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="ctrow100">
+                                <div className="ctcol">
+                                    <div className="ctinpubox">
+                                        <input type="text" name="" required="" />
+                                        <span className="cttext">E-mail</span>
+                                        <span className="ctline"></span>
+                                    </div>
+                                </div>
+                                <div className="ctcol">
+                                    <div className="ctinpubox">
+                                        <input type="text" name="" required="" />
+                                        <span className="cttext">Mobile</span>
+                                        <span className="ctline"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="ctrow100">
+                                <div className="ctcol">
+                                    <div className="ctinpubox textaera1">
+                                        <input type="text" name="" required="" />
+                                        <span className="cttext">About What.?</span>
+                                        <span className="ctline"></span>
+                                    </div>
+                                </div>
+                                <div className="ctcol">
+                                    <div className="ctinpubox textaera2">
+                                        <textarea type="text" name="" required=""></textarea>
+                                        <span className="cttext">Type Your Message Here..</span>
+                                        <span className="ctline"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="ctrow100">
+                                <div className="ctcol">
+                                    <input type="submit" value="send" />
+                                </div>      
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    {/* info box */}
+                    <div className="contact info"></div>
+
+                    {/* map box */}
+                    <div className="contact map"></div>
+                </div>
+
+            </div>
+                     
+        </div>
 
         <div className="Contactinfo-mainmy-box">
 
