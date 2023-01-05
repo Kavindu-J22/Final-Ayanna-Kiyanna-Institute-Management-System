@@ -77,7 +77,10 @@
     display: flex;
     justify-content: center;
     opacity: 0.03;
+    animation: animation 2s ease-in-out infinite;
 }
+
+
 
 .newheader h1{
     color: #fff;
