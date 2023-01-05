@@ -28,14 +28,14 @@ function Contactfooter(){
                             <div className="ctrow100">
                                 <div className="ctcol">
                                     <div className="ctinpubox">
-                                        <input type="text" name="" required="" />
+                                        <input type="text" name="FristName" required="required" />
                                         <span className="cttext">frist name</span>
                                         <span className="ctline"></span>
                                     </div>
                                 </div>
                                 <div className="ctcol">
                                     <div className="ctinpubox">
-                                        <input type="text" name="" required="" />
+                                        <input type="text" name="LastName" required="required" />
                                         <span className="cttext">Last name</span>
                                         <span className="ctline"></span>
                                     </div>
@@ -45,31 +45,31 @@ function Contactfooter(){
                             <div className="ctrow100">
                                 <div className="ctcol">
                                     <div className="ctinpubox">
-                                        <input type="text" name="" required="" />
+                                        <input type="text" name="E-Mail" required="required" />
                                         <span className="cttext">E-mail</span>
                                         <span className="ctline"></span>
                                     </div>
                                 </div>
                                 <div className="ctcol">
                                     <div className="ctinpubox">
-                                        <input type="text" name="" required="" />
+                                        <input type="text" name="Phone" required="required" />
                                         <span className="cttext">Mobile</span>
                                         <span className="ctline"></span>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="ctrow100">
+                            <div className="ctrow1001">
                                 <div className="ctcol">
-                                    <div className="ctinpubox textaera1">
-                                        <input type="text" name="" required="" />
+                                    <div className="ctinpubox">
+                                        <input type="text" name="About-What" required="required" />
                                         <span className="cttext">About What.?</span>
                                         <span className="ctline"></span>
                                     </div>
                                 </div>
                                 <div className="ctcol">
-                                    <div className="ctinpubox textaera2">
-                                        <textarea type="text" name="" required=""></textarea>
+                                    <div className="ctinpubox textaera">
+                                        <textarea type="text" name="Description" required="required"></textarea>
                                         <span className="cttext">Type Your Message Here..</span>
                                         <span className="ctline"></span>
                                     </div>
