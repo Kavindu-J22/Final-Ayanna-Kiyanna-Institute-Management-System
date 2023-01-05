@@ -214,6 +214,7 @@ button{
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: .5s;
+  z-index: 3000;
 }
 .AkstableLogo:hover{
   background: rgba(44, 4, 29, 0.441);
@@ -230,5 +231,32 @@ button{
 }
 .AkstableLogo img:hover{
   filter: brightness(1.1);
+  opacity: 1;
+}
+.MyCloseBtn{
+  position: absolute;
+  right: 50px;
+  top: 40px;
+  color: aliceblue;
+  font-size: 1.7em;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.045);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+}
+.MyCloseBtn a{
+  position: relative;
+  padding: 10px;
+  transition: .4s;
+  margin-top: 4px;
+  opacity: 0.9;
+}
+.MyCloseBtn a:hover{
+  transform: scale(1.1);
   opacity: 1;
 }
