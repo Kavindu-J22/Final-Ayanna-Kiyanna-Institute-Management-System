@@ -32,7 +32,9 @@ function Sehome(){
           <div></div>
         </div>
 
-      <div className="SeNeonText-tltle">
+      <div className="SeNeonText-tltlebox">
+        <div className="Se-Lightbar"></div>
+        <div className="Se-toplayer"></div>
       <h2>➷ The Sri Lanka's Best ⦁<br/><span>⟿ E - Sinhala Platform ⟿</span></h2><br/>
       </div>
         
