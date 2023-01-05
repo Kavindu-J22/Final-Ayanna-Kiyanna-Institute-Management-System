@@ -21,7 +21,7 @@ function Register() {
             localStorage.setItem('firstLogin', true)
 
             
-            window.location.href = "/";
+            window.location.href = "/Header/NewHeader";
         } catch (err) {
             alert(err.response.data.msg)
         }
