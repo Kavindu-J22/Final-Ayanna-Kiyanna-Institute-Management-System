@@ -21,7 +21,7 @@ function Header() {
             title: "Done!",
             text: "You are now loged out.!",
             icon: "info",
-            button: "Okay!"
+            button: false
         })
         .then((value) => {
             swal(window.location.href = "/");

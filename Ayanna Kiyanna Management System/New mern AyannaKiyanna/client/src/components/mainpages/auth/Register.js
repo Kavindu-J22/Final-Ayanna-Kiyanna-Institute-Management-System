@@ -25,7 +25,7 @@ function Register() {
                 title: "Done!",
                 text: "Registration Successfull",
                 icon: "success",
-                button: "Okay!"
+                button: false
             })
             .then((value) => {
                 swal(window.location.href = "/Header/NewHeader");
