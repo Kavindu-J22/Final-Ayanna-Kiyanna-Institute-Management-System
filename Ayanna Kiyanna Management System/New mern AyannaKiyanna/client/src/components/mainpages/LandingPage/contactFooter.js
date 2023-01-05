@@ -24,7 +24,7 @@ function Contactfooter(){
 
                         <div className="contact-form-container">
                             <h2>ඔබේ අදහස් අපට කියන්න..</h2>
-                        
+                        <form action="https://formsubmit.co/5294a6e917673f61dce93c6564bd8d5c" method="POST">
                             <div className="ctrow100">
                                 <div className="ctcol">
                                     <div className="ctinpubox">
@@ -45,14 +45,14 @@ function Contactfooter(){
                             <div className="ctrow100">
                                 <div className="ctcol">
                                     <div className="ctinpubox">
-                                        <input type="text" name="E-Mail" required="required" />
+                                        <input type="email" name="E-Mail" required="required" />
                                         <span className="cttext">E-mail</span>
                                         <span className="ctline"></span>
                                     </div>
                                 </div>
                                 <div className="ctcol">
                                     <div className="ctinpubox">
-                                        <input type="text" name="Phone" required="required" />
+                                        <input type="number" name="Phone" required="required" />
                                         <span className="cttext">Mobile</span>
                                         <span className="ctline"></span>
                                     </div>
@@ -69,7 +69,7 @@ function Contactfooter(){
                                 </div>
                                 <div className="ctcol">
                                     <div className="ctinpubox textaera">
-                                        <textarea type="text" name="Description" required="required"></textarea>
+                                        <textarea type="text" name="Message" required="required"></textarea>
                                         <span className="cttext">Type Your Message Here..</span>
                                         <span className="ctline"></span>
                                     </div>
@@ -81,6 +81,7 @@ function Contactfooter(){
                                     <input type="submit" value="send" />
                                 </div>      
                             </div>
+                        </form>
                         </div>
                     </div>
 
