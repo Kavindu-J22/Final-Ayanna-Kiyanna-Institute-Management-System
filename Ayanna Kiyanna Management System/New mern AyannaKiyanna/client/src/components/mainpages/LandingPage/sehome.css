@@ -27,10 +27,10 @@
 .Sehome h2{
     color: #fff;
     font-weight: 700;
-    font-size: 3.2em;
+    font-size: 3.5em;
     margin-top: 0px;
     transition: .4s;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins',sans-serif;
     text-shadow: 0 0 10px #dd14e8,
                 0 0 20px #0fc7a8,
                 0 0 30px #dd14e8,
@@ -46,7 +46,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins',sans-serif;
     padding-top: 10px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -87,7 +87,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 85%;
+    height: 90%;
     background: #161922;
     animation: animatetoplayer 10s linear infinite;
 }
