@@ -5,8 +5,53 @@ import "./contactfooter.css";
 function Contactfooter(){
     
   return(
-   
-        <div className="Contact-Footer-main">
+
+    <div className="Contact-Footer-main">
+
+                <div className="Contactbubles">
+                    <span id="aa"></span>
+                    <span id="bb"></span>
+                    <span id="cc"></span>
+                    <span id="dd"></span>
+                    <span id="ee"></span>
+                    <span id="ff"></span>
+                    <span id="gg"></span>
+                    <span id="hh"></span>
+                    <span id="ii"></span>
+                    <span id="jj"></span>
+                    <span id="kk"></span>
+                    <span id="ll"></span>
+                    <span id="mm"></span>
+                    <span id="nn"></span>
+                    <span id="oo"></span>
+                    <span id="pp"></span>
+                    <span id="qq"></span>
+                    <span id="rr"></span>
+                    <span id="ss"></span>
+                    <span id="tt"></span>
+                    <span id="aa"></span>
+                    <span id="bb"></span>
+                    <span id="cc"></span>
+                    <span id="dd"></span>
+                    <span id="ee"></span>
+                    <span id="ff"></span>
+                    <span id="gg"></span>
+                    <span id="hh"></span>
+                    <span id="ii"></span>
+                    <span id="jj"></span>
+                    <span id="kk"></span>
+                    <span id="ll"></span>
+                    <span id="mm"></span>
+                    <span id="nn"></span>
+                    <span id="oo"></span>
+                    <span id="pp"></span>
+                    <span id="qq"></span>
+                    <span id="rr"></span>
+                    <span id="ss"></span>
+                    <span id="tt"></span>
+                    
+                </div>
+
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <div className="Contactmainf-body">
@@ -24,7 +69,7 @@ function Contactfooter(){
 
                         <div className="contact-form-container">
                             <h2>ඔබේ අදහස් අපට කියන්න..</h2>
-                        <form action="https://formsubmit.co/5294a6e917673f61dce93c6564bd8d5c" method="POST">
+                            <form action="https://formsubmit.co/5294a6e917673f61dce93c6564bd8d5c" method="POST">
                             <div className="ctrow100">
                                 <div className="ctcol">
                                     <div className="ctinpubox">
@@ -81,7 +126,7 @@ function Contactfooter(){
                                     <input type="submit" value="send" />
                                 </div>      
                             </div>
-                        </form>
+                            </form>
                         </div>
                     </div>
 

@@ -500,3 +500,95 @@
     font-size: 18px;
     border-radius: 4px;
 }
+
+/* bubles back */
+.Contactbubles{
+    position: relative;
+    display: flex;
+}
+.Contactbubles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+                0 0 50px #4fc3dc,
+                0 0 100px #4fc3dc;
+    animation: ctbubleanimationmy 15s linear infinite;
+}
+.Contactbubles span:nth-child(even){
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+                0 0 50px #ff2d75,
+                0 0 100px #ff2d75;
+}
+@keyframes ctbubleanimationmy{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+.Contactbubles span#aa{
+    animation-duration: calc(125s / 11);
+}
+.Contactbubles span#bb{
+    animation-duration: calc(125s / 12);
+}
+.Contactbubles span#cc{
+    animation-duration: calc(125s / 24);
+}
+.Contactbubles span#dd{
+    animation-duration: calc(125s / 10);
+}
+.Contactbubles span#ee{
+    animation-duration: calc(125s / 14);
+}
+.Contactbubles span#ff{
+    animation-duration: calc(125s / 23);
+}
+.Contactbubles span#gg{
+    animation-duration: calc(125s / 18);
+}
+.Contactbubles span#hh{
+    animation-duration: calc(125s / 16);
+}
+.Contactbubles span#ii{
+    animation-duration: calc(125s / 19);
+}
+.Contactbubles span#jj{
+    animation-duration: calc(125s / 20);
+}
+.Contactbubles span#kk{
+    animation-duration: calc(125s / 22);
+}
+.Contactbubles span#ll{
+    animation-duration: calc(125s / 25);
+}
+.Contactbubles span#mm{
+    animation-duration: calc(125s / 18);
+}
+.Contactbubles span#nn{
+    animation-duration: calc(125s / 21);
+}
+.Contactbubles span#oo{
+    animation-duration: calc(125s / 15);
+}
+.Contactbubles span#pp{
+    animation-duration: calc(125s / 13);
+}
+.Contactbubles span#qq{
+    animation-duration: calc(125s / 26);
+}
+.Contactbubles span#rr{
+    animation-duration: calc(125s / 17);
+}
+.Contactbubles span#ss{
+    animation-duration: calc(125s / 13);
+}
+.Contactbubles span#tt{
+    animation-duration: calc(125s / 28);
+}
