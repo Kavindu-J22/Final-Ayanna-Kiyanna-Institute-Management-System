@@ -599,3 +599,14 @@
 .Contactbubles span#tt{
     animation-duration: calc(135s / 28);
 }
+
+/* valible link box */
+
+.valublelinksbox{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
