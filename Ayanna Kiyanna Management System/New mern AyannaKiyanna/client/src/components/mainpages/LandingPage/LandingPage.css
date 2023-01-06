@@ -104,23 +104,21 @@
     animation: animation 2s ease-in-out infinite;
 }
 .content h2{
-    font-size: 1.7em;
-    text-shadow: 0px 0px 5px rgb(255, 50, 214),0px 0px 15px #232c29;
-    cursor: pointer;
-    padding: 20px;
-    color: rgb(249, 241, 231);
+    font-size: 1.5em;
+    padding-top: 40px;
+    color: rgb(41, 26, 39);
 }
 .content p{
     width: 80%;
     color: #120105;
     font-family: 'Noto Sans Sinhala',sans-serif;
-    text-shadow: 0px 0px 5px rgb(200, 195, 195),0px 0px 15px #5e5353;
+    text-shadow: 0px 0px 5px rgba(200, 195, 195, 0.573),0px 0px 15px #5e53535a;
     font-size: 14px;
     font-style: italic;
     font-weight: 600;
     transition: 0.7s;
     cursor: pointer;
-    padding: 10px;
+    padding-top: 5px;
 }
 .content p:hover{
     transform: scale(1.1);

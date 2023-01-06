@@ -112,7 +112,7 @@
     height: 220px;
     background: rgba(255, 255, 255, 0.604);
     margin: 40px 20px;
-    padding: 20px 15px;
+    padding: 15px 15px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 102px rgba(131, 120, 120, 0.5);
@@ -123,7 +123,7 @@
     border-left: 1px solid rgba(255, 255, 255, 0.547);
 }
 .About-Card-container .About-card:hover{
-    height: 430px;
+    height: 440px;
 }
 .About-Card-container .About-card .About-imgbx{
     position: relative;
@@ -144,6 +144,8 @@
     opacity: 0.9;
 }
 .About-Card-container .About-card .About-card-content{
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin-top: -140px;
     padding: 15px 35px;
@@ -166,6 +168,7 @@
     text-shadow: 0 5px 20px rgba(58, 55, 55, 0.663);
 }
 .About-card-content p{
+    position: relative;
     font-size: 16px;
     color: #2a2c33;
     font-weight: bold;
