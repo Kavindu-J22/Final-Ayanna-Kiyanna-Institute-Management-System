@@ -147,20 +147,25 @@ function Contactfooter(){
             <div className="Contactinfo-mainmy-box">
 
                 <div className="valublelinksbox">
-                <h1>hhhhhhhhhhhhhh</h1>
+                <h1>වෙනත් ප්‍රයෝජනවත් සබැඳි -</h1>
                     <ul>
-                        <li></li>
+                        <li>ඉ-නැණ පියස</li>
+                        <li>ඊ-තක්සලාව</li>
+                        <li>පළාත් අධ්‍යාපන දෙපාර්තමේන්තුව</li>
+                        <li>සිප්තතු</li>
+                        <li>අධ්‍යාපන අමාත්‍යාංශය</li>
+                        <li>ජාතික අධ්‍යාපන ආයතනය</li>
                     </ul>
                 </div>
 
                 <div className="SosialIconRack">
                     <ul>
-                        <li id="SR1"><a href="#"><span><i class="fa-brands fa-facebook"></i></span> facebook</a></li>
-                        <li id="SR2"><a href="#"><span><i class="fa-brands fa-whatsapp"></i></span> whatsapp</a></li>
-                        <li id="SR3"><a href="#"><span><i class="fa-brands fa-facebook-messenger"></i></span> Massenger</a></li>
-                        <li id="SR4"><a href="#"><span><i class="fa-brands fa-instagram"></i></span> instagram</a></li>
-                        <li id="SR5"><a href="#"><span><i class="fa-brands fa-youtube"></i></span> Youtube</a></li>
-                        <li id="SR6"><a href="#"><span><i class="fa-solid fa-envelope"></i></span> G-Mail</a></li>
+                        <li id="SR1"><a href="#"><span><i class="fa-brands fa-facebook"></i></span> facebook - “අයන්න කියන්න”</a></li>
+                        <li id="SR2"><a href="#"><span><i class="fa-brands fa-whatsapp"></i></span> whatsapp - “අයන්න කියන්න”</a></li>
+                        <li id="SR3"><a href="#"><span><i class="fa-brands fa-facebook-messenger"></i></span> Massenger - “අයන්න කියන්න”</a></li>
+                        <li id="SR4"><a href="#"><span><i class="fa-brands fa-instagram"></i></span> instagram - “අයන්න කියන්න”</a></li>
+                        <li id="SR5"><a href="#"><span><i class="fa-brands fa-youtube"></i></span> Youtube - “අයන්න කියන්න”</a></li>
+                        <li id="SR6"><a href="#"><span><i class="fa-solid fa-envelope"></i></span> G-Mail - “අයන්න කියන්න”</a></li>
                     </ul>
                 </div>
             </div>
@@ -180,12 +185,12 @@ function Contactfooter(){
                         <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
                     </ul>
                     <ul className="myFooter-menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Info</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">For-You</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#MAboutDiv">About</a></li>
+                        <li><a href="#SemomeDiv">Info</a></li>
+                        <li><a href="#MBoxesDiv">Services</a></li>
+                        <li><a href="#foryouDiv">For-You</a></li>
+                        <li><a href="#Contactfooter">Contact</a></li>
                     </ul>
                     <p>©Sinhala Institute Of Ayanna Kiyanna | All Rights Reserved : 2023</p>
                     <li className="mymymy">Wbe Developer and Designer :<a href="https://github.com/Kavindu-J22"> @Kavindu Jayasinghe</a></li>

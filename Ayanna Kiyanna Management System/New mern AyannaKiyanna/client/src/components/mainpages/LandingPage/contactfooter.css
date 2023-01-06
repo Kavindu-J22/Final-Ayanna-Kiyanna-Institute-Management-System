@@ -14,7 +14,7 @@
     margin-bottom: 80px;
     width: 100%;
     min-height: 40vh;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .SosialIconRack{
     position: relative;
@@ -24,6 +24,7 @@
     align-items: center;
     height: auto;
     margin-bottom: 150px;
+    margin-top: 40px;
 }
 .SosialIconRack ul{
     position: relative;
@@ -32,7 +33,7 @@
 .SosialIconRack ul li{
     position: relative;
     list-style: none;
-    width: 130px;
+    width: 280px;
     background: #3e3f46;
     padding: 15px;
     transition: 0.5s;
@@ -607,6 +608,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 50%;
     height: 400px;
+}
+.valublelinksbox h1{
+    color: #fff;
+    font-size: 2.5em;
+    margin: 20px;
+}
+.valublelinksbox li{
+    color: #fff;
+    font-size: 1.5em;
+    margin: 20px;
 }
