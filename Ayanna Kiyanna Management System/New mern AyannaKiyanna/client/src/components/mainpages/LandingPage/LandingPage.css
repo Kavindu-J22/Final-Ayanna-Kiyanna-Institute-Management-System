@@ -62,7 +62,7 @@
     align-items: center;
     max-width: 55%;
     height: auto;
-    opacity: 0.9;
+    opacity: .95;
     transition: .7s;
 }
 .logo2:hover{
@@ -129,7 +129,7 @@
     align-items: center;
     width: 450px;
     height: auto;
-    opacity: 0.7;
+    opacity: 0.6;
     cursor: pointer;
     padding-bottom: 10px;
     margin-top: 100px;

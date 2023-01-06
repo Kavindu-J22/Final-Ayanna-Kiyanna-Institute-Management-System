@@ -25,17 +25,16 @@
 }
 
 .Sehome h2{
-    color: #fff;
+    color: rgb(255, 241, 241);
     font-weight: 700;
     font-size: 3.5em;
     margin-top: 0px;
     transition: .4s;
     font-family: 'Poppins',sans-serif;
-    text-shadow: 0 0 10px #dd14e8,
-                0 0 20px #0fc7a8,
-                0 0 30px #dd14e8,
-                0 0 40px #0fc7a8,
-                0 0 50px #0fc7a8;
+    text-shadow: 0 0 10px #00ffaa,
+                0 0 20px #00ffaa,
+                0 0 40px #ff00ea,
+                0 0 50px #00b3ff;
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
@@ -61,11 +60,10 @@
     border-radius: 10px;
     background: #fff;
     z-index: 2;
-    box-shadow: 0 0 10px #dd14e8,
-                0 0 20px #0fc7a8,
-                0 0 30px #dd14e8,
-                0 0 40px #0fc7a8,
-                0 0 50px #0fc7a8;
+    box-shadow: 0 0 10px #00ffaa,
+    0 0 20px #00ffaa,
+    0 0 40px #ff00ea,
+    0 0 50px #00b3ff;
     animation: animatelightbar 5s linear infinite;
 }
 @keyframes animatelightbar{
@@ -137,12 +135,12 @@
     position: relative;
     width: 310px;
     height: 700px;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.5);
     transform: rotate(-7deg) skew(8deg) scale(.8);
     transition: 0.5s;
     margin-top: 50px;
     border-radius: 8px;
-    box-shadow: 0 0 150px rgba(26, 24, 24, 0.662);
+    box-shadow: -20px 150px 150px rgba(12, 12, 12, 0.592);
     margin-left: 20px;
     
 }
