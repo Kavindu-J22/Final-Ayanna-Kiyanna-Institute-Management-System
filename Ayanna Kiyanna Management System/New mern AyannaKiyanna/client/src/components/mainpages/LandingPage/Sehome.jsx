@@ -130,7 +130,7 @@ function Sehome(){
 
                     <div className="Selogbtn_main-box">
 
-                      <a href="#" className="selog-btn">⛚ View Menu</a>
+                      <a href="#IACid" className="selog-btn">⛚ View Menu</a>
 
                       {
                       isLogged ? loggedRouter() : <a className="selog-btn" href="/login">➥ Login - Sign Up</a>
@@ -144,13 +144,13 @@ function Sehome(){
                   
             </div>
 
-           <div className="Semenutitlebox">
+            
 
-            <h2>❱❱ හරහා ගොස් ගවේෂණය කරන්න.. ❱❱</h2>
+          <div className="info-Awsome-container" id='IACid'>
 
-          </div>
-
-          <div className="info-Awsome-container">
+          <div className="Semenutitlebox">
+              <h2>❱❱ හරහා ගොස් ගවේෂණය කරන්න.. ❱❱</h2>
+            </div>
 
             <div className="info-Awsome-container-card">
               <div className="info-Awsome-container-imgbx" data-text="Home">

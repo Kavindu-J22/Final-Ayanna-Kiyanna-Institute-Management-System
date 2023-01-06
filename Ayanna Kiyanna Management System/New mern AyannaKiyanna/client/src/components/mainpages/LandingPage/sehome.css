@@ -151,6 +151,9 @@
     border-radius: 8px;
     border: 1px solid rgba(147, 143, 146, 0.477);
     opacity: 0.95;
+    border: 1px solid rgba(69, 67, 67, 0.518);
+    border-top: 1px solid rgba(255, 255, 255, 0.429);
+    border-right: 1px solid rgba(255, 255, 255, 0.429);
     
 }
 .Sehome-largeimage-container:hover img:nth-child(4){
@@ -574,9 +577,9 @@
     margin: 40px;
     background: #020510aa;
     border-radius: 30px;
-    border: 1px solid rgba(247, 247, 247, 0.25);
-    border-right: 1px solid rgba(0, 0, 0, 0.085);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
     margin-top: 50px;
     box-shadow: 10px 40px 50px rgba(1, 1, 22, 0.57);
     transition: .4s;
@@ -612,6 +615,7 @@
 }
 .Secarrousel{
     width: 100%;
+    height: auto;
     display: flex;
     animation: Seslide 20s infinite;
 }
@@ -669,6 +673,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .Secarrousel-img img{
@@ -676,6 +681,10 @@
     height: 400px;
     filter: brightness(.7);
     transition: .4s;
+    border-radius: 10px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
 }
 .Secarrousel-img img:hover{
     filter: brightness(1);
