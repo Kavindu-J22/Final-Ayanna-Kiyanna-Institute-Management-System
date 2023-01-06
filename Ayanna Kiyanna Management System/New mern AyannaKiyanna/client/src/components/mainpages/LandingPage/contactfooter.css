@@ -1,7 +1,16 @@
+.main-main-main-contactpagebox{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
 .Contact-Footer-main{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: wrap;
     width: 100%;
     min-height: 100vh;
@@ -19,7 +28,6 @@
 .SosialIconRack{
     position: relative;
     width: 40%;
-    left: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -504,7 +512,10 @@
 /* bubles back */
 .Contactbubles{
     position: relative;
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Contactbubles span{
     position: relative;
@@ -526,69 +537,69 @@
 }
 @keyframes ctbubleanimationmy{
     0%{
-        transform: translateY(100vh) scale(0);
+        transform: translateY(170vh) scale(0);
     }
     100%{
         transform: translateY(-10vh) scale(1);
     }
 }
 .Contactbubles span#aa{
-    animation-duration: calc(125s / 11);
+    animation-duration: calc(135s / 11);
 }
 .Contactbubles span#bb{
-    animation-duration: calc(125s / 12);
+    animation-duration: calc(135s / 12);
 }
 .Contactbubles span#cc{
-    animation-duration: calc(125s / 24);
+    animation-duration: calc(135s / 24);
 }
 .Contactbubles span#dd{
-    animation-duration: calc(125s / 10);
+    animation-duration: calc(135s / 10);
 }
 .Contactbubles span#ee{
-    animation-duration: calc(125s / 14);
+    animation-duration: calc(135s / 14);
 }
 .Contactbubles span#ff{
-    animation-duration: calc(125s / 23);
+    animation-duration: calc(135s / 23);
 }
 .Contactbubles span#gg{
-    animation-duration: calc(125s / 18);
+    animation-duration: calc(135s / 18);
 }
 .Contactbubles span#hh{
-    animation-duration: calc(125s / 16);
+    animation-duration: calc(135s / 16);
 }
 .Contactbubles span#ii{
-    animation-duration: calc(125s / 19);
+    animation-duration: calc(135s / 19);
 }
 .Contactbubles span#jj{
-    animation-duration: calc(125s / 20);
+    animation-duration: calc(135s / 20);
 }
 .Contactbubles span#kk{
-    animation-duration: calc(125s / 22);
+    animation-duration: calc(135s / 22);
 }
 .Contactbubles span#ll{
-    animation-duration: calc(125s / 25);
+    animation-duration: calc(135s / 25);
 }
 .Contactbubles span#mm{
-    animation-duration: calc(125s / 18);
+    animation-duration: calc(135s / 18);
 }
 .Contactbubles span#nn{
-    animation-duration: calc(125s / 21);
+    animation-duration: calc(135s / 21);
 }
 .Contactbubles span#oo{
-    animation-duration: calc(125s / 15);
+    animation-duration: calc(135s / 15);
 }
 .Contactbubles span#pp{
-    animation-duration: calc(125s / 13);
+    animation-duration: calc(135s / 13);
 }
 .Contactbubles span#qq{
-    animation-duration: calc(125s / 26);
+    animation-duration: calc(135s / 26);
 }
 .Contactbubles span#rr{
-    animation-duration: calc(125s / 17);
+    animation-duration: calc(135s / 17);
 }
 .Contactbubles span#ss{
-    animation-duration: calc(125s / 13);
+    animation-duration: calc(135s / 13);
 }
 .Contactbubles span#tt{
-    animation-duration: calc(125s / 28);
+    animation-duration: calc(135s / 28);
 }
