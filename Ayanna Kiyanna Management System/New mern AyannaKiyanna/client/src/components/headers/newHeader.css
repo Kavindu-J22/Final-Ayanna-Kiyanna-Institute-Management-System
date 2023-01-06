@@ -42,8 +42,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 3em;
+    font-size: 3.3em;
     color: rgba(255, 255, 255, 0.94);
     font-weight: 700;
     transition: 0.5s;
@@ -61,15 +60,15 @@
     bottom: -10px;
     pointer-events: none;
     z-index: 1;
-    font-size: 0.40em;
-    color: #3bffe8;
+    font-size: 0.35em;
+    color: #fff;
     font-weight: 500;
     letter-spacing: 100px;
     opacity: 0;
     transition: 0.5s;
-    text-shadow: 0 0 10px #3bffe8,
-    0 0 30px #3bffe8,
-    0 0 80px #3bffe8;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 30px #00b3ff,
+    0 0 80px #00b3ff;
     font-family: 'Poppins',sans-serif;
     width: 100%;
     display: flex;
@@ -97,20 +96,23 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 .newheader h2{
     top: 40px;
     position: absolute;
     font-family: 'Poppins',sans-serif;
     font-size: 5em;
+    
 }
 .newheader h2:nth-child(1){
     color: transparent;
-    -webkit-text-stroke: 2px #3bffe8;
+    -webkit-text-stroke: 2px #00b3ff;
+    text-shadow: 0 0 80px #00b3ff;
     
 }
 .newheader h2:nth-child(2){
-    color: #3bffe8;
+    color: #00b3ff;
     animation: animatelogoHeadnewtitle 4s ease-in-out infinite;
 }
 @keyframes animatelogoHeadnewtitle{

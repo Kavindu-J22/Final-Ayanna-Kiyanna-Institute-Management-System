@@ -33,8 +33,8 @@ function NewHeader() {
     const adminRouter = () =>{
         return(
             <>
-                <li><i class="fa-solid fa-gears"></i><Link className='newheadlink' to="/create_product" data-text="Add Items">Add Items</Link></li>
-                <li><i class="fa-solid fa-square-plus"></i><Link className='newheadlink' to="/category" data-text="Create Categories">Create Categories</Link></li>
+                <li><i class="fa-solid fa-gears"></i><Link className='newheadlink' to="/create_product" data-text="-Add Items-">Add Items</Link></li>
+                <li><i class="fa-solid fa-square-plus"></i><Link className='newheadlink' to="/category" data-text="-Create Categories-">Create Categories</Link></li>
             </>
         )
     }
@@ -42,7 +42,7 @@ function NewHeader() {
     const loggedRouter = () =>{
         return(
             <>
-                <li><i class="fa-solid fa-right-from-bracket"></i><Link className='newheadlink' to="/" data-text="Logout" onClick={logoutUser}>Logout</Link></li>
+                <li><i class="fa-solid fa-right-from-bracket"></i><Link className='newheadlink' to="/" data-text="-LOGOUT-" onClick={logoutUser}>Logout</Link></li>
             </>
         )
     }
@@ -67,17 +67,17 @@ function NewHeader() {
             
                 <div className='listofnewmenu'>
                 <ul style={styleMenu}>
-                    <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="මුල් පිටුවට යන්න">{isAdmin ? 'Home' : 'Home'}</Link></li>
-                    <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="අප ගැන දැනගන්න">{isAdmin ? 'About' : 'About'}</Link></li>
-                    <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="වෙබ් අඩවිය පිළිබඳව">{isAdmin ? 'Info' : 'Info'}</Link></li>
-                    <li><i class="fa-solid fa-book-open"></i><Link className='newheadlink' to="/Home/Service" data-text="ඔබට අවශ්‍ය සේවාව ලබාගන්න">{isAdmin ? 'Services' : 'Services'}</Link></li>
-                    <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/ProductsTow" data-text="ඔබ සඳහා ඇති විශේෂිත විශේෂාංග">{isAdmin ? 'For You' : 'For You'}</Link></li>
-                    <li><i class="fa-solid fa-phone"></i><Link className='newheadlink' to="/Home/Contactfooter" data-text="ඔබගේ අදහස් අපට කියන්න">{isAdmin ? 'Contact' : 'Contact'}</Link></li>
+                    <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="-HOME-">{isAdmin ? 'Home' : 'Home - මුල් පිටුව'}</Link></li>
+                    <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="-ABOUT-">{isAdmin ? 'About' : 'About - අප ගැන'}</Link></li>
+                    <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="-INFO-">{isAdmin ? 'Info' : 'Info - තොරතුරු'}</Link></li>
+                    <li><i class="fa-solid fa-book-open"></i><Link className='newheadlink' to="/Home/Service" data-text="-SERVICES-">{isAdmin ? 'Services' : 'Services - අපගේ සේවා'}</Link></li>
+                    <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/ProductsTow" data-text="-FOR-YOU-">{isAdmin ? 'For You' : 'For You - ඔබ සඳහා'}</Link></li>
+                    <li><i class="fa-solid fa-phone"></i><Link className='newheadlink' to="/Home/Contactfooter" data-text="-CONTACT-US-">{isAdmin ? 'Contact' : 'Contact - අපට කියන්න'}</Link></li>
                 
                     {isAdmin && adminRouter()}
 
                     {
-                        isLogged ? loggedRouter() : <li><i class="fa-sharp fa-solid fa-link"></i><Link className='newheadlink' to="/login" data-text="Login ✦ Register">Login ✦ Register</Link></li>
+                        isLogged ? loggedRouter() : <li><i class="fa-sharp fa-solid fa-link"></i><Link className='newheadlink' to="/login" data-text="-Login ✦ Register-">Login ✦ Register</Link></li>
                     }
 
                 </ul>
