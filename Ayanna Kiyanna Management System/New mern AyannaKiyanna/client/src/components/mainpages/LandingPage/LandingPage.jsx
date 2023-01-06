@@ -40,13 +40,12 @@ export default function Starting({ history }) {
             <p>“අයන්න කියන්න” මංගල කලාපය හුදෙක් දැනුම පමණක් කෙන්ද්‍ර කරගත්තක් නොවන්නේ ය. දැනුම වැඩි වැඩියෙන් ලබා දීම ඉදිරි කලාපයන්ට තබා අප කවුද, මොනවද කරන්නේ යන්න පිළිබඳ ව අප පාඨක රසවතුන් වෙත කියා පෑමට වැඩි ඉඩක් මෙතුළ වෙන් වී ඇත. සිංහල භාෂාව කෙරෙහි අපගෙන් ලැබී ඇති දායකත්වය පිළිබද ව ඇතැම් දෙය පවා මෙතුළින් විද්‍යමාන වන්නේ ය. නමුත් නුදුරු අනාගතයේ දී ම අමුතු ම ගණයේ සිංහල අධ්‍යාපනික සඟරාවක් බවට මෙය පත්වනු ඇත.
             </p><br/>
 
-            <form>
-              <a href="#MAboutDiv" id ="Scrolbtn">Explore</a>
-              <br /><br />
-              <Link to="#">
-              <button id ="LGbtnA" type="submit">Connect With Us</button>
-              </Link>
-            </form>
+            <div className="landing1stBtns">
+
+              <a href="#MAboutDiv" id ="Scrolbtn"><span>Explore</span></a>
+              <Link to="#" id ="LGbtnA" type="submit"><span>Connect With Us</span></Link>
+
+            </div>
           </div>
         </div>
       </section>
