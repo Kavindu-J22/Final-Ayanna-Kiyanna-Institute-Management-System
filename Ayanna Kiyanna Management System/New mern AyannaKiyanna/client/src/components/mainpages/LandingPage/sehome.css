@@ -32,8 +32,7 @@
     transition: .4s;
     font-family: 'Poppins',sans-serif;
     text-shadow: 0 0 10px #00ffaa,
-                0 0 40px #ff00ea,
-                0 0 50px #00b3ff;
+                0 0 50px #00ffaa;
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
@@ -60,8 +59,8 @@
     background: #fff;
     z-index: 2;
     box-shadow: 0 0 10px #00ffaa,
-                0 0 40px #ff00ea,
-                0 0 50px #00b3ff;
+                0 0 40px #00ffaa,
+                0 0 50px #00ffaa;
     animation: animatelightbar 5s linear infinite;
 }
 @keyframes animatelightbar{
