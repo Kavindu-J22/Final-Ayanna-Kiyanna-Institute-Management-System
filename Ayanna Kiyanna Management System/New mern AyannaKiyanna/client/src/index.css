@@ -160,6 +160,9 @@ button{
   border-radius: 10px;
   transition: 0.3s;
   text-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  border: 1px solid rgba(85, 81, 81, 0.436);
+  border-top: 1px solid rgba(255, 255, 255, 0.323);
+  border-left: 1px solid rgba(255, 255, 255, 0.323);
 }
 .gotopbtn:hover{
   transform: scale(1.1);
@@ -176,7 +179,10 @@ button{
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background: rgba(70, 72, 75, 0.315);
+  background: rgba(41, 42, 43, 0.523);
+  border: 1px solid rgba(85, 81, 81, 0.436);
+  border-top: 1px solid rgba(255, 255, 255, 0.526);
+  border-left: 1px solid rgba(255, 255, 255, 0.547);
   transition: .3s;
 }
 .newthinkMenu:hover{
@@ -189,9 +195,9 @@ button{
   transition: .3s;
   cursor: pointer;
   text-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  padding-top: 5px;
 }
 .newthinkMenu i:hover{
-  transform: scale(1.1);
   opacity: 1;
 }
 .AkstableLogo{
