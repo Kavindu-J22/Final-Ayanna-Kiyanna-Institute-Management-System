@@ -46,12 +46,12 @@
 }
 
 .content{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 90%;
-    max-width: 900px;
-    transform: translate(-50%, -50%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     text-align: center;
     color: white;
     padding-top: 50px;
@@ -60,7 +60,7 @@
 .logo2{
     justify-content: center;
     align-items: center;
-    max-width: 80%;
+    max-width: 55%;
     height: auto;
     opacity: 0.9;
     transition: .7s;
@@ -127,16 +127,13 @@
 .header .content .logo1{
     position: relative;
     align-items: center;
-    max-width: 40%;
+    width: 450px;
     height: auto;
     opacity: 0.7;
-    transition: .7s;
     cursor: pointer;
     padding-bottom: 10px;
-
-}
-.logo1:hover{
-    transform: scale(1.1);
+    margin-top: 100px;
+    animation: animation 2s ease-in-out infinite;
 }
 .content h2{
     font-size: 25px;
@@ -144,14 +141,16 @@
     cursor: pointer;
 }
 .content p{
+    width: 80%;
     color: #000000;
     font-family: 'Noto Sans Sinhala',sans-serif;
     text-shadow: 0px 0px 5px rgb(200, 195, 195),0px 0px 15px #5e5353;
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
-    font-weight: bold;
+    font-weight: 600;
     transition: 0.7s;
     cursor: pointer;
+    padding: 30px;
 }
 .content p:hover{
     transform: scale(1.1);

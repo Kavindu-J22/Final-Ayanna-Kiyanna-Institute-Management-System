@@ -66,6 +66,7 @@
     font-size: 17px;
     font-weight: bold;
     transition: .4s;
+    margin-right: 20px;
 }
 .Abt-btn:hover{
     transform: scale(1.1);

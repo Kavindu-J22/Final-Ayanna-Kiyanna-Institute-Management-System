@@ -19,17 +19,15 @@ function About(){
                     <h1>අප ගැන යමක්..</h1>
                     <h5>ලෝබ නැතුව සතර බෙදන අසිරිමත් <br/>බුද්ධි මෙහෙවර..!</h5>
                     <p> “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය. සිංහල විෂය සාධන මට්ටම ඉහළ දැමීම මෙන් ම ළමා මණසෙහි සියුම් වූ වේදයිතයන් අවදිකර රසවින්දනයෙන් පෝෂිත සමාජයක් බිහිකරලීම මෙම සඟරාව කිරීමෙහි මූලික අභිලාෂයයි.</p>
+                    
+                    <a href="#">
                     <button className="Abt-btn" type="button">Join With Us</button>
+                    </a>
 
-                    {/* <div className="C-root-box">
-                      <a href="#SemomeDiv">
-                        <button type="button" id="Abtn">Get Service</button>
-                      </a>
-                      <a href="#OurAcadaminDiv">
-                        <button type="button" id="NAbtn">More About</button>
-                      </a>
-                      
-                    </div> */}
+                    <a href="#OurAcadaminDiv">
+                        <button className="Abt-btn" type="button">More About</button>
+                    </a>
+                    
                 </div>
             </div>
           
