@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from 'react'
 import "./LandingPage.css";
 import backgroundTheme from "../../assets/videos/video8.mp4";
 import AKlogo from "../../assets/images/AKlogo.png"
@@ -8,11 +8,16 @@ import { useEffect } from "react";
 import About from "./About"
 import Sehome from "./Sehome"
 import Boxes from "../Other/Boxes"
+import {GlobalState} from '../../../GlobalState'
 
 
 
 
 export default function Starting({ history }) {
+
+  const state = useContext(GlobalState)
+  const [isLogged] = state.userAPI.isLogged
+
   useEffect(() => {
     const userInfo = localStorage.getItem("userInfo");
 
@@ -43,7 +48,9 @@ export default function Starting({ history }) {
             <div className="landing1stBtns">
 
               <a href="#MAboutDiv" id ="Scrolbtn"><span>Explore</span></a>
-              <Link to="#" id ="LGbtnA" type="submit"><span>Connect With Us</span></Link>
+              {
+               isLogged ? <Link to="#" id ="LGbtnA" type="submit"><span>Connected</span></Link> : <Link to="/login" id ="LGbtnA" type="submit"><span>Connect With Us</span></Link>
+              }
 
             </div>
           </div>

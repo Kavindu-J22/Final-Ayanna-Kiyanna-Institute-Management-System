@@ -118,6 +118,7 @@
     box-shadow: 0 5px 102px rgba(131, 120, 120, 0.5);
     transition: 0.3s ease-in-out;
     border-radius: 10px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
     border-top: 1px solid rgba(255, 255, 255, 0.526);
     border-left: 1px solid rgba(255, 255, 255, 0.547);
 }
@@ -132,6 +133,10 @@
     left: 5px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    border-radius: 8px;
 }
 .About-Card-container .About-card .About-imgbx img{
     max-width: 100%;
