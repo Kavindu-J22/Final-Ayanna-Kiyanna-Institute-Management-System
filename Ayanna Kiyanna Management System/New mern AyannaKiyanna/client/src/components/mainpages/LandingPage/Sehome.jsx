@@ -130,7 +130,7 @@ function Sehome(){
 
                     <div className="Selogbtn_main-box">
 
-                      <a href="#IACid" className="selog-btn">⛚ View Menu</a>
+                      <a href="#IACid" className="selog-btn">⛚ Info Menu</a>
 
                       {
                       isLogged ? loggedRouter() : <a className="selog-btn" href="/login">➥ Login - Sign Up</a>
