@@ -5,7 +5,7 @@ import "./contactfooter.css";
 function Contactfooter(){
     
   return(
-    <div className="main-main-main-contactpagebox">
+
         <div className="Contact-Footer-main">
 
                     <div className="Contactbubles">
@@ -187,7 +187,7 @@ function Contactfooter(){
                 </footer>
             
             </div> 
-    </div>
+
   );
 }
 export default Contactfooter

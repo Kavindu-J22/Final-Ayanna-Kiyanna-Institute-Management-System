@@ -1,12 +1,3 @@
-.main-main-main-contactpagebox{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-
 .Contact-Footer-main{
     display: flex;
     justify-content: center;
@@ -502,13 +493,18 @@
     padding: 10px 40px;
     cursor: pointer;
     outline: none;
-    background: #fff;
+    background: rgb(198, 193, 193);
+    text-transform: uppercase;
     color: #000;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
     border-radius: 4px;
+    transition: .4s;
 }
-
+.ctcol input[type="submit"]:hover{
+    transform: scale(1.1);
+    background: #fff;
+}
 /* bubles back */
 .Contactbubles{
     position: relative;
@@ -520,13 +516,13 @@
 .Contactbubles span{
     position: relative;
     width: 30px;
-    height: 30px;
+    height: 25px;
     background: #4fc3dc;
     margin: 0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc44,
-                0 0 50px #4fc3dc,
-                0 0 100px #4fc3dc;
+    box-shadow: 0 0 0 10px #06ff8f44,
+                0 0 50px #06ff8f,
+                0 0 100px #06ff8f;
     animation: ctbubleanimationmy 15s linear infinite;
 }
 .Contactbubles span:nth-child(even){
@@ -540,7 +536,7 @@
         transform: translateY(170vh) scale(0);
     }
     100%{
-        transform: translateY(-10vh) scale(1);
+        transform: translateY(-10vh) scale(.2);
     }
 }
 .Contactbubles span#aa{
