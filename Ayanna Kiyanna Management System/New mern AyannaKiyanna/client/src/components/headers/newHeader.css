@@ -42,7 +42,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 3.3em;
+    font-size: 3em;
     color: rgba(255, 255, 255, 0.94);
     font-weight: 700;
     transition: 0.5s;
@@ -57,7 +57,7 @@
 .newheadlink::before{
     content: attr(data-text);
     position: absolute;
-    bottom: -10px;
+    bottom: -25px;
     pointer-events: none;
     z-index: 1;
     font-size: 0.35em;

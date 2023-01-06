@@ -33,8 +33,8 @@ function NewHeader() {
     const adminRouter = () =>{
         return(
             <>
-                <li><i class="fa-solid fa-gears"></i><Link className='newheadlink' to="/create_product" data-text="-Add Items-">Add Items</Link></li>
-                <li><i class="fa-solid fa-square-plus"></i><Link className='newheadlink' to="/category" data-text="-Create Categories-">Create Categories</Link></li>
+                <li><i class="fa-solid fa-gears"></i><Link className='newheadlink' to="/create_product" data-text="-Add Items-">Add Items</Link></li><hr/>
+                <li><i class="fa-solid fa-square-plus"></i><Link className='newheadlink' to="/category" data-text="-Create Categories-">Create Categories</Link></li><hr/>
             </>
         )
     }
@@ -67,12 +67,12 @@ function NewHeader() {
             
                 <div className='listofnewmenu'>
                 <ul style={styleMenu}>
-                    <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="-HOME-">{isAdmin ? 'Home' : 'Home - මුල් පිටුව'}</Link></li>
-                    <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="-ABOUT-">{isAdmin ? 'About' : 'About - අප ගැන'}</Link></li>
-                    <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="-INFO-">{isAdmin ? 'Info' : 'Info - තොරතුරු'}</Link></li>
-                    <li><i class="fa-solid fa-book-open"></i><Link className='newheadlink' to="/Home/Service" data-text="-SERVICES-">{isAdmin ? 'Services' : 'Services - අපගේ සේවා'}</Link></li>
-                    <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/ProductsTow" data-text="-FOR-YOU-">{isAdmin ? 'For You' : 'For You - ඔබ සඳහා'}</Link></li>
-                    <li><i class="fa-solid fa-phone"></i><Link className='newheadlink' to="/Home/Contactfooter" data-text="-CONTACT-US-">{isAdmin ? 'Contact' : 'Contact - අපට කියන්න'}</Link></li>
+                    <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="-HOME-">{isAdmin ? 'Home' : 'Home - මුල් පිටුව'}</Link></li><hr/>
+                    <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="-ABOUT-">{isAdmin ? 'About' : 'About - අප ගැන'}</Link></li><hr/>
+                    <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="-INFO-">{isAdmin ? 'Info' : 'Info - තොරතුරු'}</Link></li><hr/>
+                    <li><i class="fa-solid fa-book-open"></i><Link className='newheadlink' to="/Home/Service" data-text="-SERVICES-">{isAdmin ? 'Services' : 'Services - අපගේ සේවා'}</Link></li><hr/>
+                    <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/ProductsTow" data-text="-FOR-YOU-">{isAdmin ? 'For You' : 'For You - ඔබ සඳහා'}</Link></li><hr/>
+                    <li><i class="fa-solid fa-phone"></i><Link className='newheadlink' to="/Home/Contactfooter" data-text="-CONTACT-US-">{isAdmin ? 'Contact' : 'Contact - අපට කියන්න'}</Link></li><hr/>
                 
                     {isAdmin && adminRouter()}
 
