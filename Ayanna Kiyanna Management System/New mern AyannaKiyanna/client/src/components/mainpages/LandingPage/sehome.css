@@ -32,7 +32,6 @@
     transition: .4s;
     font-family: 'Poppins',sans-serif;
     text-shadow: 0 0 10px #00ffaa,
-                0 0 20px #00ffaa,
                 0 0 40px #ff00ea,
                 0 0 50px #00b3ff;
     display: flex;
@@ -41,7 +40,7 @@
     letter-spacing: 0.1em;
 }
 .Sehome h2 span{
-    font-size: 40px;
+    font-size: 45px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -55,15 +54,14 @@
     position: absolute;
     top: 30px;
     left: 0;
-    width: 7px;
+    width: 8px;
     height: 80%;
     border-radius: 10px;
     background: #fff;
     z-index: 2;
     box-shadow: 0 0 10px #00ffaa,
-    0 0 20px #00ffaa,
-    0 0 40px #ff00ea,
-    0 0 50px #00b3ff;
+                0 0 40px #ff00ea,
+                0 0 50px #00b3ff;
     animation: animatelightbar 5s linear infinite;
 }
 @keyframes animatelightbar{
@@ -523,23 +521,43 @@
     margin-left: 30px;
 }
 .Semenutitlebox{
-    margin-top: 20px;
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     left: 0;
-    margin-left: 10%;
+    margin: 50px;
+    padding-bottom: 30px;
 }
 .Semenutitlebox h2{
-    margin: 0;
-    padding-bottom: 40px;
-    font-size: 35px;
-    color: #3a2038dc;
-    letter-spacing: 0;
-    text-shadow: 0 30px 20px rgba(0, 0, 0, 0.451);
-    font-weight: 900;
-    font-style: italic;
-    text-transform: capitalize;
+    text-shadow: none;
+    position: relative;
+    font-size: 3.5em;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #25191f;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: Semenutitleboxanimate 5s linear infinite;
+}
+@keyframes Semenutitleboxanimate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: #3a3839;
+        text-shadow: none;
+        font-weight: bolder;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        font-weight: bolder;
+        text-shadow: 0 0 10px rgb(255, 13, 130),
+        0 0 20px rgb(255, 13, 130),
+        0 0 160px rgb(243, 7, 121);
+    }
 }
 
 .Selogbtn_main-box{
