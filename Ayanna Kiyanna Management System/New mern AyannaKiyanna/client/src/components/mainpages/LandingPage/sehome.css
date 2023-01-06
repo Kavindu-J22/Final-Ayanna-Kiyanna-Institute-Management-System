@@ -31,8 +31,8 @@
     margin-top: 0px;
     transition: .4s;
     font-family: 'Poppins',sans-serif;
-    text-shadow: 0 0 10px #00ffaa,
-                0 0 50px #00ffaa;
+    text-shadow: 0 0 10px #63ffcb,
+                0 0 30px #63ffcb;
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
@@ -58,9 +58,8 @@
     border-radius: 10px;
     background: #fff;
     z-index: 2;
-    box-shadow: 0 0 10px #00ffaa,
-                0 0 40px #00ffaa,
-                0 0 50px #00ffaa;
+    box-shadow: 0 0 10px #2bfcb6,
+                0 0 40px #2bfcb6;
     animation: animatelightbar 5s linear infinite;
 }
 @keyframes animatelightbar{
@@ -540,17 +539,17 @@
     width: 100%;
     text-align: center;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
-    line-height: 0.70em;
+    line-height: 0.80em;
     outline: none;
     animation: Semenutitleboxanimate 5s linear infinite;
 }
 @keyframes Semenutitleboxanimate{
-    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+    0%,18%,20%,90.1%,92%,93%{
         color: #3a3839;
         text-shadow: none;
         font-weight: bolder;
     }
-    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+    18.1%,20.1%,90%,92.1%,94.1%,100%{
         color: #fff;
         font-weight: bolder;
         text-shadow: 0 0 10px rgb(255, 13, 130),

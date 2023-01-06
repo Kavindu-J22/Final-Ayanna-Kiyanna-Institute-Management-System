@@ -61,7 +61,7 @@
 .logo2{
     justify-content: center;
     align-items: center;
-    max-width: 55%;
+    width: 55%;
     height: auto;
     opacity: .95;
     transition: .7s;
