@@ -188,11 +188,11 @@ function Contactfooter(){
                     </ul>
                     <ul className="myFooter-menu">
                         <li><a href="/">Home</a></li>
-                        <li><a href="#MAboutDiv">About</a></li>
-                        <li><a href="#SemomeDiv">Info</a></li>
-                        <li><a href="#MBoxesDiv">Services</a></li>
-                        <li><a href="#foryouDiv">For-You</a></li>
-                        <li><a href="#Contactfooter">Contact</a></li>
+                        <li><a href="/Home/About">About</a></li>
+                        <li><a href="/Home/Info">Info</a></li>
+                        <li><a href="/Home/Service">Services</a></li>
+                        <li><a href="/Home/ProductsTow">For-You</a></li>
+                        <li><a href="/Home/Contactfooter">Contact</a></li>
                     </ul>
                     <p>©Sinhala Institute Of Ayanna Kiyanna | All Rights Reserved : 2023</p>
                     <li className="mymymy">Wbe Developer and Designer :<a href="https://github.com/Kavindu-J22"> @Kavindu Jayasinghe</a></li>
