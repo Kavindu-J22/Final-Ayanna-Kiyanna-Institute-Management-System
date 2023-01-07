@@ -1,17 +1,19 @@
 header{
-    background-color: rgb(37, 41, 41);
-    min-height: 75px;
-    width: 100%;
+    background-color: rgba(4, 0, 27, 0.378);
+    height: 55px;
+    width: 90%;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #ddd;
-    transition: 0.4s;
+    border-bottom: 1px solid rgba(171, 168, 168, 0.088);
+    transition: 0.7s;
+    border-radius: 10px;
+    box-shadow: 0 0px 3px;
 }
 header:hover{
-    background-color: rgb(49, 47, 47);
+    background-color: rgba(2, 0, 19, 0.779);
 }
 header .logo{
     padding: 10px;
@@ -25,7 +27,7 @@ header .logo:hover{
 }
 header a{
     text-transform: uppercase;
-    color: rgb(211, 205, 205);
+    color: rgb(224, 223, 223);
 }
 header ul li{
     display: inline-block;
