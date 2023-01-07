@@ -67,14 +67,14 @@ function Sehome(){
           <div></div>
         </div>
 
-      <div className="SeNeonText-tltlebox">
+      <div className="SeNeonText-tltlebox" data-aos="slide-up">
         <div className="Se-Lightbar"></div>
         <div className="Se-toplayer"></div>
       <h2>➷ The Sri Lanka's Best ⦁<br/><span>⟿ E - sinhala Platform ⟿</span></h2><br/>
       </div>
         
       <div className="SEconteudo-main">
-        <div className="SEconteudo">
+        <div className="SEconteudo" data-aos="zoom-in-up">
           <div className="Secarrousel">
 
               <div className="Secarrousel-img">
@@ -112,7 +112,7 @@ function Sehome(){
         </div>
 
 
-            <div className="scontent">
+            <div className="scontent" data-aos="slide-up">
 
                 <div className='Sehome-largeimage-container-anime'>
               
@@ -127,12 +127,12 @@ function Sehome(){
 
                 <div className="Sinfo-mainmy-box">
                   <div>
-                  <div className="sinfo">
+                  <div className="sinfo" data-aos="flip-up">
                       <p> “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය. සිංහල විෂය සාධන මට්ටම ඉහළ දැමීම මෙන් ම ළමා මණසෙහි සියුම් වූ වේදයිතයන් අවදිකර රසවින්දනයෙන් පෝෂිත සමාජයක් බිහිකරලීම මෙම සඟරාව කිරීමෙහි මූලික අභිලාෂයයි.
                       </p>
                   </div>
 
-                    <div className="Selogbtn_main-box">
+                    <div className="Selogbtn_main-box" data-aos="slide-left">
 
                       <a href="#IACid" className="selog-btn">⛚ Info Menu</a>
 
@@ -152,11 +152,11 @@ function Sehome(){
 
           <div className="info-Awsome-container" id='IACid'>
 
-          <div className="Semenutitlebox">
+          <div className="Semenutitlebox" data-aos="slide-right">
               <h2>❱❱ හරහා ගොස් ගවේෂණය කරන්න.. ❱❱</h2>
             </div>
 
-            <div className="info-Awsome-container-card">
+            <div className="info-Awsome-container-card" data-aos="fade-up-right">
               <div className="info-Awsome-container-imgbx" data-text="Home">
               <i class="fa-solid fa-house-laptop"></i>
               </div>
@@ -170,7 +170,7 @@ function Sehome(){
               </div>
             </div>
 
-            <div className="info-Awsome-container-card">
+            <div className="info-Awsome-container-card" data-aos="fade-up">
               <div className="info-Awsome-container-imgbx" data-text="About">
               <i class="fa-regular fa-address-card"></i>
               </div>
@@ -184,7 +184,7 @@ function Sehome(){
               </div>
             </div>
 
-            <div className="info-Awsome-container-card">
+            <div className="info-Awsome-container-card" data-aos="fade-up-left">
               <div className="info-Awsome-container-imgbx" data-text="Info">
               <i class="fa-solid fa-circle-info"></i>
               </div>
@@ -198,7 +198,7 @@ function Sehome(){
               </div>
             </div>
 
-            <div className="info-Awsome-container-card">
+            <div className="info-Awsome-container-card" data-aos="fade-up-right">
               <div className="info-Awsome-container-imgbx" data-text="Services">
               <i class="fa-solid fa-book"></i>
               </div>
@@ -212,7 +212,7 @@ function Sehome(){
               </div>
             </div>
 
-            <div className="info-Awsome-container-card">
+            <div className="info-Awsome-container-card" data-aos="fade-up">
               <div className="info-Awsome-container-imgbx" data-text="ForYou">
               <i class="fa-sharp fa-solid fa-feather-pointed"></i>
               </div>
@@ -226,7 +226,7 @@ function Sehome(){
               </div>
             </div>
 
-            <div className="info-Awsome-container-card">
+            <div className="info-Awsome-container-card" data-aos="fade-up-left">
               <div className="info-Awsome-container-imgbx" data-text="Contact">
               <i class="fa-solid fa-square-phone-flip"></i>
               </div>
