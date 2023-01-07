@@ -113,12 +113,16 @@ function Sehome(){
 
 
             <div className="scontent">
+
+                <div className='Sehome-largeimage-container-anime'>
               
-                <div className="Sehome-largeimage-container">
-                  <img src={Sehomeimg} alt="" />
-                  <img src={Sehomeimg} alt="" />
-                  <img src={Sehomeimg} alt="" />
-                  <img src={Sehomeimg} alt="" />
+                  <div className="Sehome-largeimage-container">
+                    <img src={Sehomeimg} alt="" />
+                    <img src={Sehomeimg} alt="" />
+                    <img src={Sehomeimg} alt="" />
+                    <img src={Sehomeimg} alt="" />
+                  </div>
+
                 </div>
 
                 <div className="Sinfo-mainmy-box">
