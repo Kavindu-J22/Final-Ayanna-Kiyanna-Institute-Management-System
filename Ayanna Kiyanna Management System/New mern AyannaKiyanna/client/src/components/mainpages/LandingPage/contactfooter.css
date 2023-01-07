@@ -336,12 +336,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 2.5em;
+    padding-bottom: 40px;
 }
 .Contactmainf-title h2{
-    color: rgba(246, 238, 238, 0.941);
+    color: rgb(251, 253, 233);
     font-weight: 700;
     text-shadow: 0 5px 35px rgba(0, 0, 0, 0.635);
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.175));
+    line-height: 0.65em;
 }
 .form{
     grid-area: form;
@@ -357,6 +360,10 @@
     width: 100%;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.56);
     border-radius: 10px;
+    transition: .4s;
+}
+.contact:hover{
+    transform: translateY(-10px);
 }
 .Contactmainf-threeboxes{
     position: relative;
@@ -377,6 +384,7 @@
     position: relative;
     z-index: 1000;
     width: 100%;
+    height: 100%;
     padding: 40px;
     background: rgba(7, 1, 20, 0.452);
     box-shadow: 0 25px 45px rgba(0,0,0,0.1);
@@ -401,10 +409,9 @@
 .contact-form-container h2{
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
+    color: #fff;
+    font-size: 2.7em;
     margin-bottom: 20px;
-    font-family: 'noto sans sinhala',sans-serif;
 }
 .contact-form-container .ctrow100{
     position: relative;
@@ -428,7 +435,7 @@
     position: relative;
     width: 100%;
     height: 40px;
-    color: #fff;
+    color: rgb(249, 233, 241);
 }
 .ctcol .ctinpubox input,
 .ctcol .ctinpubox textarea{
@@ -443,6 +450,7 @@
     padding: 0 10px;
     z-index: 1;
     color: #000;
+    resize: none;
 }
 .ctcol .ctinpubox .cttext{
     position: absolute;
@@ -468,7 +476,7 @@
     display: block;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: rgb(249, 233, 241);
     transition: 0.5s;
     border-radius: 2px;
     pointer-events: none;
@@ -489,14 +497,14 @@
 }
 .ctcol input[type="submit"]{
     border: none;
-    padding: 10px 40px;
+    padding: 10px 20px;
     cursor: pointer;
     outline: none;
     background: rgb(198, 193, 193);
     text-transform: uppercase;
     color: #000;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 4px;
     transition: .4s;
 }
@@ -650,6 +658,9 @@
 }
 .contact-info-cantainer h3{
     color: #fff;
+    width: 100%;
+    padding-bottom: 20px;
+    font-size: 2em;
 }
 .info-cantainer-detailbox div{
     display: flex;
@@ -657,10 +668,10 @@
     margin-bottom: 10px;
 }
 .info-cantainer-detailbox div span{
-    min-width: 40px;
-    height: 40px;
+    min-width: 50px;
+    height: 50px;
     color: #fff;
-    background-color: #161922;
+    background-color: #161922cb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -669,12 +680,18 @@
     margin-right: 15px;
 }
 .info-cantainer-detailbox div p{
-    color: #fff;
-    font-size: 1.1em;
+    color: rgb(249, 233, 241);
+    font-size: 1.15em;
+    line-height: 1.5em;
 }
 .info-cantainer-detailbox div a{
-    color: #fff;
+    font-size: 1.15em;
+    color: rgb(249, 233, 241);
     text-decoration: none;
+    transition: .3s;
+}
+.info-cantainer-detailbox div a:hover{
+    color: #fff;
 }
 .info-cantainer-detailbox-sci{
     margin-top: 40px;
@@ -682,7 +699,7 @@
 }
 .info-cantainer-detailbox-sci li{
     list-style: none;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 .info-cantainer-detailbox-sci li a{
     color: #fff;

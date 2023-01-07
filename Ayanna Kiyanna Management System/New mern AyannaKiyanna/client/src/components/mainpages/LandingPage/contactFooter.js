@@ -58,7 +58,7 @@ function Contactfooter(){
                 <div className="Contactmainf-content">
 
                     <div className="Contactmainf-title">
-                        <h2>Contact Us</h2>
+                        <h2>- “අයන්න කියන්න” - Contact Us -</h2>
                     </div>
                     <div className="Contactmainf-threeboxes">
 
@@ -68,7 +68,7 @@ function Contactfooter(){
                         <div className="contact form">
 
                             <div className="contact-form-container">
-                                <h2>ඔබේ අදහස් අපට කියන්න..</h2>
+                                <h2>❏ ඔබේ අදහස් අපට කියන්න...</h2>
                                 <form action="https://formsubmit.co/5294a6e917673f61dce93c6564bd8d5c" method="POST">
                                 <div className="ctrow100">
                                     <div className="ctcol">
