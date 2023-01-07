@@ -104,9 +104,11 @@
     animation: animation 2s ease-in-out infinite;
 }
 .content h2{
-    font-size: 1.5em;
+    font-size: 1.1em;
     padding-top: 40px;
     color: rgb(41, 26, 39);
+    font-family: 'Noto Sans Sinhala',sans-serif;
+    font-weight: 800;
 }
 .content p{
     width: 80%;
