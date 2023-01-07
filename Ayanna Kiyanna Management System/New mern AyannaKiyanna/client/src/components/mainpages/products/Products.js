@@ -8,6 +8,10 @@ import LoadMore from './LoadMore'
 import LandingPages from '../LandingPage/LandingPage'
 import Header from '../../../components/headers/Header'
 import Contactfooter from '../LandingPage/contactFooter'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 
 function Products() {
@@ -83,7 +87,7 @@ function Products() {
                 </div>
             }
 
-            <div className="products">
+            <div className="products" data-aos="fadeInUp">
                 {
                     products.map(product => {
                         return <ProductItem key={product._id} product={product}
@@ -96,7 +100,7 @@ function Products() {
             {products.length === 0 && <Loading />}
             </div>
 
-            <div id='Contactfooter'>
+            <div id='Contactfooter' data-aos="fadeInUp">
             <Contactfooter />
             </div>
             
