@@ -629,7 +629,7 @@
     font-size: 4vw;
     font-family: 'Poppins',sans-serif;
     color: transparent;
-    -webkit-text-stroke: 0.1vw #b3c1bb;
+    -webkit-text-stroke: 0.1vw #c7cac9;
     
 }
 .valublelinksbox h1::before{
@@ -644,9 +644,15 @@
     border-right: 3px solid #06ff8f;
     overflow: hidden;
     animation: valublelinksboxanimate 6s linear infinite;
+    text-shadow: 0 0 10px #333,0 0 12px #06ff8f;
 }
 #Other⥼Valuble⥼Links2{
     font-size: 2em;
+}
+#Other⥼Valuble⥼Links2::before{
+    color: #f44dcd;
+    border-right: 3px solid #f44dcd;
+    text-shadow: 0 0 10px #333,0 0 12px #f900bf;
 }
 @keyframes valublelinksboxanimate{
     0%,10%,100%{
@@ -656,10 +662,17 @@
         width: 100%;
     }
 }
+.valublelinksbox ul{
+    margin-top: 20px;
+}
 .valublelinksbox li{
-    color: #fff;
+    list-style: none;
+    color: rgb(249, 251, 221);
     font-size: 1.5em;
-    margin: 20px;
+    margin: 30px;
+    text-shadow: 0 0 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.229));
+    line-height: 0.65em;
 }
 
 /* contact info box */
