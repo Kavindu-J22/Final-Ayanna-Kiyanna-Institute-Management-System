@@ -1,7 +1,7 @@
 header{
     background-color: rgba(4, 0, 27, 0.378);
-    height: 55px;
-    width: 90%;
+    min-height: 55px;
+    width: 95%;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;

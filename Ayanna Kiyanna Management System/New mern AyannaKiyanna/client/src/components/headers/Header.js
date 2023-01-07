@@ -59,7 +59,7 @@ function Header() {
 
             <div className="logo">
                 <h1>
-                    <Link to="/">{isAdmin ? '“අයන්න කියන්න” (Admin)' : '“අයන්න කියන්න”'}</Link>
+                    <Link to="/">{isAdmin ? '-Admin-' : '“අයන්න කියන්න”'}</Link>
                 </h1>
             </div>
 
