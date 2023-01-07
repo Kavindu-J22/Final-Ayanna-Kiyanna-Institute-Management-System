@@ -132,47 +132,6 @@ function Boxes() {
                 </div>
             </section>
 
-            <section className='B-section' id='OurAcadaminDiv'>
-                <div className='B-container'>
-                    <h2>✥ Institute Related information ✥</h2>
-                    <div className='B-cards'>
-                        <div className='B-text-card'>
-                            <span></span>
-                            <div className='B-content'>
-                            <i class="fa-solid fa-newspaper"></i>
-                            <h3>Academic Information</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/ClassDetails">
-                                <a class="B-button" type="submit">See More</a>
-                            </Link>
-                            </div>
-                        </div>
-                        <div className='B-text-card'>
-                            <span></span>
-                            <div className='B-content'>
-                            <i class="fa-solid fa-newspaper"></i>
-                            <h3>Extracurricular Infomation</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/StudentColors">
-                                <a class="B-button" type="submit">See More</a>
-                            </Link>
-                            </div>
-                        </div>
-                        <div className='B-text-card'>
-                            <span></span>
-                            <div className='B-content'>
-                            <i class="fa-solid fa-newspaper"></i>
-                            <h3>Photo<br/>Bucket</h3>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/PhotoBucket">
-                                <a class="B-button" type="submit">See More</a>
-                            </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <section className='B-section'>
                 <div className='B-container'>
                     <h2>✥ වෙනත් විශේෂාංග ✥</h2>
@@ -215,9 +174,51 @@ function Boxes() {
                 </div>
             </section>
 
+            <section className='B-section' id='OurAcadaminDiv'>
+                <div className='B-container'>
+                    <h2>✥ Institute Related information ✥</h2>
+                    <div className='B-cards'>
+                        <div className='B-text-card'>
+                            <span></span>
+                            <div className='B-content'>
+                            <i class="fa-solid fa-newspaper"></i>
+                            <h3>Academic Information</h3>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <Link to="/boxes/ClassDetails">
+                                <a class="B-button" type="submit">See More</a>
+                            </Link>
+                            </div>
+                        </div>
+                        <div className='B-text-card'>
+                            <span></span>
+                            <div className='B-content'>
+                            <i class="fa-solid fa-newspaper"></i>
+                            <h3>Extracurricular Infomation</h3>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <Link to="/boxes/StudentColors">
+                                <a class="B-button" type="submit">See More</a>
+                            </Link>
+                            </div>
+                        </div>
+                        <div className='B-text-card'>
+                            <span></span>
+                            <div className='B-content'>
+                            <i class="fa-solid fa-newspaper"></i>
+                            <h3>Photo<br/>Bucket</h3>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
+                            <Link to="/boxes/PhotoBucket">
+                                <a class="B-button" type="submit">See More</a>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
             <section className='B-section'>
                 <div className='B-container'>
-                    <h2>✥ ඔබගේ ශ්‍රේණිය තෝරන්න ✥</h2>
+                    <h2>✥ ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න ✥</h2>
                     <div className='B-cards'>
                         <div className='B-text-card'>
                             <span></span>
