@@ -12,7 +12,9 @@ import {GlobalState} from '../../../GlobalState'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
+AOS.init({
+  duration:1500
+});
 
 export default function Starting({ history }) {
 
