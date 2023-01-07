@@ -8,13 +8,25 @@
 }
 .product-text-card{
     align-items: center;
-    margin: 15px;
+    margin: 10px;
     justify-content: center;
     padding-bottom: 10px;
 }
+.product-text-card h1{
+    font-size: 2.5em;
+    color: #17040e;
+    text-shadow: 0 0 20px #f17dd674;
+    font-weight: 800;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.149));
+    line-height: 0.55em;
+    margin: 20px;
+    padding-top: 20px;
+}
 .product-text-card h4{
+    font-size: 1.1em;
     font-style: italic;
-    color: rgb(73, 72, 72);
+    color: rgb(67, 66, 66);
+    padding-top: 10px;
 }
 .products{
     width: 100%;
@@ -29,7 +41,7 @@
     flex-wrap: wrap;
     padding: 20px 0;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgb(88, 85, 85);
+    box-shadow: 0 0 15px rgb(67, 64, 64);
 }
 
 /* ----------- Product Item ----------------- */
@@ -67,17 +79,21 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 15px 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .filter_menu select, input{
-    border: 1px solid rgb(133, 129, 129);
     background: #12125a53;
     outline: none;
-    height: 40px;
+    height: 50px;
     padding: 0 5px;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 600;
     color: rgb(22, 3, 3);
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
 }
 .filter_menu input{
     flex: 1;
@@ -85,6 +101,7 @@
     border-radius: 20px;
 }
 .filter_menu span{
+    font-size: 17px;
     font-weight: bold;
 }
 
