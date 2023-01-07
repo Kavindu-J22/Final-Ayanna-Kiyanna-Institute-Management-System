@@ -8,7 +8,7 @@ function Boxes() {
     return (
         <div className="main-box">
             <section className='B-section'>
-                <div className='B-container'>
+                <div className='B-container' data-aos="zoom-in-up">
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <h1>- අපගේ සේවාවන් -</h1>
                     <h2>✥ විෂය සමගාමි ✥</h2>
@@ -51,7 +51,7 @@ function Boxes() {
             </section>
 
             <section className='B-section'>
-                <div className='B-container' data-aos="flip-down">
+                <div className='B-container' data-aos="zoom-in-up">
                     <h2>✥ පරීක්ෂණාත්මක ✥</h2>
                     <div className='B-cards'>
                         <div className='B-text-card'>
@@ -92,7 +92,7 @@ function Boxes() {
             </section>
 
             <section className='B-section'>
-                <div className='B-container' data-aos="flip-up">
+                <div className='B-container' data-aos="zoom-in-up">
                     <h2>✥ වැදගත් විශේෂාංග ✥</h2>
                     <div className='B-cards'>
                         <div className='B-text-card'>
@@ -133,7 +133,7 @@ function Boxes() {
             </section>
 
             <section className='B-section'>
-                <div className='B-container' data-aos="flip-down">
+                <div className='B-container' data-aos="zoom-in-up">
                     <h2>✥ වෙනත් විශේෂාංග ✥</h2>
                     <div className='B-cards'>
                         <span></span>
@@ -217,7 +217,7 @@ function Boxes() {
 
 
             <section className='B-section'>
-                <div className='B-container'>
+                <div className='B-container' data-aos="zoom-in-up">
                     <h2>✥ ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න ✥</h2>
                     <div className='B-cards'>
                         <div className='B-text-card'>
