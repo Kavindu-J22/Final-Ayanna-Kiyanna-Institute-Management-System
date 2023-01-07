@@ -5,7 +5,6 @@ import axios from 'axios'
 import "./newHeader.css"
 import Aklogo from "../assets/images/AKlogo.png"
 import swal from 'sweetalert'
-import topbaranimevi from "../assets/videos/particles.mp4"
 
 function NewHeader() {
     const state = useContext(GlobalState)

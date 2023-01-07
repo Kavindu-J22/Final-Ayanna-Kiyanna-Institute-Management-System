@@ -134,10 +134,43 @@ function Contactfooter(){
 
 
                         {/* info box */}
-                        <div className="contact info"></div>
+
+                        <div className="contact info">
+                            <div className="contact-info-cantainer">
+                                <h3>Contact Info</h3>
+                                <div className="info-cantainer-detailbox">
+                                    <div>
+                                        <span><i class="fa-solid fa-location-dot"></i></span>
+                                        <p>98/8,Mallwaththa,Yatanwala,Ruwanwella <br/>SRI LANKA</p>
+                                    </div>
+                                    <div>
+                                        <span><i class="fa-solid fa-envelope"></i></span>
+                                        <a href="mailto:ayannakiyanna@gmail.com">ayannakiyanna@gmail.com</a>
+                                    </div>
+                                    <div>
+                                        <span><i class="fa-solid fa-phone-volume"></i></span>
+                                        <a href="tel:+94712915150 ">+94 71 1213 251</a>
+                                    </div>
+                                    <ul className="info-cantainer-detailbox-sci">
+                                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                        <li><a href="https://wa.me/0711200122"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                        <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
 
                         {/* map box */}
-                        <div className="contact map"></div>
+
+                        <div className="contact map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.8299730688436!2d80.25521346347657!3d7.0491861000000045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae30748a06ee0db%3A0x8d2cf1e183f3f527!2sJagath%20Kumara%20Jayasinghe!5e0!3m2!1sen!2slk!4v1673051188612!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
                     </div>
 
                 </div>
