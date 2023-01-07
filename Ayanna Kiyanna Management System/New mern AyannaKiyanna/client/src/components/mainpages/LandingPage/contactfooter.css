@@ -515,14 +515,14 @@
 .Contactbubles span{
     position: relative;
     width: 30px;
-    height: 25px;
+    height: 30px;
     background: #4fc3dc;
     margin: 0 4px;
     border-radius: 50%;
     box-shadow: 0 0 0 10px #06ff8f44,
                 0 0 50px #06ff8f,
                 0 0 100px #06ff8f;
-    animation: ctbubleanimationmy 15s linear infinite;
+    animation: ctbubleanimationmy 20s linear infinite;
 }
 .Contactbubles span:nth-child(even){
     background: #ff2d75;
@@ -535,7 +535,7 @@
         transform: translateY(170vh) scale(0);
     }
     100%{
-        transform: translateY(-10vh) scale(.2);
+        transform: translateY(-10vh) scale(.3);
     }
 }
 .Contactbubles span#aa{

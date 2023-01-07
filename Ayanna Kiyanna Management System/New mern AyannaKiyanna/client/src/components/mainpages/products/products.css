@@ -89,17 +89,88 @@
 }
 
 /* -------------------- Load More --------------- */
-.load_more{
-    text-align: center;
+
+.load_more-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
 }
-.load_more button{
-    padding: 10px 25px;
-    margin-bottom: 20px;
-    border: 1px solid #555;
-    text-transform: capitalize;
-    border-radius: 10px;
-    transition: 0.4s;
+.load_more-btn a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #240716;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    overflow: hidden;
+    transition: 0.2s;
+    box-shadow: 0 40px 20px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    border: 1px solid #5252535d;
+    cursor: pointer;
+    animation: animation 2s ease-in-out infinite;
+    background: #0e0e2043;
 }
-.load_more button:hover{
-    background-color: rgb(173, 120, 151);
+.load_more-btn a:hover{
+    color: #78fac3;
+    background: #ec17ba;
+    box-shadow: 0 0 10px #ec17ba,0 0 80px #ec17ba;
+    transition-delay: .5s;
+} 
+.load_more-btn a span{
+    position: absolute;
+    display: block;
+}
+.load_more-btn a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#33061d);
+}
+.load_more-btn a:hover span:nth-child(1){
+    left: 100%;
+    transition: .5s;
+
+}
+.load_more-btn a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#33061d);
+}
+.load_more-btn a:hover span:nth-child(3){
+    right: 100%;
+    transition: .5s;
+    transition-delay: 0.25s;
+}
+.load_more-btn a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#33061d);
+}
+.load_more-btn a:hover span:nth-child(2){
+    top: 100%;
+    transition: .5s;
+    transition-delay: 0.125s;
+}
+.load_more-btn a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#33061d);
+}
+.load_more-btn a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: .5s;
+    transition-delay: 0.375s;
 }
