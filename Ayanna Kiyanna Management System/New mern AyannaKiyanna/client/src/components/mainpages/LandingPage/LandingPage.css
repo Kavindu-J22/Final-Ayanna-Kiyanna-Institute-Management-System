@@ -209,9 +209,6 @@ hr.Myhr:after {
     color: #fff;
     border: 1px solid #040a29;
     overflow: hidden;
-    border: 1px solid rgba(66, 63, 63, 0.526);
-    border-top: 1px solid rgba(255, 255, 255, 0.526);
-    border-left: 1px solid rgba(255, 255, 255, 0.547);
     border-radius: 6px;
 }
 .landing1stBtns a span::before{
