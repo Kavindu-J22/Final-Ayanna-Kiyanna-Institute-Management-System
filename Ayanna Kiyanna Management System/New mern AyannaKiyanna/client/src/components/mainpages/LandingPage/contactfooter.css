@@ -340,9 +340,9 @@
     padding-bottom: 40px;
 }
 .Contactmainf-title h2{
-    color: rgb(251, 253, 233);
+    color: rgb(246, 249, 226);
     font-weight: 700;
-    text-shadow: 0 5px 35px rgba(0, 0, 0, 0.635);
+    text-shadow: 0 0px 10px rgb(251, 253, 233);
     -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.175));
     line-height: 0.65em;
 }
@@ -393,7 +393,11 @@
     border-bottom: 1px solid rgba(255,255,255,0.1);
     border-radius: 10px;
     overflow: hidden;
-    backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px);
+    transition: .4s;
+}
+.contact-form-container:hover{
+    background: rgba(3, 3, 24, 0.525);
 }
 .contact-form-container::before{
     content: '';
@@ -644,7 +648,12 @@
     border-radius: 10px;
     overflow: hidden;
     backdrop-filter: blur(5px);
+    transition: .4s;
 }
+.contact-info-cantainer:hover{
+    background: rgba(3, 3, 24, 0.525);
+}
+
 .contact-info-cantainer::before{
     content: '';
     position: absolute;
@@ -730,8 +739,8 @@
     height: 100%;
     border: none;
     border-radius: 8px;
-    opacity: .9;
-    transition: .3s;
+    opacity: .8;
+    transition: .4s;
 }
 .map iframe:hover{
     opacity: 1;
