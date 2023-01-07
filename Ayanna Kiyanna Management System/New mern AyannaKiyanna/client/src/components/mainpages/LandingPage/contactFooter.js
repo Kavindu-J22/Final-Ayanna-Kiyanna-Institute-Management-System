@@ -58,7 +58,7 @@ function Contactfooter(){
                 <div className="Contactmainf-content">
 
                     <div className="Contactmainf-title">
-                        <h2>-“අයන්න කියන්න” Contact-Us -</h2>
+                        <h2>⠄“අයන්න කියන්න” Contact-Us ☎ ⠄</h2>
                     </div>
                     <div className="Contactmainf-threeboxes">
 
