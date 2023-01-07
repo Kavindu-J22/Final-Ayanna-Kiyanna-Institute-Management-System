@@ -147,6 +147,7 @@ hr.Myhr:after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: animation 4s ease-in-out infinite;
 }
 .landing1stBtns a{
     position: relative;

@@ -8,8 +8,11 @@
 .B-container h1{
     display: flex;
     justify-content: center;
-    font-size: 4em;
+    font-size: 65px;
     padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight: 800;
+    text-shadow: 0 0 5px rgb(214, 205, 194),0 0 35px rgb(162, 171, 250);
 }
 .B-container h2{
     display: flex;
@@ -176,4 +179,104 @@
 }
 .B-cards .B-text-card .B-content a:hover{
     transform: scale(0.9);
+}
+
+.B-section-newupbtns{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.B-section-newupbtns a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    color: #0f010f;
+    text-shadow: 0 0 5px rgb(200, 194, 194);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    overflow: hidden;
+    transition: 0.2s;
+    box-shadow: 0 40px 20px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    
+    cursor: pointer;
+    animation: animation 2s ease-in-out infinite;
+    background: #0e0e2093;
+    margin: 5px;
+}
+.B-section-newupbtns a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.13);
+    transform: skew(25deg);
+}
+.B-section-newupbtns a:hover{
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    background: #125d9fcd;
+    box-shadow: 0 0 10px #125d9fcd,0 0 80px #125d9fcd;
+    transition-delay: .5s;
+} 
+.B-section-newupbtns a span{
+    position: absolute;
+    display: block;
+}
+.B-section-newupbtns a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#06bbf8);
+}
+.B-section-newupbtns a:hover span:nth-child(1){
+    left: 100%;
+    transition: .5s;
+
+}
+.B-section-newupbtns a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#06bbf8);
+}
+.B-section-newupbtns a:hover span:nth-child(3){
+    right: 100%;
+    transition: .5s;
+    transition-delay: 0.25s;
+}
+.B-section-newupbtns a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#06bbf8);
+}
+.B-section-newupbtns a:hover span:nth-child(2){
+    top: 100%;
+    transition: .5s;
+    transition-delay: 0.125s;
+}
+.B-section-newupbtns a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#06bbf8);
+}
+.B-section-newupbtns a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: .5s;
+    transition-delay: 0.375s;
 }

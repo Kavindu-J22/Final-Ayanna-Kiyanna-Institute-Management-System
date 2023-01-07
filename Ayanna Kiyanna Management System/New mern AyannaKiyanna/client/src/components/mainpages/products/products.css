@@ -158,7 +158,7 @@
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg,transparent,#33061d);
+    background: linear-gradient(90deg,transparent,#ec17ba);
 }
 .load_more-btn a:hover span:nth-child(1){
     left: 100%;
@@ -170,7 +170,7 @@
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg,transparent,#33061d);
+    background: linear-gradient(270deg,transparent,#ec17ba);
 }
 .load_more-btn a:hover span:nth-child(3){
     right: 100%;
@@ -182,7 +182,7 @@
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#33061d);
+    background: linear-gradient(180deg,transparent,#ec17ba);
 }
 .load_more-btn a:hover span:nth-child(2){
     top: 100%;
@@ -194,7 +194,7 @@
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#33061d);
+    background: linear-gradient(360deg,transparent,#ec17ba);
 }
 .load_more-btn a:hover span:nth-child(4){
     bottom: 100%;
