@@ -28,9 +28,9 @@ export default function Starting({ history }) {
   }, [history]);
 
   return (
-    <div className="fullmain">
+    <div className="fullmain" data-aos="fadeInUp">
       <section class="home">
-       <div className="header">
+       <div className="header" data-aos="fadeInUp">
          <video
            autoPlay
            loop
@@ -60,21 +60,17 @@ export default function Starting({ history }) {
 
       <div className="cantainer">
 
-          <div className="ncard" id="MAboutDiv" data-aos="fade-left">
+          <div className="ncard" id="MAboutDiv" data-aos="fadeInUp">
             <About/>
           </div>
 
-          <div className="ncard" id="SemomeDiv">
+          <div className="ncard" id="SemomeDiv" data-aos="fadeInUp">
             <Sehome/>
           </div>
           
-          <div className="ncard" id="MBoxesDiv">
+          <div className="ncard" id="MBoxesDiv" data-aos="fadeInUp">
             <Boxes/>
           </div>
-
-          {/* <div className="ncard">
-            <Other/>
-          </div>  */}
       </div> 
 
     </div>
