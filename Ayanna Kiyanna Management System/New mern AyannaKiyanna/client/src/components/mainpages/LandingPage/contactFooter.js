@@ -181,9 +181,9 @@ function Contactfooter(){
                 <div className="Contactinfo-mainmy-box">
 
                     <div className="valublelinksbox">
-                    <h1>වෙනත් ප්‍රයෝජනවත් සබැඳි -</h1>
+                    <h1 data-text="Other Valuble -">Other Valuble Links -</h1>
                         <ul>
-                            <li>ඉ-නැණ පියස</li>
+                            <li>ඊ-නැණ පියස</li>
                             <li>ඊ-තක්සලාව</li>
                             <li>පළාත් අධ්‍යාපන දෙපාර්තමේන්තුව</li>
                             <li>සිප්තතු</li>
