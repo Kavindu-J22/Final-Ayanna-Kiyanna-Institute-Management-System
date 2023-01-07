@@ -9,9 +9,10 @@ import About from "./About"
 import Sehome from "./Sehome"
 import Boxes from "../Other/Boxes"
 import {GlobalState} from '../../../GlobalState'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-
-
+AOS.init();
 
 export default function Starting({ history }) {
 
@@ -59,7 +60,7 @@ export default function Starting({ history }) {
 
       <div className="cantainer">
 
-          <div className="ncard" id="MAboutDiv">
+          <div className="ncard" id="MAboutDiv" data-aos="fade-left">
             <About/>
           </div>
 
