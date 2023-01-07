@@ -69,7 +69,7 @@ function Products() {
         <Header />
         <LandingPages />
         <div id='foryouDiv'>
-            <div className='product-text-card'>
+            <div className='product-text-card' data-aos="fadeInUp">
                 <h1>✥ අයන්න කියන්න - ඔබ සඳහා වෙන්වූ විශේෂිත විශේෂාංග</h1>
                 <h4>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.
                 “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.
@@ -100,7 +100,7 @@ function Products() {
             {products.length === 0 && <Loading />}
             </div>
 
-            <div id='Contactfooter' data-aos="fadeInUp">
+            <div id='Contactfooter' data-aos="zoom-in-up">
             <Contactfooter />
             </div>
             
