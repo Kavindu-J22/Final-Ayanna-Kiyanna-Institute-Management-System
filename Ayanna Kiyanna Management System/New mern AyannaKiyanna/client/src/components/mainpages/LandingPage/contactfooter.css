@@ -25,6 +25,7 @@
     height: auto;
     margin-bottom: 150px;
     margin-top: 70px;
+    animation: animation 2s ease-in-out infinite;
 }
 .SosialIconRack ul{
     position: relative;
@@ -414,8 +415,9 @@
     width: 100%;
     text-align: center;
     color: #fff;
-    font-size: 2.7em;
+    font-size: 2.6em;
     margin-bottom: 20px;
+    text-shadow: 0 0 5px #333,0 0 10px;
 }
 .contact-form-container .ctrow100{
     position: relative;
@@ -639,9 +641,9 @@
     left: 0;
     width: 0;
     height: 100%;
-    color: #06ff8f;
+    color: #fff;
     -webkit-text-stroke: 0vw transparent;
-    border-right: 3px solid #06ff8f;
+    border-right: 3px solid #5cf5b0;
     overflow: hidden;
     animation: valublelinksboxanimate 6s linear infinite;
     text-shadow: 0 0 10px #333,0 0 12px #06ff8f;
@@ -650,8 +652,8 @@
     font-size: 2em;
 }
 #Other⥼Valuble⥼Links2::before{
-    color: #f44dcd;
-    border-right: 3px solid #f44dcd;
+    color: #fff;
+    border-right: 3px solid #ea84d2;
     text-shadow: 0 0 10px #333,0 0 12px #f900bf;
 }
 @keyframes valublelinksboxanimate{

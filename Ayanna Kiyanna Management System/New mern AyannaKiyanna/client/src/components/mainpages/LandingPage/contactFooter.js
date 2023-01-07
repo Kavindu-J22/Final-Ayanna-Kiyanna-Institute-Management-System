@@ -181,7 +181,7 @@ function Contactfooter(){
                 <div className="Contactinfo-mainmy-box">
 
                     <div className="valublelinksbox">
-                    <h1 data-text="⠂Other⧿Valuble⧿Links⠂">⠂Other⧿Valuble⧿Links⠂</h1>
+                    <h1 data-text="⠂Other⧿Valuble⧿Links⤵">⠂Other⧿Valuble⧿Links⤵</h1>
                     <h1 data-text="⦿වෙනත්⥼ප්‍රයෝජනවත්⥼සබැඳි⦿" id="Other⥼Valuble⥼Links2">⦿වෙනත්⥼ප්‍රයෝජනවත්⥼සබැඳි⦿</h1>
                         <ul>
                             <li>❐ ඊ-නැණ පියස ➛</li>
