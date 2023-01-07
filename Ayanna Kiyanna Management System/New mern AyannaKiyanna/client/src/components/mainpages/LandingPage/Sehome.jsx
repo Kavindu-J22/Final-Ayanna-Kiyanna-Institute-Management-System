@@ -127,12 +127,12 @@ function Sehome(){
 
                 <div className="Sinfo-mainmy-box">
                   <div>
-                  <div className="sinfo" data-aos="flip-up">
+                  <div className="sinfo">
                       <p> “අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය. සිංහල විෂය සාධන මට්ටම ඉහළ දැමීම මෙන් ම ළමා මණසෙහි සියුම් වූ වේදයිතයන් අවදිකර රසවින්දනයෙන් පෝෂිත සමාජයක් බිහිකරලීම මෙම සඟරාව කිරීමෙහි මූලික අභිලාෂයයි.
                       </p>
                   </div>
 
-                    <div className="Selogbtn_main-box" data-aos="slide-left">
+                    <div className="Selogbtn_main-box">
 
                       <a href="#IACid" className="selog-btn">⛚ Info Menu</a>
 

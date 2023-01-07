@@ -51,7 +51,7 @@ function Boxes() {
             </section>
 
             <section className='B-section'>
-                <div className='B-container'>
+                <div className='B-container' data-aos="flip-down">
                     <h2>✥ පරීක්ෂණාත්මක ✥</h2>
                     <div className='B-cards'>
                         <div className='B-text-card'>
@@ -92,7 +92,7 @@ function Boxes() {
             </section>
 
             <section className='B-section'>
-                <div className='B-container'>
+                <div className='B-container' data-aos="flip-up">
                     <h2>✥ වැදගත් විශේෂාංග ✥</h2>
                     <div className='B-cards'>
                         <div className='B-text-card'>
@@ -133,7 +133,7 @@ function Boxes() {
             </section>
 
             <section className='B-section'>
-                <div className='B-container'>
+                <div className='B-container' data-aos="flip-down">
                     <h2>✥ වෙනත් විශේෂාංග ✥</h2>
                     <div className='B-cards'>
                         <span></span>
@@ -175,7 +175,7 @@ function Boxes() {
             </section>
 
             <section className='B-section' id='OurAcadaminDiv'>
-                <div className='B-container'>
+                <div className='B-container' data-aos="flip-up">
                     <h2>✥ Institute Related information ✥</h2>
                     <div className='B-cards'>
                         <div className='B-text-card'>
