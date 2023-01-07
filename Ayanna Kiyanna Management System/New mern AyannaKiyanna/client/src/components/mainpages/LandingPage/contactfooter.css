@@ -627,8 +627,9 @@
 .valublelinksbox h1{
     position: relative;
     font-size: 4vw;
+    font-family: 'Poppins',sans-serif;
     color: transparent;
-    -webkit-text-stroke: 0.2vw #06ff8f;
+    -webkit-text-stroke: 0.1vw #b3c1bb;
     
 }
 .valublelinksbox h1::before{
@@ -640,9 +641,12 @@
     height: 100%;
     color: #06ff8f;
     -webkit-text-stroke: 0vw transparent;
-    border-right: 2px solid #06ff8f;
+    border-right: 3px solid #06ff8f;
     overflow: hidden;
     animation: valublelinksboxanimate 6s linear infinite;
+}
+#Other⥼Valuble⥼Links2{
+    font-size: 2em;
 }
 @keyframes valublelinksboxanimate{
     0%,10%,100%{
