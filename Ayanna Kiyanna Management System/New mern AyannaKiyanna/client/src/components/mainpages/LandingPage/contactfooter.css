@@ -34,10 +34,17 @@
 .SosialIconRack ul li{
     position: relative;
     list-style: none;
-    width: 280px;
+    width: 290px;
     background: #292b3b;
     padding: 15px;
     transition: 0.5s;
+}
+.SosialIconRack ul li#SR0:hover{
+    transform: translateX(-50px);
+    background: rgb(208, 18, 141);
+}
+.SosialIconRack ul li#SR0 img{
+    width: 30px;
 }
 .SosialIconRack ul li#SR1:hover{
     transform: translateX(-50px);
@@ -77,6 +84,9 @@
     transform: skewY(45deg);
     transition: 0.5s;
 }
+.SosialIconRack ul li#SR0{
+    z-index: 7;
+}
 .SosialIconRack ul li#SR1{
     z-index: 6;
 }
@@ -96,7 +106,10 @@
     z-index: 1;
 }
 
-
+.SosialIconRack ul li#SR0:hover::before{
+    filter: brightness(0.7);
+    background: rgb(224, 18, 152);
+}
 .SosialIconRack ul li#SR1:hover::before{
     filter: brightness(0.7);
     background: #1877f2;
@@ -134,6 +147,10 @@
     transform-origin: bottom;
     transform: skew(45deg);
     transition: 0.5s;
+}
+.SosialIconRack ul li#SR0:hover::after{
+    filter: brightness(0.9);
+    background: rgb(224, 18, 152);
 }
 .SosialIconRack ul li#SR1:hover::after{
     filter: brightness(0.9);

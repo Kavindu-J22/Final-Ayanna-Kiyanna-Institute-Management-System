@@ -49,8 +49,8 @@ function Header() {
     const adminRouter = () =>{
         return(
             <>
-                <li><Link to="/create_product">Add Items</Link></li>
-                <li><Link to="/category">Create Categories</Link></li>
+                <li><Link to="/create_product">Add for -You</Link></li>
+                <li><Link to="/category">Add Categories</Link></li>
             </>
         )
     }
@@ -58,6 +58,9 @@ function Header() {
     const loggedRouter = () =>{
         return(
             <>
+                {
+                    isAdmin ? <li><Link to="#">User Requests</Link></li> : <li><Link to="#">My Requests</Link></li>
+                }
                 <li><Link to="/" onClick={logoutUser}>Logout</Link></li>
                 <li><Link to="#"><i class="fa-solid fa-user-large"></i></Link></li>
             </>
