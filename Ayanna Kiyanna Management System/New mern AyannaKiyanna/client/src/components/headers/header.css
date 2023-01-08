@@ -33,7 +33,7 @@
     padding: 10px;
     flex: 1;
     font-size: 15px;
-    opacity: 0.4;
+    opacity: 0.5;
     transition: 0.4s;
 }
 .myheadtopabs .logo:hover{
@@ -48,13 +48,13 @@
 }
 .myheadtopabs ul li{
     display: inline-block;
-    opacity: 0.3;
+    opacity: 0.4;
     padding: 8px 20px;
     font-size: 15px;
     transition: .4s;
 }
 .myheadtopabs ul li:hover{
-    opacity: 2;
+    opacity: 1;
 }
 .menu{
     display: none;
