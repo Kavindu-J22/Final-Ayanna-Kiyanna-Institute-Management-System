@@ -66,7 +66,7 @@ function Products() {
     if(loading) return <div><Loading /></div>
     return (
         <div className='main-product-box'>
-        <div className='absoluteheddernew' data-aos="fadeInUp"><Header /></div>
+        <Header />
         <LandingPages />
         <div id='foryouDiv'>
             <div className='product-text-card' data-aos="fadeInUp">

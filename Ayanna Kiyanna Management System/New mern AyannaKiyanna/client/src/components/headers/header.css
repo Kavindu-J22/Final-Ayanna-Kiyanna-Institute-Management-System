@@ -1,42 +1,55 @@
-header{
-    background-color: rgba(4, 0, 27, 0.378);
-    min-height: 55px;
+.myheadtopabs{
+    position: fixed;
     width: 95%;
-    overflow: hidden;
+    height: auto;
+    z-index: 5000;
+    transition: 0.7s;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
+.myheadtopabs_styles{
+    top: 5px;
+    left: 40px;
+    margin-right: 40px;
+    background-color: rgba(4, 0, 27, 0.532);
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid rgba(171, 168, 168, 0.088);
     transition: 0.7s;
     border-radius: 10px;
     box-shadow: 0 0px 3px;
+    transition-timing-function: ease-in;
 }
-header:hover{
-    background-color: rgba(2, 0, 19, 0.779);
+.myheadtopabs:hover{
+    background-color: rgba(4, 2, 22, 0.779);
 }
-header .logo{
+.myheadtopabs .logo{
     padding: 10px;
     flex: 1;
     font-size: 15px;
     opacity: 0.7;
     transition: 0.4s;
 }
-header .logo:hover{
+.myheadtopabs .logo:hover{
     opacity: 1;
 }
-header a{
+.myheadtopabs a{
     text-transform: uppercase;
     color: rgb(224, 223, 223);
 }
-header ul li{
+.myheadtopabs ul li{
     display: inline-block;
     opacity: 0.7;
     padding: 0 20px;
     font-size: 15px;
     transition: .4s;
 }
-header ul li:hover{
+.myheadtopabs ul li:hover{
     opacity: 2;
 }
 .menu{

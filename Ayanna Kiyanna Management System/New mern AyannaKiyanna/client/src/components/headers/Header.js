@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react'
+import React, {useContext, useEffect, useState} from 'react'
 import {GlobalState} from '../../GlobalState'
 import Menu from './icon/menu.svg'
 import Close from './icon/close.svg'
@@ -11,6 +11,23 @@ function Header() {
     const [isLogged] = state.userAPI.isLogged
     const [isAdmin] = state.userAPI.isAdmin
     const [menu, setMenu] = useState(false)
+
+    const [show, setShow] = useState(true)
+    const contralHeader = ()=>{
+        if(window.scrollY>100) {
+            setShow(false)
+        }else{
+            setShow(true)
+        }
+    }
+    useEffect(() => {
+        window.addEventListener('scroll',
+        contralHeader)
+        return () => {
+            window.removeEventListener('scroll',
+            contralHeader)
+        }
+    },[])
 
     const logoutUser = async () =>{
         await axios.get('/user/logout')
@@ -52,7 +69,7 @@ function Header() {
     }
 
     return (
-        <header>
+        <div className={`myheadtopabs ${show && 'myheadtopabs_styles'}`}>
             <div className="menu" onClick={() => setMenu(!menu)}>
                 <img src={Menu} alt="" width="30" />
             </div>
@@ -83,7 +100,7 @@ function Header() {
 
             </ul>
             
-        </header>
+        </div>
     )
 }
 
