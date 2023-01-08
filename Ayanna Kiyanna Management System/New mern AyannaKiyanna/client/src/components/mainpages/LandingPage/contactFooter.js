@@ -75,14 +75,14 @@ function Contactfooter(){
                                     <div className="ctcol">
                                         <div className="ctinpubox">
                                             <input type="text" name="FristName" required="required" />
-                                            <span className="cttext">frist name</span>
+                                            <span className="cttext">Your Frist Name</span>
                                             <span className="ctline"></span>
                                         </div>
                                     </div>
                                     <div className="ctcol">
                                         <div className="ctinpubox">
                                             <input type="text" name="LastName" required="required" />
-                                            <span className="cttext">Last name</span>
+                                            <span className="cttext">Your Last Name</span>
                                             <span className="ctline"></span>
                                         </div>
                                     </div>
@@ -92,14 +92,14 @@ function Contactfooter(){
                                     <div className="ctcol">
                                         <div className="ctinpubox">
                                             <input type="email" name="E-Mail" required="required" />
-                                            <span className="cttext">E-mail</span>
+                                            <span className="cttext">Your E-mail</span>
                                             <span className="ctline"></span>
                                         </div>
                                     </div>
                                     <div className="ctcol">
                                         <div className="ctinpubox">
                                             <input type="number" name="Phone" required="required" />
-                                            <span className="cttext">Mobile</span>
+                                            <span className="cttext">Your Phone Number</span>
                                             <span className="ctline"></span>
                                         </div>
                                     </div>
