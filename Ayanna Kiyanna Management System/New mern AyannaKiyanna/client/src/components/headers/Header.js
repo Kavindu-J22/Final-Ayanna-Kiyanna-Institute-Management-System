@@ -24,7 +24,7 @@ function Header() {
             button: false
         })
         .then((value) => {
-            swal(window.location.href = "/");
+            window.location.href = "/";
         });
 
     }

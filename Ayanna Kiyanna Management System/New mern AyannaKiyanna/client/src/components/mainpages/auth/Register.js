@@ -28,11 +28,11 @@ function Register() {
                 button: false
             })
             .then((value) => {
-                swal(window.location.href = "/Header/NewHeader");
+                window.location.href = "/";
             });
 
         } catch (err) {
-            alert(err.response.data.msg)
+            swal(err.response.data.msg)
         }
     }
 
