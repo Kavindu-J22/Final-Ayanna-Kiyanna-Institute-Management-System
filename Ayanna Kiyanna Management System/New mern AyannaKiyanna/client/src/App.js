@@ -4,7 +4,6 @@ import {DataProvider} from './GlobalState'
 import MainPages from './components/mainpages/Pages'
 import './app.css'
 import { Link } from 'react-router-dom';
-import Staklogo from './components/assets/images/AKlogo.png'
 
 
 
