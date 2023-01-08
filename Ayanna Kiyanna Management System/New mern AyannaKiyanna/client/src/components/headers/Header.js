@@ -59,6 +59,7 @@ function Header() {
         return(
             <>
                 <li><Link to="/" onClick={logoutUser}>Logout</Link></li>
+                <li><Link to="#"><i class="fa-solid fa-user-large"></i></Link></li>
             </>
         )
     }
