@@ -11,7 +11,8 @@
     width: calc(100% - 15px);
     height: calc(100% - 15px);
     border: 2px solid rgb(224, 137, 205);
-    border-top: 2px solid rgb(207, 237, 231);
+    border-top: 2px solid rgb(28, 240, 197);
+    box-shadow: 0 0 4px rgb(242, 90, 222);
     border-radius: 50%;
     animation: rotate 15s linear infinite alternate-reverse;
 }
