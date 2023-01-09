@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom';
 
 
 function App() {
-  const [show, setShow] = useState(true)
+  const [topshow, settopShow] = useState(true)
 
   const contralbackbtn = ()=>{
     if(window.scrollY>100) {
-        setShow(true)
+      settopShow(true)
     }else{
-        setShow(false)
+      settopShow(false)
     }
 }
 useEffect(() => {
@@ -32,7 +32,7 @@ useEffect(() => {
         <div className="App">
           <MainPages />
           <div className='newthinkMenu'><Link  to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
-          <div className={`toptoptop ${show && 'toptoptop-styles'}`}><a className='gotopbtn' href='#'><i class="fa-solid fa-up-long"></i></a></div>
+          <div className={`toptoptop ${topshow && 'toptoptop-styles'}`}><a className='gotopbtn' href='#'><i class="fa-solid fa-up-long"></i></a></div>
         </div>
 
       </Router>
