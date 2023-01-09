@@ -223,8 +223,8 @@
 .B-section-newupbtns a:hover{
     color: #fff;
     text-shadow: 0 0 3px #000;
-    background: #126ab7cd;
-    box-shadow: 0 0 10px #126ab7cd,0 0 80px #126ab7cd;
+    background: #36208dcd;
+    box-shadow: 0 0 10px #36208dcd,0 0 80px #36208dcd;
     transition-delay: .5s;
 } 
 .B-section-newupbtns a span{
@@ -235,8 +235,8 @@
     top: 0;
     left: -100%;
     width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg,transparent,#06bbf8);
+    height: 5px;
+    background: linear-gradient(90deg,transparent,#b75eff);
 }
 .B-section-newupbtns a:hover span:nth-child(1){
     left: 100%;
@@ -247,8 +247,8 @@
     bottom: 0;
     right: -100%;
     width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg,transparent,#06bbf8);
+    height: 5px;
+    background: linear-gradient(270deg,transparent,#b75eff);
 }
 .B-section-newupbtns a:hover span:nth-child(3){
     right: 100%;
@@ -258,9 +258,9 @@
 .B-section-newupbtns a span:nth-child(2){
     top: -100%;
     right: 0;
-    width: 2px;
+    width: 5px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#06bbf8);
+    background: linear-gradient(180deg,transparent,#b75eff);
 }
 .B-section-newupbtns a:hover span:nth-child(2){
     top: 100%;
@@ -270,9 +270,9 @@
 .B-section-newupbtns a span:nth-child(4){
     bottom: -100%;
     left: 0;
-    width: 2px;
+    width: 5px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#06bbf8);
+    background: linear-gradient(360deg,transparent,#b75eff);
 }
 .B-section-newupbtns a:hover span:nth-child(4){
     bottom: 100%;
