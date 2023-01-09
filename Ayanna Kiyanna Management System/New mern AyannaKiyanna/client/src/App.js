@@ -11,7 +11,7 @@ function App() {
   const [topshow, settopShow] = useState(false)
 
   const contralbackbtn = ()=>{
-    if(window.scrollY>=100) {
+    if(window.scrollY>=120) {
       settopShow(true)
     }else{
       settopShow(false)
