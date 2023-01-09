@@ -342,7 +342,7 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    width: 150px;
+    width: 180px;
     height: 45px;
     margin: 15px;
     text-align: center;
@@ -724,8 +724,8 @@
     display: inline-block;
     width: 10px;
     height: 10px;
-    background: rgba(245, 242, 242, 0.675);
-    box-shadow: 0 0 0 3px rgb(68, 2, 45), 0 0 10px rgb(241, 5, 158), 0 0 25px rgb(238, 4, 164);
+    background: rgba(243, 239, 239, 0.6);
+    box-shadow: 0 0 0 3px rgb(29, 4, 21), 0 0 10px rgb(135, 5, 90), 0 0 25px rgb(238, 4, 164);
     border-radius: 50%;
     margin: 22vh 20px 0 20px;
     z-index: 2;

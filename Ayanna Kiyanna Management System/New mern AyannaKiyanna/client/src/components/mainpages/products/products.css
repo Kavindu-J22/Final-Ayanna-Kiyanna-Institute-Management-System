@@ -44,7 +44,7 @@
     box-shadow: 0 0 15px rgb(67, 64, 64);
 }
 
-/* ----------- Product Item ----------------- */
+/* ----------- for-you Item ----------------- */
 @import url("../utils/productItem/productItem.css");
 
 .delete-all{
@@ -82,8 +82,8 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.filter_menu select, input{
-    background: #12125a53;
+.filter_menu select, input,option{
+    background: #12125a40;
     outline: none;
     height: 50px;
     padding: 0 5px;
@@ -91,7 +91,7 @@
     cursor: pointer;
     font-weight: 600;
     color: rgb(22, 3, 3);
-    border: 1px solid rgba(66, 63, 63, 0.526);
+    border: 1px solid rgba(66, 63, 63, 0.248);
     border-top: 1px solid rgba(255, 255, 255, 0.526);
     border-left: 1px solid rgba(255, 255, 255, 0.547);
 }
@@ -99,6 +99,7 @@
     flex: 1;
     margin: 0 10px;
     border-radius: 20px;
+    padding-left: 15px;
 }
 .filter_menu span{
     font-size: 17px;
