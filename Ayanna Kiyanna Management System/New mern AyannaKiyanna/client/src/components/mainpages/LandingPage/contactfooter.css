@@ -44,7 +44,8 @@
     background:rgb(244, 9, 64);
 }
 .SosialIconRack ul li#SR0 img{
-    width: 30px;
+    width: 25px;
+    filter: grayscale(1);
 }
 .SosialIconRack ul li#SR1:hover{
     transform: translateX(-50px);
