@@ -744,7 +744,10 @@
     transition-duration: .4s;
     opacity: 1;
     filter: grayscale(.7);
-
+    transition: .4s;
+}
+.s2ndslideimg:hover{
+    transform: translateY(-10px);
 }
 .sbg1{
     background-image: url(../../assets/images/sli1.png);

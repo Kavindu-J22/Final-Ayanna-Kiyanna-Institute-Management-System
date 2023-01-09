@@ -144,7 +144,7 @@ function Sehome(){
 
                   </div>
 
-
+                  
                   <div className='SE2nddotslider'>
 
                     <input type="radio" id="trigger1" name="mysliderr" autoFocus/>
@@ -169,6 +169,7 @@ function Sehome(){
                   </div>
                   
                 </div>
+                
                   
             </div>
 
