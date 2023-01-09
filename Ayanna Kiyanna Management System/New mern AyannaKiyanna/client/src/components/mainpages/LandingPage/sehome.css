@@ -584,6 +584,7 @@
     margin-top: 30px;
     margin-bottom: 20px;
     box-shadow: 10px 40px 50px rgba(1, 1, 22, 0.57);
+    overflow: hidden;
     transition: .4s;
     animation: animation 3s ease-in-out infinite;
 }
@@ -723,7 +724,7 @@
     display: inline-block;
     width: 10px;
     height: 10px;
-    background: rgba(245, 242, 242, 0.8);
+    background: rgba(245, 242, 242, 0.675);
     box-shadow: 0 0 0 3px rgb(68, 2, 45), 0 0 10px rgb(241, 5, 158), 0 0 25px rgb(238, 4, 164);
     border-radius: 50%;
     margin: 22vh 20px 0 20px;

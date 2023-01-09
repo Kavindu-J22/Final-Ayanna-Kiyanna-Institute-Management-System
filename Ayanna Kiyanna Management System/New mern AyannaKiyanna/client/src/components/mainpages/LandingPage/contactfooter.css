@@ -41,14 +41,14 @@
 }
 .SosialIconRack ul li#SR0:hover{
     transform: translateX(-50px);
-    background: rgb(208, 18, 141);
+    background:rgb(208, 18, 141);
 }
 .SosialIconRack ul li#SR0 img{
     width: 30px;
 }
 .SosialIconRack ul li#SR1:hover{
     transform: translateX(-50px);
-    background: #1877f2;
+    background: #1270ea;
 }
 .SosialIconRack ul li#SR2:hover{
     transform: translateX(-50px);
@@ -56,19 +56,19 @@
 }
 .SosialIconRack ul li#SR3:hover{
     transform: translateX(-50px);
-    background: #1da1f2;
+    background: #791df2;
 }
 .SosialIconRack ul li#SR4:hover{
     transform: translateX(-50px);
-    background: #c32aa3;
+    background: #91096a;
 }
 .SosialIconRack ul li#SR5:hover{
     transform: translateX(-50px);
-    background: #ff0000;
+    background: #ff002f;
 }
 .SosialIconRack ul li#SR6:hover{
     transform: translateX(-50px);
-    background: #f4911f;
+    background: #fa9624;
 }
 
 .SosialIconRack ul li::before{
@@ -692,6 +692,11 @@
     text-shadow: 0 0 10px;
     -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.229));
     line-height: 0.65em;
+    transition: .3s;
+    cursor: pointer;
+}
+.valublelinksbox li:hover{
+    transform: translateY(-10px);
 }
 
 /* contact info box */
