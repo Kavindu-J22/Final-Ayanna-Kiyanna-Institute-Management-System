@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 
 
 function App() {
-  const [topshow, settopShow] = useState(true)
+  const [topshow, settopShow] = useState(false)
 
   const contralbackbtn = ()=>{
-    if(window.scrollY>100) {
+    if(window.scrollY>=100) {
       settopShow(true)
     }else{
       settopShow(false)
