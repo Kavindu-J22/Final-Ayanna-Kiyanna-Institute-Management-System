@@ -16,7 +16,6 @@ function Sehome(){
   const state = useContext(GlobalState)
     const [isLogged] = state.userAPI.isLogged
     const [isAdmin] = state.userAPI.isAdmin
-    const [menu, setMenu] = useState(false)
 
     const logoutUser = async () =>{
         await axios.get('/user/logout')
@@ -83,30 +82,38 @@ function Sehome(){
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img src={Sli2} alt="" /></a>
+                <a><img id='slinewimg1' src={Sli2} alt="" /></a>
                 <h2></h2>
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img src={Sli3} alt="" /></a>
+                <a><img id='slinewimg2' src={Sli3} alt="" /></a>
                 <h2></h2>
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img src={Sli4} alt="" /></a>
+                <a><img id='slinewimg3' src={Sli4} alt="" /></a>
                 <h2></h2>
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img src={Sli2} alt="" /></a>
+                <a><img id='slinewimg4' src={Sli2} alt="" /></a>
                 <h2></h2>
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img src={Sli1} alt="" /></a>
+                <a><img id='slinewimg5' src={Sli1} alt="" /></a>
                 <h2></h2>
                 </div>
 
+          </div>
+
+          <div className='slideRadiodots'>
+              <a href='#slinewimg1' className='slideRadiodotsbtns' id='slideradio1'></a>
+              <a href='#slinewimg2' className='slideRadiodotsbtns' id='slideradio2'></a>
+              <a href='#slinewimg3' className='slideRadiodotsbtns' id='slideradio3'></a>
+              <a href='#slinewimg4' className='slideRadiodotsbtns' id='slideradio4'></a>
+              <a href='#slinewimg5' className='slideRadiodotsbtns' id='slideradio5'></a>
           </div>
         </div>
         </div>

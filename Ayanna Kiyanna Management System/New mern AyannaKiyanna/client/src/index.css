@@ -162,6 +162,7 @@ button{
   border: 1px solid rgba(85, 81, 81, 0.436);
   border-top: 1px solid rgba(255, 255, 255, 0.323);
   border-left: 1px solid rgba(255, 255, 255, 0.323);
+  z-index: 1000;
 }
 .gotopbtn:hover{
   transform: scale(1.1);
@@ -183,6 +184,7 @@ button{
   border-top: 1px solid rgba(255, 255, 255, 0.526);
   border-left: 1px solid rgba(255, 255, 255, 0.547);
   transition: .3s;
+  z-index: 1000;
 }
 .newthinkMenu:hover{
   transform: scale(1.1);
