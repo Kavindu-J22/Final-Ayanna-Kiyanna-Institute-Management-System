@@ -16,6 +16,7 @@ function Sehome(){
   const state = useContext(GlobalState)
     const [isLogged] = state.userAPI.isLogged
     const [isAdmin] = state.userAPI.isAdmin
+    const [menu, setMenu] = useState(false)
 
     const logoutUser = async () =>{
         await axios.get('/user/logout')
@@ -82,42 +83,33 @@ function Sehome(){
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img id='slinewimg1' src={Sli2} alt="" /></a>
+                <a><img src={Sli2} alt="" /></a>
                 <h2></h2>
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img id='slinewimg2' src={Sli3} alt="" /></a>
+                <a><img src={Sli3} alt="" /></a>
                 <h2></h2>
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img id='slinewimg3' src={Sli4} alt="" /></a>
+                <a><img src={Sli4} alt="" /></a>
                 <h2></h2>
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img id='slinewimg4' src={Sli2} alt="" /></a>
+                <a><img src={Sli2} alt="" /></a>
                 <h2></h2>
                 </div>
 
               <div className="Secarrousel-img">
-                <a><img id='slinewimg5' src={Sli1} alt="" /></a>
+                <a><img src={Sli1} alt="" /></a>
                 <h2></h2>
                 </div>
 
           </div>
         </div>
         </div>
-
-        {/* <form className='slideRadiodots'>
-              <input type="radio" className='slideRadiodotsbtns' id='slideradio1' name='dotsofSebanner' />
-              <input type="radio" className='slideRadiodotsbtns' id='slideradio2' name='dotsofSebanner' />
-              <input type="radio" className='slideRadiodotsbtns' id='slideradio3' name='dotsofSebanner' />
-              <input type="radio" className='slideRadiodotsbtns' id='slideradio4' name='dotsofSebanner' />
-              <input type="radio" className='slideRadiodotsbtns' id='slideradio5' name='dotsofSebanner' />
-              <input type="radio" className='slideRadiodotsbtns' id='slideradio5' name='dotsofSebanner' />
-          </form> */}
 
 
             <div className="scontent" data-aos="slide-up">
@@ -140,21 +132,16 @@ function Sehome(){
                       </p>
                   </div>
 
-                      <div className="Selogbtn_main-box">
+                    <div className="Selogbtn_main-box">
 
-                        <a href="#IACid" className="selog-btn">⛚ Info Menu</a>
+                      <a href="#IACid" className="selog-btn">⛚ Info Menu</a>
 
-                        {
-                        isLogged ? loggedRouter() : <a className="selog-btn" href="/login">➥ Login - Sign Up</a>
-                        }
+                      {
+                      isLogged ? loggedRouter() : <a className="selog-btn" href="/login">➥ Login - Sign Up</a>
+                      }
 
-                      </div>
+                    </div>
 
-                  </div>
-
-
-                  <div className='SE2nddotslider'>
-                    
                   </div>
                   
                 </div>
