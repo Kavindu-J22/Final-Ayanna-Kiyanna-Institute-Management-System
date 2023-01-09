@@ -107,16 +107,17 @@ function Sehome(){
                 </div>
 
           </div>
+        </div>
+        </div>
 
-          <div className='slideRadiodots'>
-              <a href='#slinewimg1' className='slideRadiodotsbtns' id='slideradio1'></a>
-              <a href='#slinewimg2' className='slideRadiodotsbtns' id='slideradio2'></a>
-              <a href='#slinewimg3' className='slideRadiodotsbtns' id='slideradio3'></a>
-              <a href='#slinewimg4' className='slideRadiodotsbtns' id='slideradio4'></a>
-              <a href='#slinewimg5' className='slideRadiodotsbtns' id='slideradio5'></a>
-          </div>
-        </div>
-        </div>
+        {/* <form className='slideRadiodots'>
+              <input type="radio" className='slideRadiodotsbtns' id='slideradio1' name='dotsofSebanner' />
+              <input type="radio" className='slideRadiodotsbtns' id='slideradio2' name='dotsofSebanner' />
+              <input type="radio" className='slideRadiodotsbtns' id='slideradio3' name='dotsofSebanner' />
+              <input type="radio" className='slideRadiodotsbtns' id='slideradio4' name='dotsofSebanner' />
+              <input type="radio" className='slideRadiodotsbtns' id='slideradio5' name='dotsofSebanner' />
+              <input type="radio" className='slideRadiodotsbtns' id='slideradio5' name='dotsofSebanner' />
+          </form> */}
 
 
             <div className="scontent" data-aos="slide-up">
