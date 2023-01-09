@@ -342,19 +342,18 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    width: 200px;
+    width: 150px;
     height: 45px;
-    margin: 20px;
+    margin: 15px;
     text-align: center;
     justify-content: center;
     line-height: 50px;
     color: rgb(241, 233, 233);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     text-shadow: 0 5px 20px rgb(32, 30, 30);
     text-transform: uppercase;
     text-decoration: none;
-    font-family: sans-serif;
     box-sizing: border-box;
     background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
     background-size: 400%;
@@ -570,21 +569,21 @@
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(20px);
-    width: 300px;
-    padding: 30px;
+    width: 250px;
+    padding: 20px;
     left: 25%;
-    margin: 40px;
+    margin-left: 70px;
+    margin-right: 40px;
     background: #020510aa;
     border-radius: 30px;
     border: 1px solid rgba(66, 63, 63, 0.526);
     border-top: 1px solid rgba(255, 255, 255, 0.526);
     border-left: 1px solid rgba(255, 255, 255, 0.547);
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     box-shadow: 10px 40px 50px rgba(1, 1, 22, 0.57);
     transition: .4s;
-}
-.Selogbtn_main-box:hover{
-    transform: translateY(-10px);
+    animation: animation 3s ease-in-out infinite;
 }
 .Selogbtn_main-box::before{
     content: '';
@@ -692,6 +691,22 @@
     position: fixed;
 }
 
+.SE2nddotslider{
+    position: relative;
+    width: 670px;
+    height: 300px;
+    max-width: 100%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 20px;
+    transition: .4s;
+    cursor: pointer;
+    box-shadow: 0 15px 100px rgba(0, 0, 0, 0.451);
+}
 /* slider dots */
 
 /* .Secarrousel input{

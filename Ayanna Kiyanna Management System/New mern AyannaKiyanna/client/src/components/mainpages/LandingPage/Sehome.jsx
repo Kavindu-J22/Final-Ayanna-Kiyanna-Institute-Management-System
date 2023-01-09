@@ -140,16 +140,21 @@ function Sehome(){
                       </p>
                   </div>
 
-                    <div className="Selogbtn_main-box">
+                      <div className="Selogbtn_main-box">
 
-                      <a href="#IACid" className="selog-btn">⛚ Info Menu</a>
+                        <a href="#IACid" className="selog-btn">⛚ Info Menu</a>
 
-                      {
-                      isLogged ? loggedRouter() : <a className="selog-btn" href="/login">➥ Login - Sign Up</a>
-                      }
+                        {
+                        isLogged ? loggedRouter() : <a className="selog-btn" href="/login">➥ Login - Sign Up</a>
+                        }
 
-                    </div>
+                      </div>
 
+                  </div>
+
+
+                  <div className='SE2nddotslider'>
+                    
                   </div>
                   
                 </div>
