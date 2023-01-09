@@ -41,7 +41,7 @@
 }
 .SosialIconRack ul li#SR0:hover{
     transform: translateX(-50px);
-    background:rgb(208, 18, 141);
+    background:rgb(244, 9, 64);
 }
 .SosialIconRack ul li#SR0 img{
     width: 30px;
@@ -64,7 +64,7 @@
 }
 .SosialIconRack ul li#SR5:hover{
     transform: translateX(-50px);
-    background: #ff002f;
+    background: #ce1717;
 }
 .SosialIconRack ul li#SR6:hover{
     transform: translateX(-50px);
@@ -108,11 +108,11 @@
 
 .SosialIconRack ul li#SR0:hover::before{
     filter: brightness(0.7);
-    background: rgb(224, 18, 152);
+    background: rgb(244, 9, 64);
 }
 .SosialIconRack ul li#SR1:hover::before{
     filter: brightness(0.7);
-    background: #1877f2;
+    background: #1270ea;
 }
 .SosialIconRack ul li#SR2:hover::before{
     filter: brightness(0.7);
@@ -120,19 +120,19 @@
 }
 .SosialIconRack ul li#SR3:hover::before{
     filter: brightness(0.7);
-    background: #1da1f2;
+    background: #791df2;
 }
 .SosialIconRack ul li#SR4:hover::before{
     filter: brightness(0.7);
-    background: #c32aa3;
+    background: #91096a;
 }
 .SosialIconRack ul li#SR5:hover::before{
     filter: brightness(0.7);
-    background: #ff0000;
+    background: #ce1717;
 }
 .SosialIconRack ul li#SR6:hover::before{
     filter: brightness(0.7);
-    background: #f4911f;
+    background: #fa9624;
 }
 
 .SosialIconRack ul li::after{
@@ -150,11 +150,11 @@
 }
 .SosialIconRack ul li#SR0:hover::after{
     filter: brightness(0.9);
-    background: rgb(224, 18, 152);
+    background: rgb(244, 9, 64);
 }
 .SosialIconRack ul li#SR1:hover::after{
     filter: brightness(0.9);
-    background: #1877f2;
+    background: #1270ea;
 }
 .SosialIconRack ul li#SR2:hover::after{
     filter: brightness(0.9);
@@ -162,19 +162,19 @@
 }
 .SosialIconRack ul li#SR3:hover::after{
     filter: brightness(0.9);
-    background: #1da1f2;
+    background: #791df2;
 }
 .SosialIconRack ul li#SR4:hover::after{
     filter: brightness(0.9);
-    background: #c32aa3;
+    background: #91096a;
 }
 .SosialIconRack ul li#SR5:hover::after{
     filter: brightness(0.9);
-    background: #ff0000;
+    background: #ce1717;
 }
 .SosialIconRack ul li#SR6:hover::after{
     filter: brightness(0.9);
-    background: #f4911f;
+    background: #fa9624;
 }
 
 .SosialIconRack ul li a{
