@@ -143,6 +143,30 @@ function Sehome(){
                     </div>
 
                   </div>
+
+
+                  <div className='SE2nddotslider'>
+
+                    <input type="radio" id="trigger1" name="mysliderr" autoFocus/>
+                    <label className='sradiolbl' for="trigger1"></label>
+                    <div className='s2ndslideimg sbg1'></div>
+
+                    <input type="radio" id="trigger2" name="mysliderr" />
+                    <label className='sradiolbl' for="trigger2"></label>
+                    <div className='s2ndslideimg sbg2'></div>
+
+                    <input type="radio" id="trigger3" name="mysliderr"/>
+                    <label className='sradiolbl' for="trigger3"></label>
+                    <div className='s2ndslideimg sbg3'></div>
+
+                    <input type="radio" id="trigger4" name="mysliderr"/>
+                    <label className='sradiolbl' for="trigger4"></label>
+                    <div className='s2ndslideimg sbg4'></div>
+
+                    <input type="radio" id="trigger5" name="mysliderr"/>
+                    <label className='sradiolbl' for="trigger5"></label>
+
+                  </div>
                   
                 </div>
                   
