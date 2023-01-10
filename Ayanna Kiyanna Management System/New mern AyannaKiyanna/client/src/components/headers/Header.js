@@ -10,7 +10,7 @@ function Header() {
     const state = useContext(GlobalState)
     const [isLogged] = state.userAPI.isLogged
     const [isAdmin] = state.userAPI.isAdmin
-    const [menu, setMenu] = useState(false)
+    // const [menu, setMenu] = useState(false)
 
     const [show, setShow] = useState(true)
     const contralHeader = ()=>{
@@ -68,15 +68,15 @@ function Header() {
     }
 
 
-    const styleMenu = {
-        left: menu ? 0 : "-100%"
-    }
+    // const styleMenu = {
+    //     left: menu ? 0 : "-100%"
+    // }
 
     return (
         <div className={`myheadtopabs ${show && 'myheadtopabs_styles'}`}>
-            <div className="menu" onClick={() => setMenu(!menu)}>
+            {/* <div className="menu" onClick={() => setMenu(!menu)}>
                 <img src={Menu} alt="" width="30" />
-            </div>
+            </div> */}
 
             <div className="logo">
                 <h1>
@@ -84,7 +84,9 @@ function Header() {
                 </h1>
             </div>
 
-            <ul style={styleMenu}>
+
+            {/*inside ul..> style={styleMenu} */}
+            <ul>
                 <li><Link to="/">{isAdmin ? 'Home' : 'Home'}</Link></li>
                 <li><a href="#MAboutDiv">{isAdmin ? 'About' : 'About'}</a></li>
                 <li><a href="#SemomeDiv">{isAdmin ? 'Info' : 'Info'}</a></li>
@@ -98,9 +100,9 @@ function Header() {
                     isLogged ? loggedRouter() : <li><Link to="/login">Login ✦ Register</Link></li>
                 }
 
-                <li onClick={() => setMenu(!menu)}>
+                {/* <li onClick={() => setMenu(!menu)}>
                     <img src={Close} alt="" width="30" className="menu" />
-                </li>
+                </li> */}
 
             </ul>
             
