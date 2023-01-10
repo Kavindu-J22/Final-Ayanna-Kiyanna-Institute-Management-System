@@ -114,7 +114,7 @@ function Sehome(){
 
             <div className="scontent" data-aos="slide-up">
 
-                <div className='Sehome-largeimage-container-anime'>
+                <a href='#MBoxesDiv'><div className='Sehome-largeimage-container-anime'>
               
                   <div className="Sehome-largeimage-container">
                     <img src={Sehomeimg} alt="" />
@@ -123,7 +123,7 @@ function Sehome(){
                     <img src={Sehomeimg} alt="" />
                   </div>
 
-                </div>
+                </div></a>
 
                 <div className="Sinfo-mainmy-box">
                   <div>
