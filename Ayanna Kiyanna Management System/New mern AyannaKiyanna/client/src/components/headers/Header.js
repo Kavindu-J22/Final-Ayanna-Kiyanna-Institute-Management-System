@@ -5,6 +5,12 @@ import {GlobalState} from '../../GlobalState'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
 import swal from 'sweetalert'
+import Landingpage from "../mainpages/LandingPage/LandingPage"
+import About from "../mainpages/LandingPage/About"
+import Sehome from "../mainpages/LandingPage/Sehome"
+import Boxes from "../mainpages/Other/Boxes"
+import Products from '../mainpages/products/Products'
+import Contactfooter from '../mainpages/LandingPage/contactFooter'
 
 function Header() {
     const state = useContext(GlobalState)
@@ -73,6 +79,8 @@ function Header() {
     // }
 
     return (
+        <div>
+
         <div className={`myheadtopabs ${show && 'myheadtopabs_styles'}`}>
             {/* <div className="menu" onClick={() => setMenu(!menu)}>
                 <img src={Menu} alt="" width="30" />
@@ -103,9 +111,37 @@ function Header() {
                 {/* <li onClick={() => setMenu(!menu)}>
                     <img src={Close} alt="" width="30" className="menu" />
                 </li> */}
+            </ul> 
+        </div>
 
-            </ul>
-            
+
+        <div className="cantainer">
+
+            <div className="ncard" id="MAboutDiv" data-aos="fadeInUp">
+            <Landingpage/>
+            </div>
+
+            <div className="ncard" id="MAboutDiv" data-aos="fadeInUp">
+            <About/>
+            </div>
+
+            <div className="ncard" id="SemomeDiv" data-aos="fadeInUp">
+            <Sehome/>
+            </div>
+
+            <div className="ncard" id="MBoxesDiv" data-aos="fadeInUp">
+            <Boxes/>
+            </div>
+            </div>
+
+            <div className="ncard" id="MAboutDiv" data-aos="fadeInUp">
+            <Products/>
+            </div>
+
+            <div className="ncard" id='Contactfooter' data-aos="zoom-in-up">
+            <Contactfooter />
+            </div>
+
         </div>
     )
 }

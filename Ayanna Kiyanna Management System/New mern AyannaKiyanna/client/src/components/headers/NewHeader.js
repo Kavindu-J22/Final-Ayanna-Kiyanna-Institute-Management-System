@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react'
+import React, {useContext} from 'react'
 import {GlobalState} from '../../GlobalState'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
@@ -66,7 +66,7 @@ function NewHeader() {
                     <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="-ABOUT-">{isAdmin ? 'About' : 'About - අප ගැන'}</Link></li><hr/>
                     <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="-INFO-">{isAdmin ? 'Info' : 'Info - තොරතුරු'}</Link></li><hr/>
                     <li><i class="fa-solid fa-book-open"></i><Link className='newheadlink' to="/Home/Service" data-text="-SERVICES-">{isAdmin ? 'Services' : 'Services - අපගේ සේවා'}</Link></li><hr/>
-                    <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/ProductsTow" data-text="-FOR-YOU-">{isAdmin ? 'For You' : 'For You - ඔබ සඳහා'}</Link></li><hr/>
+                    <li><i class="fa-solid fa-pen-nib"></i><Link className='newheadlink' to="/Home/Products" data-text="-FOR-YOU-">{isAdmin ? 'For You' : 'For You - ඔබ සඳහා'}</Link></li><hr/>
                     <li><i class="fa-solid fa-phone"></i><Link className='newheadlink' to="/Home/Contactfooter" data-text="-CONTACT-US-">{isAdmin ? 'Contact' : 'Contact - අපට කියන්න'}</Link></li><hr/>
                 
                     {isAdmin && adminRouter()}

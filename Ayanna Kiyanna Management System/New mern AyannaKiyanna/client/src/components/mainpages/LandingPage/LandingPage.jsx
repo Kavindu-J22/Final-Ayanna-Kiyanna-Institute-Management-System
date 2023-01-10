@@ -5,9 +5,6 @@ import AKlogo from "../../assets/images/AKlogo.png"
 import AKWelcome from "../../assets/images/Ayannawelcome.png"
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import About from "./About"
-import Sehome from "./Sehome"
-import Boxes from "../Other/Boxes"
 import {GlobalState} from '../../../GlobalState'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -70,21 +67,6 @@ export default function Starting({ history }) {
 
         </div>
       </section>
-
-      <div className="cantainer">
-
-          <div className="ncard" id="MAboutDiv" data-aos="fadeInUp">
-            <About/>
-          </div>
-
-          <div className="ncard" id="SemomeDiv" data-aos="fadeInUp">
-            <Sehome/>
-          </div>
-          
-          <div className="ncard" id="MBoxesDiv" data-aos="fadeInUp">
-            <Boxes/>
-          </div>
-      </div> 
 
     </div>
   );

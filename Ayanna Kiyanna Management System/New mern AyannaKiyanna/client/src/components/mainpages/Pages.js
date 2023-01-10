@@ -1,12 +1,12 @@
 import React, {useContext} from 'react'
 import {Switch, Route} from 'react-router-dom'
-import Products from './products/Products'
 import DetailProduct from './detailProduct/DetailProduct'
 import Login from './auth/Login'
 import Register from './auth/Register'
 import NotFound from './utils/not_found/NotFound'
 import Categories from './categories/Categories'
 import CreateProduct from './createProduct/CreateProduct'
+import Header from '../headers/Header'
 
 import Viyabox from './Other/ViyaBox'
 import Sahithyabox from './Other/SahithyaBox/LitboxMain'
@@ -51,10 +51,11 @@ import MainGradeLit from './Other/MainGradeSelector/Lit/MainLit'
 // header Re-Derects
 
 import NewHeader from '../headers/NewHeader'
+import Landingpage from '../mainpages/LandingPage/LandingPage'
 import About from './LandingPage/About'
 import Sehome from './LandingPage/Sehome'
 import Boxes from './Other/Boxes'
-import ProductsTow from './products/ProductsTow'
+import Products from './products/Products'
 import Contactfooter from './LandingPage/contactFooter'
 
 
@@ -70,7 +71,7 @@ function Pages() {
 
     return (
         <Switch>
-            <Route path="/" exact component={Products} />
+            <Route path="/" exact component={Header} />
             <Route path="/detail/:id" exact component={DetailProduct} />
             <Route path="/Header/NewHeader" exact component={NewHeader} />
 
@@ -116,15 +117,16 @@ function Pages() {
             <Route path="/TeacherBook/Guruathpoth" exact component={Guruathpoth} />
 
 
+            <Route path="/Home/Landingpage" exact component={Landingpage} />
             <Route path="/Home/About" exact component={About} />
             <Route path="/Home/Info" exact component={Sehome} />
             <Route path="/Home/Service" exact component={Boxes} />
-            <Route path="/Home/ProductsTow" exact component={ProductsTow} />
+            <Route path="/Home/Products" exact component={Products} />
             <Route path="/Home/Contactfooter" exact component={Contactfooter} />
 
             
-            <Route path="/login" exact component={isLogged ? Products : Login} />
-            <Route path="/register" exact component={isLogged ? Products : Register} />
+            <Route path="/login" exact component={isLogged ? Header : Login} />
+            <Route path="/register" exact component={isLogged ? Header : Register} />
             <Route path="/category" exact component={isAdmin ? Categories : NotFound} />
             <Route path="/create_product" exact component={isAdmin ? CreateProduct : NotFound} />
             <Route path="/edit_product/:id" exact component={isAdmin ? CreateProduct : NotFound} />

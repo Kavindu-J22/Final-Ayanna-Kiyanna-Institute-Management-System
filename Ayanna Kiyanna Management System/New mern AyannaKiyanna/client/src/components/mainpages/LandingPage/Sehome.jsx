@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react'
+import React, {useContext} from 'react'
 import {GlobalState} from '../../../GlobalState'
 import axios from 'axios'
 import swal from 'sweetalert'
@@ -15,8 +15,6 @@ function Sehome(){
 
   const state = useContext(GlobalState)
     const [isLogged] = state.userAPI.isLogged
-    const [isAdmin] = state.userAPI.isAdmin
-    const [menu, setMenu] = useState(false)
 
     const logoutUser = async () =>{
         await axios.get('/user/logout')

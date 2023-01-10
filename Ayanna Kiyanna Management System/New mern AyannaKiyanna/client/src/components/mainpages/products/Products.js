@@ -5,9 +5,6 @@ import Loading from '../utils/loading/Loading'
 import axios from 'axios'
 import Filters from './Filters'
 import LoadMore from './LoadMore'
-import LandingPages from '../LandingPage/LandingPage'
-import Header from '../../../components/headers/Header'
-import Contactfooter from '../LandingPage/contactFooter'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -66,8 +63,6 @@ function Products() {
     if(loading) return <div><Loading /></div>
     return (
         <div className='main-product-box'>
-        <Header />
-        <LandingPages />
         <div id='foryouDiv'>
             <div className='product-text-card' data-aos="fadeInUp">
                 <h1>✥ අයන්න කියන්න - ඔබ සඳහා වෙන්වූ විශේෂිත විශේෂාංග</h1>
@@ -98,10 +93,6 @@ function Products() {
 
             <LoadMore />
             {products.length === 0 && <Loading />}
-            </div>
-
-            <div id='Contactfooter' data-aos="zoom-in-up">
-            <Contactfooter />
             </div>
             
         </div> 
