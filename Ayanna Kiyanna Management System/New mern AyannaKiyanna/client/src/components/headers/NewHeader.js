@@ -10,7 +10,6 @@ function NewHeader() {
     const state = useContext(GlobalState)
     const [isLogged] = state.userAPI.isLogged
     const [isAdmin] = state.userAPI.isAdmin
-    const [menu] = useState(false)
 
     const logoutUser = async () =>{
         await axios.get('/user/logout')
@@ -47,9 +46,6 @@ function NewHeader() {
     }
 
 
-    const styleMenu = {
-        left: menu ? 0 : "-100%"
-    }
 
     return (
         <section className='newheader'>
@@ -65,7 +61,7 @@ function NewHeader() {
                 <div className='MyCloseBtn'><a onClick={() => window.history.back()}><i class="fa-solid fa-circle-xmark"></i></a></div>
             
                 <div className='listofnewmenu'>
-                <ul style={styleMenu}>
+                <ul>
                     <li><i class="fa-solid fa-house"></i><Link className='newheadlink' to="/" data-text="-HOME-">{isAdmin ? 'Home' : 'Home - මුල් පිටුව'}</Link></li><hr/>
                     <li><i class="fa-solid fa-address-card"></i><Link className='newheadlink' to="/Home/About" data-text="-ABOUT-">{isAdmin ? 'About' : 'About - අප ගැන'}</Link></li><hr/>
                     <li><i class="fa-solid fa-circle-info"></i><Link className='newheadlink' to="/Home/Info" data-text="-INFO-">{isAdmin ? 'Info' : 'Info - තොරතුරු'}</Link></li><hr/>
