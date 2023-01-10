@@ -290,14 +290,6 @@ hr{
 
 /* goto top btn */
 
-.toptoptop a{
-  background: rgba(29, 16, 2, 0.327);
-  color: rgba(238, 232, 232, 0.752);
-  border: none;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.178);
-  border-radius: 10px;
-}
- 
 .top-btn{
   font-size: 25px;
   width: 50px;
@@ -314,13 +306,9 @@ hr{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: .4s;
   border: 1px solid rgba(85, 81, 81, 0.436);
   border-top: 1px solid rgba(255, 255, 255, 0.259);
   border-left: 1px solid rgba(255, 255, 255, 0.219);
-}
-.top-btn:hover{
-  transform: scale(1.1);
 }
 .top-btn i{
   animation: gototopanimatation 1.2s linear infinite alternate-reverse;
