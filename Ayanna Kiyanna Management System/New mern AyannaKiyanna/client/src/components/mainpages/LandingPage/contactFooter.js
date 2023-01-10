@@ -199,10 +199,12 @@ function Contactfooter(){
                             <li id="SR0"><a href="#"><span><img src={Askimg}></img></span> Ask ජගත් Sir - “අයන්න කියන්න”</a></li>
                             <li id="SR1"><a href="#"><span><i class="fa-brands fa-facebook"></i></span> facebook - “අයන්න කියන්න”</a></li>
                             <li id="SR2"><a href="#"><span><i class="fa-brands fa-whatsapp"></i></span> whatsapp - “අයන්න කියන්න”</a></li>
-                            <li id="SR3"><a href="#"><span><i class="fa-brands fa-facebook-messenger"></i></span> Massenger - “අයන්න කියන්න”</a></li>
-                            <li id="SR4"><a href="#"><span><i class="fa-brands fa-instagram"></i></span> instagram - “අයන්න කියන්න”</a></li>
-                            <li id="SR5"><a href="#"><span><i class="fa-brands fa-youtube"></i></span> Youtube - “අයන්න කියන්න”</a></li>
-                            <li id="SR6"><a href="#"><span><i class="fa-solid fa-envelope"></i></span> G-Mail - “අයන්න කියන්න”</a></li>
+                            <li id="SR3"><a href="#"><span><i class="fa-brands fa-telegram"></i></span> teligram - “අයන්න කියන්න”</a></li>
+                            <li id="SR4"><a href="#"><span><i class="fa-brands fa-twitter"></i></span> twitter - “අයන්න කියන්න”</a></li>
+                            <li id="SR5"><a href="#"><span><i class="fa-brands fa-facebook-messenger"></i></span> Massenger - “අයන්න කියන්න”</a></li>
+                            <li id="SR6"><a href="#"><span><i class="fa-brands fa-instagram"></i></span> instagram - “අයන්න කියන්න”</a></li>
+                            <li id="SR7"><a href="#"><span><i class="fa-brands fa-youtube"></i></span> Youtube - “අයන්න කියන්න”</a></li>
+                            <li id="SR8"><a href="#"><span><i class="fa-solid fa-envelope"></i></span> G-Mail - “අයන්න කියන්න”</a></li>
                         </ul>
                     </div>
                 </div>
@@ -218,7 +220,9 @@ function Contactfooter(){
                     <ul className="myfooter-social-icons">
                         <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
                     </ul>

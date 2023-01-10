@@ -61,7 +61,9 @@ export default function Starting({ history }) {
           <div className='fristaflandsosialicon'>
                 <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
           </div>
