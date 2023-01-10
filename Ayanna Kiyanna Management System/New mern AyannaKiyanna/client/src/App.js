@@ -4,35 +4,19 @@ import {DataProvider} from './GlobalState'
 import MainPages from './components/mainpages/Pages'
 import './app.css'
 import { Link } from 'react-router-dom';
+import GoToTop from './components/mainpages/utils/GoToTop'
 
 
 
 function App() {
-//   const [topshow, settopShow] = useState(false)
-
-//   const contralbackbtn = ()=>{
-//     if(window.scrollY>=120) {
-//       settopShow(true)
-//     }else{
-//       settopShow(false)
-//     }
-// }
-// useEffect(() => {
-//     window.addEventListener('scroll',
-//     contralbackbtn)
-//     return () => {
-//         window.removeEventListener('scroll',
-//         contralbackbtn)
-//     }
-// },[])
 
   return (
     <DataProvider>
       <Router>
         <div className="App">
           <MainPages />
-          <div className='newthinkMenu'><a href="/Header/NewHeader"><i class="fa-solid fa-bars"></i></a></div>
-          {/* <div className={`toptoptop ${topshow && 'toptoptop-styles'}`}><Link to='/'><i class="fa-solid fa-up-long"></i></Link></div> */}
+          <div className='newthinkMenu'><Link to="/Header/NewHeader"><i class="fa-solid fa-bars"></i></Link></div>
+          <GoToTop />
         </div>
 
       </Router>
