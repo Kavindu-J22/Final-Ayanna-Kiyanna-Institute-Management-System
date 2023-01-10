@@ -31,13 +31,13 @@ export default function Starting({ history }) {
 
   return (
     <div className="fullmain" data-aos="fadeInUp">
-      <section class="home">
+      <section className="home">
        <div className="header" data-aos="fadeInUp">
          <video
            autoPlay
            loop
            muted
-           class = "back-video">
+           className = "back-video">
             <source src={backgroundTheme} type="video/mp4" />
           </video>
 
