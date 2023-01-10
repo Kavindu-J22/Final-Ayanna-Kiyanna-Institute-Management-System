@@ -702,8 +702,8 @@
     align-items: center;
     width: 630px;
     height: 300px;
-    margin-top: 20px;
-    margin-left: 70px;
+    margin-top: 40px;
+    margin-left: 60px;
     margin-bottom: 20px;
     overflow: hidden;
     border-radius: 20px;
@@ -722,12 +722,12 @@
 }
 .SE2nddotslider .sradiolbl{
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: rgba(243, 239, 239, 0.6);
-    box-shadow: 0 0 0 3px rgb(29, 4, 21), 0 0 10px rgb(135, 5, 90), 0 0 25px rgb(238, 4, 164);
+    width: 8px;
+    height: 8px;
+    background: rgba(243, 239, 239, 0.304);
+    box-shadow: 0 0 0 3px rgb(29, 4, 21), 0 0 10px rgb(135, 5, 90), 0 0 25px rgb(135, 5, 90);
     border-radius: 50%;
-    margin: 22vh 20px 0 20px;
+    margin: 25vh 20px 0 20px;
     z-index: 2;
     cursor: pointer;
     transition-duration: .4s;
@@ -764,7 +764,7 @@
 }
 .SE2nddotslider input:checked+.sradiolbl{
     background-color: #fff;
-    filter: brightness(1.5);
+    filter: brightness(1);
 }
 .SE2nddotslider input:focus+.sradiolbl{
     box-shadow: 0 0 0 2px rgb(23, 197, 136), 0 0 18px #fff;
