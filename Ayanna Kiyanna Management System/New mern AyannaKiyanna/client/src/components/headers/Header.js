@@ -87,7 +87,7 @@ function Header() {
 
             {/*inside ul..> style={styleMenu} */}
             <ul>
-                <li><Link to="/">{isAdmin ? 'Home' : 'Home'}</Link></li>
+                <li><a href="#fristhome">{isAdmin ? 'Home' : 'Home'}</a></li>
                 <li><a href="#MAboutDiv">{isAdmin ? 'About' : 'About'}</a></li>
                 <li><a href="#SemomeDiv">{isAdmin ? 'Info' : 'Info'}</a></li>
                 <li><a href="#MBoxesDiv">{isAdmin ? 'Services' : 'Services'}</a></li>
