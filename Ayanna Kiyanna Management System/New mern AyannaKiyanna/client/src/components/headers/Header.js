@@ -2,7 +2,7 @@ import React, {useContext, useEffect, useState} from 'react'
 import {GlobalState} from '../../GlobalState'
 // import Menu from './icon/menu.svg'
 // import Close from './icon/close.svg'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-scroll'
 import axios from 'axios'
 import swal from 'sweetalert'
 import Landingpage from "../mainpages/LandingPage/LandingPage"
@@ -55,8 +55,8 @@ function Header() {
     const adminRouter = () =>{
         return(
             <>
-                <li><Link to="/create_product">Add for -You</Link></li>
-                <li><Link to="/category">Add Categories</Link></li>
+                <li><a href="/create_product">Add for -You</a></li>
+                <li><a href="/category">Add Categories</a></li>
             </>
         )
     }
@@ -67,7 +67,7 @@ function Header() {
                 {
                     isAdmin ? <li><Link to="#">User Requests</Link></li> : <li><Link to="#">My Requests</Link></li>
                 }
-                <li><Link to="/" onClick={logoutUser}>Logout</Link></li>
+                <li><a href="/" onClick={logoutUser}>Logout</a></li>
                 <li><Link to="#"><i class="fa-solid fa-user-large"></i></Link></li>
             </>
         )
@@ -95,17 +95,17 @@ function Header() {
 
             {/*inside ul..> style={styleMenu} */}
             <ul>
-                <li><a href="#fristhome">{isAdmin ? 'Home' : 'Home'}</a></li>
-                <li><a href="#MAboutDiv">{isAdmin ? 'About' : 'About'}</a></li>
-                <li><a href="#SemomeDiv">{isAdmin ? 'Info' : 'Info'}</a></li>
-                <li><a href="#MBoxesDiv">{isAdmin ? 'Services' : 'Services'}</a></li>
-                <li><a href="#foryouDiv">{isAdmin ? 'for you' : 'for you'}</a></li>
-                <li><a href="#Contactfooter">{isAdmin ? 'Contact' : 'Contact'}</a></li>
+                <li><Link to="fristhome" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Home' : 'Home'}</Link></li>
+                <li><Link to="myAbout" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'About' : 'About'}</Link></li>
+                <li><Link to="myInfo" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Info' : 'Info'}</Link></li>
+                <li><Link to="serviceboxes" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Services' : 'Services'}</Link></li>
+                <li><Link to="foryouBoxes" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'for you' : 'for you'}</Link></li>
+                <li><Link to="contactbox" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Contact' : 'Contact'}</Link></li>
 
                 {isAdmin && adminRouter()}
 
                 {
-                    isLogged ? loggedRouter() : <li><Link to="/login">Login ✦ Register</Link></li>
+                    isLogged ? loggedRouter() : <li><a href="/login">Login ✦ Register</a></li>
                 }
 
                 {/* <li onClick={() => setMenu(!menu)}>
@@ -117,24 +117,24 @@ function Header() {
 
         <div className="cantainer">
 
-            <div className="ncard" id="MAboutDiv" data-aos="fadeInUp">
+            <div className="ncard" data-aos="fadeInUp">
             <Landingpage/>
             </div>
 
-            <div className="ncard" id="MAboutDiv" data-aos="fadeInUp">
+            <div className="ncard" data-aos="fadeInUp">
             <About/>
             </div>
 
-            <div className="ncard" id="SemomeDiv" data-aos="fadeInUp">
+            <div className="ncard" data-aos="fadeInUp">
             <Sehome/>
             </div>
 
-            <div className="ncard" id="MBoxesDiv" data-aos="fadeInUp">
+            <div className="ncard" data-aos="fadeInUp">
             <Boxes/>
             </div>
             </div>
 
-            <div className="ncard" id="MAboutDiv" data-aos="fadeInUp">
+            <div className="ncard" data-aos="fadeInUp">
             <Products/>
             </div>
 

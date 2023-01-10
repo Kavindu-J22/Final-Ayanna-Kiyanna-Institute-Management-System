@@ -62,7 +62,7 @@ function Products() {
 
     if(loading) return <div><Loading /></div>
     return (
-        <div className='main-product-box'>
+        <div className='main-product-box' id='foryouBoxes'>
         <div id='foryouDiv'>
             <div className='product-text-card' data-aos="fadeInUp">
                 <h1>✥ අයන්න කියන්න - ඔබ සඳහා වෙන්වූ විශේෂිත විශේෂාංග</h1>

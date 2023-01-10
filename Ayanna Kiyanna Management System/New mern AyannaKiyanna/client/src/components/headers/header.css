@@ -35,6 +35,7 @@
     font-size: 15px;
     opacity: 0.5;
     transition: 0.4s;
+    cursor: pointer;
 }
 .myheadtopabs .logo:hover{
     opacity: 1;
@@ -52,6 +53,7 @@
     padding: 8px 20px;
     font-size: 15px;
     transition: .4s;
+    cursor: pointer;
 }
 .myheadtopabs ul li:hover{
     opacity: 1;
