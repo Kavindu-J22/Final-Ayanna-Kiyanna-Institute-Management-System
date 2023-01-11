@@ -3,7 +3,7 @@ import "./LandingPage.css";
 import backgroundTheme from "../../assets/videos/video8.mp4";
 import AKlogo from "../../assets/images/AKlogo.png"
 import AKWelcome from "../../assets/images/Ayannawelcome.png"
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { useEffect } from "react";
 import {GlobalState} from '../../../GlobalState'
 import AOS from 'aos';
@@ -49,7 +49,7 @@ export default function Starting({ history }) {
 
               <a href="#MAboutDiv" id ="Scrolbtn"><span>Explore</span></a>
               {
-               isLogged ? <Link to="#" id ="LGbtnA" type="submit"><span>Connected</span></Link> : <Link to="/login" id ="LGbtnA" type="submit"><span>Connect With Us</span></Link>
+               isLogged ? <a href="#" id ="LGbtnA" type="submit"><span>Connected</span></a> : <a href="/login" id ="LGbtnA" type="submit"><span>Connect With Us</span></a>
               }
 
             </div>
@@ -67,6 +67,8 @@ export default function Starting({ history }) {
 
         </div>
       </section>
+
+      <div className='godownbtn'><Link className='navLinks' to="downfristabout" spy={true} smooth={true} offset={10} duration={1500}><i class="fa-solid fa-down-long"></i></Link></div>
 
     </div>
   );

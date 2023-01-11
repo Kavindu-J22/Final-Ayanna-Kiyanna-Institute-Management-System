@@ -247,3 +247,30 @@ hr.Myhr:after {
     transform: translateY(-10px);
     filter: brightness(2);
 }
+
+
+.godownbtn{
+    position: absolute;
+    display: flex;
+     flex-wrap: wrap;
+    bottom: 25px;
+    left: 20px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background: rgba(215, 131, 35, 0.342);
+    box-shadow: 0 0 20px rgba(145, 139, 139, 0.503);
+    border-radius: 50%;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(85, 81, 81, 0.436);
+    border-top: 1px solid rgba(255, 255, 255, 0.259);
+    border-left: 1px solid rgba(255, 255, 255, 0.219);
+    cursor: pointer;
+  }
+  .godownbtn i{
+    animation: gototopanimatation 1s linear infinite alternate-reverse;
+    text-shadow: 0 0 5px rgba(51, 51, 51, 0.788);
+    color: rgb(206, 198, 198);
+  }
