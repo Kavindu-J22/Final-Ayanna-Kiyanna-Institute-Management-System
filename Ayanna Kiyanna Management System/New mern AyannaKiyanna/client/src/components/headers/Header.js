@@ -16,7 +16,6 @@ function Header() {
     const state = useContext(GlobalState)
     const [isLogged] = state.userAPI.isLogged
     const [isAdmin] = state.userAPI.isAdmin
-    // const [menu, setMenu] = useState(false)
 
     const [show, setShow] = useState(true)
     const contralHeader = ()=>{
@@ -73,75 +72,41 @@ function Header() {
         )
     }
 
-
-    // const styleMenu = {
-    //     left: menu ? 0 : "-100%"
-    // }
-
     return (
         <div>
 
-        <div className={`myheadtopabs ${show && 'myheadtopabs_styles'}`}>
-            {/* <div className="menu" onClick={() => setMenu(!menu)}>
-                <img src={Menu} alt="" width="30" />
-            </div> */}
+            <div className={`myheadtopabs ${show && 'myheadtopabs_styles'}`}>
 
-            <div className="logo">
-                <h1>
-                    <Link to="/">{isAdmin ? '-Admin-' : '“අයන්න කියන්න”'}</Link>
-                </h1>
+                <div className="logo">
+                    <h1>
+                        <Link to="/">{isAdmin ? '-Admin-' : '“අයන්න කියන්න”'}</Link>
+                    </h1>
+                </div>
+
+                <ul>
+                    <li><Link to="fristhome" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Home' : 'Home'}</Link></li>
+                    <li><Link to="myAbout" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'About' : 'About'}</Link></li>
+                    <li><Link to="myInfo" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Info' : 'Info'}</Link></li>
+                    <li><Link to="serviceboxes" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Services' : 'Services'}</Link></li>
+                    <li><Link to="foryouBoxes" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'for you' : 'for you'}</Link></li>
+                    <li><Link to="contactbox" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Contact' : 'Contact'}</Link></li>
+
+                    {isAdmin && adminRouter()}
+
+                    {
+                        isLogged ? loggedRouter() : <li><a href="/login">Login ✦ Register</a></li>
+                    }
+
+                </ul> 
             </div>
 
-
-            {/*inside ul..> style={styleMenu} */}
-            <ul>
-                <li><Link to="fristhome" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Home' : 'Home'}</Link></li>
-                <li><Link to="myAbout" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'About' : 'About'}</Link></li>
-                <li><Link to="myInfo" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Info' : 'Info'}</Link></li>
-                <li><Link to="serviceboxes" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Services' : 'Services'}</Link></li>
-                <li><Link to="foryouBoxes" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'for you' : 'for you'}</Link></li>
-                <li><Link to="contactbox" spy={true} smooth={true} offset={-50} duration={500}>{isAdmin ? 'Contact' : 'Contact'}</Link></li>
-
-                {isAdmin && adminRouter()}
-
-                {
-                    isLogged ? loggedRouter() : <li><a href="/login">Login ✦ Register</a></li>
-                }
-
-                {/* <li onClick={() => setMenu(!menu)}>
-                    <img src={Close} alt="" width="30" className="menu" />
-                </li> */}
-            </ul> 
-        </div>
-
-
-        <div className="cantainer">
-
-            <div className="ncard" data-aos="fadeInUp">
             <Landingpage/>
-            </div>
-
-            <div className="ncard" data-aos="fadeInUp">
             <About/>
-            </div>
-
-            <div className="ncard" data-aos="fadeInUp">
             <Sehome/>
-            </div>
-
-            <div className="ncard" data-aos="fadeInUp">
             <Boxes/>
-            </div>
-            </div>
-
-            <div className="ncard" data-aos="fadeInUp">
             <Products/>
-            </div>
-
-            <div className="ncard" id='Contactfooter' data-aos="zoom-in-up">
             <Contactfooter />
-            </div>
-
+            
         </div>
     )
 }
