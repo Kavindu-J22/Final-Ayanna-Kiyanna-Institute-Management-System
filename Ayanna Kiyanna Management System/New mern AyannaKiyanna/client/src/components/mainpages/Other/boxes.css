@@ -1,5 +1,6 @@
 .main-box{
     min-height: 105vh;
+    position: relative;
 }
 .B-container h1{
     display: flex;
@@ -276,4 +277,13 @@
     bottom: 100%;
     transition: .5s;
     transition-delay: 0.375s;
+}
+.B-section-newupbtns-sidemenu{
+    position: absolute;
+    display: flex;
+     flex-wrap: wrap;
+    top: 25px;
+    left: 20px;
+    align-items: center;
+    justify-content: center;
 }

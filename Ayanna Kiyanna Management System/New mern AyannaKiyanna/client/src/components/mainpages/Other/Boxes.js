@@ -20,10 +20,6 @@ function Boxes() {
                     <a href='#vvvv006'><span></span><span></span><span></span><span></span>ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න</a>
                 </div>
 
-                <div className='B-section-newupbtns-sidemenu'>
-
-                </div>
-
                     <h2>✥ විෂය සමගාමි ✥</h2>
                     <div className='B-cards'>
                         <div className='B-text-card'>
@@ -292,6 +288,53 @@ function Boxes() {
 
                 </div>
             </section>
+
+            <div className='B-section-newupbtns-sidemenu'>
+                        <ul>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <span className='bnsicon'><i class="fa-solid fa-book"></i></span>
+                                <span className='bnstitle'>විෂය සමගාමි</span>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <span className='bnsicon'><i class="fa-solid fa-paperclip"></i></span>
+                                <span className='bnstitle'>පරීක්ෂණාත්මක</span>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <span className='bnsicon'><i class="fa-solid fa-star"></i></span>
+                                <span className='bnstitle'>වැදගත් විශේෂාංග</span>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <span className='bnsicon'><i class="fa-solid fa-person-booth"></i></span>
+                                <span className='bnstitle'>වෙනත් විශේෂාංග</span>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <span className='bnsicon'><i class="fa-solid fa-building-columns"></i></span>
+                                <span className='bnstitle'>Institute Related information</span>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <span className='bnsicon'><i class="fa-solid fa-user-graduate"></i></span>
+                                <span className='bnstitle'>ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න</span>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <span className='bnsicon'><i class="fa-solid fa-diagram-next"></i></span>
+                                <span className='bnstitle'>ඊළඟ පිටුවට :</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
             
         </div>
     )
