@@ -99,13 +99,30 @@ function Header() {
 
                 </ul> 
             </div>
+            
+            <section id='fristhome'>
+                <Landingpage/>
+            </section>
 
-            <Landingpage/>
-            <About/>
-            <Sehome/>
-            <Boxes/>
-            <Products/>
-            <Contactfooter />
+            <section id='myAbout'>
+                <About/>
+            </section>
+
+            <section id='myInfo'>
+                <Sehome/>
+            </section>
+
+            <section id='serviceboxes'>
+                <Boxes/>
+            </section>
+
+            <section id='foryouBoxes'>
+                <Products/>
+            </section>
+
+            <section id='contactbox'>
+                <Contactfooter/>
+            </section>
             
         </div>
     )
