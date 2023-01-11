@@ -258,7 +258,7 @@ hr.Myhr:after {
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    background: rgba(215, 131, 35, 0.342);
+    background: rgba(128, 77, 19, 0.56);
     box-shadow: 0 0 20px rgba(145, 139, 139, 0.503);
     border-radius: 50%;
     font-size: 25px;

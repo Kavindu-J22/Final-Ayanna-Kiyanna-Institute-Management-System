@@ -19,6 +19,11 @@ function Boxes() {
                     <a href='#vvvv005'><span></span><span></span><span></span><span></span>Institute Related information</a>
                     <a href='#vvvv006'><span></span><span></span><span></span><span></span>ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න</a>
                 </div>
+
+                <div className='B-section-newupbtns-sidemenu'>
+
+                </div>
+
                     <h2>✥ විෂය සමගාමි ✥</h2>
                     <div className='B-cards'>
                         <div className='B-text-card'>
