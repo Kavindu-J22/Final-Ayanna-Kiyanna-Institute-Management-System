@@ -1,6 +1,6 @@
 import React from 'react'
 import './boxes.css'
-import { Link } from "react-router-dom";
+import {Link} from 'react-scroll'
 
 
 function Boxes() {
@@ -12,12 +12,12 @@ function Boxes() {
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <h1>- අපගේ සේවාවන් -</h1>
                 <div className='B-section-newupbtns'>
-                    <a id='fstboxbtn' href='#vvvv001'><span></span><span></span><span></span><span></span><i class="fa-solid fa-book"></i>විෂය සමගාමි</a>
-                    <a href='#vvvv002'><span></span><span></span><span></span><span></span><i class="fa-solid fa-paperclip"></i>පරීක්ෂණාත්මක</a>
-                    <a href='#vvvv003'><span></span><span></span><span></span><span></span><i class="fa-solid fa-star"></i>වැදගත් විශේෂාංග</a>
-                    <a href='#vvvv004'><span></span><span></span><span></span><span></span><i class="fa-solid fa-person-booth"></i>වෙනත් විශේෂාංග</a>
-                    <a href='#vvvv005'><span></span><span></span><span></span><span></span><i class="fa-solid fa-building-columns"></i>Institute Related information</a>
-                    <a href='#vvvv006'><span></span><span></span><span></span><span></span><i class="fa-solid fa-user-graduate"></i>ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න</a>
+                    <Link to="vvvv001" smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-book"></i>විෂය සමගාමි</Link>
+                    <Link to='vvvv002' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-paperclip"></i>පරීක්ෂණාත්මක</Link>
+                    <Link to='vvvv003' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-star"></i>වැදගත් විශේෂාංග</Link>
+                    <Link to='vvvv004' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-person-booth"></i>වෙනත් විශේෂාංග</Link>
+                    <Link to='vvvv005' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-building-columns"></i>Institute Related information</Link>
+                    <Link to='vvvv006' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-user-graduate"></i>ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න</Link>
                 </div>
 
                     <h2>✥ විෂය සමගාමි ✥</h2>
@@ -28,9 +28,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>ව්‍යාකරණ</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. </p>
-                            <Link to="/boxes/viyabox">
+                            <a href="/boxes/viyabox">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>  
                         </div>
                         <div className='B-text-card'>
@@ -39,9 +39,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>සාහිත්‍ය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/litbox">
+                            <a href="/boxes/litbox">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -50,9 +50,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>අක්ෂර මාලාව</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/AksharaMalawa">
+                            <a href="/boxes/AksharaMalawa">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -69,9 +69,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Paper Bank</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/Paperbank">
+                            <a href="/boxes/Paperbank">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -80,9 +80,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Online Exams</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/OnlineExams">
+                            <a href="/boxes/OnlineExams">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -91,45 +91,50 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Speed Tests</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/Qtgrade">
+                            <a href="/boxes/Qtgrade">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                     </div>
 
                     <div className='B-section-newupbtns-sidemenu'>
                         <ul>
-                            <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-book"></i>
-                                </a>
+                            <Link to='vvvv001' smooth={true} offset={10} duration={500}>
+                            <li className='newB-section-sidemenu-list'>   
+                            <i class="fa-solid fa-book"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv002' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list' id='activatevbbb'>
-                                <a href='#'>
-                                <i class="fa-solid fa-paperclip"></i>
-                                </a>
+                            <i class="fa-solid fa-paperclip"></i>    
                             </li>
+                            </Link>
+
+                            <Link to='vvvv003' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-star"></i>
-                                </a>
+                            <i class="fa-solid fa-star"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv004' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-person-booth"></i>
-                                </a>
+                            <i class="fa-solid fa-person-booth"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv005' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-building-columns"></i>
-                                </a>
+                            <i class="fa-solid fa-building-columns"></i>
                             </li>
+                            </Link>
+
+                            <Link to='vvvv006' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-user-graduate"></i>
-                                </a>
+                            <i class="fa-solid fa-user-graduate"></i>
                             </li>
+                            </Link>
                             
                         </ul>
                     </div>
@@ -147,9 +152,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>අයන්න කියන්න<br/>E-Magazine</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/Emagazine">
+                            <a href="/boxes/Emagazine">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -158,9 +163,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>විචාර හා ගී<br/>රසවින්දන</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/Rasavindana">
+                            <a href="/boxes/Rasavindana">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -169,45 +174,50 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>විෂය නිර්දේශ සහ ගුරු අත් පොත්</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/TeacherBook">
+                            <a href="/boxes/TeacherBook">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                     </div>
 
                     <div className='B-section-newupbtns-sidemenu'>
                         <ul>
-                            <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-book"></i>
-                                </a>
+                        <Link to='vvvv001' smooth={true} offset={10} duration={500}>
+                            <li className='newB-section-sidemenu-list'>   
+                            <i class="fa-solid fa-book"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv002' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-paperclip"></i>
-                                </a>
+                            <i class="fa-solid fa-paperclip"></i>    
                             </li>
+                            </Link>
+
+                            <Link to='vvvv003' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list' id='activatevbbb'>
-                                <a href='#'>
-                                <i class="fa-solid fa-star"></i>
-                                </a>
+                            <i class="fa-solid fa-star"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv004' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-person-booth"></i>
-                                </a>
+                            <i class="fa-solid fa-person-booth"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv005' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-building-columns"></i>
-                                </a>
+                            <i class="fa-solid fa-building-columns"></i>
                             </li>
+                            </Link>
+
+                            <Link to='vvvv006' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-user-graduate"></i>
-                                </a>
+                            <i class="fa-solid fa-user-graduate"></i>
                             </li>
+                            </Link>
                             
                         </ul>
                     </div>
@@ -226,9 +236,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>වීඩියෝ පාඩම්</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/VideoLessons">
+                            <a href="/boxes/VideoLessons">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -237,9 +247,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Paper Structures</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/PaperStructures">
+                            <a href="/boxes/PaperStructures">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -248,45 +258,50 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Others</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/SpeOthers">
+                            <a href="/boxes/SpeOthers">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                     </div>
 
                     <div className='B-section-newupbtns-sidemenu'>
                         <ul>
-                            <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-book"></i>
-                                </a>
+                        <Link to='vvvv001' smooth={true} offset={10} duration={500}>
+                            <li className='newB-section-sidemenu-list'>   
+                            <i class="fa-solid fa-book"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv002' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-paperclip"></i>
-                                </a>
+                            <i class="fa-solid fa-paperclip"></i>    
                             </li>
+                            </Link>
+
+                            <Link to='vvvv003' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-star"></i>
-                                </a>
+                            <i class="fa-solid fa-star"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv004' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list' id='activatevbbb'>
-                                <a href='#'>
-                                <i class="fa-solid fa-person-booth"></i>
-                                </a>
+                            <i class="fa-solid fa-person-booth"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv005' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-building-columns"></i>
-                                </a>
+                            <i class="fa-solid fa-building-columns"></i>
                             </li>
+                            </Link>
+
+                            <Link to='vvvv006' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-user-graduate"></i>
-                                </a>
+                            <i class="fa-solid fa-user-graduate"></i>
                             </li>
+                            </Link>
                             
                         </ul>
                     </div>
@@ -304,9 +319,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Academic Information</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/ClassDetails">
+                            <a href="/boxes/ClassDetails">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -315,9 +330,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Extracurricular Infomation</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/StudentColors">
+                            <a href="/boxes/StudentColors">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -326,45 +341,50 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>Photo<br/>Bucket</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/PhotoBucket">
+                            <a href="/boxes/PhotoBucket">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                     </div>
 
                     <div className='B-section-newupbtns-sidemenu'>
                         <ul>
-                            <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-book"></i>
-                                </a>
+                        <Link to='vvvv001' smooth={true} offset={10} duration={500}>
+                            <li className='newB-section-sidemenu-list'>   
+                            <i class="fa-solid fa-book"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv002' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-paperclip"></i>
-                                </a>
+                            <i class="fa-solid fa-paperclip"></i>    
                             </li>
+                            </Link>
+
+                            <Link to='vvvv003' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-star"></i>
-                                </a>
+                            <i class="fa-solid fa-star"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv004' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-person-booth"></i>
-                                </a>
+                            <i class="fa-solid fa-person-booth"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv005' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list' id='activatevbbb'>
-                                <a href='#'>
-                                <i class="fa-solid fa-building-columns"></i>
-                                </a>
+                            <i class="fa-solid fa-building-columns"></i>
                             </li>
+                            </Link>
+
+                            <Link to='vvvv006' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-user-graduate"></i>
-                                </a>
+                            <i class="fa-solid fa-user-graduate"></i>
                             </li>
+                            </Link>
                             
                         </ul>
                     </div>
@@ -383,9 +403,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>9 ශ්‍රේණිය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/MainGradeNine">
+                            <a href="/boxes/MainGradeNine">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -394,9 +414,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>10 ශ්‍රේණිය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/MainGradeTen">
+                            <a href="/boxes/MainGradeTen">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -405,9 +425,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>11 ශ්‍රේණිය</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/MainGradeEleven">
+                            <a href="/boxes/MainGradeEleven">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -416,9 +436,9 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>A/L</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/MainGradeAL">
+                            <a href="/boxes/MainGradeAL">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
                         <div className='B-text-card'>
@@ -427,49 +447,55 @@ function Boxes() {
                             <i class="fa-solid fa-newspaper"></i>
                             <h3>සිංහල සාහිත්‍යය<br/>(කාණ්ඩ විෂය)</h3>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</p>
-                            <Link to="/boxes/MainGradeLit">
+                            <a href="/boxes/MainGradeLit">
                                 <a class="B-button" type="submit">See More</a>
-                            </Link>
+                            </a>
                             </div>
                         </div>
 
                         <div className='B-section-newupbtns-sidemenu'>
                         <ul>
-                            <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-book"></i>
-                                </a>
+                        <Link to='vvvv001' smooth={true} offset={10} duration={500}>
+                            <li className='newB-section-sidemenu-list'>   
+                            <i class="fa-solid fa-book"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv002' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-paperclip"></i>
-                                </a>
+                            <i class="fa-solid fa-paperclip"></i>    
                             </li>
+                            </Link>
+
+                            <Link to='vvvv003' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-star"></i>
-                                </a>
+                            <i class="fa-solid fa-star"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv004' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-person-booth"></i>
-                                </a>
+                            <i class="fa-solid fa-person-booth"></i> 
                             </li>
+                            </Link>
+
+                            <Link to='vvvv005' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <i class="fa-solid fa-building-columns"></i>
-                                </a>
+                            <i class="fa-solid fa-building-columns"></i>
                             </li>
+                            </Link>
+
+                            <Link to='vvvv006' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list' id='activatevbbb'>
-                                <a href='#'>
-                                <i class="fa-solid fa-user-graduate"></i>
-                                </a>
+                            <i class="fa-solid fa-user-graduate"></i>
                             </li>
+                            </Link>
+
+                            <Link to='foryouDiv' smooth={true} offset={10} duration={500}>
                             <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                               <i class="fa-solid fa-diagram-next"></i>
-                                </a>
+                            <i class="fa-solid fa-download"></i>
                             </li>
+                            </Link>
                         </ul>
                     </div>
                     </div>
