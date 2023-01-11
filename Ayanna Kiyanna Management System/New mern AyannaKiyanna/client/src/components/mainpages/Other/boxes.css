@@ -1,3 +1,6 @@
+.main-box{
+    min-height: 105vh;
+}
 .B-container h1{
     display: flex;
     justify-content: center;

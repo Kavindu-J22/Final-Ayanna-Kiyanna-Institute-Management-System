@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 100vh;
+    min-height: 105vh;
     background: linear-gradient(90deg,#161922 0%,#1e222e ,30%,#6a6f77 30%,#434750 100%);
 }
 .Contactinfo-mainmy-box{

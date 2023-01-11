@@ -301,7 +301,7 @@ hr{
   position: fixed;
   bottom: 5rem;
   right: 5rem;
-  z-index: 999;
+  z-index: 5000;
   display: flex;
   justify-content: center;
   align-items: center;
