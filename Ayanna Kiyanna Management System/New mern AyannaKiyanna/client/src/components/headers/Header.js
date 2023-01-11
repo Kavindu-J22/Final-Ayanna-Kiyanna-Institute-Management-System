@@ -99,7 +99,7 @@ function Header() {
 
                 <ul>
                     <li><Link className='navLinks' to="fristhomeavailable" spy={true} smooth={true} offset={0} duration={1000}>{isAdmin ? 'Home' : 'Home'}</Link></li>
-                    <li><Link className='navLinks' to="myAboutavailable" spy={true} smooth={true} offset={10} duration={500}>{isAdmin ? 'About' : 'About'}</Link></li>
+                    <li><Link className='navLinks' to="myAboutavailable" spy={true} smooth={true} offset={10} duration={1000}>{isAdmin ? 'About' : 'About'}</Link></li>
                     <li><Link className='navLinks' to="myInfoavailable" spy={true} smooth={true} offset={10} duration={500}>{isAdmin ? 'Info' : 'Info'}</Link></li>
                     <li><Link className='navLinks' to="serviceboxesavailable" spy={true} smooth={true} offset={10} duration={500}>{isAdmin ? 'Services' : 'Services'}</Link></li>
                     <li><Link className='navLinks' to="foryouBoxesavailable" spy={true} smooth={true} offset={10} duration={1000}>{isAdmin ? 'for you' : 'for you'}</Link></li>
