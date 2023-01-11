@@ -29,7 +29,7 @@ export default function Starting({ history }) {
   return (
     <div className="fullmain" data-aos="fadeInUp">
       <section className="home">
-       <div className="header" data-aos="fadeInUp">
+       <div className="header">
          <video
            autoPlay
            loop
