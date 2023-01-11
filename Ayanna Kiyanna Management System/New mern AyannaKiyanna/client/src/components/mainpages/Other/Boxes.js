@@ -12,12 +12,12 @@ function Boxes() {
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <h1>- අපගේ සේවාවන් -</h1>
                 <div className='B-section-newupbtns'>
-                    <a href='#vvvv001'><span></span><span></span><span></span><span></span>විෂය සමගාමි</a>
-                    <a href='#vvvv002'><span></span><span></span><span></span><span></span>පරීක්ෂණාත්මක</a>
-                    <a href='#vvvv003'><span></span><span></span><span></span><span></span>වැදගත් විශේෂාංග</a>
-                    <a href='#vvvv004'><span></span><span></span><span></span><span></span>වෙනත් විශේෂාංග</a>
-                    <a href='#vvvv005'><span></span><span></span><span></span><span></span>Institute Related information</a>
-                    <a href='#vvvv006'><span></span><span></span><span></span><span></span>ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න</a>
+                    <a id='fstboxbtn' href='#vvvv001'><span></span><span></span><span></span><span></span><i class="fa-solid fa-book"></i>විෂය සමගාමි</a>
+                    <a href='#vvvv002'><span></span><span></span><span></span><span></span><i class="fa-solid fa-paperclip"></i>පරීක්ෂණාත්මක</a>
+                    <a href='#vvvv003'><span></span><span></span><span></span><span></span><i class="fa-solid fa-star"></i>වැදගත් විශේෂාංග</a>
+                    <a href='#vvvv004'><span></span><span></span><span></span><span></span><i class="fa-solid fa-person-booth"></i>වෙනත් විශේෂාංග</a>
+                    <a href='#vvvv005'><span></span><span></span><span></span><span></span><i class="fa-solid fa-building-columns"></i>Institute Related information</a>
+                    <a href='#vvvv006'><span></span><span></span><span></span><span></span><i class="fa-solid fa-user-graduate"></i>ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න</a>
                 </div>
 
                     <h2>✥ විෂය සමගාමි ✥</h2>
@@ -97,6 +97,43 @@ function Boxes() {
                             </div>
                         </div>
                     </div>
+
+                    <div className='B-section-newupbtns-sidemenu'>
+                        <ul>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-book"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                                <a href='#'>
+                                <i class="fa-solid fa-paperclip"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-star"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-person-booth"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-building-columns"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-user-graduate"></i>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
                 </div>
             </section>
 
@@ -138,6 +175,43 @@ function Boxes() {
                             </div>
                         </div>
                     </div>
+
+                    <div className='B-section-newupbtns-sidemenu'>
+                        <ul>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-book"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-paperclip"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                                <a href='#'>
+                                <i class="fa-solid fa-star"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-person-booth"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-building-columns"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-user-graduate"></i>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
                 </div>
             </section>
 
@@ -180,6 +254,43 @@ function Boxes() {
                             </div>
                         </div>
                     </div>
+
+                    <div className='B-section-newupbtns-sidemenu'>
+                        <ul>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-book"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-paperclip"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-star"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                                <a href='#'>
+                                <i class="fa-solid fa-person-booth"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-building-columns"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-user-graduate"></i>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
                 </div>
             </section>
 
@@ -221,6 +332,43 @@ function Boxes() {
                             </div>
                         </div>
                     </div>
+
+                    <div className='B-section-newupbtns-sidemenu'>
+                        <ul>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-book"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-paperclip"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-star"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-person-booth"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                                <a href='#'>
+                                <i class="fa-solid fa-building-columns"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list'>
+                                <a href='#'>
+                                <i class="fa-solid fa-user-graduate"></i>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
                 </div>
             </section>
 
@@ -284,57 +432,52 @@ function Boxes() {
                             </Link>
                             </div>
                         </div>
-                    </div>
 
-                </div>
-            </section>
-
-            <div className='B-section-newupbtns-sidemenu'>
+                        <div className='B-section-newupbtns-sidemenu'>
                         <ul>
                             <li className='newB-section-sidemenu-list'>
                                 <a href='#'>
-                                <span className='bnsicon'><i class="fa-solid fa-book"></i></span>
-                                <span className='bnstitle'>විෂය සමගාමි</span>
+                                <i class="fa-solid fa-book"></i>
                                 </a>
                             </li>
                             <li className='newB-section-sidemenu-list'>
                                 <a href='#'>
-                                <span className='bnsicon'><i class="fa-solid fa-paperclip"></i></span>
-                                <span className='bnstitle'>පරීක්ෂණාත්මක</span>
+                                <i class="fa-solid fa-paperclip"></i>
                                 </a>
                             </li>
                             <li className='newB-section-sidemenu-list'>
                                 <a href='#'>
-                                <span className='bnsicon'><i class="fa-solid fa-star"></i></span>
-                                <span className='bnstitle'>වැදගත් විශේෂාංග</span>
+                                <i class="fa-solid fa-star"></i>
                                 </a>
                             </li>
                             <li className='newB-section-sidemenu-list'>
                                 <a href='#'>
-                                <span className='bnsicon'><i class="fa-solid fa-person-booth"></i></span>
-                                <span className='bnstitle'>වෙනත් විශේෂාංග</span>
+                                <i class="fa-solid fa-person-booth"></i>
                                 </a>
                             </li>
                             <li className='newB-section-sidemenu-list'>
                                 <a href='#'>
-                                <span className='bnsicon'><i class="fa-solid fa-building-columns"></i></span>
-                                <span className='bnstitle'>Institute Related information</span>
+                                <i class="fa-solid fa-building-columns"></i>
+                                </a>
+                            </li>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                                <a href='#'>
+                                <i class="fa-solid fa-user-graduate"></i>
                                 </a>
                             </li>
                             <li className='newB-section-sidemenu-list'>
                                 <a href='#'>
-                                <span className='bnsicon'><i class="fa-solid fa-user-graduate"></i></span>
-                                <span className='bnstitle'>ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න</span>
-                                </a>
-                            </li>
-                            <li className='newB-section-sidemenu-list'>
-                                <a href='#'>
-                                <span className='bnsicon'><i class="fa-solid fa-diagram-next"></i></span>
-                                <span className='bnstitle'>ඊළඟ පිටුවට :</span>
+                               <i class="fa-solid fa-diagram-next"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
+                    </div>
+                    
+
+                </div>
+
+            </section>
             
         </div>
     )
