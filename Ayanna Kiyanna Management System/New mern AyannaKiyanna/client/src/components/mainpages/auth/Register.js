@@ -25,7 +25,8 @@ function Register() {
                 title: "Hii..! Wellcome to “අයන්න කියන්න”..!",
                 text: "Your Registration is Successfull",
                 icon: "success",
-                button: false
+                buttons: false,
+                timer: 1200,
             })
             .then((value) => {
                 window.location.href = "/Header/NewHeader";

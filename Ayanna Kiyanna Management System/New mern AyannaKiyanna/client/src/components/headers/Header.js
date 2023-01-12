@@ -57,10 +57,11 @@ function Header() {
             title: "Done!",
             text: "You are now loged out.!",
             icon: "info",
-            button: false
+            buttons: false,
+            timer: 1000,
         })
         .then((value) => {
-            swal(window.location.href = "/");
+            window.location.href = "/";
         });
 
     }

@@ -24,7 +24,8 @@ function Login() {
                 title: "Wellcome back to “අයන්න කියන්න”..!",
                 text: "Login Successfull",
                 icon: "success",
-                button: false
+                buttons: false,
+                timer: 1000,
             })
             .then((value) => {
                 window.location.href = "/Header/NewHeader";
