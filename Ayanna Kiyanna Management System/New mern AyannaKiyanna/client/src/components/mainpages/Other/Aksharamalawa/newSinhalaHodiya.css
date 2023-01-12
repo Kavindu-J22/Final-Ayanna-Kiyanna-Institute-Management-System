@@ -61,8 +61,18 @@
     height: 100px;
     background: antiquewhite;
     margin: 5px;
+    border-radius: 5px;
 }
 #swaraAkurahodi{
     background: rgb(2, 13, 63);
-    border-radius: 5px;
+}
+.viyaakuruDividaPink{
+    display: flex; 
+}
+.AkuruColomsSanjaka{
+    display: flex;
+    flex-direction: column;
+}
+.pinkbox{
+    background: rgb(225, 32, 145);
 }
