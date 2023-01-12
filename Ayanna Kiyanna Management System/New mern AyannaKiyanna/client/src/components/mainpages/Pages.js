@@ -39,6 +39,7 @@ import PhotoBucket from './Other/PhothBucket/Photobucket'
 import VideoLessons from './Other/VideoLessons/Videolessons'
 import PaperStructures from './Other/PaperStructures/PaperStructures'
 import SpeOthers from './Other/SpeOthers/SpeOthers'
+import NewSinhalaHodiya from './Other/Aksharamalawa/NewSinhalaHodiya'
 
 // Main Grade Selector
 
@@ -116,6 +117,11 @@ function Pages() {
             <Route path="/Qtgrade/QtAl" exact component={QtAl} />
             <Route path="/TeacherBook/Vishayanirdesha" exact component={Vishayanirdesha} />
             <Route path="/TeacherBook/Guruathpoth" exact component={Guruathpoth} />
+
+            {/* aksharamalawa */}
+            <Route path="/aksharamalawa/newHodya" exact component={NewSinhalaHodiya} />
+
+
 
 
             <Route path="/Home/Landingpage" exact component={Landingpage} />

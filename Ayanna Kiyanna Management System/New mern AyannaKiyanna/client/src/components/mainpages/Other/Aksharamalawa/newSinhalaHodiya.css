@@ -1,0 +1,61 @@
+.NuthanahodiyaMain{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    min-height: 100vh;
+    background: antiquewhite;
+}
+.mainhodibox{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.sinhalaAkurumainbox{
+    position: relative;
+    width: 65%;
+    min-height: 50vh;
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.sinhalaAkuruDiscbox{
+    position: relative;
+    width: 34%;
+    height: auto;
+    background: antiquewhite;
+}
+.swaraAkuruMain{
+    position: relative;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: #333;
+    padding: 20px 40px;   
+}
+.viyanAkuruMain{
+    position: relative;
+    width: auto;
+    min-height: 50vh;
+    margin: 5px;
+    background: #333;
+    padding: 20px 40px;
+}
+.AkuruColoms{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.akuruAK{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: antiquewhite;
+    margin: 5px;
+}

@@ -27,7 +27,7 @@ function AksharaMalawa() {
                                 
                                 <h3>නූතන සිංහල වර්ණ මාලාව</h3>
                                 <h5>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.</h5>   
-                                <Link className='v-link' to="#">Explore</Link>
+                                <Link className='v-link' to="/aksharamalawa/newHodya">Explore</Link>
                             </div>
                         </div>
 
