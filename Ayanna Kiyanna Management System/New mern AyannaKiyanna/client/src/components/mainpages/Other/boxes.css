@@ -217,6 +217,7 @@
 }
 .B-section-newupbtns a i{
     font-size: 15px;
+    padding: 5px;
 }
 .B-section-newupbtns a::before{
     content: '';
@@ -296,12 +297,13 @@
 .B-section-newupbtns-sidemenu{
     position: absolute;
     margin-top: 30px;
-    height: 40px;
+    width: 40px;
+    height: auto;
     top: 20%;
     left: 65px;
     align-items: center;
     justify-content: center;
-    width: 40px;
+    
 }
 .B-section-newupbtns-sidemenu ul{
     position: relative;
@@ -310,34 +312,57 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    overflow: hidden;
     border: 1px solid rgba(57, 55, 55, 0.462);
     border-top: 1px solid rgba(255, 255, 255, 0.385);
     border-right: 1px solid rgba(255, 255, 255, 0.285);
     background: #600477b9;
     box-shadow: 0 0 15px rgba(58, 56, 56, 0.645);
+    width: 100%;
 }
 .B-section-newupbtns-sidemenu ul li{
-    width: 100%;
-    height: 30px;
+    position: relative;
+    width: 40px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #750391;
-    padding: 30px;
     opacity: .5;
     transition: .3s;
     cursor: pointer;
 }
 .B-section-newupbtns-sidemenu ul li:hover{
     opacity: 1;
-    filter: brightness(1);
+    filter: brightness(1.2);
     transform: translateY(-5px);
 }
 .B-section-newupbtns-sidemenu ul li a{
     color: #fff;
-    text-shadow: 0 0 5px #333;
+    text-shadow: 0 0 5px rgb(76, 75, 75);
 }
 #activatevbbb{
-    background: #aeb0b0;
+    background: #9da3a3;
+}
+.B-section-newupbtns-sidemenu ul li::before{
+    content: attr(data-text);
+    position: absolute;
+    transform: translate(50%);
+    color: #000;
+    font-weight: 600;
+    background: #9da3a383;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 150px;
+    height: 35px;
+    padding: 3px 5px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: .5s;
+    border: 1px solid rgba(137, 133, 133, 0.597);
+    border-top: 1px solid rgba(207, 200, 200, 0.867);
+    border-left: 1px solid rgba(207, 200, 200, 0.867);
+}
+.B-section-newupbtns-sidemenu ul li:hover::before{
+    opacity: 1;
 }

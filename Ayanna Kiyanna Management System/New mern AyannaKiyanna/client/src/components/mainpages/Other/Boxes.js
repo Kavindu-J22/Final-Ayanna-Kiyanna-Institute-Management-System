@@ -16,8 +16,8 @@ function Boxes() {
                     <Link to='vvvv002' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-paperclip"></i>පරීක්ෂණාත්මක</Link>
                     <Link to='vvvv003' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-star"></i>වැදගත් විශේෂාංග</Link>
                     <Link to='vvvv004' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-person-booth"></i>වෙනත් විශේෂාංග</Link>
-                    <Link to='vvvv005' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-building-columns"></i>Institute Related information</Link>
-                    <Link to='vvvv006' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-user-graduate"></i>ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න</Link>
+                    <Link to='vvvv005' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-building-columns"></i>Institute information</Link>
+                    <Link to='vvvv006' smooth={true} offset={10} duration={500}><span></span><span></span><span></span><span></span><i class="fa-solid fa-user-graduate"></i>ශ්‍රේණියේ අනුව</Link>
                 </div>
 
                     <h2>✥ විෂය සමගාමි ✥</h2>
@@ -101,37 +101,37 @@ function Boxes() {
                     <div className='B-section-newupbtns-sidemenu'>
                         <ul>
                             <Link to='vvvv001' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>   
+                            <li className='newB-section-sidemenu-list' data-text="විෂය සමගාමි"> 
                             <i class="fa-solid fa-book"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv002' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb' data-text="පරීක්ෂණාත්මක">
                             <i class="fa-solid fa-paperclip"></i>    
                             </li>
                             </Link>
 
                             <Link to='vvvv003' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="වැදගත් විශේෂාංග">
                             <i class="fa-solid fa-star"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv004' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="වෙනත් විශේෂාංග">
                             <i class="fa-solid fa-person-booth"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv005' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="Institute Related information">
                             <i class="fa-solid fa-building-columns"></i>
                             </li>
                             </Link>
 
                             <Link to='vvvv006' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න">
                             <i class="fa-solid fa-user-graduate"></i>
                             </li>
                             </Link>
@@ -184,37 +184,37 @@ function Boxes() {
                     <div className='B-section-newupbtns-sidemenu'>
                         <ul>
                         <Link to='vvvv001' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>   
+                            <li className='newB-section-sidemenu-list' data-text="විෂය සමගාමි">   
                             <i class="fa-solid fa-book"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv002' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="පරීක්ෂණාත්මක">
                             <i class="fa-solid fa-paperclip"></i>    
                             </li>
                             </Link>
 
                             <Link to='vvvv003' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb' data-text="වැදගත් විශේෂාංග">
                             <i class="fa-solid fa-star"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv004' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="වෙනත් විශේෂාංග">
                             <i class="fa-solid fa-person-booth"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv005' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="Institute Related information">
                             <i class="fa-solid fa-building-columns"></i>
                             </li>
                             </Link>
 
                             <Link to='vvvv006' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න">
                             <i class="fa-solid fa-user-graduate"></i>
                             </li>
                             </Link>
@@ -268,37 +268,37 @@ function Boxes() {
                     <div className='B-section-newupbtns-sidemenu'>
                         <ul>
                         <Link to='vvvv001' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>   
+                            <li className='newB-section-sidemenu-list' data-text="විෂය සමගාමි">   
                             <i class="fa-solid fa-book"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv002' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="පරීක්ෂණාත්මක">
                             <i class="fa-solid fa-paperclip"></i>    
                             </li>
                             </Link>
 
                             <Link to='vvvv003' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="වැදගත් විශේෂාංග">
                             <i class="fa-solid fa-star"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv004' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb' data-text="වෙනත් විශේෂාංග">
                             <i class="fa-solid fa-person-booth"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv005' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="Institute Related information">
                             <i class="fa-solid fa-building-columns"></i>
                             </li>
                             </Link>
 
                             <Link to='vvvv006' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න">
                             <i class="fa-solid fa-user-graduate"></i>
                             </li>
                             </Link>
@@ -351,37 +351,37 @@ function Boxes() {
                     <div className='B-section-newupbtns-sidemenu'>
                         <ul>
                         <Link to='vvvv001' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>   
+                            <li className='newB-section-sidemenu-list' data-text="විෂය සමගාමි">   
                             <i class="fa-solid fa-book"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv002' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="පරීක්ෂණාත්මක">
                             <i class="fa-solid fa-paperclip"></i>    
                             </li>
                             </Link>
 
                             <Link to='vvvv003' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="වැදගත් විශේෂාංග">
                             <i class="fa-solid fa-star"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv004' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="වෙනත් විශේෂාංග">
                             <i class="fa-solid fa-person-booth"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv005' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb' data-text="Institute Related information">
                             <i class="fa-solid fa-building-columns"></i>
                             </li>
                             </Link>
 
                             <Link to='vvvv006' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න">
                             <i class="fa-solid fa-user-graduate"></i>
                             </li>
                             </Link>
@@ -456,43 +456,43 @@ function Boxes() {
                         <div className='B-section-newupbtns-sidemenu'>
                         <ul>
                         <Link to='vvvv001' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>   
+                            <li className='newB-section-sidemenu-list' data-text="විෂය සමගාමි">   
                             <i class="fa-solid fa-book"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv002' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="පරීක්ෂණාත්මක">
                             <i class="fa-solid fa-paperclip"></i>    
                             </li>
                             </Link>
 
                             <Link to='vvvv003' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="වැදගත් විශේෂාංග">
                             <i class="fa-solid fa-star"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv004' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="වෙනත් විශේෂාංග">
                             <i class="fa-solid fa-person-booth"></i> 
                             </li>
                             </Link>
 
                             <Link to='vvvv005' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' data-text="Institute Related information">
                             <i class="fa-solid fa-building-columns"></i>
                             </li>
                             </Link>
 
                             <Link to='vvvv006' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list' id='activatevbbb'>
+                            <li className='newB-section-sidemenu-list' id='activatevbbb' data-text="ශ්‍රේණියේ අනුව අධ්‍යයනය කරන්න">
                             <i class="fa-solid fa-user-graduate"></i>
                             </li>
                             </Link>
 
                             <Link to='foryouDiv' smooth={true} offset={10} duration={500}>
-                            <li className='newB-section-sidemenu-list'>
+                            <li className='newB-section-sidemenu-list' id='nextgotonextinboxes' data-text="ඊළඟ පිටුවට ➷">
                             <i class="fa-solid fa-download"></i>
                             </li>
                             </Link>
