@@ -100,11 +100,11 @@ function Header() {
 
                 <ul>
                     <Link className='navLinks' to="fristhomeavailable" spy={true} smooth={true} offset={0} duration={1000}><li>{isAdmin ? 'Home' : 'Home'}</li></Link>
-                    <Link className='navLinks' to="downfristabout" spy={true} smooth={true} offset={10} duration={1000}><li>{isAdmin ? 'About' : 'About'}</li></Link>
-                    <Link className='navLinks' to="myInfoavailable" spy={true} smooth={true} offset={25} duration={500}><li>{isAdmin ? 'Info' : 'Info'}</li></Link>
-                    <Link className='navLinks' to="serviceboxesavailable" spy={true} smooth={true} offset={30} duration={500}><li>{isAdmin ? 'Services' : 'Services'}</li></Link>
-                    <Link className='navLinks' to="foryouBoxesavailable" spy={true} smooth={true} offset={30} duration={1000}><li>{isAdmin ? 'for you' : 'for you'}</li></Link>
-                    <Link className='navLinks' to="contactboxavailable" spy={true} smooth={true} offset={45} duration={500}><li>{isAdmin ? 'Contact' : 'Contact'}</li></Link>
+                    <Link className='navLinks' to="downfristabout" spy={true} smooth={true} offset={0} duration={1000}><li>{isAdmin ? 'About' : 'About'}</li></Link>
+                    <Link className='navLinks' to="myInfoavailable" spy={true} smooth={true} offset={0} duration={500}><li>{isAdmin ? 'Info' : 'Info'}</li></Link>
+                    <Link className='navLinks' to="serviceboxesavailable" spy={true} smooth={true} offset={0} duration={500}><li>{isAdmin ? 'Services' : 'Services'}</li></Link>
+                    <Link className='navLinks' to="foryouBoxesavailable" spy={true} smooth={true} offset={0} duration={1000}><li>{isAdmin ? 'for you' : 'for you'}</li></Link>
+                    <Link className='navLinks' to="contactboxavailable" spy={true} smooth={true} offset={0} duration={500}><li>{isAdmin ? 'Contact' : 'Contact'}</li></Link>
 
                     {isAdmin && adminRouter()}
 
