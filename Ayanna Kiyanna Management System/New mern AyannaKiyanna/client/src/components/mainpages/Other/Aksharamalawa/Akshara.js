@@ -10,8 +10,8 @@ function AksharaMalawa() {
     return (
         <div className="AksharaMalawa-main-box">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-            <div className='AkstableLogo'><Link onClick={() => window.history.back()}><img src={Staklogo}></img></Link></div>
-            <div className='MainBackbtnmy'><Link to="/"><img src={backbtnmy}></img></Link></div>
+            <div className='AkstableLogo'><Link to="/"><img src={Staklogo}></img></Link></div>
+            <div className='MainBackbtnmy'><Link onClick={() => window.history.back()}><img src={backbtnmy}></img></Link></div>
 
             
 
