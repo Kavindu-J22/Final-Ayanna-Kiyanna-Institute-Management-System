@@ -27,7 +27,7 @@ export default function Starting({ history }) {
   }, [history]);
 
   return (
-    <div className="fullmain" data-aos="fadeInUp">
+    <div className="fullmain" id='fristhomeavailable' data-aos="fadeInUp">
       <section className="home">
        <div className="header">
          <video

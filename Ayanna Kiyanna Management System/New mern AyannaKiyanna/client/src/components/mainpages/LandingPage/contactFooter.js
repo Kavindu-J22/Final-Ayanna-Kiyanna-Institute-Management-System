@@ -7,7 +7,7 @@ function Contactfooter(){
     
   return(
 
-        <div className="Contact-Footer-main">
+        <div className="Contact-Footer-main" id='contactboxavailable'>
 
                     <div className="Contactbubles">
                         <span id="aa"></span>
