@@ -64,10 +64,6 @@
     width: 55%;
     height: auto;
     opacity: .95;
-    transition: .7s;
-}
-.logo2:hover{
-    transform: scale(1.1);
 }
 
 .video{
@@ -109,6 +105,10 @@
     color: rgb(41, 26, 39);
     font-family: 'Noto Sans Sinhala',sans-serif;
     font-weight: 800;
+    transition: .7s;
+}
+.content h2:hover{
+    transform: scale(1.1);
 }
 .content p{
     width: 80%;

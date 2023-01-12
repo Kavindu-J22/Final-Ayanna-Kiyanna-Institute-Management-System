@@ -4,7 +4,7 @@ import BtnRender from './BtnRender'
 function ProductItem({product, isAdmin, deleteProduct, handleCheck}) {
 
     return (
-        <div className="product_card">
+        <div className="product_card" data-aos="zoom-in-up">
             <div className='N-productBox'>
                 <span></span>
                 <div className='N-product-Content'>

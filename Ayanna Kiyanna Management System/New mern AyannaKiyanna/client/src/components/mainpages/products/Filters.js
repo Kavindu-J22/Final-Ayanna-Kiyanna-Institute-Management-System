@@ -16,7 +16,7 @@ function Filters() {
     }
 
     return (
-        <div className="filter_menu">
+        <div className="filter_menu" data-aos="flip-up">
             <div className="row">
                 <span>වෙන්කරන්න : </span>
                 <select name="category" value={category} onChange={handleCategory} >

@@ -7,7 +7,7 @@ function Contactfooter(){
     
   return(
 
-        <div className="Contact-Footer-main" id='contactboxavailable'>
+        <div className="Contact-Footer-main" id='contactboxavailable' data-aos="fadeInUp">
 
                     <div className="Contactbubles">
                         <span id="aa"></span>
@@ -55,7 +55,7 @@ function Contactfooter(){
 
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-            <div className="Contactmainf-body">
+            <div className="Contactmainf-body" data-aos="zoom-in-up">
                 <div className="Contactmainf-content">
 
                     <div className="Contactmainf-title">
@@ -176,7 +176,7 @@ function Contactfooter(){
 
                 </div>
                         
-            </div>
+                </div>
 
             
                 <div className="Contactinfo-mainmy-box">
