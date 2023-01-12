@@ -10,7 +10,6 @@ import About from "../mainpages/LandingPage/About"
 import Sehome from "../mainpages/LandingPage/Sehome"
 import Boxes from "../mainpages/Other/Boxes"
 import Products from '../mainpages/products/Products'
-import ProgressBar from '../mainpages/LandingPage/ProgressBar'
 import Contactfooter from '../mainpages/LandingPage/contactFooter'
 
 function Header() {
@@ -104,7 +103,6 @@ function Header() {
                     <Link className='navLinks' to="myInfoavailable" spy={true} smooth={true} offset={25} duration={500}><li>{isAdmin ? 'Info' : 'Info'}</li></Link>
                     <Link className='navLinks' to="serviceboxesavailable" spy={true} smooth={true} offset={30} duration={500}><li>{isAdmin ? 'Services' : 'Services'}</li></Link>
                     <Link className='navLinks' to="foryouBoxesavailable" spy={true} smooth={true} offset={30} duration={1000}><li>{isAdmin ? 'for you' : 'for you'}</li></Link>
-                    <Link className='navLinks' to="progressbarAvailable" spy={true} smooth={true} offset={40} duration={500}><li>{isAdmin ? 'Counters' : 'Counters'}</li></Link>
                     <Link className='navLinks' to="contactboxavailable" spy={true} smooth={true} offset={45} duration={500}><li>{isAdmin ? 'Contact' : 'Contact'}</li></Link>
 
                     {isAdmin && adminRouter()}
@@ -116,32 +114,29 @@ function Header() {
                 </ul> 
             </div>
             
-            
+            <div>
                 <Landingpage/>
-            
+            </div>
 
-            
+            <div>
                 <About/>
-            
+            </div>
 
-           
+            <div>
                 <Sehome/>
-            
+            </div>
 
-            
+            <div>
                 <Boxes/>
-            
+            </div>
 
-            
+            <div>
                 <Products/>
+            </div>
 
-
-                <ProgressBar/>
-            
-
-            
+            <div>
                 <Contactfooter/>
-            
+            </div>
             
         </div>
     )

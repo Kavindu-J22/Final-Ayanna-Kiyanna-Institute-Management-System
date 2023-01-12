@@ -4,6 +4,7 @@ import Ayanna from "../../assets/images/Ayanna.png"
 import Abt1 from "../../assets/images/Abt1.png"
 import Abt2 from "../../assets/images/Abt2.png"
 import Abt3 from "../../assets/images/Abt3.png"
+import ProgressBar from "./ProgressBar";
 
 function About(){
 
@@ -71,8 +72,12 @@ function About(){
 
           </div>
 
-
         </section> 
+
+        <div>
+          <ProgressBar/>
+        </div>
+
     </div>
   );
 }
