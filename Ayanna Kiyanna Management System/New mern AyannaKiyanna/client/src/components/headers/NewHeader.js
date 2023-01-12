@@ -40,7 +40,7 @@ function NewHeader() {
     const loggedRouter = () =>{
         return(
             <>
-                <li><i class="fa-solid fa-right-from-bracket"></i><Link className='newheadlink' to="/" data-text="-LOGOUT-" onClick={logoutUser}>Logout</Link></li>
+                <li><i class="fa-solid fa-right-from-bracket"></i><a className='newheadlink' to="/" data-text="-LOGOUT-" onClick={logoutUser}>Logout</a></li>
             </>
         )
     }

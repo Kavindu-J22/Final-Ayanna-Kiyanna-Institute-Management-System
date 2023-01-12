@@ -60,7 +60,7 @@ function Header() {
             button: false
         })
         .then((value) => {
-            window.location.href = "/";
+            swal(window.location.href = "/");
         });
 
     }
@@ -80,7 +80,7 @@ function Header() {
                 {
                     isAdmin ? <li><Link to="#">User Requests</Link></li> : <li><Link to="#">My Requests</Link></li>
                 }
-                <li><a href="/" onClick={logoutUser}>Logout</a></li>
+                <li><a to="/" onClick={logoutUser}>Logout</a></li>
                 <li><Link to="#"><i class="fa-solid fa-user-large"></i></Link></li>
             </>
         )
@@ -93,7 +93,7 @@ function Header() {
 
                 <div className="logo">
                     <h1>
-                        <Link to="/">{isAdmin ? '-Admin-' : '“අයන්න කියන්න”'}</Link>
+                        <a href="/">{isAdmin ? '-Admin-' : '“අයන්න කියන්න”'}</a>
                     </h1>
                 </div>
 

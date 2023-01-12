@@ -22,8 +22,8 @@ function Register() {
             localStorage.setItem('firstLogin', true)
 
             swal({
-                title: "Done!",
-                text: "Registration Successfull",
+                title: "Hii..! Wellcome to “අයන්න කියන්න”..!",
+                text: "Your Registration is Successfull",
                 icon: "success",
                 button: false
             })

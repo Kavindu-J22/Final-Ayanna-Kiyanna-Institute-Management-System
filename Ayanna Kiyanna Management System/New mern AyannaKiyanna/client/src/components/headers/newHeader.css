@@ -27,6 +27,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .newheader ul li i{
     padding: 15px;

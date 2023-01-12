@@ -21,7 +21,7 @@ function Login() {
             localStorage.setItem('firstLogin', true)
             
             swal({
-                title: "Done!",
+                title: "Wellcome back to “අයන්න කියන්න”..!",
                 text: "Login Successfull",
                 icon: "success",
                 button: false
