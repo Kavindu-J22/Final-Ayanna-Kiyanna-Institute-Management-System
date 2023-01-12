@@ -26,22 +26,22 @@ function ProgressBar() {
 
             <div className='myProgressBar-container'>
                 <i class="fa-solid fa-users"></i>
-                <span className='upnums' data-val="2500">000</span>
+                <div className='forPlussmark'><span className='upnums' data-val="2500">000</span><p>+</p></div>
                 <span className='upnumsText'>Students</span>
             </div>
             <div className='myProgressBar-container'>
                 <i class="fa-solid fa-book-open"></i>
-                <span className='upnums' data-val="550">000</span>
+                <div className='forPlussmark'><span className='upnums' data-val="550">000</span><p>+</p></div>
                 <span className='upnumsText'>Books and Documents</span>
             </div>
             <div className='myProgressBar-container'>
                 <i class="fa-solid fa-crown"></i>
-                <span className='upnums' data-val="20">00</span>
+                <div className='forPlussmark'><span className='upnums' data-val="20">00</span><p>+</p></div>
                 <span className='upnumsText'>Experience(Years)</span>
             </div>
             <div className='myProgressBar-container'>
                 <i class="fa-solid fa-person-chalkboard"></i>
-                <span className='upnums' data-val="25">00</span>
+                <div className='forPlussmark'><span className='upnums' data-val="25">00</span><p>+</p></div>
                 <span className='upnumsText'>All Classes</span>
             </div>
 

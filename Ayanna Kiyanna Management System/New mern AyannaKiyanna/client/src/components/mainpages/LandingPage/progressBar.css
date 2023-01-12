@@ -1,6 +1,6 @@
 .myProgressBar{
-    min-height: 50vh;
-    background: #121317;
+    min-height: 40vh;
+    background: #161922;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -30,6 +30,11 @@
     border-top: 1px solid rgba(255, 255, 255, 0.359);
     border-left: 1px solid rgba(255, 255, 255, 0.359);
     overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.047));
+    transition: .4s;
+}
+.myProgressBar-container:hover{
+    transform: translateY(-10px);
 }
 .myProgressBar-container::before{
     content: '';
@@ -53,7 +58,8 @@
     font-size: 3em;
 }
 .myProgressBar-container span.upnumsText{
-    font-size: 1em;
+    color: rgb(205, 199, 199);
+    font-size: 1.2em;
     text-align: center;
     pad: 0.7em 0;
     font-weight: 400;
@@ -91,4 +97,11 @@
         width: 80%;
         font-size: 8px;
     }
+}
+.forPlussmark{
+    display: flex;
+    justify-content: center;
+}
+.forPlussmark p{
+    font-size: 25px;
 }
