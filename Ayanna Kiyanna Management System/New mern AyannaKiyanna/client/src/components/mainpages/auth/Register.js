@@ -28,7 +28,7 @@ function Register() {
                 button: false
             })
             .then((value) => {
-                window.location.href = "/";
+                window.location.href = "/Header/NewHeader";
             });
 
         } catch (err) {
