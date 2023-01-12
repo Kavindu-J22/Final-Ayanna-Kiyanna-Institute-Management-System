@@ -11,66 +11,66 @@ function NewSinhalaHodiya() {
 
                         <div className='AkuruColoms'>
 
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
 
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
-                            <div className='akuruAK'>
-                                
-                            </div>
-
-                        </div>
-                         <div className='AkuruColoms'>
-
-                            <div className='akuruAK'>
-
-                            </div>
-                            <div className='akuruAK'>
-                                
-                            </div>
-                            <div className='akuruAK'>
-                                
-                            </div>
-                            <div className='akuruAK'>
-                                
-                            </div>
-                            <div className='akuruAK'>
-                                
-                            </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
 
                         </div>
                          <div className='AkuruColoms'>
 
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
 
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK' id='swaraAkurahodi'>
+                                
+                            </div>
+
+                        </div>
+                         <div className='AkuruColoms'>
+
+                            <div className='akuruAK' id='swaraAkurahodi'>
+
+                            </div>
+                            <div className='akuruAK' id='swaraAkurahodi'>
+                                
+                            </div>
+                            <div className='akuruAK' id='swaraAkurahodi'>
+                                
+                            </div>
+                            <div className='akuruAK' id='swaraAkurahodi'>
+                                
+                            </div>
+                            <div className='akuruAK' id='swaraAkurahodi'>
+                                
+                            </div>
+                            <div className='akuruAK' id='swaraAkurahodi'>
                                 
                             </div>
 

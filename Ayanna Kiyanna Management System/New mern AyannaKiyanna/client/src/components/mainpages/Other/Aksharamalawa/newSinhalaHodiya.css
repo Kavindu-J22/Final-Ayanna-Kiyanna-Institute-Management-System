@@ -3,13 +3,13 @@
     padding: 10px;
     width: 100%;
     min-height: 100vh;
-    background: antiquewhite;
+    background: #161623;
 }
 .mainhodibox{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: #333;
+    background: #161623;
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -18,33 +18,36 @@
     position: relative;
     width: 65%;
     min-height: 50vh;
-    background: antiquewhite;
+    background: rgba(250, 235, 215, 0.593);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
+    border-radius: 10px;
 }
 .sinhalaAkuruDiscbox{
     position: relative;
     width: 34%;
     height: auto;
-    background: antiquewhite;
+    background: rgba(250, 235, 215, 0.593);
 }
 .swaraAkuruMain{
     position: relative;
     width: auto;
     min-height: 30vh;
     margin: 5px;
-    background: #333;
-    padding: 20px 40px;   
+    background: rgb(153, 137, 228);
+    padding: 20px 40px; 
+    border-radius: 10px;  
 }
 .viyanAkuruMain{
     position: relative;
     width: auto;
     min-height: 50vh;
     margin: 5px;
-    background: #333;
+    background: rgb(159, 126, 83);
     padding: 20px 40px;
+    border-radius: 10px;
 }
 .AkuruColoms{
     position: relative;
@@ -58,4 +61,8 @@
     height: 100px;
     background: antiquewhite;
     margin: 5px;
+}
+#swaraAkurahodi{
+    background: rgb(2, 13, 63);
+    border-radius: 5px;
 }
