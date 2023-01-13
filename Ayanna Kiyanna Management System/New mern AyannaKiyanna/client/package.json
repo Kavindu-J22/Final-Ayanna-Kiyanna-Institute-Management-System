@@ -16,7 +16,8 @@
     "react-scroll": "^1.8.9",
     "react-scroll-to-top": "^3.0.0",
     "sweetalert": "^2.1.2",
-    "sweetalert2": "^11.6.16"
+    "sweetalert2": "^11.6.16",
+    "vanilla-tilt": "^1.8.0"
   },
   "scripts": {
     "start": "react-scripts start",

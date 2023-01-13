@@ -437,44 +437,69 @@
 }
 /* ------- Letter Discriptions hovers------ */
 
-/* .akurakaWisthara{
+.akuruwistharamain{
+    background: #000210aa;
+    backdrop-filter: blur(4px);
     position: fixed;
-    top: 40px;
-    left: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    min-height: 400px;
-    background: #d96d084c;
-    z-index: 1;
-    border-radius: 20px;
-    border: 2px solid rgba(27, 26, 26, 0.663);
-    border-top: 2px solid rgba(235, 228, 228, 0.733);
-    border-left: 2px solid rgba(255, 255, 255, 0.547);
-    padding: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    border-radius: 30px; 
 }
-.akurakaWistharaContent{
+.AakuruwistharamainboxContent{
     position: relative;
+    min-width: 60vh;
+    min-height: 70vh;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.152);
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    padding: 20px;
+    animation: animation 3s ease-in-out infinite;
+}
+.AakuruwistharamainboxContent::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
     width: 100%;
     height: 100%;
-    opacity: 0;
+    background: rgba(255, 255, 255, 0.068);
+    transform: skewX(-15deg);
+    pointer-events: none;
 }
-.akuruAK:hover .akurakaWistharaContent{
-    opacity: 1;
-} */
-#akuruwistharamainbox{
-    background: #d96d08aa;
-    position: fixed;
-    top: 25%;
-    left: 25%;
-    width: 50%;
-    height: 50vh;
-    border-radius: 30px;
-    display: none; 
+.AakuruwistharamainboxContent h1{
+    position: relative;
+    font-size: 10em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.AakuruwistharamainboxContent p{
+    position: relative;
+    text-align: center;
+    max-width: 500px;
+    font-size: 1.1em;
+    color: #fff;
+    margin: 20px;
+    letter-spacing: 1px;
+}
+.AakuruwistharamainboxContent ul{
+    position: relative;
+    list-style: none;
+    text-align: center;
+    font-size: 1.1em;
+    color: #fff;
+    margin: 30px;
 }
