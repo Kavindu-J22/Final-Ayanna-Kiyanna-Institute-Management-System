@@ -4,6 +4,7 @@
     width: 100%;
     min-height: 100vh;
     background: #161623;
+    font-family: 'Noto serif Sinhala',sans-serif;
 }
 .mainhodibox{
     position: relative;
@@ -67,6 +68,31 @@
     background: antiquewhite;
     margin: 5px;
     border-radius: 5px;
+    font-family: 'Noto serif Sinhala',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+.akurucontent{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.akuruAK h5{
+    font-size: 4em;
+    display: flex;
+}
+.akuruAK p{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1em;
+    color: rgb(197, 200, 203);
 }
 #swaraAkurahodi{
     background: rgb(2, 13, 63);
@@ -82,6 +108,7 @@
     position: relative;
     background: rgb(225, 32, 145);
     display: flex;
+    border-radius: 5px;
 }
 .Varganthaksara{
     width: 35px;
@@ -97,6 +124,7 @@
     font-weight: 700;
     transform: rotate(-92deg);
     color: #fdff;
+    padding-top: 3px;
 }
 .vargaLableBox{
     width: 50px;
@@ -123,12 +151,18 @@
 .Varganthaksaradevidebox{
     display: flex;
     flex-direction: column;
+    background: rgba(170, 166, 166, 0.658);
+    border-radius: 5px;
 }
 #akvrdv{
+    width: auto;
     background: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    font-size: .9em;
+    color: rgb(3, 5, 63);
 }
 .swaraAkuruMaincontainer{
     width: 100%;
@@ -136,4 +170,73 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#anahbox{
+    margin-bottom: 5px;
+}
+#yataAkuruSet{
+    margin-top: 5px;
+}
+.pinkbox #vrvr{
+    background: #d9d744;
+}
+#anahboxAkuru{
+    border: 3px solid rgb(24, 22, 22);
+    background: rgba(208, 197, 197, 0.297);
+}
+#SanjakaAkuru{
+    border: 3px solid rgb(136, 4, 94);
+    background: rgba(208, 197, 197, 0.297);
+}
+#SanjakaAkuru h5{
+    color: rgb(2, 81, 18);
+    text-shadow: 0 0 5px rgba(2, 81, 18, 0.46);
+}
+#yatamaAkuru{
+    border: 3px solid rgb(24, 22, 22);
+    background: rgba(208, 197, 197, 0.297);
+}
+#yatamaAkuru h5{
+    color: rgb(84, 32, 32);
+}
+
+/* letteres color */
+#hreasSwara{
+    color: rgb(239, 6, 107);
+}
+#deergaSware{
+    color: antiquewhite;
+}
+#anLetter{
+    color: rgb(13, 100, 172);
+}
+#ahLetter{
+    color: rgb(84, 32, 32);
+}
+#alpaprana p{
+    color: #333;
+}
+#alpaprana h5{
+    color: #333;
+    text-shadow: 0 0 5px rgba(51, 51, 51, 0.46);
+}
+#mahaprana p{
+    color: rgb(111, 4, 119);
+}
+#mahaprana h5{
+    color: rgb(111, 4, 119);
+    text-shadow: 0 0 5px rgba(111, 4, 119, 0.46);
+}
+#anunasiLetters p{
+    color: rgb(13, 100, 172);
+}
+#anunasiLetters h5{
+    color: rgb(13, 100, 172);
+    text-shadow: 0 0 5px rgba(13, 100, 172, 0.46);
+}
+#anthahLetters p{
+    color: #333;
+}
+#anthahLetters h5{
+    color: #d96d08;
 }
