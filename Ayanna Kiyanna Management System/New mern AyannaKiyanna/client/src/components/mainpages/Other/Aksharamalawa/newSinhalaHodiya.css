@@ -34,11 +34,19 @@
 }
 .sinhalaAkuruDiscbox{
     position: relative;
-    min-width: 10%;
+    min-width: 25%;
     width: auto;
     height: auto;
     background: rgba(250, 235, 215, 0.593);
     margin: 5px;
+}
+.MainSwaraya{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.emtySpaceSwarabox{
+    width: 85px;
 }
 .swaraAkuruMain{
     position: relative;
@@ -46,13 +54,14 @@
     min-height: 30vh;
     margin: 5px;
     background: rgba(154, 137, 228, 0.688);
-    padding: 20px 40px; 
+    padding: 20px 20px; 
     border-radius: 10px;
     border: 1px solid rgba(66, 63, 63, 0.526);
     border-top: 1px solid rgba(255, 255, 255, 0.526);
-    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    border-left: 30px solid rgba(8, 1, 24, 0.773);
     overflow: hidden; 
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.267); 
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.267);
+    padding-left: 45px; 
 }
 .swaraAkuruMain::before{
     content: '';
@@ -119,6 +128,8 @@
 }
 .akuruAK:hover{
     transform: scale(1.1);
+    filter: brightness(1.4);
+    opacity: 1;
 }
 .akuruAK::before{
     content: '';
@@ -165,7 +176,7 @@
     pointer-events: none;
 }
 .viyaakuruDividaPink{
-    display: flex; 
+    display: flex;
 }
 .AkuruColomsSanjaka{
     display: flex;
@@ -197,6 +208,12 @@
     color: rgb(236, 225, 236);
     padding-top: 3px;
     text-shadow: 0 0 10px rgba(43, 41, 41, 0.923);
+    cursor: pointer;
+    transition: .4s;
+}
+.Varganthaksara h2:hover{
+    color: #fff;
+    filter: brightness(1.4);
 }
 .vargaLableBox{
     width: 50px;
@@ -223,7 +240,7 @@
 .Varganthaksaradevidebox{
     display: flex;
     flex-direction: column;
-    background: rgba(170, 166, 166, 0.658);
+    background: rgba(177, 134, 78, 0.697);
     border-radius: 5px;
 }
 #akvrdv{
@@ -232,11 +249,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 0;
     font-size: .9em;
-    color: rgb(3, 5, 63);
+    color: rgb(3, 5, 49);
     letter-spacing: 1px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.674);
+    border: none;
+}
+#akvrdv h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background: #9d9db773;
+    border-radius: 10px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    box-shadow: 10px 10px 30px rgba(71, 67, 67, 0.481);
 }
 #akvrdv::before{
     content: '';
@@ -257,10 +288,15 @@
     justify-content: center;
 }
 #anahbox{
+    margin-left: 145px;
     margin-bottom: 5px;
 }
 #yataAkuruSet{
     margin-top: 5px;
+    margin-left: 145px;
+}
+#finalYataLetters{
+    margin-left: 145px;
 }
 .pinkbox #vrvr{
     background: #ecdc2de5;
@@ -279,8 +315,8 @@
 #anahboxAkuru{
     background: rgba(208, 197, 197, 0.19);
     border: 3px solid rgba(27, 26, 26, 0.663);
-    border-top: 1px solid rgba(235, 228, 228, 0.733);
-    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    border-top: 2px solid rgba(235, 228, 228, 0.733);
+    border-left: 2px solid rgba(255, 255, 255, 0.547);
 }
 #anahboxAkuru p{
     color: #333;
@@ -301,8 +337,8 @@
 }
 #SanjakaAkuru{
     border: 3px solid rgb(119, 6, 83);
-    border-top: 1px solid rgba(245, 206, 243, 0.84);
-    border-left: 1px solid rgba(245, 206, 243, 0.84);
+    border-top: 2px solid rgba(245, 206, 243, 0.84);
+    border-left: 2px solid rgba(245, 206, 243, 0.84);
     background: rgba(208, 197, 197, 0.297);
 }
 #SanjakaAkuru::before{
@@ -322,8 +358,8 @@
 }
 #yatamaAkuru{
     border: 3px solid rgba(27, 26, 26, 0.663);
-    border-top: 1px solid rgba(235, 228, 228, 0.733);
-    border-left: 1px solid rgba(255, 255, 255, 0.547);
+    border-top: 2px solid rgba(235, 228, 228, 0.733);
+    border-left: 2px solid rgba(255, 255, 255, 0.547);
     background: rgba(208, 197, 197, 0.297);
 }
 #yatamaAkuru::before{
@@ -432,3 +468,13 @@
 .akuruAK:hover .akurakaWistharaContent{
     opacity: 1;
 } */
+#akuruwistharamainbox{
+    background: #d96d08aa;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    border-radius: 30px;
+    display: none; 
+}

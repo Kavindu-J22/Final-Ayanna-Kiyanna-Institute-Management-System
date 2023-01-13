@@ -2,6 +2,14 @@ import React from 'react'
 import './newSinhalaHodiya.css'
 
 function NewSinhalaHodiya() {
+    function show(){
+        document.getElementById('akuruwistharamainbox')
+    }
+    function hide(){
+        
+    }
+
+
   return (
     <div className='NuthanahodiyaMain'>
         <div className='mainhodibox'>
@@ -12,7 +20,8 @@ function NewSinhalaHodiya() {
                 <div className='vargaLableBox'>
                     <h2>ස්වර</h2>
                 </div>
-
+                    <div className='MainSwaraya'>
+                        <div className='emtySpaceSwarabox'></div>
                     <div className='swaraAkuruMain'>
 
                         <div className='AkuruColoms'>
@@ -137,6 +146,7 @@ function NewSinhalaHodiya() {
                         </div>
                         
 
+                    </div>
                     </div>
                 </div>
 
@@ -431,7 +441,7 @@ function NewSinhalaHodiya() {
                                         </div>
                             </div>
                         </div>
-                        <div className='AkuruColoms'>
+                        <div className='AkuruColoms' id='finalYataLetters'>
 
                             <div className='akuruAK' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark'>
@@ -476,11 +486,13 @@ function NewSinhalaHodiya() {
                     
                 </div>
                 
-
-
                 <div className='sinhalaAkuruDiscbox'>
 
                 </div>
+        </div>
+
+        <div className='akuruwistharamain' id='akuruwistharamainbox'>
+            <a onClick={hide()}>hide</a>
         </div>
     </div>
   )
