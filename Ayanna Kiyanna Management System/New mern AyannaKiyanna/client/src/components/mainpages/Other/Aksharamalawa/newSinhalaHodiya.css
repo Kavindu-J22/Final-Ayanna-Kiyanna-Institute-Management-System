@@ -399,3 +399,36 @@
     left: -38px;
     transform: rotate(45deg);
 }
+/* ------- Letter Discriptions hovers------ */
+
+/* .akurakaWisthara{
+    position: fixed;
+    top: 40px;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    min-height: 400px;
+    background: #d96d084c;
+    z-index: 1;
+    border-radius: 20px;
+    border: 2px solid rgba(27, 26, 26, 0.663);
+    border-top: 2px solid rgba(235, 228, 228, 0.733);
+    border-left: 2px solid rgba(255, 255, 255, 0.547);
+    padding: 5px;
+}
+.akurakaWistharaContent{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.akuruAK:hover .akurakaWistharaContent{
+    opacity: 1;
+} */
