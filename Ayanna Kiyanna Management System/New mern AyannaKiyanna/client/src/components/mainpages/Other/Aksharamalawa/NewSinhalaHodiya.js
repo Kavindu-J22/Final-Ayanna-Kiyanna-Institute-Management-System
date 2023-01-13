@@ -192,13 +192,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK' id='vrvr'>
-                                        <div className='akurucontent' id='alpaprana'>
+                                        <div className='akurucontent agoshamark' id='alpaprana'>
                                             <p>21</p>
                                             <h5>ක</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana'>
+                                    <div className='akurucontent agoshamark' id='mahaprana'>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
@@ -227,13 +227,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana'>
+                                    <div className='akurucontent agoshamark' id='alpaprana'>
                                             <p>27</p>
                                             <h5>ච</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana'>
+                                    <div className='akurucontent agoshamark' id='mahaprana'>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
@@ -262,13 +262,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana'>
+                                    <div className='akurucontent agoshamark' id='alpaprana'>
                                             <p>33</p>
                                             <h5>ට</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana'>
+                                    <div className='akurucontent agoshamark' id='mahaprana'>
                                             <p>34</p>
                                             <h5>ඨ</h5>
                                         </div>
@@ -297,13 +297,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana'>
+                                    <div className='akurucontent agoshamark' id='alpaprana'>
                                             <p>39</p>
                                             <h5>ත</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana'>
+                                    <div className='akurucontent agoshamark' id='mahaprana'>
                                             <p>40</p>
                                             <h5>ථ</h5>
                                         </div>
@@ -332,13 +332,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana'>
+                                    <div className='akurucontent agoshamark' id='alpaprana'>
                                             <p>45</p>
                                             <h5>ප</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana'>
+                                    <div className='akurucontent agoshamark' id='mahaprana'>
                                             <p>46</p>
                                             <h5>ඵ</h5>
                                         </div>
@@ -434,19 +434,19 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms'>
 
                             <div className='akuruAK' id='yatamaAkuru'>
-                            <div className='akurucontent'>
+                            <div className='akurucontent agoshamark'>
                                             <p>55</p>
                                             <h5>ශ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK' id='yatamaAkuru'>
-                            <div className='akurucontent'>
+                            <div className='akurucontent agoshamark'>
                                             <p>56</p>
                                             <h5>ෂ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK' id='yatamaAkuru'>
-                            <div className='akurucontent'>
+                            <div className='akurucontent agoshamark'>
                                             <p>57</p>
                                             <h5>ස</h5>
                                         </div>
@@ -464,7 +464,7 @@ function NewSinhalaHodiya() {
                                         </div>
                             </div>
                             <div className='akuruAK' id='yatamaAkuru'>
-                            <div className='akurucontent'>
+                            <div className='akurucontent agoshamark'>
                                             <p>60</p>
                                             <h5>ෆ</h5>
                                         </div>

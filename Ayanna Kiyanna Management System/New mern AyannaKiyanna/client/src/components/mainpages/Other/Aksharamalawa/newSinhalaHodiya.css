@@ -74,6 +74,7 @@
     align-items: center;
     color: aliceblue;
     padding-bottom: 15px;
+    overflow: hidden;
 }
 .akurucontent{
     position: relative;
@@ -239,4 +240,19 @@
 }
 #anthahLetters h5{
     color: #d96d08;
+}
+.agoshamark::before{
+    content: 'අඝෝෂ';
+    font-size: 15px;
+    color: aliceblue;
+    width: 80px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: #161623;
+    bottom: -40px;
+    left: -38px;
+    transform: rotate(45deg);
 }
