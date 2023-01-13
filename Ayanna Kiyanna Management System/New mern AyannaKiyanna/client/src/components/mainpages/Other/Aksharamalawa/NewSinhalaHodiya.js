@@ -7,6 +7,12 @@ function NewSinhalaHodiya() {
         <div className='mainhodibox'>
                 <div className='sinhalaAkurumainbox'>
 
+                <div className='swaraAkuruMaincontainer'>
+
+                <div className='vargaLableBox'>
+                    <h2>ස්වර</h2>
+                </div>
+
                     <div className='swaraAkuruMain'>
 
                         <div className='AkuruColoms'>
@@ -78,8 +84,12 @@ function NewSinhalaHodiya() {
                         
 
                     </div>
+                </div>
 
-
+                <div className='viyanAkuruMainContainer'>
+                    <div className='vargaLableBox'>
+                        <h2>ව්‍යංජන</h2>
+                    </div>
                     <div className='viyanAkuruMain'>
                          <div className='AkuruColoms'>
 
@@ -94,105 +104,131 @@ function NewSinhalaHodiya() {
                     <div className='viyaakuruDividaPink'>
 
                         <div className='pinkbox'>
-                        <div className='AkuruColoms'>
+                        <div className='Varganthaksaradevidebox'>
 
-                                <div className='akuruAK'>
+                                    <div className='akuruAK' id='akvrdv'>
+                                        <h2>hello</h2>
+                                    </div>
+                                    <div className='akuruAK' id='akvrdv'>
+                                        <h2>hello</h2>
+                                    </div>
+                                    <div className='akuruAK' id='akvrdv'>
+                                        <h2>hello</h2>
+                                    </div>
+                                    <div className='akuruAK' id='akvrdv'>
+                                        <h2>hello</h2>
+                                    </div>
+                                    <div className='akuruAK' id='akvrdv'>
+                                        <h2>hello</h2> 
+                                    </div>
+                                    
+                            </div>
 
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                
+                            <div className='Varganthaksara'>
+                                <h2>වර්ගාක්ෂර</h2>
+                            </div>
 
-                        </div>
-                        <div className='AkuruColoms'>
+                            <div>
+                            <div className='AkuruColoms'>
 
-                                <div className='akuruAK'>
+                                    <div className='akuruAK'>
 
-                                </div>
-                                <div className='akuruAK'>
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
                                     
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                
 
-                        </div>
-                        <div className='AkuruColoms'>
+                            </div>
+                            <div className='AkuruColoms'>
 
-                                <div className='akuruAK'>
+                                    <div className='akuruAK'>
 
-                                </div>
-                                <div className='akuruAK'>
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
                                     
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                
 
-                        </div>
-                        <div className='AkuruColoms'>
+                            </div>
+                            <div className='AkuruColoms'>
 
-                                <div className='akuruAK'>
+                                    <div className='akuruAK'>
 
-                                </div>
-                                <div className='akuruAK'>
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
                                     
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                
 
-                        </div>
-                        <div className='AkuruColoms'>
+                            </div>
+                            <div className='AkuruColoms'>
 
-                                <div className='akuruAK'>
+                                    <div className='akuruAK'>
 
-                                </div>
-                                <div className='akuruAK'>
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
                                     
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                                <div className='akuruAK'>
-                                    
-                                </div>
-                    
-                        </div>
+
+                            </div>
+                            <div className='AkuruColoms'>
+
+                                    <div className='akuruAK'>
+
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                                    <div className='akuruAK'>
+                                        
+                                    </div>
+                        
+                            </div>
+                            </div>
                         </div>
 
                         <div className='AkuruColomsSanjaka'>
@@ -256,8 +292,10 @@ function NewSinhalaHodiya() {
 
                         </div>
                     </div>
+                </div>
                     
                 </div>
+                
 
 
                 <div className='sinhalaAkuruDiscbox'>

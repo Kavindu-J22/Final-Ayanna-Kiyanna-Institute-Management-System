@@ -11,12 +11,14 @@
     min-height: 100vh;
     background: #161623;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     padding: 15px;
 }
 .sinhalaAkurumainbox{
     position: relative;
-    width: 65%;
+    min-width: 65%;
+    width: auto;
     min-height: 50vh;
     background: rgba(250, 235, 215, 0.593);
     display: flex;
@@ -24,12 +26,15 @@
     align-items: center;
     padding: 5px;
     border-radius: 10px;
+    margin: 5px;
 }
 .sinhalaAkuruDiscbox{
     position: relative;
-    width: 34%;
+    min-width: 10%;
+    width: auto;
     height: auto;
     background: rgba(250, 235, 215, 0.593);
+    margin: 5px;
 }
 .swaraAkuruMain{
     position: relative;
@@ -46,7 +51,7 @@
     min-height: 50vh;
     margin: 5px;
     background: rgb(159, 126, 83);
-    padding: 20px 40px;
+    padding: 20px;
     border-radius: 10px;
 }
 .AkuruColoms{
@@ -74,5 +79,61 @@
     flex-direction: column;
 }
 .pinkbox{
+    position: relative;
     background: rgb(225, 32, 145);
+    display: flex;
+}
+.Varganthaksara{
+    width: 35px;
+    height: 100%;
+    background-color: rgb(225, 32, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.Varganthaksara h2{
+    font-family: 'Noto sans Sinhala',sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    transform: rotate(-92deg);
+    color: #fdff;
+}
+.vargaLableBox{
+    width: 50px;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 4px solid #333;
+    margin: 10px;
+}
+.vargaLableBox h2{
+    font-family: 'Noto serif Sinhala',sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    transform: rotate(-92deg);
+    color: #000;
+}
+.viyanAkuruMainContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Varganthaksaradevidebox{
+    display: flex;
+    flex-direction: column;
+}
+#akvrdv{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swaraAkuruMaincontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
