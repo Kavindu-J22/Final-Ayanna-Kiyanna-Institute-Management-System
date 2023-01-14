@@ -34,6 +34,10 @@
 }
 .sinhalaAkuruDiscbox{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-width: 25%;
     width: 200px;
     height: 200px;
@@ -534,8 +538,55 @@
 
 .hraswaswaraMainBox{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: auto;
     min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+.whatisbox{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whatisbox h1{
+    font-size: 2.7em;
+    padding-bottom: 20px;
+}
+.whatisbox p{
+    font-size: 1.1em;
+    text-align: center;
+    width: 95%;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.AlpapranaDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+}
+.dee{
+    transform: scale(.7);
+    filter: grayscale(1);
+    opacity: .7;
+}
+.dee:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
 }
