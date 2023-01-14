@@ -690,6 +690,18 @@
     background: rgb(154, 147, 147);
     border-radius: 10px;
 }
+.GoshaDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+}
 .Novran{
     transform: scale(.7);
     filter: grayscale(1);
@@ -735,5 +747,13 @@
     filter: grayscale(1);
 }
 .UshmakDiscMainBox .pinkbox{
+    filter: grayscale(1);
+}
+.agoagoo{
+    transform: scale(.7);
+    filter: grayscale(1); 
+}
+.agoagoo:hover{
+    transform: scale(.8);
     filter: grayscale(1);
 }
