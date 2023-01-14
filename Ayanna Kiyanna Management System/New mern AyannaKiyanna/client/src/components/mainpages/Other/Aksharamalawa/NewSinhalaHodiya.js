@@ -572,23 +572,12 @@ function NewSinhalaHodiya() {
         {
             showA && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentHraswa'>
                         <div className='MyCloseBtn'><a onClick={()=>setShowA(!showA)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>අ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'අ' යන්න. (කණ්ඨජ ඝෝෂ හ්‍රස්ව ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන මුල් ම අකුරයි. එය ස්වරයකි. එයිනුදු හ්‍රස්ව ස්වර ගණයට අයත් වේ. එය කණ්ඨජ අක්ෂරයකි. ඝෝෂයකි. එය නම්‍ය ස්වරයකි (අ ❭ ඇ). අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 01 වේ. මෙම ස්වරය ව්‍යඤ්ජන අකුරකට ආරෑඪ කළ විට පිල්ලක් නොයෙදේ. (ක් + අ = ක)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -597,23 +586,12 @@ function NewSinhalaHodiya() {
 {
             showAa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowAa(!showAa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ආ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ආ' යන්න. (කණ්ඨජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන දෙවන අකුරයි. එය  ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය කණ්ඨජ අක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 02 වේ. ආ යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල ඇලපිල්ල ය. (ක් + ආ = කා)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -622,23 +600,12 @@ function NewSinhalaHodiya() {
 {
             showAe && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentHraswa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowAe(!showAe)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඇ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඇ' යන්න. (කණ්ඨජ ඝෝෂ හ්‍රස්ව ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන තෙවන අකුරයි. එය ස්වරයකි. එයිනුදු හ්‍රස්ව ස්වර ගණයට අයත් වේ. එය කණ්ඨජ අක්ෂරයකි.(මුලින් මෙය කණ්ඨතාලුජ ලෙස නම් කර තිබුණි.) ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 03 වේ. ඇ යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල ඇදයයි. කෙටි ඇද පිල්ල, ඇක්ම, ඇකාරාංශය යන නම්වලින් ද එය හැඳින්වේ. (ක් + ඇ = කැ)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -647,23 +614,12 @@ function NewSinhalaHodiya() {
 {
             showAee && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowAee(!showAee)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඈ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඈ' යන්න. (කණ්ඨජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන සිව්වන අකුරයි. එය  ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය කණ්ඨජ අක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 04 වේ. ඈ යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල දීර්ඝ ඇදයයි. (ක් + ඈ = කෑ)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -672,23 +628,12 @@ function NewSinhalaHodiya() {
 {
             showE && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentHraswa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowE(!showE)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඉ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඉ' යන්න. (තාලුජ ඝෝෂ හ්‍රස්ව ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන පස්වන අකුරයි. එය ස්වරයකි. එයිනුදු හ්‍රස්ව ස්වර ගණයට අයත් වේ. එය තාලුජ අක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 05 වේ. ඉ යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල ඉස්පිල්ලයි. (ක් + ඉ = කි)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -697,23 +642,12 @@ function NewSinhalaHodiya() {
 {
             showEe && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowEe(!showEe)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඊ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඊ' යන්න. (තාලුජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන හයවැනි අකුරයි. එය  ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය තාලුජ අක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 06 වේ. 'ඊ' යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල දීර්ඝ ඉස්පිල්ලයි. (ක් + ඊ = කී)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -722,23 +656,20 @@ function NewSinhalaHodiya() {
 {
             showU && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentHraswa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowU(!showU)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>උ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+                            <p id='titleP'>'උ' යන්න. (ඕෂ්ඨජ ඝෝෂ හ්‍රස්ව ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන සත්වැනි අකුරයි. එය ස්වරයකි. එයිනුදු හ්‍රස්ව ස්වර ගණයට අයත් වේ. එය ඕෂ්ඨජ අක්ෂරයකි. ඝෝෂයකි. නම්‍ය ස්වරයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 07 වේ. උ යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිලි කිහිපයකි.</p>
+                            
 
                                    <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>ක් + උ = කු - කෙටි වක් පාපිල්ල</li>
+                                        <li>ප් + උ = පු - කෙටි කොන් පාපිල්ල</li>
+                                        <li>ර් + උ = රු - කෙටි ඇද පාපිල්ල</li>
                                    </ul>
+
+                                   <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -747,23 +678,20 @@ function NewSinhalaHodiya() {
 {
             showUu && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowUu(!showUu)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඌ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+                            <p id='titleP'>'ඌ' යන්න. (ඕෂ්ඨජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන අටවැනි අකුරයි. එය ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය ඕෂ්ඨජ අක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 08 වේ. ඌ යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිලි කිහිපයකි.</p>
+                            
 
                                    <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>ක් + ඌ = කූ - දික් වක් පාපිල්ල</li>
+                                        <li>ප් + ඌ = පු - දික් කොන් පාපිල්ල</li>
+                                        <li>ර් + ඌ = රූ - දික් ඇද පාපිල්ල</li>
                                    </ul>
+
+                                   <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -772,23 +700,12 @@ function NewSinhalaHodiya() {
 {
             showEru && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentHraswa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowEru(!showEru)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඍ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඍ' යන්න. (මුර්ධජ ඝෝෂ හ්‍රස්ව ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන නවවැනි අකුරයි. එය ස්වරයකි. එයිනුදු හ්‍රස්ව ස්වර ගණයට අයත් වේ. එය මුර්ධජ අක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 09 වේ. 'ඍ' යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල ගැටය සහිත ඇලපිල්ලයි.</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -797,23 +714,15 @@ function NewSinhalaHodiya() {
 {
             showEruu && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                         <div className='MyCloseBtn'><a onClick={()=>setShowEruu(!showEruu)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඎ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                            <p id='titleP'>'ඎ' යන්න. (මුර්ධජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන දසවැනි අකුරයි. එය  ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය මුර්ධජ අක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 10 වේ. 'ඎ' යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල ගැටය සහිත ඇලපිලි දෙකයි.</p>
+                            <ul>
+                                        <li>(ක් + ඎ = කෲ)</li>
                                    </ul>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -822,23 +731,12 @@ function NewSinhalaHodiya() {
 {
             showElu && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentHraswa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowElu(!showElu)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඏ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඐ' යන්න. (දන්තජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන ඒකොළොස්වැනි අකුරයි. එය ස්වරයකි. එයිනුදු හ්‍රස්ව ස්වර ගණයට අයත් වේ. එය දන්තජ අක්ෂරයකි. ඝෝෂයකි. මෙම ස්වරය අක්ෂර මාලාවේ දක්නට ලැබෙන්නේ වුවද භාෂාවේ එකදු වචනයක හෝ නොයෙදේ.</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -847,23 +745,12 @@ function NewSinhalaHodiya() {
 {
             showEluu && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowEluu(!showEluu)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඐ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඐ' යන්න. (දන්තජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන දොළොස්වැනි අකුරයි. එය ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය දන්තජ අක්ෂරයකි. ඝෝෂයකි. මෙම ස්වරය අක්ෂර මාලාවේ දක්නට ලැබෙන්නේ වුවද භාෂාවේ එකදු වචනයක හෝ නොයෙදේ.</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -872,23 +759,12 @@ function NewSinhalaHodiya() {
 {
             showAea && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentHraswa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowAea(!showAea)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>එ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'එ' යන්න. (කණ්ඨතාලුජ ඝෝෂ හ්‍රස්ව ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන දහතුන්වැනි අකුරයි. එය ස්වරයකි. එයිනුදු හ්‍රස්ව ස්වර ගණයට අයත් වේ. එය කණ්ඨතාලුජ අක්ෂරයකි හෙවත් ද්විජාක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 13 වේ. 'එ' යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල කොම්ඹුවයි. (ක් + එ = කෙ)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -897,23 +773,12 @@ function NewSinhalaHodiya() {
 {
             showAeae && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowAeae(!showAeae)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඒ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඒ' යන්න. (කණ්ඨතාලුජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන දාහතරවැනි අකුරයි. එය ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය කණ්ඨතාලුජ අක්ෂරයකි හෙවත් ද්විජාක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 14 වේ. 'ඒ' යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිලි දෙකකි. එනම් කොම්ඹුව හා දීර්ඝත්ව සළකුණයි. (ක් + ඒ =කේ)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -922,23 +787,12 @@ function NewSinhalaHodiya() {
 {
             showAeaei && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowAeaei(!showAeaei)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඓ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඓ' යන්න. (කණ්ඨතාලුජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන පහළොස්වැනි අකුරයි. එය ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය කණ්ඨතාලුජ අක්ෂරයකි හෙවත් ද්විජාක්ෂරයකි. ඝෝෂයකි. සංයුක්තාක්ෂරයකි. එසේම එය සන්ධ්‍යක්ෂර ගණයට ද අයත්වේ. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 15 වේ. 'ඓ' යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල වන්නේ කොම්ඹු දෙකයි.(ක් + ඓ = කෛ)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -947,23 +801,12 @@ function NewSinhalaHodiya() {
 {
             showO && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentHraswa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowO(!showO)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඔ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඔ' යන්න. (කණ්ඨෞෂ්ඨජ ඝෝෂ හ්‍රස්ව ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන දහසය වැනි අකුරයි. එය ස්වරයකි. එයිනුදු හ්‍රස්ව ස්වර ගණයට අයත් වේ. එය කණ්ඨෞෂ්ඨජ අක්ෂරයකි හෙවත් ද්විජාක්ෂරයකි. ඝෝෂයකි. නම්‍ය ස්වරයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 16 වේ. 'ඔ' යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිලි දෙකකි. එනම් කෙම්ඹුව හා ඇලපිල්ලයි. (ක් + ඔ = කො) (ො)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -972,23 +815,12 @@ function NewSinhalaHodiya() {
 {
             showOo && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                 
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowOo(!showOo)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඕ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඕ' යන්න. (කණ්ඨෞෂ්ඨජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන දාහත්වැනි අකුරයි. එය ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය කණ්ඨෞෂ්ඨජ අක්ෂරයකි හෙවත් ද්විජාක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 14 වේ. 'ඕ' යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිලි දෙකකි. එනම් කොම්ඹුව හා දීර්ඝත්ව සළකුණ සහිත ඇලපිල්ලයි. (ක් + ඕ = කෝ)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
@@ -997,23 +829,12 @@ function NewSinhalaHodiya() {
 {
             showOu && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentDeerga'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowOu(!showOu)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඖ</h1>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.</p>
-                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
-                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
-                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
-                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
-
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                            <p id='titleP'>'ඖ' යන්න. (කණ්ඨෞෂ්ඨජ ඝෝෂ දීර්ඝ ස්වර)</p>
+                            <p>අක්ෂර මාලාවේ අපට හමුවන අවසාන ස්වරය හෙවත් දහඅට වන  අකුරයි. එය ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය කණ්ඨෞෂ්ඨජ අක්ෂරයකි හෙවත් ද්විජාක්ෂරයකි. ඝෝෂයකි. සංයුක්තාක්ෂරයකි. එසේම එය සන්ධ්‍යක්ෂර ගණයට ද අයත්වේ. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 18 වේ. 'ඖ' යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිලි වන්නේ කොම්ඹුව හා ගයනුකිත්ත යන දෙකයි. (ක් + ‌ඖ = කෞ)</p>
+                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
                         </div>
                         
                 </div>
