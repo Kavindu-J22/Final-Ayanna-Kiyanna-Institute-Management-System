@@ -622,3 +622,23 @@
     transform: scale(.8);
     filter: grayscale(1);
 }
+.MahappranaDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+}
+.noMahap{
+    transform: scale(.7);
+    filter: grayscale(1);
+}
+.noMahap:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
