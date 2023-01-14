@@ -75,6 +75,16 @@ function NewSinhalaHodiya() {
     const [showLLa,setShowLLa] = useState(false);
     const [showFa,setShowFa] = useState(false);
 
+    const [showSwara,setShowSwara] = useState(false);
+    const [showViyan,setShowViyan] = useState(false);
+    const [showVargak,setShowVargak] = useState(false);
+
+    const [showKantaja,setShowKantaja] = useState(false);
+    const [showThaluja,setShowThaluja] = useState(false);
+    const [showMurdaja,setShowMurdaja] = useState(false);
+    const [showDanthaja,setShowDanthaja] = useState(false);
+    const [showOshtaja,setShowOshtaja] = useState(false);
+
   return (
     <div className='NuthanahodiyaMain'>
         <div className='mainhodibox'>
@@ -83,7 +93,7 @@ function NewSinhalaHodiya() {
                 <div className='swaraAkuruMaincontainer'>
 
                 <div className='vargaLableBox'>
-                    <h2>ස්වර</h2>
+                    <h2 onClick={()=>setShowSwara(!showSwara)}>ස්වර</h2>
                 </div>
                     <div className='MainSwaraya'>
                         <div className='emtySpaceSwarabox'></div>
@@ -217,7 +227,7 @@ function NewSinhalaHodiya() {
 
                 <div className='viyanAkuruMainContainer'>
                     <div className='vargaLableBox'>
-                        <h2>ව්‍යංජන</h2>
+                        <h2 onClick={()=>setShowViyan(!showViyan)}>ව්‍යංජන</h2>
                     </div>
                     <div className='viyanAkuruMain'>
                          <div className='AkuruColoms' id='anahbox'>
@@ -2053,6 +2063,58 @@ function NewSinhalaHodiya() {
                         
                 </div>
         }
+
+
+{
+            showSwara && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowSwara(!showSwara)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ස්වර</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+        {
+            showViyan && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowViyan(!showViyan)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ව්‍යංජන</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+        
 
         </div>
         

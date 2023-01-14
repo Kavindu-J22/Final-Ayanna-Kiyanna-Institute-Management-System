@@ -230,6 +230,12 @@
     font-weight: 700;
     transform: rotate(-92deg);
     color: #000;
+    transition: .4s;
+    cursor: pointer;
+}
+.vargaLableBox h2:hover{
+    font-size: 1.4em;
+    text-shadow: 0 0 15px rgb(116, 109, 109);
 }
 .viyanAkuruMainContainer{
     position: relative;
