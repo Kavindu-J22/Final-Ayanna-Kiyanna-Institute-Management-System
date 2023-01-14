@@ -642,3 +642,98 @@
     transform: scale(.8);
     filter: grayscale(1);
 }
+.VargaAnuDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+}
+.SanjakaDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+}
+.AnthahsDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+}
+.UshmakDiscMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+}
+.Novran{
+    transform: scale(.7);
+    filter: grayscale(1);
+}
+.Novran:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.noSanjaka{
+    transform: scale(.7);
+    filter: grayscale(1);
+}
+.noSanjaka:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.SanjakaDiscMainBox .pinkbox{
+    background: rgba(51, 51, 51, 0.59);
+}
+.SanjakaDiscMainBox .Varganthaksara{
+    background: rgba(51, 51, 51, 0.59);
+}
+.SanjakaDiscMainBox .Varganthaksara h2{
+    color: rgba(216, 208, 208, 0.59);
+}
+.noAnthahstha{
+    transform: scale(.7);
+    filter: grayscale(1);
+}
+.noAnthahstha:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.AnthahsDiscMainBox .pinkbox{
+    filter: grayscale(1);
+}
+.noush{
+    transform: scale(.7);
+    filter: grayscale(1); 
+}
+.noush:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.UshmakDiscMainBox .pinkbox{
+    filter: grayscale(1);
+}
