@@ -93,8 +93,10 @@ function NewSinhalaHodiya() {
 
           <div>
 
-          {LetterBoxActive === "Fristbox" && <div className='sinhalaAkurumainbox'>
-
+          {LetterBoxActive === "Fristbox" && <div className='sinhalaAkurumainbox' data-aos="fadeInUp">
+               <div className='whatisbox'>
+                         <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+                    </div>
                 <div className='swaraAkuruMaincontainer'>
 
                 <div className='vargaLableBox'>
@@ -710,7 +712,155 @@ function NewSinhalaHodiya() {
 
                }
 
-               {LetterBoxActive === "AlpapranaDiscMainBox" && <div className='AlpapranaDiscMainBox'>
+               {LetterBoxActive === "DeergswaswaraMainBox" && <div className='DeergswaswaraMainBox' data-aos="fadeInUp">
+                    <div className='whatisbox'>
+                         <h1>දීර්ඝ ස්වර</h1>
+                         <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+                    </div>
+               <div className='swaraAkuruMaincontainer'>
+
+                         <div className='vargaLableBox'>
+                         <h2 onClick={()=>setShowSwara(!showSwara)}>ස්වර</h2>
+                         </div>
+                         <div className='MainSwaraya'>
+                              
+                         <div className='swaraAkuruMain'>
+
+                              <div className='AkuruColoms'>
+
+                                   <div className='akuruAK hras' id='swaraAkurahodi'>
+                                        <div className='akurucontent' onClick={()=>setShowA(!showA)}>
+                                             <p>01</p>
+                                             <h5 id='hreasSwara'>අ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAa(!showAa)}>
+                                             <p>02</p>
+                                             <h5 id='deergaSware'>ආ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK hras' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAe(!showAe)}>
+                                             <p>03</p>
+                                             <h5 id='hreasSwara'>ඇ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAee(!showAee)}>
+                                             <p>04</p>
+                                             <h5 id='deergaSware'>ඈ</h5>
+                                        </div> 
+                                   </div>
+                                   <div className='akuruAK hras' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowE(!showE)}>
+                                             <p>05</p>
+                                             <h5 id='hreasSwara'>ඉ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowEe(!showEe)}>
+                                             <p>06</p>
+                                             <h5 id='deergaSware'>ඊ</h5>
+                                        </div>
+                                   </div>
+
+                              </div>
+                              <div className='AkuruColoms'>
+
+                                   <div className='akuruAK hras' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowU(!showU)}>
+                                             <p>07</p>
+                                             <h5 id='hreasSwara'>උ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowUu(!showUu)}>
+                                             <p>08</p>
+                                             <h5 id='deergaSware'>ඌ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK hras' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowEru(!showEru)}>
+                                             <p>09</p>
+                                             <h5 id='hreasSwara'>ඍ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowEruu(!showEruu)}>
+                                             <p>10</p>
+                                             <h5 id='deergaSware'>ඎ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK hras' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowElu(!showElu)}>
+                                             <p>11</p>
+                                             <h5 id='hreasSwara'>ඏ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowEluu(!showEluu)}>
+                                             <p>12</p>
+                                             <h5 id='deergaSware'>ඐ</h5>
+                                        </div>
+                                   </div>
+
+                              </div>
+                              <div className='AkuruColoms'>
+
+                                   <div className='akuruAK hras' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAea(!showAea)}>
+                                             <p>13</p>
+                                             <h5 id='hreasSwara'>එ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAeae(!showAeae)}>
+                                             <p>14</p>
+                                             <h5 id='deergaSware'>ඒ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAeaei(!showAeaei)}>
+                                             <p>15</p>
+                                             <h5 id='deergaSware'>ඓ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK hras' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowO(!showO)}>
+                                             <p>16</p>
+                                             <h5 id='hreasSwara'>ඔ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowOo(!showOo)}>
+                                             <p>17</p>
+                                             <h5 id='deergaSware'>ඕ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowOu(!showOu)}>
+                                             <p>18</p>
+                                             <h5 id='deergaSware'>ඖ</h5>
+                                        </div>
+                                   </div>
+
+                              </div>
+                              
+
+                         </div>
+                         </div>
+                         </div>
+               </div>
+
+               }
+
+               {LetterBoxActive === "AlpapranaDiscMainBox" && <div className='AlpapranaDiscMainBox' data-aos="fadeInUp">
+
+               <div className='whatisbox'>
+                         <h1>අල්පප්‍රාණ</h1>
+                         <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+                    </div>
 
                <div className='viyanAkuruMainContainer'>
                     <div className='vargaLableBox' id='vargaLableBoxviya'>
@@ -719,13 +869,13 @@ function NewSinhalaHodiya() {
                     <div className='viyanAkuruMain'>
                          <div className='AkuruColoms' id='anahbox'>
 
-                            <div className='akuruAK' id='anahboxAkuru'>
+                            <div className='akuruAK noalp' id='anahboxAkuru'>
                             <div className='akurucontent' onClick={()=>setShowAn(!showAn)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
                             </div>
-                            <div className='akuruAK' id='anahboxAkuru'>
+                            <div className='akuruAK noalp' id='anahboxAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
                                     <p>20</p>
                                     <h5 id='ahLetter'>අඃ</h5>
@@ -769,7 +919,7 @@ function NewSinhalaHodiya() {
                                             <h5>ක</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
@@ -781,13 +931,13 @@ function NewSinhalaHodiya() {
                                             <h5>ග</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
@@ -804,7 +954,7 @@ function NewSinhalaHodiya() {
                                             <h5>ච</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
@@ -816,13 +966,13 @@ function NewSinhalaHodiya() {
                                             <h5>ජ</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
@@ -839,7 +989,7 @@ function NewSinhalaHodiya() {
                                             <h5>ට</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
                                             <p>34</p>
                                             <h5>ඨ</h5>
@@ -851,13 +1001,13 @@ function NewSinhalaHodiya() {
                                             <h5>ඩ</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
                                             <p>36</p>
                                             <h5>ඪ</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
                                             <p>37</p>
                                             <h5>ණ</h5>
@@ -874,7 +1024,7 @@ function NewSinhalaHodiya() {
                                             <h5>ත</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
                                             <p>40</p>
                                             <h5>ථ</h5>
@@ -886,13 +1036,13 @@ function NewSinhalaHodiya() {
                                             <h5>ද</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
                                             <p>42</p>
                                             <h5>ධ</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
                                             <p>43</p>
                                             <h5>න</h5>
@@ -909,7 +1059,7 @@ function NewSinhalaHodiya() {
                                             <h5>ප</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
                                             <p>46</p>
                                             <h5>ඵ</h5>
@@ -921,13 +1071,13 @@ function NewSinhalaHodiya() {
                                             <h5>බ</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
                                             <p>48</p>
                                             <h5>භ</h5>
                                         </div>
                                     </div>
-                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
                                             <p>49</p>
                                             <h5>ම</h5>
@@ -940,31 +1090,31 @@ function NewSinhalaHodiya() {
 
                         <div className='AkuruColomsSanjaka'>
 
-                                <div className='akuruAK' id='SanjakaAkuru'>
+                                <div className='akuruAK noalp' id='SanjakaAkuru'>
                                 <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
+                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
+                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
                                 <div className='akurucontent'>
                                             <p>38</p>
                                             <h5>ඬ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
+                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
                                 <div className='akurucontent'>
                                             <p>44</p>
                                             <h5>ඳ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
+                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
                                 <div className='akurucontent'>
                                             <p>50</p>
                                             <h5>ඹ</h5>
@@ -978,25 +1128,25 @@ function NewSinhalaHodiya() {
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
-                            <div className='akuruAK'>
+                            <div className='akuruAK noalp'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
                                             <p>51</p>
                                             <h5>ය</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK noalp'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
                                             <p>52</p>
                                             <h5>ර</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK noalp'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
                                             <p>53</p>
                                             <h5>ල</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK noalp'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
                                             <p>54</p>
                                             <h5>ව</h5>
@@ -1005,37 +1155,37 @@ function NewSinhalaHodiya() {
                         </div>
                         <div className='AkuruColoms' id='finalYataLetters'>
 
-                            <div className='akuruAK' id='yatamaAkuru'>
+                            <div className='akuruAK noalp' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowSha(!showSha)}>
                                             <p>55</p>
                                             <h5>ශ</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK' id='yatamaAkuru'>
+                            <div className='akuruAK noalp' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowSsha(!showSsha)}>
                                             <p>56</p>
                                             <h5>ෂ</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK' id='yatamaAkuru'>
+                            <div className='akuruAK noalp' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowSa(!showSa)}>
                                             <p>57</p>
                                             <h5>ස</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
+                            <div className='akuruAK noalp' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
                             <div className='akurucontent'>
                                             <p>58</p>
                                             <h5>හ</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK'>
+                            <div className='akuruAK noalp'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK' id='yatamaAkuru'>
+                            <div className='akuruAK noalp' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
                                             <p>60</p>
                                             <h5>ෆ</h5>
@@ -1057,7 +1207,8 @@ function NewSinhalaHodiya() {
                     <div className='sinhalaAkuruDiscbox'>
                          <div onClick={()=>setLetterBoxActive("Fristbox")}>btn1</div>
                          <div onClick={()=>setLetterBoxActive("hraswaswaraMainBox")}>btn2</div>
-                         <div onClick={()=>setLetterBoxActive("AlpapranaDiscMainBox")}>btn3</div>
+                         <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")}>btn3</div>
+                         <div onClick={()=>setLetterBoxActive("AlpapranaDiscMainBox")}>btn4</div>
                     </div>
 
 

@@ -21,7 +21,7 @@
     min-width: 65%;
     width: auto;
     min-height: 50vh;
-    background: rgba(250, 235, 215, 0.737);
+    background: rgba(250, 235, 215, 0.584);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,10 +40,13 @@
     align-items: center;
     min-width: 25%;
     width: 200px;
-    height: 200px;
-    background: rgba(250, 235, 215, 0.593);
+    min-height: 100vh;
+    background: rgba(250, 235, 215, 0.489);
     margin: 5px;
     border-radius: 10px;
+    border: 1px solid rgba(66, 63, 63, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.526);
+    border-left: 1px solid rgba(255, 255, 255, 0.547);
 }
 .MainSwaraya{
     position: relative;
@@ -587,6 +590,35 @@
     opacity: .7;
 }
 .dee:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.DeergswaswaraMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+}
+.hras{
+    transform: scale(.7);
+    filter: grayscale(1);
+    opacity: .7;
+}
+.hras:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+.noalp{
+    transform: scale(.7);
+    filter: grayscale(1);
+}
+.noalp:hover{
     transform: scale(.8);
     filter: grayscale(1);
 }
