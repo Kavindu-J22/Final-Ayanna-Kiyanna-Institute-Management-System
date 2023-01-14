@@ -24,6 +24,25 @@ function NewSinhalaHodiya() {
     const [showOo, setShowOo] = useState(false);
     const [showOu, setShowOu] = useState(false);
 
+    //vinjana Lettes
+
+    const [showAn,setShowAn] = useState(false);
+    const [showAh,setShowAh] = useState(false);
+
+    const [showKa,setShowKa] = useState(false);
+    const [showKha,setShowKha] = useState(false);
+    const [showGa,setShowGa] = useState(false);
+    const [showGha,setShowGha] = useState(false);
+    const [showXha,setShowXha] = useState(false);
+    const [showXgha,setShowXgha] = useState(false);
+
+    const [showCa,setShowCa] = useState(false);
+    const [showCha,setShowCha] = useState(false);
+    const [showJa,setShowJa] = useState(false);
+    const [showJha,setShowJha] = useState(false);
+    const [showChaha,setShowChaha] = useState(false);
+    const [showXJhaha,setShowXJhaha] = useState(false);
+
   return (
     <div className='NuthanahodiyaMain'>
         <div className='mainhodibox'>
@@ -172,13 +191,13 @@ function NewSinhalaHodiya() {
                          <div className='AkuruColoms' id='anahbox'>
 
                             <div className='akuruAK' id='anahboxAkuru'>
-                            <div className='akurucontent'>
+                            <div className='akurucontent' onClick={()=>setShowAn(!showAn)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
                             </div>
                             <div className='akuruAK' id='anahboxAkuru'>
-                            <div className='akurucontent agoshamark'>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
                                     <p>20</p>
                                     <h5 id='ahLetter'>අඃ</h5>
                                 </div>
@@ -216,31 +235,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK' id='vrvr'>
-                                        <div className='akurucontent agoshamark' id='alpaprana'>
+                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowKa(!showKa)}>
                                             <p>21</p>
                                             <h5>ක</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana'>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana'>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana'>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters'>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
                                         </div>
@@ -251,31 +270,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana'>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowCa(!showCa)}>
                                             <p>27</p>
                                             <h5>ච</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana'>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana'>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana'>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters'>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
                                         </div>
@@ -393,12 +412,12 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColomsSanjaka'>
 
                                 <div className='akuruAK' id='SanjakaAkuru'>
-                                <div className='akurucontent'>
+                                <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK' id='SanjakaAkuru'>
+                                <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
@@ -939,6 +958,356 @@ function NewSinhalaHodiya() {
                        <div className='AakuruwistharamainboxContent'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowOu(!showOu)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඖ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showAn && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowAn(!showAn)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>අං</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showAh && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowAh(!showAh)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>අඃ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showKa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowKa(!showKa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ක</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showKha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowKha(!showKha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ඛ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showGa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowGa(!showGa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ග</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showGha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowGha(!showGha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ඝ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showXha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowXha(!showXha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ඞ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showXgha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowXgha(!showXgha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ඟ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showCa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowCa(!showCa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ච</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showCha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowCha(!showCha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ඡ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showJa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowJa(!showJa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ජ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showJha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowJha(!showJha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ඣ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showChaha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowChaha(!showChaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ඤ</h1>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.</p>
+                            <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
+                                 නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
+                                  වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
+                                   එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+
+                                   <ul>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
+                                   </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showXJhaha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowXJhaha(!showXJhaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                            <h1>ඦ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
                                  නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා
                                   වූයේ මෙම වසරේදී ය.</p>
