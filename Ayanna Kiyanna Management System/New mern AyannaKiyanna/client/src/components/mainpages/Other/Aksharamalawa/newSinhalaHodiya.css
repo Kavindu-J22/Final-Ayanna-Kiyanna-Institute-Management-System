@@ -260,6 +260,9 @@
     background: rgba(177, 134, 78, 0.697);
     border-radius: 5px;
 }
+.Varganthaksaradevidebox #akvrdv:hover{
+    transform: translateY(-5px);
+}
 #akvrdv{
     width: auto;
     background: none;
@@ -285,6 +288,18 @@
     border-top: 1px solid rgba(255, 255, 255, 0.526);
     border-left: 1px solid rgba(255, 255, 255, 0.547);
     box-shadow: 10px 10px 30px rgba(71, 67, 67, 0.481);
+    animation: animationwargadvidtitle 2s ease-out infinite;
+}
+@keyframes animationwargadvidtitle{
+    0%{
+        transform: translate(-4px);
+    }
+    50%{
+        transform: translate(4px);
+    }
+    100%{
+        transform: translate(-4px);
+    }
 }
 #akvrdv::before{
     content: '';
@@ -616,7 +631,7 @@
 }
 .noalp{
     transform: scale(.7);
-    filter: grayscale(1);
+    filter: grayscale(1) brightness(.7);
 }
 .noalp:hover{
     transform: scale(.8);
@@ -636,7 +651,7 @@
 }
 .noMahap{
     transform: scale(.7);
-    filter: grayscale(1);
+    filter: grayscale(1) brightness(.7);
 }
 .noMahap:hover{
     transform: scale(.8);
@@ -678,6 +693,9 @@
     background: rgb(154, 147, 147);
     border-radius: 10px;
 }
+.AnthahsDiscMainBox #akvrdv h2{
+    animation: none;
+}
 .UshmakDiscMainBox{
     position: relative;
     display: flex;
@@ -689,6 +707,9 @@
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
+}
+.UshmakDiscMainBox #akvrdv h2{
+    animation: none;
 }
 .GoshaDiscMainBox{
     position: relative;
@@ -704,7 +725,7 @@
 }
 .Novran{
     transform: scale(.7);
-    filter: grayscale(1);
+    filter: grayscale(1) brightness(.7);
 }
 .Novran:hover{
     transform: scale(.8);
@@ -712,7 +733,7 @@
 }
 .noSanjaka{
     transform: scale(.7);
-    filter: grayscale(1);
+    filter: grayscale(1) brightness(.7);
 }
 .noSanjaka:hover{
     transform: scale(.8);
@@ -729,7 +750,7 @@
 }
 .noAnthahstha{
     transform: scale(.7);
-    filter: grayscale(1);
+    filter: grayscale(1) brightness(.7);
 }
 .noAnthahstha:hover{
     transform: scale(.8);
@@ -740,7 +761,7 @@
 }
 .noush{
     transform: scale(.7);
-    filter: grayscale(1); 
+    filter: grayscale(1) brightness(.7); 
 }
 .noush:hover{
     transform: scale(.8);
@@ -751,9 +772,28 @@
 }
 .agoagoo{
     transform: scale(.7);
-    filter: grayscale(1); 
+    filter: grayscale(1) brightness(.7); 
 }
 .agoagoo:hover{
     transform: scale(.8);
     filter: grayscale(1);
+}
+.PointedLeterAnimeBox{
+    background: rgba(213, 144, 227, 0.149);
+    border-radius: 10px;
+    border: 1px solid rgba(53, 49, 49, 0.526);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    animation: animationLettersblink 2s ease-out infinite normal;
+}
+@keyframes animationLettersblink{
+    0%{
+        transform: scale(0.9);
+    }
+    50%{
+        transform: scale(.98);
+    }
+    100%{
+        transform: scale(0.9);
+    }
 }

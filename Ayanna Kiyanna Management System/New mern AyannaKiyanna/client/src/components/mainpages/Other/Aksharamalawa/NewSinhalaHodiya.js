@@ -585,36 +585,45 @@ function NewSinhalaHodiya() {
 
                               <div className='AkuruColoms'>
 
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                         <div className='akurucontent' onClick={()=>setShowA(!showA)}>
                                              <p>01</p>
                                              <h5 id='hreasSwara'>අ</h5>
                                         </div>
                                    </div>
+                                   </div>
+
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
                                    <div className='akurucontent'>
                                              <p>02</p>
                                              <h5 id='deergaSware'>ආ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowAe(!showAe)}>
                                              <p>03</p>
                                              <h5 id='hreasSwara'>ඇ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
+
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
                                    <div className='akurucontent'>
                                              <p>04</p>
                                              <h5 id='deergaSware'>ඈ</h5>
                                         </div> 
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowE(!showE)}>
                                              <p>05</p>
                                              <h5 id='hreasSwara'>ඉ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
+
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
                                    <div className='akurucontent'>
                                              <p>06</p>
@@ -625,36 +634,42 @@ function NewSinhalaHodiya() {
                               </div>
                               <div className='AkuruColoms'>
 
+                              <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowU(!showU)}>
                                              <p>07</p>
                                              <h5 id='hreasSwara'>උ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
+
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
                                    <div className='akurucontent'>
                                              <p>08</p>
                                              <h5 id='deergaSware'>ඌ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowEru(!showEru)}>
                                              <p>09</p>
                                              <h5 id='hreasSwara'>ඍ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
                                    <div className='akurucontent'>
                                              <p>10</p>
                                              <h5 id='deergaSware'>ඎ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowElu(!showElu)}>
                                              <p>11</p>
                                              <h5 id='hreasSwara'>ඏ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
                                    <div className='akurucontent'>
                                              <p>12</p>
@@ -665,12 +680,13 @@ function NewSinhalaHodiya() {
                               </div>
                               <div className='AkuruColoms'>
 
+                              <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowAea(!showAea)}>
                                              <p>13</p>
                                              <h5 id='hreasSwara'>එ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
                                    <div className='akurucontent'>
                                              <p>14</p>
@@ -683,12 +699,15 @@ function NewSinhalaHodiya() {
                                              <h5 id='deergaSware'>ඓ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowO(!showO)}>
                                              <p>16</p>
                                              <h5 id='hreasSwara'>ඔ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
+
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
                                    <div className='akurucontent'>
                                              <p>17</p>
@@ -734,36 +753,42 @@ function NewSinhalaHodiya() {
                                              <h5 id='hreasSwara'>අ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowAa(!showAa)}>
                                              <p>02</p>
                                              <h5 id='deergaSware'>ආ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowAe(!showAe)}>
                                              <p>03</p>
                                              <h5 id='hreasSwara'>ඇ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowAee(!showAee)}>
                                              <p>04</p>
                                              <h5 id='deergaSware'>ඈ</h5>
                                         </div> 
-                                   </div>
+                                   </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowE(!showE)}>
                                              <p>05</p>
                                              <h5 id='hreasSwara'>ඉ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowEe(!showEe)}>
                                              <p>06</p>
                                              <h5 id='deergaSware'>ඊ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
 
                               </div>
                               <div className='AkuruColoms'>
@@ -774,36 +799,42 @@ function NewSinhalaHodiya() {
                                              <h5 id='hreasSwara'>උ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowUu(!showUu)}>
                                              <p>08</p>
                                              <h5 id='deergaSware'>ඌ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowEru(!showEru)}>
                                              <p>09</p>
                                              <h5 id='hreasSwara'>ඍ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowEruu(!showEruu)}>
                                              <p>10</p>
                                              <h5 id='deergaSware'>ඎ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowElu(!showElu)}>
                                              <p>11</p>
                                              <h5 id='hreasSwara'>ඏ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowEluu(!showEluu)}>
                                              <p>12</p>
                                              <h5 id='deergaSware'>ඐ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
 
                               </div>
                               <div className='AkuruColoms'>
@@ -814,36 +845,44 @@ function NewSinhalaHodiya() {
                                              <h5 id='hreasSwara'>එ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowAeae(!showAeae)}>
                                              <p>14</p>
                                              <h5 id='deergaSware'>ඒ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowAeaei(!showAeaei)}>
                                              <p>15</p>
                                              <h5 id='deergaSware'>ඓ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowO(!showO)}>
                                              <p>16</p>
                                              <h5 id='hreasSwara'>ඔ</h5>
                                         </div>
                                    </div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowOo(!showOo)}>
                                              <p>17</p>
                                              <h5 id='deergaSware'>ඕ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
+
+                                   <div className='PointedLeterAnimeBox'>
                                    <div className='akuruAK' id='swaraAkurahodi'>
                                    <div className='akurucontent' onClick={()=>setShowOu(!showOu)}>
                                              <p>18</p>
                                              <h5 id='deergaSware'>ඖ</h5>
                                         </div>
-                                   </div>
+                                   </div></div>
 
                               </div>
                               
@@ -913,24 +952,28 @@ function NewSinhalaHodiya() {
                             <div>
                             <div className='AkuruColoms'>
 
+                            <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                         <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowKa(!showKa)}>
                                             <p>21</p>
                                             <h5>ක</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
                                     </div>
+
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
                                             <p>24</p>
@@ -947,25 +990,27 @@ function NewSinhalaHodiya() {
 
                             </div>
                             <div className='AkuruColoms'>
-
+                                   <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowCa(!showCa)}>
                                             <p>27</p>
                                             <h5>ච</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
                                     </div>
+
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
                                             <p>30</p>
@@ -982,25 +1027,29 @@ function NewSinhalaHodiya() {
 
                             </div>
                             <div className='AkuruColoms'>
-
+                                   <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTa(!showTa)}>
                                             <p>33</p>
                                             <h5>ට</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
                                             <p>34</p>
                                             <h5>ඨ</h5>
                                         </div>
                                     </div>
+
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
                                             <p>35</p>
                                             <h5>ඩ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
                                             <p>36</p>
@@ -1017,25 +1066,28 @@ function NewSinhalaHodiya() {
 
                             </div>
                             <div className='AkuruColoms'>
-
+                               <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTha(!showTha)}>
                                             <p>39</p>
                                             <h5>ත</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
                                             <p>40</p>
                                             <h5>ථ</h5>
                                         </div>
                                     </div>
+
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
                                             <p>41</p>
                                             <h5>ද</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
                                             <p>42</p>
@@ -1052,25 +1104,29 @@ function NewSinhalaHodiya() {
 
                             </div>
                             <div className='AkuruColoms'>
-
+                              <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowPa(!showPa)}>
                                             <p>45</p>
                                             <h5>ප</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
                                             <p>46</p>
                                             <h5>ඵ</h5>
                                         </div>
                                     </div>
+
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
                                             <p>47</p>
                                             <h5>බ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+
                                     <div className='akuruAK noalp' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
                                             <p>48</p>
@@ -1263,24 +1319,28 @@ function NewSinhalaHodiya() {
                                             <h5>ක</h5>
                                         </div>
                                     </div>
+
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
                                     </div>
+
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
                                             <p>25</p>
@@ -1298,24 +1358,27 @@ function NewSinhalaHodiya() {
                                             <h5>ච</h5>
                                         </div>
                                     </div>
+
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
                                             <p>31</p>
@@ -1333,24 +1396,26 @@ function NewSinhalaHodiya() {
                                             <h5>ට</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
                                             <p>34</p>
                                             <h5>ඨ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
                                             <p>35</p>
                                             <h5>ඩ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
                                             <p>36</p>
                                             <h5>ඪ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
                                             <p>37</p>
@@ -1368,24 +1433,26 @@ function NewSinhalaHodiya() {
                                             <h5>ත</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
                                             <p>40</p>
                                             <h5>ථ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
                                             <p>41</p>
                                             <h5>ද</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
                                             <p>42</p>
                                             <h5>ධ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
                                             <p>43</p>
@@ -1403,24 +1470,26 @@ function NewSinhalaHodiya() {
                                             <h5>ප</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
                                             <p>46</p>
                                             <h5>ඵ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
                                             <p>47</p>
                                             <h5>බ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
                                             <p>48</p>
                                             <h5>භ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
                                             <p>49</p>
@@ -1556,13 +1625,14 @@ function NewSinhalaHodiya() {
                     </div>
                     <div className='viyanAkuruMain'>
                          <div className='AkuruColoms' id='anahbox'>
-
+                         <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK' id='anahboxAkuru'>
                             <div className='akurucontent' onClick={()=>setShowAn(!showAn)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
-                            </div>
+                            </div></div>
+                            
                             <div className='akuruAK Novran' id='anahboxAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
                                     <p>20</p>
@@ -1625,12 +1695,13 @@ function NewSinhalaHodiya() {
                                             <h5>ඝ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     
 
                             </div>
@@ -1660,12 +1731,13 @@ function NewSinhalaHodiya() {
                                             <h5>ඣ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     
 
                             </div>
@@ -1695,12 +1767,13 @@ function NewSinhalaHodiya() {
                                             <h5>ඪ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
                                             <p>37</p>
                                             <h5>ණ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     
 
                             </div>
@@ -1730,12 +1803,13 @@ function NewSinhalaHodiya() {
                                             <h5>ධ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
                                             <p>43</p>
                                             <h5>න</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     
 
                             </div>
@@ -1765,12 +1839,13 @@ function NewSinhalaHodiya() {
                                             <h5>භ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
                                             <p>49</p>
                                             <h5>ම</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                         
                             </div>
                             </div>
@@ -2121,37 +2196,41 @@ function NewSinhalaHodiya() {
                         </div>
 
                         <div className='AkuruColomsSanjaka'>
-
+                              <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru'>
                                 <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
-                                </div>
+                                </div></div>
+                                <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
                                         </div>
-                                </div>
+                                </div></div>
+                                <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
                                 <div className='akurucontent'>
                                             <p>38</p>
                                             <h5>ඬ</h5>
                                         </div>
-                                </div>
+                                </div></div>
+                                <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
                                 <div className='akurucontent'>
                                             <p>44</p>
                                             <h5>ඳ</h5>
                                         </div>
-                                </div>
+                                </div></div>
+                                <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
                                 <div className='akurucontent'>
                                             <p>50</p>
                                             <h5>ඹ</h5>
                                         </div>
-                                </div>
+                                </div></div>
                     
                         </div>
 
@@ -2503,31 +2582,34 @@ function NewSinhalaHodiya() {
                     </div>
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
-
+                         <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
                                             <p>51</p>
                                             <h5>ය</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
                                             <p>52</p>
                                             <h5>ර</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
                                             <p>53</p>
                                             <h5>ල</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
                                             <p>54</p>
                                             <h5>ව</h5>
                                         </div>
-                            </div>
+                            </div></div>
                         </div>
                         <div className='AkuruColoms' id='finalYataLetters'>
 
@@ -2555,12 +2637,13 @@ function NewSinhalaHodiya() {
                                             <h5>හ</h5>
                                         </div>
                             </div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
-                            </div>
+                            </div></div>
                             <div className='akuruAK noAnthahstha' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
                                             <p>60</p>
@@ -2595,12 +2678,13 @@ function NewSinhalaHodiya() {
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
                             </div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK' id='anahboxAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
                                     <p>20</p>
                                     <h5 id='ahLetter'>අඃ</h5>
                                 </div>
-                        </div>
+                        </div></div>
                     </div>
 
                     <div className='viyaakuruDividaPink'>
@@ -2874,43 +2958,47 @@ function NewSinhalaHodiya() {
                             </div>
                         </div>
                         <div className='AkuruColoms' id='finalYataLetters'>
-
+                        <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowSha(!showSha)}>
                                             <p>55</p>
                                             <h5>ශ</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowSsha(!showSsha)}>
                                             <p>56</p>
                                             <h5>ෂ</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowSa(!showSa)}>
                                             <p>57</p>
                                             <h5>ස</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
                             <div className='akurucontent'>
                                             <p>58</p>
                                             <h5>හ</h5>
                                         </div>
-                            </div>
+                            </div></div>
                             <div className='akuruAK noush'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
                             </div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
                                             <p>60</p>
                                             <h5>ෆ</h5>
                                         </div>
-                            </div>
+                            </div></div>
 
                         </div>
                     </div>
@@ -2932,13 +3020,13 @@ function NewSinhalaHodiya() {
                     </div>
                     <div className='viyanAkuruMain'>
                          <div className='AkuruColoms' id='anahbox'>
-
+                         <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK' id='anahboxAkuru'>
                             <div className='akurucontent' onClick={()=>setShowAn(!showAn)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
-                            </div>
+                            </div></div>
                             <div className='akuruAK agoagoo' id='anahboxAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
                                     <p>20</p>
@@ -2989,24 +3077,27 @@ function NewSinhalaHodiya() {
                                             <h5>ඛ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     
 
                             </div>
@@ -3024,24 +3115,27 @@ function NewSinhalaHodiya() {
                                             <h5>ඡ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     
 
                             </div>
@@ -3059,24 +3153,27 @@ function NewSinhalaHodiya() {
                                             <h5>ඨ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
                                             <p>35</p>
                                             <h5>ඩ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
                                             <p>36</p>
                                             <h5>ඪ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
                                             <p>37</p>
                                             <h5>ණ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     
 
                             </div>
@@ -3094,24 +3191,27 @@ function NewSinhalaHodiya() {
                                             <h5>ථ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
                                             <p>41</p>
                                             <h5>ද</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
                                             <p>42</p>
                                             <h5>ධ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
                                             <p>43</p>
                                             <h5>න</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     
 
                             </div>
@@ -3129,61 +3229,68 @@ function NewSinhalaHodiya() {
                                             <h5>ඵ</h5>
                                         </div>
                                     </div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
                                             <p>47</p>
                                             <h5>බ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
                                             <p>48</p>
                                             <h5>භ</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
                                     <div className='akuruAK' id='vrvr'>
                                     <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
                                             <p>49</p>
                                             <h5>ම</h5>
                                         </div>
-                                    </div>
+                                    </div></div>
                         
                             </div>
                             </div>
                         </div>
 
                         <div className='AkuruColomsSanjaka'>
-
+                        <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru'>
                                 <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
-                                </div>
+                                </div></div>
+                                <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
                                         </div>
-                                </div>
+                                </div></div>
+                                <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
                                 <div className='akurucontent'>
                                             <p>38</p>
                                             <h5>ඬ</h5>
                                         </div>
-                                </div>
+                                </div></div>
+                                <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
                                 <div className='akurucontent'>
                                             <p>44</p>
                                             <h5>ඳ</h5>
                                         </div>
-                                </div>
+                                </div></div>
+                                <div className='PointedLeterAnimeBox'>
                                 <div className='akuruAK' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
                                 <div className='akurucontent'>
                                             <p>50</p>
                                             <h5>ඹ</h5>
                                         </div>
-                                </div>
+                                </div></div>
                     
                         </div>
 
@@ -3191,31 +3298,34 @@ function NewSinhalaHodiya() {
                     </div>
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
-
+                        <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
                                             <p>51</p>
                                             <h5>ය</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
                                             <p>52</p>
                                             <h5>ර</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
                                             <p>53</p>
                                             <h5>ල</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
                                             <p>54</p>
                                             <h5>ව</h5>
                                         </div>
-                            </div>
+                            </div></div>
                         </div>
                         <div className='AkuruColoms' id='finalYataLetters'>
 
@@ -3237,18 +3347,20 @@ function NewSinhalaHodiya() {
                                             <h5>ස</h5>
                                         </div>
                             </div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
                             <div className='akurucontent'>
                                             <p>58</p>
                                             <h5>හ</h5>
                                         </div>
-                            </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
-                            </div>
+                            </div></div>
                             <div className='akuruAK agoagoo' id='yatamaAkuru'>
                             <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
                                             <p>60</p>
