@@ -35,10 +35,11 @@
 .sinhalaAkuruDiscbox{
     position: relative;
     min-width: 25%;
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     background: rgba(250, 235, 215, 0.593);
     margin: 5px;
+    border-radius: 10px;
 }
 .MainSwaraya{
     position: relative;
@@ -217,12 +218,15 @@
 }
 .vargaLableBox{
     width: 50px;
-    height: 85%;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-right: 4px solid #333;
     margin: 10px;
+}
+#vargaLableBoxviya{
+    height: 800px;
 }
 .vargaLableBox h2{
     font-family: 'Noto serif Sinhala',sans-serif;
@@ -526,4 +530,12 @@
 .contentDeerga{
     background: rgba(250, 235, 215, 0.300);
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+
+.hraswaswaraMainBox{
+    position: relative;
+    width: auto;
+    min-height: 30vh;
+    margin: 5px;
+    background: rgb(154, 147, 147);
 }

@@ -85,10 +85,15 @@ function NewSinhalaHodiya() {
     const [showDanthaja,setShowDanthaja] = useState(false);
     const [showOshtaja,setShowOshtaja] = useState(false);
 
+    const [LetterBoxActive,setLetterBoxActive] = useState("Fristbox");
+
   return (
     <div className='NuthanahodiyaMain'>
         <div className='mainhodibox'>
-                <div className='sinhalaAkurumainbox'>
+
+          <div>
+
+          {LetterBoxActive === "Fristbox" && <div className='sinhalaAkurumainbox'>
 
                 <div className='swaraAkuruMaincontainer'>
 
@@ -226,7 +231,7 @@ function NewSinhalaHodiya() {
                 </div>
 
                 <div className='viyanAkuruMainContainer'>
-                    <div className='vargaLableBox'>
+                    <div className='vargaLableBox' id='vargaLableBoxviya'>
                         <h2 onClick={()=>setShowViyan(!showViyan)}>ව්‍යංජන</h2>
                     </div>
                     <div className='viyanAkuruMain'>
@@ -559,11 +564,152 @@ function NewSinhalaHodiya() {
                     </div>
                 </div>
                     
-                </div>
-                
-                <div className='sinhalaAkuruDiscbox'>
+               </div>
+               }
 
-                </div>
+               {LetterBoxActive === "hraswaswaraMainBox" && <div className='hraswaswaraMainBox'>
+               <div className='swaraAkuruMaincontainer'>
+
+                         <div className='vargaLableBox'>
+                         <h2 onClick={()=>setShowSwara(!showSwara)}>ස්වර</h2>
+                         </div>
+                         <div className='MainSwaraya'>
+                              <div className='emtySpaceSwarabox'></div>
+                         <div className='swaraAkuruMain'>
+
+                              <div className='AkuruColoms'>
+
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                        <div className='akurucontent' onClick={()=>setShowA(!showA)}>
+                                             <p>01</p>
+                                             <h5 id='hreasSwara'>අ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAa(!showAa)}>
+                                             <p>02</p>
+                                             <h5 id='deergaSware'>ආ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAe(!showAe)}>
+                                             <p>03</p>
+                                             <h5 id='hreasSwara'>ඇ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAee(!showAea)}>
+                                             <p>04</p>
+                                             <h5 id='deergaSware'>ඈ</h5>
+                                        </div> 
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowE(!showE)}>
+                                             <p>05</p>
+                                             <h5 id='hreasSwara'>ඉ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowEe(!showEe)}>
+                                             <p>06</p>
+                                             <h5 id='deergaSware'>ඊ</h5>
+                                        </div>
+                                   </div>
+
+                              </div>
+                              <div className='AkuruColoms'>
+
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowU(!showU)}>
+                                             <p>07</p>
+                                             <h5 id='hreasSwara'>උ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowUu(!showUu)}>
+                                             <p>08</p>
+                                             <h5 id='deergaSware'>ඌ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowEru(!showEru)}>
+                                             <p>09</p>
+                                             <h5 id='hreasSwara'>ඍ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowEruu(!showEruu)}>
+                                             <p>10</p>
+                                             <h5 id='deergaSware'>ඎ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowElu(!showElu)}>
+                                             <p>11</p>
+                                             <h5 id='hreasSwara'>ඏ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowEluu(!showEluu)}>
+                                             <p>12</p>
+                                             <h5 id='deergaSware'>ඐ</h5>
+                                        </div>
+                                   </div>
+
+                              </div>
+                              <div className='AkuruColoms'>
+
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAea(!showAea)}>
+                                             <p>13</p>
+                                             <h5 id='hreasSwara'>එ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAeae(!showAeae)}>
+                                             <p>14</p>
+                                             <h5 id='deergaSware'>ඒ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowAeaei(!showAeaei)}>
+                                             <p>15</p>
+                                             <h5 id='deergaSware'>ඓ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowO(!showO)}>
+                                             <p>16</p>
+                                             <h5 id='hreasSwara'>ඔ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowOo(!showOo)}>
+                                             <p>17</p>
+                                             <h5 id='deergaSware'>ඕ</h5>
+                                        </div>
+                                   </div>
+                                   <div className='akuruAK' id='swaraAkurahodi'>
+                                   <div className='akurucontent' onClick={()=>setShowOu(!showOu)}>
+                                             <p>18</p>
+                                             <h5 id='deergaSware'>ඖ</h5>
+                                        </div>
+                                   </div>
+
+                              </div>
+                              
+
+                         </div>
+                         </div>
+                         </div>
+               </div>}
+
+
+               </div>
+                
+                    <div className='sinhalaAkuruDiscbox'>
+
+                    </div>
         </div>
 
 
