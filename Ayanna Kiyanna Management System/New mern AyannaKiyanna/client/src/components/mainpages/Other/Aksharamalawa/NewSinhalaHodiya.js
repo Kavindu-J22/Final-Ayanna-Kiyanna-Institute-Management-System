@@ -89,6 +89,9 @@ function NewSinhalaHodiya() {
     const [showDanthaja,setShowDanthaja] = useState(false);
     const [showOshtaja,setShowOshtaja] = useState(false);
 
+    const [showLetNotInc,setShowLetNotInc] = useState(false);
+    const [showCatNotInc,setShowCatNotInc] = useState(false);
+
     const [LetterBoxActive,setLetterBoxActive] = useState("Fristbox");
 
   return (
@@ -613,7 +616,7 @@ function NewSinhalaHodiya() {
                                    </div>
 
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>02</p>
                                              <h5 id='deergaSware'>ආ</h5>
                                         </div>
@@ -628,7 +631,7 @@ function NewSinhalaHodiya() {
                                    </div></div>
 
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>04</p>
                                              <h5 id='deergaSware'>ඈ</h5>
                                         </div> 
@@ -643,7 +646,7 @@ function NewSinhalaHodiya() {
                                    </div></div>
 
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>06</p>
                                              <h5 id='deergaSware'>ඊ</h5>
                                         </div>
@@ -661,7 +664,7 @@ function NewSinhalaHodiya() {
                                    </div></div>
 
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>08</p>
                                              <h5 id='deergaSware'>ඌ</h5>
                                         </div>
@@ -675,7 +678,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                    </div></div>
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>10</p>
                                              <h5 id='deergaSware'>ඎ</h5>
                                         </div>
@@ -689,7 +692,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                    </div></div>
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>12</p>
                                              <h5 id='deergaSware'>ඐ</h5>
                                         </div>
@@ -706,13 +709,13 @@ function NewSinhalaHodiya() {
                                         </div>
                                    </div></div>
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>14</p>
                                              <h5 id='deergaSware'>ඒ</h5>
                                         </div>
                                    </div>
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>15</p>
                                              <h5 id='deergaSware'>ඓ</h5>
                                         </div>
@@ -727,13 +730,13 @@ function NewSinhalaHodiya() {
                                    </div></div>
 
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>17</p>
                                              <h5 id='deergaSware'>ඕ</h5>
                                         </div>
                                    </div>
                                    <div className='akuruAK dee' id='swaraAkurahodi'>
-                                   <div className='akurucontent'>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>18</p>
                                              <h5 id='deergaSware'>ඖ</h5>
                                         </div>
@@ -5393,6 +5396,29 @@ function NewSinhalaHodiya() {
                                         <li>අයන්න කියන්න + අයන්න කියන්න</li>
                                         <li>අයන්න කියන්න + අයන්න කියන්න</li>
                                    </ul>
+                        </div>
+                        
+                </div>
+        }
+
+{
+            showLetNotInc && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent notincludeContent'>
+                       <div className='MyOkBtn'><a onClick={()=>setShowLetNotInc(!showLetNotInc)}>OK</a></div>
+                            <p>මෙම අක්ෂරය මෙම අක්ෂර කාණ්ඩයට ඇතුලත් නොවේ..!</p>
+                            <p>This character is not included in this character category..!</p>
+                        </div>
+                        
+                </div>
+        }
+        {
+            showCatNotInc && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent notincludeContent'>
+                       <div className='MyOkBtn'><a onClick={()=>setShowLetNotInc(!showLetNotInc)}>OK</a></div>
+                            <p>මෙම අක්ෂර ප්‍රවර්ගය මෙම අක්ෂර කාණ්ඩයට ඇතුලත් නොවේ..!</p>
+                            <p>This category is not included in this character category..!</p>
                         </div>
                         
                 </div>

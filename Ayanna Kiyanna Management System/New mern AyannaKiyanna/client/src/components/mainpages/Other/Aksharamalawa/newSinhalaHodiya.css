@@ -648,6 +648,40 @@
     background: rgba(250, 235, 215, 0.300);
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
 }
+.notincludeContent{
+    background: rgba(239, 40, 40, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.notincludeContent p{
+    font-size: 1.5em;
+}
+.MyOkBtn{
+    position: absolute;
+    bottom: 50px;
+    color: aliceblue;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 60px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.096);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 2000;
+    letter-spacing: 1px;
+}
+.MyOkBtn a{
+    position: relative;
+    padding: 10px;
+    transition: .4s;
+    margin-top: 4px;
+    opacity: 0.9;
+  }
+  .MyOkBtn a:hover{
+    transform: scale(1.1);
+    opacity: 1;
+  }
 
 .hraswaswaraMainBox{
     position: relative;
