@@ -777,7 +777,7 @@ function NewSinhalaHodiya() {
                               <div className='AkuruColoms'>
 
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
-                                        <div className='akurucontent' onClick={()=>setShowA(!showA)}>
+                                        <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>01</p>
                                              <h5 id='hreasSwara'>අ</h5>
                                         </div>
@@ -791,7 +791,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                    </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
-                                   <div className='akurucontent' onClick={()=>setShowAe(!showAe)}>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>03</p>
                                              <h5 id='hreasSwara'>ඇ</h5>
                                         </div>
@@ -805,7 +805,7 @@ function NewSinhalaHodiya() {
                                         </div> 
                                    </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
-                                   <div className='akurucontent' onClick={()=>setShowE(!showE)}>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>05</p>
                                              <h5 id='hreasSwara'>ඉ</h5>
                                         </div>
@@ -823,7 +823,7 @@ function NewSinhalaHodiya() {
                               <div className='AkuruColoms'>
 
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
-                                   <div className='akurucontent' onClick={()=>setShowU(!showU)}>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>07</p>
                                              <h5 id='hreasSwara'>උ</h5>
                                         </div>
@@ -837,7 +837,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                    </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
-                                   <div className='akurucontent' onClick={()=>setShowEru(!showEru)}>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>09</p>
                                              <h5 id='hreasSwara'>ඍ</h5>
                                         </div>
@@ -851,7 +851,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                    </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
-                                   <div className='akurucontent' onClick={()=>setShowElu(!showElu)}>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>11</p>
                                              <h5 id='hreasSwara'>ඏ</h5>
                                         </div>
@@ -869,7 +869,7 @@ function NewSinhalaHodiya() {
                               <div className='AkuruColoms'>
 
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
-                                   <div className='akurucontent' onClick={()=>setShowAea(!showAea)}>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>13</p>
                                              <h5 id='hreasSwara'>එ</h5>
                                         </div>
@@ -891,7 +891,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                    </div></div>
                                    <div className='akuruAK hras' id='swaraAkurahodi'>
-                                   <div className='akurucontent' onClick={()=>setShowO(!showO)}>
+                                   <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                              <p>16</p>
                                              <h5 id='hreasSwara'>ඔ</h5>
                                         </div>
@@ -946,13 +946,13 @@ function NewSinhalaHodiya() {
                          <div className='AkuruColoms' id='anahbox'>
 
                             <div className='akuruAK noalp' id='anahboxAkuru'>
-                            <div className='akurucontent' onClick={()=>setShowAn(!showAn)}>
+                            <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
                             </div>
                             <div className='akuruAK noalp' id='anahboxAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>20</p>
                                     <h5 id='ahLetter'>අඃ</h5>
                                 </div>
@@ -998,7 +998,7 @@ function NewSinhalaHodiya() {
                                     </div></div>
 
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
@@ -1012,13 +1012,13 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
                                         </div>
@@ -1035,7 +1035,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
@@ -1049,13 +1049,13 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
                                         </div>
@@ -1073,7 +1073,7 @@ function NewSinhalaHodiya() {
                                     </div></div>
                                     
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>34</p>
                                             <h5>ඨ</h5>
                                         </div>
@@ -1088,13 +1088,13 @@ function NewSinhalaHodiya() {
                                     </div></div>
 
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>36</p>
                                             <h5>ඪ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>37</p>
                                             <h5>ණ</h5>
                                         </div>
@@ -1111,7 +1111,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>40</p>
                                             <h5>ථ</h5>
                                         </div>
@@ -1126,13 +1126,13 @@ function NewSinhalaHodiya() {
                                     </div></div>
 
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>42</p>
                                             <h5>ධ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>43</p>
                                             <h5>න</h5>
                                         </div>
@@ -1150,7 +1150,7 @@ function NewSinhalaHodiya() {
                                     </div></div>
 
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>46</p>
                                             <h5>ඵ</h5>
                                         </div>
@@ -1165,7 +1165,7 @@ function NewSinhalaHodiya() {
                                     </div></div>
 
                                     <div className='akuruAK noalp' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>48</p>
                                             <h5>භ</h5>
                                         </div>
@@ -1184,30 +1184,30 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColomsSanjaka'>
 
                                 <div className='akuruAK noalp' id='SanjakaAkuru'>
-                                <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
+                                <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
+                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
+                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>38</p>
                                             <h5>ඬ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
+                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>44</p>
                                             <h5>ඳ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
+                                <div className='akuruAK noalp' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>50</p>
                                             <h5>ඹ</h5>
@@ -1222,25 +1222,25 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
                             <div className='akuruAK noalp'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
                                             <h5>ය</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noalp'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>52</p>
                                             <h5>ර</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noalp'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>53</p>
                                             <h5>ල</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noalp'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>54</p>
                                             <h5>ව</h5>
                                         </div>
@@ -1249,37 +1249,37 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='finalYataLetters'>
 
                             <div className='akuruAK noalp' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSha(!showSha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>55</p>
                                             <h5>ශ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noalp' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSsha(!showSsha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>56</p>
                                             <h5>ෂ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noalp' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSa(!showSa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>57</p>
                                             <h5>ස</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK noalp' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
+                            <div className='akuruAK noalp' id='yatamaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                             <div className='akurucontent'>
                                             <p>58</p>
                                             <h5>හ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noalp'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noalp' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>60</p>
                                             <h5>ෆ</h5>
                                         </div>
@@ -1315,13 +1315,13 @@ function NewSinhalaHodiya() {
                          <div className='AkuruColoms' id='anahbox'>
 
                             <div className='akuruAK noMahap' id='anahboxAkuru'>
-                            <div className='akurucontent' onClick={()=>setShowAn(!showAn)}>
+                            <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
                             </div>
                             <div className='akuruAK noMahap' id='anahboxAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>20</p>
                                     <h5 id='ahLetter'>අඃ</h5>
                                 </div>
@@ -1359,7 +1359,7 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowKa(!showKa)}>
+                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>21</p>
                                             <h5>ක</h5>
                                         </div>
@@ -1373,7 +1373,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
@@ -1387,7 +1387,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
                                         </div>
@@ -1398,7 +1398,7 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowCa(!showCa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>27</p>
                                             <h5>ච</h5>
                                         </div>
@@ -1412,7 +1412,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
@@ -1425,7 +1425,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
                                         </div>
@@ -1436,7 +1436,7 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTa(!showTa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>33</p>
                                             <h5>ට</h5>
                                         </div>
@@ -1449,7 +1449,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>35</p>
                                             <h5>ඩ</h5>
                                         </div>
@@ -1462,7 +1462,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>37</p>
                                             <h5>ණ</h5>
                                         </div>
@@ -1473,7 +1473,7 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTha(!showTha)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>39</p>
                                             <h5>ත</h5>
                                         </div>
@@ -1486,7 +1486,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>41</p>
                                             <h5>ද</h5>
                                         </div>
@@ -1499,7 +1499,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>43</p>
                                             <h5>න</h5>
                                         </div>
@@ -1510,7 +1510,7 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowPa(!showPa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>45</p>
                                             <h5>ප</h5>
                                         </div>
@@ -1523,7 +1523,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>47</p>
                                             <h5>බ</h5>
                                         </div>
@@ -1536,7 +1536,7 @@ function NewSinhalaHodiya() {
                                         </div>
                                     </div></div>
                                     <div className='akuruAK noMahap' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>49</p>
                                             <h5>ම</h5>
                                         </div>
@@ -1549,30 +1549,30 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColomsSanjaka'>
 
                                 <div className='akuruAK noMahap' id='SanjakaAkuru'>
-                                <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
+                                <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noMahap' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
+                                <div className='akuruAK noMahap' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noMahap' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
+                                <div className='akuruAK noMahap' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>38</p>
                                             <h5>ඬ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noMahap' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
+                                <div className='akuruAK noMahap' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>44</p>
                                             <h5>ඳ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noMahap' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
+                                <div className='akuruAK noMahap' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>50</p>
                                             <h5>ඹ</h5>
@@ -1587,25 +1587,25 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
                             <div className='akuruAK noMahap'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
                                             <h5>ය</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noMahap'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>52</p>
                                             <h5>ර</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noMahap'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>53</p>
                                             <h5>ල</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noMahap'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>54</p>
                                             <h5>ව</h5>
                                         </div>
@@ -1614,37 +1614,37 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='finalYataLetters'>
 
                             <div className='akuruAK noMahap' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSha(!showSha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>55</p>
                                             <h5>ශ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noMahap' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSsha(!showSsha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>56</p>
                                             <h5>ෂ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noMahap' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSa(!showSa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>57</p>
                                             <h5>ස</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK noMahap' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
+                            <div className='akuruAK noMahap' id='yatamaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                             <div className='akurucontent'>
                                             <p>58</p>
                                             <h5>හ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noMahap'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noMahap' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>60</p>
                                             <h5>ෆ</h5>
                                         </div>
@@ -1687,7 +1687,7 @@ function NewSinhalaHodiya() {
                             </div></div>
                             
                             <div className='akuruAK Novran' id='anahboxAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>20</p>
                                     <h5 id='ahLetter'>අඃ</h5>
                                 </div>
@@ -1725,25 +1725,25 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK Novran' id='vrvr'>
-                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowKa(!showKa)}>
+                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>21</p>
                                             <h5>ක</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
@@ -1761,25 +1761,25 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowCa(!showCa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>27</p>
                                             <h5>ච</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
@@ -1797,25 +1797,25 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTa(!showTa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>33</p>
                                             <h5>ට</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>34</p>
                                             <h5>ඨ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>35</p>
                                             <h5>ඩ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>36</p>
                                             <h5>ඪ</h5>
                                         </div>
@@ -1833,25 +1833,25 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTha(!showTha)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>39</p>
                                             <h5>ත</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>40</p>
                                             <h5>ථ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>41</p>
                                             <h5>ද</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>42</p>
                                             <h5>ධ</h5>
                                         </div>
@@ -1869,25 +1869,25 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowPa(!showPa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>45</p>
                                             <h5>ප</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>46</p>
                                             <h5>ඵ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>47</p>
                                             <h5>බ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK Novran' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>48</p>
                                             <h5>භ</h5>
                                         </div>
@@ -1907,30 +1907,30 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColomsSanjaka'>
 
                                 <div className='akuruAK Novran' id='SanjakaAkuru'>
-                                <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
+                                <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK Novran' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
+                                <div className='akuruAK Novran' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK Novran' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
+                                <div className='akuruAK Novran' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>38</p>
                                             <h5>ඬ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK Novran' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
+                                <div className='akuruAK Novran' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>44</p>
                                             <h5>ඳ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK Novran' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
+                                <div className='akuruAK Novran' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>50</p>
                                             <h5>ඹ</h5>
@@ -1945,25 +1945,25 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
                             <div className='akuruAK Novran'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
                                             <h5>ය</h5>
                                         </div>
                             </div>
                             <div className='akuruAK Novran'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>52</p>
                                             <h5>ර</h5>
                                         </div>
                             </div>
                             <div className='akuruAK Novran'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>53</p>
                                             <h5>ල</h5>
                                         </div>
                             </div>
                             <div className='akuruAK Novran'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>54</p>
                                             <h5>ව</h5>
                                         </div>
@@ -1972,37 +1972,37 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='finalYataLetters'>
 
                             <div className='akuruAK Novran' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSha(!showSha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>55</p>
                                             <h5>ශ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK Novran' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSsha(!showSsha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>56</p>
                                             <h5>ෂ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK Novran' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSa(!showSa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>57</p>
                                             <h5>ස</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK Novran' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
+                            <div className='akuruAK Novran' id='yatamaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                             <div className='akurucontent'>
                                             <p>58</p>
                                             <h5>හ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK Novran'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK Novran' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>60</p>
                                             <h5>ෆ</h5>
                                         </div>
@@ -2038,13 +2038,13 @@ function NewSinhalaHodiya() {
                          <div className='AkuruColoms' id='anahbox'>
 
                             <div className='akuruAK noSanjaka' id='anahboxAkuru'>
-                            <div className='akurucontent' onClick={()=>setShowAn(!showAn)}>
+                            <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
                             </div>
                             <div className='akuruAK noSanjaka' id='anahboxAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>20</p>
                                     <h5 id='ahLetter'>අඃ</h5>
                                 </div>
@@ -2082,31 +2082,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowKa(!showKa)}>
+                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>21</p>
                                             <h5>ක</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
                                         </div>
@@ -2117,31 +2117,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowCa(!showCa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>27</p>
                                             <h5>ච</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
                                         </div>
@@ -2152,31 +2152,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTa(!showTa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>33</p>
                                             <h5>ට</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>34</p>
                                             <h5>ඨ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>35</p>
                                             <h5>ඩ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>36</p>
                                             <h5>ඪ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>37</p>
                                             <h5>ණ</h5>
                                         </div>
@@ -2187,31 +2187,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTha(!showTha)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>39</p>
                                             <h5>ත</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>40</p>
                                             <h5>ථ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>41</p>
                                             <h5>ද</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>42</p>
                                             <h5>ධ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>43</p>
                                             <h5>න</h5>
                                         </div>
@@ -2222,31 +2222,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowPa(!showPa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>45</p>
                                             <h5>ප</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>46</p>
                                             <h5>ඵ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>47</p>
                                             <h5>බ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>48</p>
                                             <h5>භ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noSanjaka' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>49</p>
                                             <h5>ම</h5>
                                         </div>
@@ -2301,25 +2301,25 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
                             <div className='akuruAK noSanjaka'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
                                             <h5>ය</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noSanjaka'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>52</p>
                                             <h5>ර</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noSanjaka'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>53</p>
                                             <h5>ල</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noSanjaka'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>54</p>
                                             <h5>ව</h5>
                                         </div>
@@ -2328,37 +2328,37 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='finalYataLetters'>
 
                             <div className='akuruAK noSanjaka' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSha(!showSha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>55</p>
                                             <h5>ශ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noSanjaka' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSsha(!showSsha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>56</p>
                                             <h5>ෂ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noSanjaka' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSa(!showSa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>57</p>
                                             <h5>ස</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK noSanjaka' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
+                            <div className='akuruAK noSanjaka' id='yatamaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                             <div className='akurucontent'>
                                             <p>58</p>
                                             <h5>හ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noSanjaka'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noSanjaka' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>60</p>
                                             <h5>ෆ</h5>
                                         </div>
@@ -2394,13 +2394,13 @@ function NewSinhalaHodiya() {
                          <div className='AkuruColoms' id='anahbox'>
 
                             <div className='akuruAK noMahap' id='anahboxAkuru'>
-                            <div className='akurucontent' onClick={()=>setShowAn(!showAn)}>
+                            <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
                             </div>
                             <div className='akuruAK noMahap' id='anahboxAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>20</p>
                                     <h5 id='ahLetter'>අඃ</h5>
                                 </div>
@@ -2438,31 +2438,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowKa(!showKa)}>
+                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>21</p>
                                             <h5>ක</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
                                         </div>
@@ -2473,31 +2473,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowCa(!showCa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>27</p>
                                             <h5>ච</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
                                         </div>
@@ -2508,31 +2508,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTa(!showTa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>33</p>
                                             <h5>ට</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>34</p>
                                             <h5>ඨ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>35</p>
                                             <h5>ඩ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>36</p>
                                             <h5>ඪ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>37</p>
                                             <h5>ණ</h5>
                                         </div>
@@ -2543,31 +2543,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTha(!showTha)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>39</p>
                                             <h5>ත</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>40</p>
                                             <h5>ථ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>41</p>
                                             <h5>ද</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>42</p>
                                             <h5>ධ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>43</p>
                                             <h5>න</h5>
                                         </div>
@@ -2578,31 +2578,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowPa(!showPa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>45</p>
                                             <h5>ප</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>46</p>
                                             <h5>ඵ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>47</p>
                                             <h5>බ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>48</p>
                                             <h5>භ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noAnthahstha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>49</p>
                                             <h5>ම</h5>
                                         </div>
@@ -2615,30 +2615,30 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColomsSanjaka'>
 
                                 <div className='akuruAK noAnthahstha' id='SanjakaAkuru'>
-                                <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
+                                <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noAnthahstha' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
+                                <div className='akuruAK noAnthahstha' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noAnthahstha' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
+                                <div className='akuruAK noAnthahstha' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>38</p>
                                             <h5>ඬ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noAnthahstha' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
+                                <div className='akuruAK noAnthahstha' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>44</p>
                                             <h5>ඳ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noAnthahstha' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
+                                <div className='akuruAK noAnthahstha' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>50</p>
                                             <h5>ඹ</h5>
@@ -2683,24 +2683,24 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='finalYataLetters'>
 
                             <div className='akuruAK noAnthahstha' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSha(!showSha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>55</p>
                                             <h5>ශ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noAnthahstha' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSsha(!showSsha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>56</p>
                                             <h5>ෂ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noAnthahstha' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSa(!showSa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>57</p>
                                             <h5>ස</h5>
                                         </div>
                             </div>
-                            <div className='akuruAK noAnthahstha' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
+                            <div className='akuruAK noAnthahstha' id='yatamaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                             <div className='akurucontent'>
                                             <p>58</p>
                                             <h5>හ</h5>
@@ -2714,7 +2714,7 @@ function NewSinhalaHodiya() {
                                         </div>
                             </div></div>
                             <div className='akuruAK noAnthahstha' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>60</p>
                                             <h5>ෆ</h5>
                                         </div>
@@ -2750,7 +2750,7 @@ function NewSinhalaHodiya() {
                          <div className='AkuruColoms' id='anahbox'>
 
                             <div className='akuruAK noush' id='anahboxAkuru'>
-                            <div className='akurucontent' onClick={()=>setShowAn(!showAn)}>
+                            <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
@@ -2795,31 +2795,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noush' id='vrvr'>
-                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowKa(!showKa)}>
+                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>21</p>
                                             <h5>ක</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
                                         </div>
@@ -2830,31 +2830,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowCa(!showCa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>27</p>
                                             <h5>ච</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
                                         </div>
@@ -2865,31 +2865,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTa(!showTa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>33</p>
                                             <h5>ට</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>34</p>
                                             <h5>ඨ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>35</p>
                                             <h5>ඩ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>36</p>
                                             <h5>ඪ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>37</p>
                                             <h5>ණ</h5>
                                         </div>
@@ -2900,31 +2900,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTha(!showTha)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>39</p>
                                             <h5>ත</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>40</p>
                                             <h5>ථ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>41</p>
                                             <h5>ද</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>42</p>
                                             <h5>ධ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>43</p>
                                             <h5>න</h5>
                                         </div>
@@ -2935,31 +2935,31 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowPa(!showPa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>45</p>
                                             <h5>ප</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>46</p>
                                             <h5>ඵ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>47</p>
                                             <h5>බ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>48</p>
                                             <h5>භ</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK noush' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>49</p>
                                             <h5>ම</h5>
                                         </div>
@@ -2972,30 +2972,30 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColomsSanjaka'>
 
                                 <div className='akuruAK noush' id='SanjakaAkuru'>
-                                <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
+                                <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noush' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
+                                <div className='akuruAK noush' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noush' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
+                                <div className='akuruAK noush' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>38</p>
                                             <h5>ඬ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noush' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
+                                <div className='akuruAK noush' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>44</p>
                                             <h5>ඳ</h5>
                                         </div>
                                 </div>
-                                <div className='akuruAK noush' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
+                                <div className='akuruAK noush' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>50</p>
                                             <h5>ඹ</h5>
@@ -3010,25 +3010,25 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
                             <div className='akuruAK noush'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
                                             <h5>ය</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noush'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>52</p>
                                             <h5>ර</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noush'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>53</p>
                                             <h5>ල</h5>
                                         </div>
                             </div>
                             <div className='akuruAK noush'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>54</p>
                                             <h5>ව</h5>
                                         </div>
@@ -3064,7 +3064,7 @@ function NewSinhalaHodiya() {
                                         </div>
                             </div></div>
                             <div className='akuruAK noush'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
@@ -3113,7 +3113,7 @@ function NewSinhalaHodiya() {
                                 </div>
                             </div></div>
                             <div className='akuruAK agoagoo' id='anahboxAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>20</p>
                                     <h5 id='ahLetter'>අඃ</h5>
                                 </div>
@@ -3151,13 +3151,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowKa(!showKa)}>
+                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>21</p>
                                             <h5>ක</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>22</p>
                                             <h5>ඛ</h5>
                                         </div>
@@ -3189,13 +3189,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowCa(!showCa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>27</p>
                                             <h5>ච</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>28</p>
                                             <h5>ඡ</h5>
                                         </div>
@@ -3227,13 +3227,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTa(!showTa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>33</p>
                                             <h5>ට</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>34</p>
                                             <h5>ඨ</h5>
                                         </div>
@@ -3265,13 +3265,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTha(!showTha)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>39</p>
                                             <h5>ත</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>40</p>
                                             <h5>ථ</h5>
                                         </div>
@@ -3303,13 +3303,13 @@ function NewSinhalaHodiya() {
                             <div className='AkuruColoms'>
 
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowPa(!showPa)}>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>45</p>
                                             <h5>ප</h5>
                                         </div>
                                     </div>
                                     <div className='akuruAK agoagoo' id='vrvr'>
-                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>46</p>
                                             <h5>ඵ</h5>
                                         </div>
@@ -3415,19 +3415,19 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='finalYataLetters'>
 
                             <div className='akuruAK agoagoo' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSha(!showSha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>55</p>
                                             <h5>ශ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK agoagoo' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSsha(!showSsha)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>56</p>
                                             <h5>ෂ</h5>
                                         </div>
                             </div>
                             <div className='akuruAK agoagoo' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowSa(!showSa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>57</p>
                                             <h5>ස</h5>
                                         </div>
@@ -3447,7 +3447,7 @@ function NewSinhalaHodiya() {
                                         </div>
                             </div></div>
                             <div className='akuruAK agoagoo' id='yatamaAkuru'>
-                            <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>60</p>
                                             <h5>ෆ</h5>
                                         </div>
@@ -3483,7 +3483,7 @@ function NewSinhalaHodiya() {
                          <div className='AkuruColoms' id='anahbox'>
                          
                             <div className='akuruAK notAgosha' id='anahboxAkuru'>
-                            <div className='akurucontent notAgosha' onClick={()=>setShowAn(!showAn)}>
+                            <div className='akurucontent notAgosha' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                     <p>19</p>
                                     <h5 id='anLetter'>අං</h5>
                                 </div>
@@ -3542,21 +3542,21 @@ function NewSinhalaHodiya() {
                                     </div></div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>23</p>
                                             <h5>ග</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>24</p>
                                             <h5>ඝ</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>25</p>
                                             <h5>ඞ</h5>
                                         </div>
@@ -3581,21 +3581,21 @@ function NewSinhalaHodiya() {
                                     </div></div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>29</p>
                                             <h5>ජ</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>30</p>
                                             <h5>ඣ</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>31</p>
                                             <h5>ඤ</h5>
                                         </div>
@@ -3620,21 +3620,21 @@ function NewSinhalaHodiya() {
                                     </div></div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>35</p>
                                             <h5>ඩ</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>36</p>
                                             <h5>ඪ</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>37</p>
                                             <h5>ණ</h5>
                                         </div>
@@ -3659,21 +3659,21 @@ function NewSinhalaHodiya() {
                                     </div></div>
                                    
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>41</p>
                                             <h5>ද</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>42</p>
                                             <h5>ධ</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>43</p>
                                             <h5>න</h5>
                                         </div>
@@ -3698,21 +3698,21 @@ function NewSinhalaHodiya() {
                                     </div></div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>47</p>
                                             <h5>බ</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>48</p>
                                             <h5>භ</h5>
                                         </div>
                                     </div>
                                     
                                     <div className='akuruAK notAgosha' id='vrvr'>
-                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>49</p>
                                             <h5>ම</h5>
                                         </div>
@@ -3725,34 +3725,34 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColomsSanjaka'>
                         
                                 <div className='akuruAK notAgosha' id='SanjakaAkuru'>
-                                <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
+                                <div className='akurucontent' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>26</p>
                                             <h5>ඟ</h5>
                                         </div>
                                 </div>
                                 
-                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
+                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>32</p>
                                             <h5>ඦ</h5>
                                         </div>
                                 </div>
                                 
-                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
+                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>38</p>
                                             <h5>ඬ</h5>
                                         </div>
                                 </div>
                                 
-                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
+                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>44</p>
                                             <h5>ඳ</h5>
                                         </div>
                                 </div>
                                 
-                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
+                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                 <div className='akurucontent'>
                                             <p>50</p>
                                             <h5>ඹ</h5>
@@ -3767,28 +3767,28 @@ function NewSinhalaHodiya() {
                         <div className='AkuruColoms' id='yataAkuruSet'>
                         
                             <div className='akuruAK notAgosha'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
                                             <h5>ය</h5>
                                         </div>
                             </div>
                             
                             <div className='akuruAK notAgosha'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>52</p>
                                             <h5>ර</h5>
                                         </div>
                             </div>
                             
                             <div className='akuruAK notAgosha'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>53</p>
                                             <h5>ල</h5>
                                         </div>
                             </div>
                             
                             <div className='akuruAK notAgosha'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>54</p>
                                             <h5>ව</h5>
                                         </div>
@@ -3817,7 +3817,7 @@ function NewSinhalaHodiya() {
                                         </div>
                             </div></div>
                             
-                            <div className='akuruAK notAgosha' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
+                            <div className='akuruAK notAgosha' id='yatamaAkuru' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                             <div className='akurucontent'>
                                             <p>58</p>
                                             <h5>හ</h5>
@@ -3825,7 +3825,7 @@ function NewSinhalaHodiya() {
                             </div>
                             
                             <div className='akuruAK notAgosha'>
-                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>59</p>
                                             <h5>ළ</h5>
                                         </div>
