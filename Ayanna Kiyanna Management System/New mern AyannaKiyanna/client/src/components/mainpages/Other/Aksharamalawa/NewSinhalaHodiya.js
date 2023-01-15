@@ -3381,16 +3381,40 @@ function NewSinhalaHodiya() {
                     {/* Discriptiop buttons  */}
 
                     <div className='sinhalaAkuruDiscbox'>
-                         <div onClick={()=>setLetterBoxActive("Fristbox")}>btn0</div>
-                         <div onClick={()=>setLetterBoxActive("hraswaswaraMainBox")}>btn1</div>
-                         <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")}>btn2</div>
-                         <div onClick={()=>setLetterBoxActive("AlpapranaDiscMainBox")}>btn3</div>
-                         <div onClick={()=>setLetterBoxActive("MahappranaDiscMainBox")}>btn4</div>
-                         <div onClick={()=>setLetterBoxActive("VargaAnuDiscMainBox")}>btn5</div>
-                         <div onClick={()=>setLetterBoxActive("SanjakaDiscMainBox")}>btn6</div>
-                         <div onClick={()=>setLetterBoxActive("AnthahsDiscMainBox")}>btn7</div>
-                         <div onClick={()=>setLetterBoxActive("UshmakDiscMainBox")}>btn8</div>
-                         <div onClick={()=>setLetterBoxActive("GoshaDiscMainBox")}>btnNew</div>
+                         {/* <div onClick={()=>setLetterBoxActive("Fristbox")}>btn0</div> */}
+                         
+                         <div className='swarabtnsboxnn'>
+                            <div onClick={()=>setLetterBoxActive("hraswaswaraMainBox")} className="listboxes">
+                                <div className='hColorbox'><span></span></div><h5>හ්‍රස්ව ස්වර</h5>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
+                                <div className='DColorbox'><span></span></div><h5>දීර්ඝ ස්වර</h5>
+                            </div>
+                         </div>
+
+                         <div className='viyanjanabtnsboxnn'>
+                            <div onClick={()=>setLetterBoxActive("AlpapranaDiscMainBox")} className="listboxes">
+                                <div className='AlColorbox'><span></span></div><h5>අල්පප්‍රාණ</h5>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("MahappranaDiscMainBox")} className="listboxes">
+                                <div className='MhColorbox'><span></span></div><h5>මහප්‍රාණ</h5>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("VargaAnuDiscMainBox")} className="listboxes">
+                                <div className='VrhColorbox'><span></span></div><h5>වර්ගාන්ත<br/>අනුනාසික්‍ය</h5>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("SanjakaDiscMainBox")} className="listboxes">
+                                <div className='SjColorbox'><span></span></div><h5>සඤ්ඤකාක්ෂර</h5>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("AnthahsDiscMainBox")} className="listboxes">
+                                <div className='AthhColorbox'><span></span></div><h5>අන්තඃස්ථාක්ෂර</h5>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("UshmakDiscMainBox")} className="listboxes">
+                                <div className='UshColorbox'><span></span></div><h5>ඌෂ්මාක්ෂර</h5>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("GoshaDiscMainBox")} className="listboxes">
+                                <div className='GooColorbox'></div><h5>ඝෝෂාක්ෂර</h5>
+                            </div>
+                         </div>
                     </div>
 
 

@@ -36,17 +36,78 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-width: 25%;
-    width: 200px;
-    min-height: 100vh;
     background: rgba(250, 235, 215, 0.489);
     margin: 5px;
     border-radius: 10px;
     border: 1px solid rgba(66, 63, 63, 0.526);
     border-top: 1px solid rgba(255, 255, 255, 0.526);
     border-left: 1px solid rgba(255, 255, 255, 0.547);
+    padding: 100px 20px;
+}
+.swarabtnsboxnn{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #1616231f;
+    margin: 100px 0px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    border-top: 1px solid rgb(185, 178, 178);
+    border-left: 1px solid rgb(185, 178, 178);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: .5s;
+    padding: 40px 0px;
+}
+.swarabtnsboxnn:hover{
+    transform: translateY(-10px);
+}
+.swarabtnsboxnn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -45%;
+    transform: skew(-15deg);
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.075);
+}
+.viyanjanabtnsboxnn{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #1616231f;
+    border-radius: 10px;
+    border: 1px solid #333;
+    border-top: 1px solid rgb(185, 178, 178);
+    border-left: 1px solid rgb(185, 178, 178);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: .5s;
+    padding: 20px 0px;
+    margin: 100px 0px;
+}
+.viyanjanabtnsboxnn:hover{
+    transform: translateY(-10px);
+}
+.viyanjanabtnsboxnn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -45%;
+    transform: skew(-15deg);
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.075);
 }
 .MainSwaraya{
     position: relative;
@@ -796,4 +857,161 @@
     100%{
         transform: scale(0.9);
     }
+}
+.listboxes{
+    position: relative;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/* hraswa */
+.hColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(1, 10, 48, 0.759);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.hColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(239, 6, 107);
+    border-radius: 50%;
+}
+.listboxes h5{
+    font-size: 1.3em;
+}
+/* deerga */
+.DColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(1, 10, 48, 0.759);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.DColorbox span{
+    width: 30px;
+    height: 30px;
+    background: antiquewhite;
+    border-radius: 50%;
+}
+/* alpaprana */
+.AlColorbox{
+    width: 50px;
+    height: 50px;
+    background: #ecdc2de5;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.AlColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(30, 29, 29);
+    border-radius: 50%;
+}
+/* Mahaprana */
+.MhColorbox{
+    width: 50px;
+    height: 50px;
+    background: #ecdc2de5;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.MhColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(103, 15, 109);
+    border-radius: 50%;
+}
+/* Vargantha */
+.VrhColorbox{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(rgba(255, 255, 255, 0.442) 50%, #ecdc2de5 50%);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.VrhColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(9, 88, 148);
+    border-radius: 50%;
+}
+/* Sanjakakshara */
+.SjColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.442);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.SjColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(5, 90, 31);
+    border-radius: 50%;
+}
+/* Anthahsthakshara */
+.AthhColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.AthhColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(224, 131, 44);
+    border-radius: 50%;
+}
+/* Ushmakshara */
+.UshColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.442);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.UshColorbox span{
+    width: 30px;
+    height: 30px;
+    background: rgb(85, 9, 5);
+    border-radius: 50%;
+}
+/* Goshakshara */
+.GooColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.442);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }
