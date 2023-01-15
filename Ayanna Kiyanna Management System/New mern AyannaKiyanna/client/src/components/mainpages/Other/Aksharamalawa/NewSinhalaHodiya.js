@@ -4206,7 +4206,7 @@ function NewSinhalaHodiya() {
 {
             showAh && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowAh(!showAh)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>අඃ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -4356,7 +4356,7 @@ function NewSinhalaHodiya() {
 {
             showXgha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentSanjakaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowXgha(!showXgha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඟ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -4506,7 +4506,7 @@ function NewSinhalaHodiya() {
 {
             showXJhaha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentSanjakaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowXJhaha(!showXJhaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඦ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -4651,7 +4651,7 @@ function NewSinhalaHodiya() {
         {
             showMdhaha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentSanjakaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowMdhaha(!showMdhaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඬ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -4796,7 +4796,7 @@ function NewSinhalaHodiya() {
         {
             showdhaha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentSanjakaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowdhaha(!showdhaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඳ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -4941,7 +4941,7 @@ function NewSinhalaHodiya() {
         {
             showBhaha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentSanjakaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowBhaha(!showBhaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඹ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -4967,7 +4967,7 @@ function NewSinhalaHodiya() {
 {
             showYa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowYa(!showYa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ය</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -4991,7 +4991,7 @@ function NewSinhalaHodiya() {
         {
             showRa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowRa(!showRa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ර</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5015,7 +5015,7 @@ function NewSinhalaHodiya() {
         {
             showLa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowLa(!showLa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ල</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5039,7 +5039,7 @@ function NewSinhalaHodiya() {
         {
             showWa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowWa(!showWa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ව</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5063,7 +5063,7 @@ function NewSinhalaHodiya() {
         {
             showSha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowSha(!showSha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ශ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5087,7 +5087,7 @@ function NewSinhalaHodiya() {
         {
             showSsha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowSsha(!showSsha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ෂ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5111,7 +5111,7 @@ function NewSinhalaHodiya() {
         {
             showSa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowSa(!showSa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ස</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5135,7 +5135,7 @@ function NewSinhalaHodiya() {
         {
             showha && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowha(!showha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>හ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5159,7 +5159,7 @@ function NewSinhalaHodiya() {
         {
             showLLa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowLLa(!showLLa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ළ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5183,7 +5183,7 @@ function NewSinhalaHodiya() {
         {
             showFa && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowFa(!showFa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ෆ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5209,7 +5209,7 @@ function NewSinhalaHodiya() {
 {
             showSwara && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent MAINswyawiyaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowSwara(!showSwara)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ස්වර</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5220,12 +5220,7 @@ function NewSinhalaHodiya() {
                                   වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
                                    එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
 
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                                   <a className='moreStudy' href='#'>වැඩිදුර අධ්‍යනය කරන්න ➢</a>
                         </div>
                         
                 </div>
@@ -5233,7 +5228,7 @@ function NewSinhalaHodiya() {
         {
             showViyan && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent MAINswyawiyaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowViyan(!showViyan)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ව්‍යංජන</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5244,12 +5239,7 @@ function NewSinhalaHodiya() {
                                   වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින්
                                    එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
 
-                                   <ul>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                        <li>අයන්න කියන්න + අයන්න කියන්න</li>
-                                   </ul>
+                                   <a className='moreStudy' href='#'>වැඩිදුර අධ්‍යනය කරන්න ➢</a>
                         </div>
                         
                 </div>
@@ -5258,7 +5248,7 @@ function NewSinhalaHodiya() {
 {
             showVargak && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent PinkWargaMaint'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowVargak(!showVargak)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>වර්ගාක්ෂර</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5283,7 +5273,7 @@ function NewSinhalaHodiya() {
 {
             showKantaja && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentVargasTitle'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowKantaja(!showKantaja)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>කණ්ඨජ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5307,7 +5297,7 @@ function NewSinhalaHodiya() {
         {
             showThaluja && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentVargasTitle'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowThaluja(!showThaluja)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>තාලුජ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5331,7 +5321,7 @@ function NewSinhalaHodiya() {
         {
             showMurdaja && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentVargasTitle'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowMurdaja(!showMurdaja)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>මූර්ධජ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5355,7 +5345,7 @@ function NewSinhalaHodiya() {
         {
             showDanthaja && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentVargasTitle'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowDanthaja(!showDanthaja)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>දන්තජ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.
@@ -5379,7 +5369,7 @@ function NewSinhalaHodiya() {
         {
             showOshtaja && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
-                       <div className='AakuruwistharamainboxContent'>
+                       <div className='AakuruwistharamainboxContent contentVargasTitle'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowOshtaja(!showOshtaja)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඕෂ්ඨජ</h1>
                             <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය.

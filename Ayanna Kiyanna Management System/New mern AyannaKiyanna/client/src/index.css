@@ -250,7 +250,7 @@ hr{
   border-right: 2px solid transparent;
 }
 .MainBackbtnmy{
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
   width: 55px;

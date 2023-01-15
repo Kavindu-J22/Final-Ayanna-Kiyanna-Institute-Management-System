@@ -58,7 +58,7 @@
     display: flex;
     flex-direction: column;
     min-width: 25%;
-    background: rgba(250, 235, 215, 0.249);
+    background: rgba(250, 235, 215, 0.323);
     margin: 5px;
     border-radius: 10px;
     border: 1px solid rgba(66, 63, 63, 0.526);
@@ -588,6 +588,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgba(51, 51, 51, 0.633);
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(2px);
@@ -641,15 +642,15 @@
     font-weight: 300;
 }
 .contentHraswa{
-    background: rgba(239, 6, 107, 0.300);
+    background: rgba(239, 6, 107, 0.218);
     text-shadow: 0 0 5px #333;
 }
 .contentDeerga{
-    background: rgba(250, 235, 215, 0.300);
+    background: rgba(236, 209, 173, 0.24);
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
 }
 .contentAlpaa{
-    background: rgba(231, 208, 58, 0.3);
+    background: rgba(239, 210, 66, 0.26);
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923); 
 }
 .contentmarapraa{
@@ -660,8 +661,20 @@
     background: rgba(28, 82, 184, 0.3);
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
 }
+.contentSanjakaa{
+    background: rgba(12, 165, 68, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923); 
+}
+.contentAnthahh{
+    background: rgba(227, 117, 39, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923); 
+}
+.contentUshh{
+    background: rgba(66, 3, 3, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
 .notincludeContent{
-    background: rgba(239, 40, 40, 0.3);
+    background: rgba(238, 46, 46, 0.303);
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
 }
 .notincludeContent p{
@@ -682,6 +695,9 @@
     border-radius: 10px;
     z-index: 2000;
     letter-spacing: 1px;
+    border: 1px solid rgba(51, 51, 51, 0.633);
+    border-top: 1px solid rgba(255, 255, 255, 0.251);
+    border-left: 1px solid rgba(255, 255, 255, 0.251);
 }
 .MyOkBtn a{
     position: relative;
@@ -1180,9 +1196,9 @@
 .backToWarnamala{
     position: absolute;
     top: 20px;
-    right: 20px;
+    left: 100px;
     width: 80px;
-    background: rgba(255, 255, 255, 0.104);
+    background: linear-gradient(rgba(150, 6, 136, 0.374), rgba(8, 162, 116, 0.303));
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1193,6 +1209,7 @@
     border: 1px solid rgba(78, 75, 75, 0.748);
     border-top: 1px solid rgba(255, 255, 255, 0.318);
     border-left: 1px solid rgba(255, 255, 255, 0.318);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
     cursor: pointer;
     opacity: .8;
 }
@@ -1223,4 +1240,44 @@
 }
 #otherNum{
     color: #d70303aa;
+}
+.MAINswyawiyaa h1{
+    font-size: 5.5em;
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.MAINswyawiyaa .moreStudy{
+    color: #161623;
+    font-weight: 800;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.359);
+    border-radius: 10px;
+    border: 1px solid rgba(78, 75, 75, 0.748);
+    border-top: 1px solid rgba(255, 255, 255, 0.318);
+    border-left: 1px solid rgba(255, 255, 255, 0.318);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
+    text-shadow: 0 0 3px rgb(204, 198, 198);
+    transition: .4s;
+    margin: 20px 0;
+}
+.MAINswyawiyaa .moreStudy:hover{
+    transform: scale(1.1);
+    filter: brightness(1.3);
+}
+.PinkWargaMaint{
+    background: rgba(244, 153, 241, 0.162);
+}
+.PinkWargaMaint h1{
+    font-size: 5.5em;
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.contentVargasTitle{
+    background: rgba(232, 157, 127, 0.245);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
+.contentVargasTitle h1{
+    font-size: 5.5em;
 }
