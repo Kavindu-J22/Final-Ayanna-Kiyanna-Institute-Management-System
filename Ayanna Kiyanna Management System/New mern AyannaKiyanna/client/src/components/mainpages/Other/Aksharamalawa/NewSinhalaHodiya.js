@@ -2412,26 +2412,26 @@ function NewSinhalaHodiya() {
                         <div className='pinkbox'>
                         <div className='Varganthaksaradevidebox'>
 
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowKantaja(!showKantaja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>කණ්ඨජ➠</h2>
                                     </div>
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowThaluja(!showThaluja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>තාලුජ➠</h2>
                                     </div>
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowMurdaja(!showMurdaja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>මූර්ධජ➠</h2>
                                     </div>
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowDanthaja(!showDanthaja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>දන්තජ➠</h2>
                                     </div>
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowOshtaja(!showOshtaja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>ඕෂ්ඨජ➠</h2> 
                                     </div>
                                     
                             </div>
 
                             <div className='Varganthaksara'>
-                                <h2 onClick={()=>setShowVargak(!showVargak)}>වර්ගාක්ෂර</h2>
+                                <h2 onClick={()=>setShowCatNotInc(!showCatNotInc)}>වර්ගාක්ෂර</h2>
                             </div>
 
                             <div>
@@ -2769,26 +2769,26 @@ function NewSinhalaHodiya() {
                         <div className='pinkbox'>
                         <div className='Varganthaksaradevidebox'>
 
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowKantaja(!showKantaja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>කණ්ඨජ➠</h2>
                                     </div>
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowThaluja(!showThaluja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>තාලුජ➠</h2>
                                     </div>
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowMurdaja(!showMurdaja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>මූර්ධජ➠</h2>
                                     </div>
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowDanthaja(!showDanthaja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>දන්තජ➠</h2>
                                     </div>
-                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowOshtaja(!showOshtaja)}>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowCatNotInc(!showCatNotInc)}>
                                         <h2>ඕෂ්ඨජ➠</h2> 
                                     </div>
                                     
                             </div>
 
                             <div className='Varganthaksara'>
-                                <h2 onClick={()=>setShowVargak(!showVargak)}>වර්ගාක්ෂර</h2>
+                                <h2 onClick={()=>setShowCatNotInc(!showCatNotInc)}>වර්ගාක්ෂර</h2>
                             </div>
 
                             <div>
@@ -5416,7 +5416,7 @@ function NewSinhalaHodiya() {
             showCatNotInc && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
                
                        <div className='AakuruwistharamainboxContent notincludeContent'>
-                       <div className='MyOkBtn'><a onClick={()=>setShowLetNotInc(!showLetNotInc)}>OK</a></div>
+                       <div className='MyOkBtn'><a onClick={()=>setShowCatNotInc(!showCatNotInc)}>OK</a></div>
                             <p>මෙම අක්ෂර ප්‍රවර්ගය මෙම අක්ෂර කාණ්ඩයට ඇතුලත් නොවේ..!</p>
                             <p>This category is not included in this character category..!</p>
                         </div>
