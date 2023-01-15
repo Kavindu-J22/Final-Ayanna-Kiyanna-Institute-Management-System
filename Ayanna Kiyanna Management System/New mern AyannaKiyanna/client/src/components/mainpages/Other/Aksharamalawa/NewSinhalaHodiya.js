@@ -3862,7 +3862,7 @@ function NewSinhalaHodiya() {
                             </div>
                             <div onClick={()=>setLetterBoxActive("VargaAnuDiscMainBox")} className="listboxes">
                                 <div className='cbforborder VrhColorbox'><span></span></div><div><h5>වර්ගාන්තාක්ෂර</h5>
-                                <p>(අනුනාසික්‍ය) 05 (06)</p></div>
+                                <p>(අනුනාසික්‍ය) 05 <span id='otherNum'>(06)</span></p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("SanjakaDiscMainBox")} className="listboxes">
                                 <div className='cbforborder SjColorbox'><span></span></div><div><h5>සඤ්ඤකාක්ෂර</h5>
@@ -3870,20 +3870,21 @@ function NewSinhalaHodiya() {
                             </div>
                             <div onClick={()=>setLetterBoxActive("AnthahsDiscMainBox")} className="listboxes">
                                 <div className='cbforborder AthhColorbox'><span></span></div><div><h5>අන්තඃස්ථාක්ෂර</h5>
-                                <p>(අර්ධස්වර) 04 (05)</p></div>
+                                <p>(අර්ධස්වර) 04 <span id='otherNum'>(05)</span></p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("UshmakDiscMainBox")} className="listboxes">
                                 <div className='cbforborder UshColorbox'><span></span></div><div><h5>ඌෂ්මාක්ෂර</h5>
                                 <p>(ඝර්ෂ අක්ෂර) 06</p></div>
                             </div>
+                            <div onClick={()=>setLetterBoxActive("AGoshaDiscMainBox")} className="listboxes">
+                                <div className='cbforborder AGooColorbox'></div><div><h5>අඝෝෂාක්ෂර</h5>
+                                <p>(අඝෝෂ) 15</p></div>
+                            </div>
                             <div onClick={()=>setLetterBoxActive("GoshaDiscMainBox")} className="listboxes">
                                 <div className='cbforborder GooColorbox'></div><div><h5>ඝෝෂාක්ෂර</h5>
                                 <p>(ඝෝෂ) 45</p></div>
                             </div>
-                            <div onClick={()=>setLetterBoxActive("AGoshaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder GooColorbox'></div><div><h5>අඝෝෂාක්ෂර</h5>
-                                <p>(අඝෝෂ) 15</p></div>
-                            </div>
+                            
                          </div>
                     </div>
 

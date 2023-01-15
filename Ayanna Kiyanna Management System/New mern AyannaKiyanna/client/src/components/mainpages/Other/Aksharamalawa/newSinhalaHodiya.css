@@ -913,7 +913,7 @@
 .listboxes p{
     margin-left: 5px;
     font-weight: 600;
-    color: rgb(32, 26, 26);
+    color: rgb(57, 49, 49);
 }
 .listboxes h5:hover{
     transform: scale(1.1);
@@ -1048,6 +1048,34 @@
     align-items: center;
     border-radius: 8px;
 }
+/* AGoshakshara */
+.AGooColorbox{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.105);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.AGooColorbox::before{
+    content: 'අඝෝෂ';
+    font-size: 10px;
+    color: aliceblue;
+    width: 80px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: #161623e1;
+    bottom: -30px;
+    left: -45px;
+    transform: rotate(45deg);
+}
 
 .cbforborder{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.249);
@@ -1111,4 +1139,7 @@
 }
 .backToWarnamala i{
     margin-right: 5px;
+}
+#otherNum{
+    color: #d70303aa;
 }
