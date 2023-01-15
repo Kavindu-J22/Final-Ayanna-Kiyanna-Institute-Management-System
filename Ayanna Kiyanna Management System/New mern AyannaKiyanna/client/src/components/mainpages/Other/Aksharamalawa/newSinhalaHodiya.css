@@ -13,12 +13,13 @@
     justify-content: center;
     align-items: center;
     min-height: 130px;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 .NuthanahodiyaMain-MAinTitelbox h1{
     color: #fff;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.618);
     -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(0, 0, 0, 0.125));
+    font-family: 'Noto serif Sinhala',sans-serif;
 }
 .NuthanahodiyaMain-MAinTitelbox h2{
     color: rgb(199, 202, 215);
@@ -64,7 +65,7 @@
     border: 1px solid rgba(66, 63, 63, 0.526);
     border-top: 1px solid rgba(255, 255, 255, 0.526);
     border-left: 1px solid rgba(255, 255, 255, 0.547);
-    padding: 100px 20px;
+    padding: 30px 20px;
     overflow: hidden;
 }
 .sinhalaAkuruDiscbox::before{
@@ -85,7 +86,6 @@
     width: 100%;
     height: auto;
     background: rgba(250, 235, 215, 0.323);
-    margin: 100px 0px;
     border-radius: 10px;
     border: 1px solid #333;
     border-top: 1px solid rgb(185, 178, 178);
@@ -126,7 +126,7 @@
     overflow: hidden;
     transition: .5s;
     padding: 20px 0px;
-    margin: 100px 0px;
+    margin: 30px 0px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.334);
 }
 .viyanjanabtnsboxnn:hover{
