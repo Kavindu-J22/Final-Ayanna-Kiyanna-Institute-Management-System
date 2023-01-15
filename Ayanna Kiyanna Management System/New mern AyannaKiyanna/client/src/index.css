@@ -189,9 +189,8 @@ button{
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background: rgba(70, 72, 75, 0.315);
   animation: animation 2s ease-in-out infinite;
-  background: rgba(72, 7, 50, 0.225);
+  background: rgba(72, 7, 50, 0.148);
   box-shadow: 0 50px 20px rgba(31, 30, 30, 0.186);
   border: 1px solid rgba(255,255,255,0.25);
   border-right: 1px solid rgba(0, 0, 0, 0.1);
@@ -202,7 +201,7 @@ button{
 }
 .AkstableLogo:hover{
   background: rgba(44, 4, 29, 0.441);
-  filter: brightness(1.2);
+  filter: brightness(1.1);
 }
 .AkstableLogo img{
   position: relative;
@@ -211,7 +210,7 @@ button{
   height: auto;
   z-index: 2000;
   transition: 0.6s;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .AkstableLogo img:hover{
   opacity: 1;

@@ -13,7 +13,7 @@ function ViyaBox() {
             
             <section className='v-section'>
             <div className='AkstableLogo'><Link to="/"><img src={Staklogo}></img></Link></div>
-            <div className='MainBackbtnmy'><Link onClick={() => window.history.back()}><img src={backbtnmy}></img></Link></div>
+            <div className='MainBackbtnmy' onClick={() => window.history.back()}><img src={backbtnmy}></img></div>
             
                     <div className='v-text-container'>
                         <h1>✥ ව්‍යාකරණ </h1>

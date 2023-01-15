@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import './newSinhalaHodiya.css'
+import { Link } from "react-router-dom";
+import Staklogo from '../../../assets/images/AKlogo.png'
+import backbtnmy from '../../../assets/images/B.png'
 import VrnaLet from '../../../assets/images/VranaLet.png'
 
 function NewSinhalaHodiya() {
@@ -90,6 +93,12 @@ function NewSinhalaHodiya() {
 
   return (
     <div className='NuthanahodiyaMain'>
+        <div className='AkstableLogo'><Link to="/"><img src={Staklogo}></img></Link></div>
+            <div className='MainBackbtnmy' onClick={() => window.history.back()}><img src={backbtnmy}></img></div>
+        <div className='NuthanahodiyaMain-MAinTitelbox'>
+            <h1>❂ නූතන සිංහල වර්ණ මාලාව ❂</h1>
+            <h2>- Smart Sinhala Alphabet -</h2>
+        </div>
         <div className='mainhodibox'>
 
           <div>
@@ -570,7 +579,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "hraswaswaraMainBox" && <div className='hraswaswaraMainBox' data-aos="fadeInUp">
+               {LetterBoxActive === "hraswaswaraMainBox" && <div className='hraswaswaraMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -580,7 +589,7 @@ function NewSinhalaHodiya() {
                          </div>
                          </div>
                     <div className='whatisbox'>
-                         <h1>හ්‍රස්ව ස්වර</h1>
+                         <h1>❐ හ්‍රස්ව ස්වර ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
                <div className='swaraAkuruMaincontainer'>
@@ -740,7 +749,7 @@ function NewSinhalaHodiya() {
 
                }
 
-               {LetterBoxActive === "DeergswaswaraMainBox" && <div className='DeergswaswaraMainBox' data-aos="fadeInUp">
+               {LetterBoxActive === "DeergswaswaraMainBox" && <div className='DeergswaswaraMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -750,7 +759,7 @@ function NewSinhalaHodiya() {
                          </div>
                          </div>
                     <div className='whatisbox'>
-                         <h1>දීර්ඝ ස්වර</h1>
+                         <h1>❐ දීර්ඝ ස්වර ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
                <div className='swaraAkuruMaincontainer'>
@@ -911,7 +920,7 @@ function NewSinhalaHodiya() {
 
                }
 
-               {LetterBoxActive === "AlpapranaDiscMainBox" && <div className='AlpapranaDiscMainBox' data-aos="fadeInUp">
+               {LetterBoxActive === "AlpapranaDiscMainBox" && <div className='AlpapranaDiscMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -922,7 +931,7 @@ function NewSinhalaHodiya() {
                          </div>
 
                <div className='whatisbox'>
-                         <h1>අල්පප්‍රාණ</h1>
+                         <h1>❐ අල්පප්‍රාණ ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
 
@@ -1280,7 +1289,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "MahappranaDiscMainBox" && <div className='MahappranaDiscMainBox' data-aos="fadeInUp">
+               {LetterBoxActive === "MahappranaDiscMainBox" && <div className='MahappranaDiscMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -1291,7 +1300,7 @@ function NewSinhalaHodiya() {
                          </div>
 
                <div className='whatisbox'>
-                         <h1>මහප්‍රාණ</h1>
+                         <h1>❐ මහප්‍රාණ ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
 
@@ -1645,7 +1654,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "VargaAnuDiscMainBox" && <div className='VargaAnuDiscMainBox' data-aos="fadeInUp">
+               {LetterBoxActive === "VargaAnuDiscMainBox" && <div className='VargaAnuDiscMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -1656,7 +1665,7 @@ function NewSinhalaHodiya() {
                          </div>
 
                <div className='whatisbox'>
-                         <h1>වර්ගාන්ත අනුනාසික්‍ය</h1>
+                         <h1>❐ වර්ගාන්තාක්ෂර ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
 
@@ -2003,7 +2012,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "SanjakaDiscMainBox" && <div className='SanjakaDiscMainBox' data-aos="fadeInUp">
+               {LetterBoxActive === "SanjakaDiscMainBox" && <div className='SanjakaDiscMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -2014,7 +2023,7 @@ function NewSinhalaHodiya() {
                          </div>
 
                <div className='whatisbox'>
-                         <h1>සඤ්ඤකාක්ෂර</h1>
+                         <h1>❐ සඤ්ඤකාක්ෂර ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
 
@@ -2359,7 +2368,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "AnthahsDiscMainBox" && <div className='AnthahsDiscMainBox' data-aos="fadeInUp">
+               {LetterBoxActive === "AnthahsDiscMainBox" && <div className='AnthahsDiscMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -2370,7 +2379,7 @@ function NewSinhalaHodiya() {
                          </div>
 
                <div className='whatisbox'>
-                         <h1>අන්තඃස්ථාක්ෂර</h1>
+                         <h1>❐ අන්තඃස්ථාක්ෂර ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
 
@@ -2715,7 +2724,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "UshmakDiscMainBox" && <div className='UshmakDiscMainBox' data-aos="fadeInUp">
+               {LetterBoxActive === "UshmakDiscMainBox" && <div className='UshmakDiscMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -2726,7 +2735,7 @@ function NewSinhalaHodiya() {
                          </div>
 
                <div className='whatisbox'>
-                         <h1>ඌෂ්මාක්ෂර</h1>
+                         <h1>❐ ඌෂ්මාක්ෂර ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
 
@@ -3072,7 +3081,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "GoshaDiscMainBox" && <div className='GoshaDiscMainBox' data-aos="fadeInUp">
+               {LetterBoxActive === "GoshaDiscMainBox" && <div className='GoshaDiscMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -3083,7 +3092,7 @@ function NewSinhalaHodiya() {
                          </div>
 
                <div className='whatisbox'>
-                         <h1>ඝෝෂාක්ෂර</h1>
+                         <h1>❐ ඝෝෂාක්ෂර ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
 
@@ -3448,7 +3457,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-            {LetterBoxActive === "AGoshaDiscMainBox" && <div className='AGoshaDiscMainBox' data-aos="fadeInUp">
+            {LetterBoxActive === "AGoshaDiscMainBox" && <div className='AGoshaDiscMainBox' data-aos="slide-right">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -3459,7 +3468,7 @@ function NewSinhalaHodiya() {
                          </div>
 
                <div className='whatisbox'>
-                         <h1>අඝෝෂාක්ෂර</h1>
+                         <h1>❐ අඝෝෂාක්ෂර ❐</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
                     </div>
 
@@ -3838,7 +3847,7 @@ function NewSinhalaHodiya() {
                 
                     {/* Discriptiop buttons  */}
 
-                    <div className='sinhalaAkuruDiscbox'>
+                    <div className='sinhalaAkuruDiscbox'data-aos="slide-left">
                          
                          <div className='swarabtnsboxnn'>
                             <div onClick={()=>setLetterBoxActive("hraswaswaraMainBox")} className="listboxes">
