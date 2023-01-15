@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     min-width: 25%;
-    background: rgba(250, 235, 215, 0.489);
+    background: rgba(250, 235, 215, 0.429);
     margin: 5px;
     border-radius: 10px;
     border: 1px solid rgba(66, 63, 63, 0.526);
@@ -53,7 +53,7 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background: #1616231f;
+    background: rgba(250, 235, 215, 0.27);
     margin: 100px 0px;
     border-radius: 10px;
     border: 1px solid #333;
@@ -63,6 +63,7 @@
     overflow: hidden;
     transition: .5s;
     padding: 40px 0px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.334);
 }
 .swarabtnsboxnn:hover{
     transform: translateY(-10px);
@@ -85,7 +86,7 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background: #1616231f;
+    background: rgba(250, 235, 215, 0.27);
     border-radius: 10px;
     border: 1px solid #333;
     border-top: 1px solid rgb(185, 178, 178);
@@ -95,6 +96,7 @@
     transition: .5s;
     padding: 20px 0px;
     margin: 100px 0px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.334);
 }
 .viyanjanabtnsboxnn:hover{
     transform: translateY(-10px);
@@ -130,7 +132,8 @@
     border-left: 30px solid rgba(8, 1, 24, 0.773);
     overflow: hidden; 
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.267);
-    padding-left: 45px; 
+    padding-left: 45px;
+    margin-top: 10px;
 }
 .swaraAkuruMain::before{
     content: '';
@@ -619,14 +622,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: auto;
-    min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
-    padding-bottom: 15px;
+    padding-top: 15px;
+    min-height: 100%;
 }
 .whatisbox{
     width: 100%;
@@ -652,13 +654,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: auto;
-    min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
 }
 .dee{
     transform: scale(.7);
@@ -673,13 +675,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: auto;
-    min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
 }
 .hras{
     transform: scale(.7);
@@ -702,13 +704,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: auto;
-    min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
 }
 .noMahap{
     transform: scale(.7);
@@ -722,37 +724,37 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: auto;
-    min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
 }
 .SanjakaDiscMainBox{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: auto;
-    min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
 }
 .AnthahsDiscMainBox{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: auto;
-    min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
 }
 .AnthahsDiscMainBox #akvrdv h2{
     animation: none;
@@ -761,13 +763,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: auto;
-    min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
 }
 .UshmakDiscMainBox #akvrdv h2{
     animation: none;
@@ -776,13 +778,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: auto;
-    min-height: 30vh;
     margin: 5px;
     background: rgb(154, 147, 147);
     border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
 }
 .Novran{
     transform: scale(.7);
@@ -884,6 +886,11 @@
 }
 .listboxes h5{
     font-size: 1.3em;
+    transition: .4s;
+    text-shadow: 0 0 4px rgb(225, 216, 216);
+}
+.listboxes h5:hover{
+    transform: scale(1.1);
 }
 /* deerga */
 .DColorbox{
@@ -1008,10 +1015,74 @@
 .GooColorbox{
     width: 50px;
     height: 50px;
-    background: rgba(255, 255, 255, 0.442);
+    background: rgba(255, 255, 255, 0.105);
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+}
+
+.cbforborder{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.249);
+    border: 1px solid rgba(53, 49, 49, 0.748);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    opacity: .9;
+    transition: .4s;
+}
+.cbforborder:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+    filter: brightness(1.1);
+}
+.cbforborder span{
+    border: 1px solid rgba(53, 49, 49, 0.748);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
+}
+.backToWarnamala{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    background: rgba(255, 255, 255, 0.104);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    animation: animationbacktowr 3s ease-in-out infinite;
+    border-radius: 10px;
+    border: 1px solid rgba(78, 75, 75, 0.748);
+    border-top: 1px solid rgba(255, 255, 255, 0.318);
+    border-left: 1px solid rgba(255, 255, 255, 0.318);
+    cursor: pointer;
+    opacity: .8;
+}
+@keyframes animationbacktowr{
+    0%{
+        transform: translateY(-4px);
+    }
+    50%{
+        transform: translateY(4px);
+    }
+    100%{
+        transform: translateY(-4px);
+    }
+}
+.backToWarnamala img{
+    position: relative;
+    border-radius: 5px;
+    width: 50px;
+    height: 60px;
+    opacity: .7;
+    transition: .3s;
+}
+.backToWarnamala img:hover{
+    opacity: .95;
+}
+.backToWarnamala i{
+    margin-right: 5px;
 }

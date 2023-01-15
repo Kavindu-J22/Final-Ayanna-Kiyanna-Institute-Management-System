@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './newSinhalaHodiya.css'
+import VrnaLet from '../../../assets/images/VranaLet.png'
 
 function NewSinhalaHodiya() {
 
@@ -570,6 +571,14 @@ function NewSinhalaHodiya() {
                }
 
                {LetterBoxActive === "hraswaswaraMainBox" && <div className='hraswaswaraMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
                     <div className='whatisbox'>
                          <h1>හ්‍රස්ව ස්වර</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
@@ -732,6 +741,14 @@ function NewSinhalaHodiya() {
                }
 
                {LetterBoxActive === "DeergswaswaraMainBox" && <div className='DeergswaswaraMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
                     <div className='whatisbox'>
                          <h1>දීර්ඝ ස්වර</h1>
                          <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
@@ -895,6 +912,14 @@ function NewSinhalaHodiya() {
                }
 
                {LetterBoxActive === "AlpapranaDiscMainBox" && <div className='AlpapranaDiscMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
 
                <div className='whatisbox'>
                          <h1>අල්පප්‍රාණ</h1>
@@ -1256,6 +1281,14 @@ function NewSinhalaHodiya() {
                }
 
                {LetterBoxActive === "MahappranaDiscMainBox" && <div className='MahappranaDiscMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
 
                <div className='whatisbox'>
                          <h1>මහප්‍රාණ</h1>
@@ -1613,6 +1646,14 @@ function NewSinhalaHodiya() {
                }
 
                {LetterBoxActive === "VargaAnuDiscMainBox" && <div className='VargaAnuDiscMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
 
                <div className='whatisbox'>
                          <h1>වර්ගාන්ත අනුනාසික්‍ය</h1>
@@ -1963,6 +2004,14 @@ function NewSinhalaHodiya() {
                }
 
                {LetterBoxActive === "SanjakaDiscMainBox" && <div className='SanjakaDiscMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
 
                <div className='whatisbox'>
                          <h1>සඤ්ඤකාක්ෂර</h1>
@@ -2311,6 +2360,14 @@ function NewSinhalaHodiya() {
                }
 
                {LetterBoxActive === "AnthahsDiscMainBox" && <div className='AnthahsDiscMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
 
                <div className='whatisbox'>
                          <h1>අන්තඃස්ථාක්ෂර</h1>
@@ -2659,6 +2716,14 @@ function NewSinhalaHodiya() {
                }
 
                {LetterBoxActive === "UshmakDiscMainBox" && <div className='UshmakDiscMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
 
                <div className='whatisbox'>
                          <h1>ඌෂ්මාක්ෂර</h1>
@@ -3008,6 +3073,14 @@ function NewSinhalaHodiya() {
                }
 
                {LetterBoxActive === "GoshaDiscMainBox" && <div className='GoshaDiscMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
 
                <div className='whatisbox'>
                          <h1>ඝෝෂාක්ෂර</h1>
@@ -3381,38 +3454,37 @@ function NewSinhalaHodiya() {
                     {/* Discriptiop buttons  */}
 
                     <div className='sinhalaAkuruDiscbox'>
-                         {/* <div onClick={()=>setLetterBoxActive("Fristbox")}>btn0</div> */}
                          
                          <div className='swarabtnsboxnn'>
                             <div onClick={()=>setLetterBoxActive("hraswaswaraMainBox")} className="listboxes">
-                                <div className='hColorbox'><span></span></div><h5>හ්‍රස්ව ස්වර</h5>
+                                <div className='cbforborder hColorbox'><span></span></div><h5>හ්‍රස්ව ස්වර</h5>
                             </div>
                             <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
-                                <div className='DColorbox'><span></span></div><h5>දීර්ඝ ස්වර</h5>
+                                <div className='cbforborder DColorbox'><span></span></div><h5>දීර්ඝ ස්වර</h5>
                             </div>
                          </div>
 
                          <div className='viyanjanabtnsboxnn'>
                             <div onClick={()=>setLetterBoxActive("AlpapranaDiscMainBox")} className="listboxes">
-                                <div className='AlColorbox'><span></span></div><h5>අල්පප්‍රාණ</h5>
+                                <div className='cbforborder AlColorbox'><span></span></div><h5>අල්පප්‍රාණ</h5>
                             </div>
                             <div onClick={()=>setLetterBoxActive("MahappranaDiscMainBox")} className="listboxes">
-                                <div className='MhColorbox'><span></span></div><h5>මහප්‍රාණ</h5>
+                                <div className='cbforborder MhColorbox'><span></span></div><h5>මහප්‍රාණ</h5>
                             </div>
                             <div onClick={()=>setLetterBoxActive("VargaAnuDiscMainBox")} className="listboxes">
-                                <div className='VrhColorbox'><span></span></div><h5>වර්ගාන්ත<br/>අනුනාසික්‍ය</h5>
+                                <div className='cbforborder VrhColorbox'><span></span></div><h5>වර්ගාන්ත<br/>අනුනාසික්‍ය</h5>
                             </div>
                             <div onClick={()=>setLetterBoxActive("SanjakaDiscMainBox")} className="listboxes">
-                                <div className='SjColorbox'><span></span></div><h5>සඤ්ඤකාක්ෂර</h5>
+                                <div className='cbforborder SjColorbox'><span></span></div><h5>සඤ්ඤකාක්ෂර</h5>
                             </div>
                             <div onClick={()=>setLetterBoxActive("AnthahsDiscMainBox")} className="listboxes">
-                                <div className='AthhColorbox'><span></span></div><h5>අන්තඃස්ථාක්ෂර</h5>
+                                <div className='cbforborder AthhColorbox'><span></span></div><h5>අන්තඃස්ථාක්ෂර</h5>
                             </div>
                             <div onClick={()=>setLetterBoxActive("UshmakDiscMainBox")} className="listboxes">
-                                <div className='UshColorbox'><span></span></div><h5>ඌෂ්මාක්ෂර</h5>
+                                <div className='cbforborder UshColorbox'><span></span></div><h5>ඌෂ්මාක්ෂර</h5>
                             </div>
                             <div onClick={()=>setLetterBoxActive("GoshaDiscMainBox")} className="listboxes">
-                                <div className='GooColorbox'></div><h5>ඝෝෂාක්ෂර</h5>
+                                <div className='cbforborder GooColorbox'></div><h5>ඝෝෂාක්ෂර</h5>
                             </div>
                          </div>
                     </div>
