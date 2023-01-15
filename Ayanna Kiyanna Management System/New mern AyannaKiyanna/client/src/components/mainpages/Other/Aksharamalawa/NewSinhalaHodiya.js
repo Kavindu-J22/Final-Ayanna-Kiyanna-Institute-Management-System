@@ -3448,6 +3448,391 @@ function NewSinhalaHodiya() {
                </div>
                }
 
+            {LetterBoxActive === "AGoshaDiscMainBox" && <div className='AGoshaDiscMainBox' data-aos="fadeInUp">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
+
+               <div className='whatisbox'>
+                         <h1>අඝෝෂාක්ෂර</h1>
+                         <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+                    </div>
+
+               <div className='viyanAkuruMainContainer'>
+                    <div className='vargaLableBox' id='vargaLableBoxviya'>
+                        <h2 onClick={()=>setShowViyan(!showViyan)}>ව්‍යංජන</h2>
+                    </div>
+                    <div className='viyanAkuruMain'>
+                         <div className='AkuruColoms' id='anahbox'>
+                         
+                            <div className='akuruAK notAgosha' id='anahboxAkuru'>
+                            <div className='akurucontent notAgosha' onClick={()=>setShowAn(!showAn)}>
+                                    <p>19</p>
+                                    <h5 id='anLetter'>අං</h5>
+                                </div>
+                            </div>
+                            <div className='PointedLeterAnimeBox'>
+                            <div className='akuruAK' id='anahboxAkuru'>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowAh(!showAh)}>
+                                    <p>20</p>
+                                    <h5 id='ahLetter'>අඃ</h5>
+                                </div></div>
+                        </div>
+                    </div>
+
+                    <div className='viyaakuruDividaPink'>
+
+                        <div className='pinkbox'>
+                        <div className='Varganthaksaradevidebox'>
+
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowKantaja(!showKantaja)}>
+                                        <h2>කණ්ඨජ➠</h2>
+                                    </div>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowThaluja(!showThaluja)}>
+                                        <h2>තාලුජ➠</h2>
+                                    </div>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowMurdaja(!showMurdaja)}>
+                                        <h2>මූර්ධජ➠</h2>
+                                    </div>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowDanthaja(!showDanthaja)}>
+                                        <h2>දන්තජ➠</h2>
+                                    </div>
+                                    <div className='akuruAK' id='akvrdv' onClick={()=>setShowOshtaja(!showOshtaja)}>
+                                        <h2>ඕෂ්ඨජ➠</h2> 
+                                    </div>
+                                    
+                            </div>
+
+                            <div className='Varganthaksara'>
+                                <h2 onClick={()=>setShowVargak(!showVargak)}>වර්ගාක්ෂර</h2>
+                            </div>
+
+                            <div>
+                            <div className='AkuruColoms'>
+                            <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                        <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowKa(!showKa)}>
+                                            <p>21</p>
+                                            <h5>ක</h5>
+                                        </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowKha(!showKha)}>
+                                            <p>22</p>
+                                            <h5>ඛ</h5>
+                                        </div>
+                                    </div></div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowGa(!showGa)}>
+                                            <p>23</p>
+                                            <h5>ග</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowGha(!showGha)}>
+                                            <p>24</p>
+                                            <h5>ඝ</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowXha(!showXha)}>
+                                            <p>25</p>
+                                            <h5>ඞ</h5>
+                                        </div>
+                                    </div>
+                                    
+
+                            </div>
+                            <div className='AkuruColoms'>
+                            <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowCa(!showCa)}>
+                                            <p>27</p>
+                                            <h5>ච</h5>
+                                        </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowCha(!showCha)}>
+                                            <p>28</p>
+                                            <h5>ඡ</h5>
+                                        </div>
+                                    </div></div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowJa(!showJa)}>
+                                            <p>29</p>
+                                            <h5>ජ</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowJha(!showJha)}>
+                                            <p>30</p>
+                                            <h5>ඣ</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowChaha(!showChaha)}>
+                                            <p>31</p>
+                                            <h5>ඤ</h5>
+                                        </div>
+                                    </div>
+                                    
+
+                            </div>
+                            <div className='AkuruColoms'>
+                            <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTa(!showTa)}>
+                                            <p>33</p>
+                                            <h5>ට</h5>
+                                        </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowTtha(!showTtha)}>
+                                            <p>34</p>
+                                            <h5>ඨ</h5>
+                                        </div>
+                                    </div></div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowDa(!showDa)}>
+                                            <p>35</p>
+                                            <h5>ඩ</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowDdha(!showDdha)}>
+                                            <p>36</p>
+                                            <h5>ඪ</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMna(!showMna)}>
+                                            <p>37</p>
+                                            <h5>ණ</h5>
+                                        </div>
+                                    </div>
+                                    
+
+                            </div>
+                            <div className='AkuruColoms'>
+                            <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowTha(!showTha)}>
+                                            <p>39</p>
+                                            <h5>ත</h5>
+                                        </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowThha(!showThha)}>
+                                            <p>40</p>
+                                            <h5>ථ</h5>
+                                        </div>
+                                    </div></div>
+                                   
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowTDa(!showTDa)}>
+                                            <p>41</p>
+                                            <h5>ද</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowTDdha(!showTDdha)}>
+                                            <p>42</p>
+                                            <h5>ධ</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowNa(!showNa)}>
+                                            <p>43</p>
+                                            <h5>න</h5>
+                                        </div>
+                                    </div>
+                                    
+
+                            </div>
+                            <div className='AkuruColoms'>
+                            <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akurucontent agoshamark' id='alpaprana' onClick={()=>setShowPa(!showPa)}>
+                                            <p>45</p>
+                                            <h5>ප</h5>
+                                        </div>
+                                    </div></div>
+                                    <div className='PointedLeterAnimeBox'>
+                                    <div className='akuruAK' id='vrvr'>
+                                    <div className='akurucontent agoshamark' id='mahaprana' onClick={()=>setShowPha(!showPha)}>
+                                            <p>46</p>
+                                            <h5>ඵ</h5>
+                                        </div>
+                                    </div></div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='alpaprana' onClick={()=>setShowBa(!showBa)}>
+                                            <p>47</p>
+                                            <h5>බ</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='mahaprana' onClick={()=>setShowBha(!showBha)}>
+                                            <p>48</p>
+                                            <h5>භ</h5>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='akuruAK notAgosha' id='vrvr'>
+                                    <div className='akurucontent' id='anunasiLetters' onClick={()=>setShowMa(!showMa)}>
+                                            <p>49</p>
+                                            <h5>ම</h5>
+                                        </div>
+                                    </div>
+                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className='AkuruColomsSanjaka'>
+                        
+                                <div className='akuruAK notAgosha' id='SanjakaAkuru'>
+                                <div className='akurucontent' onClick={()=>setShowXgha(!showXgha)}>
+                                            <p>26</p>
+                                            <h5>ඟ</h5>
+                                        </div>
+                                </div>
+                                
+                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowXJhaha(!showXJhaha)}>
+                                <div className='akurucontent'>
+                                            <p>32</p>
+                                            <h5>ඦ</h5>
+                                        </div>
+                                </div>
+                                
+                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowMdhaha(!showMdhaha)}>
+                                <div className='akurucontent'>
+                                            <p>38</p>
+                                            <h5>ඬ</h5>
+                                        </div>
+                                </div>
+                                
+                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowdhaha(!showdhaha)}>
+                                <div className='akurucontent'>
+                                            <p>44</p>
+                                            <h5>ඳ</h5>
+                                        </div>
+                                </div>
+                                
+                                <div className='akuruAK notAgosha' id='SanjakaAkuru' onClick={()=>setShowBhaha(!showBhaha)}>
+                                <div className='akurucontent'>
+                                            <p>50</p>
+                                            <h5>ඹ</h5>
+                                        </div>
+                                </div>
+                    
+                        </div>
+
+
+                    </div>
+
+                        <div className='AkuruColoms' id='yataAkuruSet'>
+                        
+                            <div className='akuruAK notAgosha'>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
+                                            <p>51</p>
+                                            <h5>ය</h5>
+                                        </div>
+                            </div>
+                            
+                            <div className='akuruAK notAgosha'>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowRa(!showRa)}>
+                                            <p>52</p>
+                                            <h5>ර</h5>
+                                        </div>
+                            </div>
+                            
+                            <div className='akuruAK notAgosha'>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLa(!showLa)}>
+                                            <p>53</p>
+                                            <h5>ල</h5>
+                                        </div>
+                            </div>
+                            
+                            <div className='akuruAK notAgosha'>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowWa(!showWa)}>
+                                            <p>54</p>
+                                            <h5>ව</h5>
+                                        </div>
+                            </div>
+                        </div>
+                        <div className='AkuruColoms' id='finalYataLetters'>
+                        <div className='PointedLeterAnimeBox'>
+                            <div className='akuruAK' id='yatamaAkuru'>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowSha(!showSha)}>
+                                            <p>55</p>
+                                            <h5>ශ</h5>
+                                        </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
+                            <div className='akuruAK' id='yatamaAkuru'>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowSsha(!showSsha)}>
+                                            <p>56</p>
+                                            <h5>ෂ</h5>
+                                        </div>
+                            </div></div>
+                            <div className='PointedLeterAnimeBox'>
+                            <div className='akuruAK' id='yatamaAkuru'>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowSa(!showSa)}>
+                                            <p>57</p>
+                                            <h5>ස</h5>
+                                        </div>
+                            </div></div>
+                            
+                            <div className='akuruAK notAgosha' id='yatamaAkuru' onClick={()=>setShowha(!showha)}>
+                            <div className='akurucontent'>
+                                            <p>58</p>
+                                            <h5>හ</h5>
+                                        </div>
+                            </div>
+                            
+                            <div className='akuruAK notAgosha'>
+                            <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLLa(!showLLa)}>
+                                            <p>59</p>
+                                            <h5>ළ</h5>
+                                        </div>
+                            </div>
+                            <div className='PointedLeterAnimeBox'>
+                            <div className='akuruAK' id='yatamaAkuru'>
+                            <div className='akurucontent agoshamark' onClick={()=>setShowFa(!showFa)}>
+                                            <p>60</p>
+                                            <h5>ෆ</h5>
+                                        </div>
+                            </div></div>
+
+                        </div>
+                    </div>
+                </div>
+
+               </div>
+               }
+
 
                </div>
                 
@@ -3457,34 +3842,47 @@ function NewSinhalaHodiya() {
                          
                          <div className='swarabtnsboxnn'>
                             <div onClick={()=>setLetterBoxActive("hraswaswaraMainBox")} className="listboxes">
-                                <div className='cbforborder hColorbox'><span></span></div><h5>හ්‍රස්ව ස්වර</h5>
+                                <div className='cbforborder hColorbox'><span></span></div><div><h5>හ්‍රස්ව ස්වර</h5>
+                                <p>(ලුහ ස්වර, ලඝු ස්වර) 08</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
-                                <div className='cbforborder DColorbox'><span></span></div><h5>දීර්ඝ ස්වර</h5>
+                                <div className='cbforborder DColorbox'><span></span></div><div><h5>දීර්ඝ ස්වර</h5>
+                                <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
                             </div>
                          </div>
 
                          <div className='viyanjanabtnsboxnn'>
                             <div onClick={()=>setLetterBoxActive("AlpapranaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder AlColorbox'><span></span></div><h5>අල්පප්‍රාණ</h5>
+                                <div className='cbforborder AlColorbox'><span></span></div><div><h5>අල්පප්‍රාණ</h5>
+                                <p>(ශිථිලාක්ෂර) 10</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("MahappranaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder MhColorbox'><span></span></div><h5>මහප්‍රාණ</h5>
+                                <div className='cbforborder MhColorbox'><span></span></div><div><h5>මහප්‍රාණ</h5>
+                                <p>(ධනිතාක්ෂර) 10</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("VargaAnuDiscMainBox")} className="listboxes">
-                                <div className='cbforborder VrhColorbox'><span></span></div><h5>වර්ගාන්ත<br/>අනුනාසික්‍ය</h5>
+                                <div className='cbforborder VrhColorbox'><span></span></div><div><h5>වර්ගාන්තාක්ෂර</h5>
+                                <p>(අනුනාසික්‍ය) 05 (06)</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("SanjakaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder SjColorbox'><span></span></div><h5>සඤ්ඤකාක්ෂර</h5>
+                                <div className='cbforborder SjColorbox'><span></span></div><div><h5>සඤ්ඤකාක්ෂර</h5>
+                                <p>(අර්ධනාසික්‍ය) 05</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("AnthahsDiscMainBox")} className="listboxes">
-                                <div className='cbforborder AthhColorbox'><span></span></div><h5>අන්තඃස්ථාක්ෂර</h5>
+                                <div className='cbforborder AthhColorbox'><span></span></div><div><h5>අන්තඃස්ථාක්ෂර</h5>
+                                <p>(අර්ධස්වර) 04 (05)</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("UshmakDiscMainBox")} className="listboxes">
-                                <div className='cbforborder UshColorbox'><span></span></div><h5>ඌෂ්මාක්ෂර</h5>
+                                <div className='cbforborder UshColorbox'><span></span></div><div><h5>ඌෂ්මාක්ෂර</h5>
+                                <p>(ඝර්ෂ අක්ෂර) 06</p></div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("GoshaDiscMainBox")} className="listboxes">
-                                <div className='cbforborder GooColorbox'></div><h5>ඝෝෂාක්ෂර</h5>
+                                <div className='cbforborder GooColorbox'></div><div><h5>ඝෝෂාක්ෂර</h5>
+                                <p>(ඝෝෂ) 45</p></div>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("AGoshaDiscMainBox")} className="listboxes">
+                                <div className='cbforborder GooColorbox'></div><div><h5>අඝෝෂාක්ෂර</h5>
+                                <p>(අඝෝෂ) 15</p></div>
                             </div>
                          </div>
                     </div>
