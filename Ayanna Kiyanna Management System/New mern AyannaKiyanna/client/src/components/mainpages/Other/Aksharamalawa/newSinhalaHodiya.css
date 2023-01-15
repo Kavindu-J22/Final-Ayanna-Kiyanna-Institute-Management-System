@@ -648,6 +648,18 @@
     background: rgba(250, 235, 215, 0.300);
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
 }
+.contentAlpaa{
+    background: rgba(231, 208, 58, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923); 
+}
+.contentmarapraa{
+    background: rgba(133, 37, 160, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923); 
+}
+.VarAnuContentt{
+    background: rgba(28, 82, 184, 0.3);
+    text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
+}
 .notincludeContent{
     background: rgba(239, 40, 40, 0.3);
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
