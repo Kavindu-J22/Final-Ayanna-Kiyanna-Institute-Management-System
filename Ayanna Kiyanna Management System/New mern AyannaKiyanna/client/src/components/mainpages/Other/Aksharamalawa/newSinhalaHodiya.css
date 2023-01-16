@@ -420,7 +420,24 @@
 }
 #yataAkuruSet{
     margin-top: 5px;
-    margin-left: 145px;
+}
+#Dvijaksharabox{
+    border-radius: 50%;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background: rgba(131, 143, 236, 0.227);
+    width: 95px;
+    height: 95px;
+    animation: animationbacktowr 3s ease-in-out infinite;
+}
+#Dvijaksharabox h5{
+    font-size: 1.3em;
+    color: rgb(11, 5, 59);
+    font-weight: 600;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.656);
 }
 #finalYataLetters{
     margin-left: 145px;
@@ -631,6 +648,10 @@
     color: rgb(244, 232, 232);
     margin: 20px;
     font-weight: 500;
+    max-width: 500px;
+}
+.AakuruwistharamainboxContent ul li{
+    margin: 5px;
 }
 .AakuruwistharamainboxContent #titleP{
     color: rgb(255, 255, 255);
@@ -870,25 +891,49 @@
 .UshmakDiscMainBox #akvrdv h2{
     animation: none;
 }
+.UshmakDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
 .GoshaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.GoshaDiscMainBox #Dvijaksharabox{
     animation: none;
 }
 .AGoshaDiscMainBox #akvrdv h2{
     animation: none;
 }
+.AGoshaDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
 .AnthahsDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.AnthahsDiscMainBox #Dvijaksharabox{
     animation: none;
 }
 .SanjakaDiscMainBox #akvrdv h2{
     animation: none;
 }
+.SanjakaDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
 .VargaAnuDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.VargaAnuDiscMainBox #Dvijaksharabox{
     animation: none;
 }
 .MahappranaDiscMainBox #akvrdv h2{
     animation: none;
 }
+.MahappranaDiscMainBox #Dvijaksharabox{
+    animation: none;
+}
 .AlpapranaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.AlpapranaDiscMainBox #Dvijaksharabox{
     animation: none;
 }
 .GoshaDiscMainBox{

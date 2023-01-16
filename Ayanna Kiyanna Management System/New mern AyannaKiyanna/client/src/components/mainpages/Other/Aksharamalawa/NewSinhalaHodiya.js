@@ -88,6 +88,7 @@ function NewSinhalaHodiya() {
     const [showMurdaja,setShowMurdaja] = useState(false);
     const [showDanthaja,setShowDanthaja] = useState(false);
     const [showOshtaja,setShowOshtaja] = useState(false);
+    const [showDwijakshara,setShowDwijakshara] = useState(false);
 
     const [showLetNotInc,setShowLetNotInc] = useState(false);
     const [showCatNotInc,setShowCatNotInc] = useState(false);
@@ -510,6 +511,12 @@ function NewSinhalaHodiya() {
                     </div>
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
+
+                        <div className='akuruAK dvija' id='Dvijaksharabox'>
+                            <div className='akurucontent' onClick={()=>setShowDwijakshara(!showDwijakshara)}>
+                                            <h5>ද්විජාක්ෂර</h5>
+                                        </div>
+                            </div>
 
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
@@ -1221,6 +1228,12 @@ function NewSinhalaHodiya() {
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
+                        <div className='akuruAK dvija' id='Dvijaksharabox'>
+                            <div className='akurucontent' onClick={()=>setShowDwijakshara(!showDwijakshara)}>
+                                            <h5>ද්විජාක්ෂර</h5>
+                                        </div>
+                            </div>
+
                             <div className='akuruAK noalp'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
@@ -1586,6 +1599,12 @@ function NewSinhalaHodiya() {
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
+                        <div className='akuruAK dvija' id='Dvijaksharabox'>
+                            <div className='akurucontent' onClick={()=>setShowDwijakshara(!showDwijakshara)}>
+                                            <h5>ද්විජාක්ෂර</h5>
+                                        </div>
+                            </div>
+
                             <div className='akuruAK noMahap'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
@@ -1944,6 +1963,12 @@ function NewSinhalaHodiya() {
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
+                        <div className='akuruAK dvija' id='Dvijaksharabox'>
+                            <div className='akurucontent' onClick={()=>setShowDwijakshara(!showDwijakshara)}>
+                                            <h5>ද්විජාක්ෂර</h5>
+                                        </div>
+                            </div>
+
                             <div className='akuruAK Novran'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
@@ -2300,6 +2325,12 @@ function NewSinhalaHodiya() {
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
 
+                        <div className='akuruAK dvija' id='Dvijaksharabox'>
+                            <div className='akurucontent' onClick={()=>setShowDwijakshara(!showDwijakshara)}>
+                                            <h5>ද්විජාක්ෂර</h5>
+                                        </div>
+                            </div>
+
                             <div className='akuruAK noSanjaka'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
                                             <p>51</p>
@@ -2651,6 +2682,13 @@ function NewSinhalaHodiya() {
                     </div>
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
+
+                        <div className='akuruAK dvija' id='Dvijaksharabox'>
+                            <div className='akurucontent' onClick={()=>setShowDwijakshara(!showDwijakshara)}>
+                                            <h5>ද්විජාක්ෂර</h5>
+                                        </div>
+                            </div>
+
                          <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
@@ -3008,6 +3046,12 @@ function NewSinhalaHodiya() {
                     </div>
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
+
+                        <div className='akuruAK dvija' id='Dvijaksharabox'>
+                            <div className='akurucontent' onClick={()=>setShowDwijakshara(!showDwijakshara)}>
+                                            <h5>ද්විජාක්ෂර</h5>
+                                        </div>
+                            </div>
 
                             <div className='akuruAK noush'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
@@ -3383,6 +3427,13 @@ function NewSinhalaHodiya() {
                     </div>
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
+
+                        <div className='akuruAK dvija' id='Dvijaksharabox'>
+                            <div className='akurucontent' onClick={()=>setShowDwijakshara(!showDwijakshara)}>
+                                            <h5>ද්විජාක්ෂර</h5>
+                                        </div>
+                            </div>
+
                         <div className='PointedLeterAnimeBox'>
                             <div className='akuruAK'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowYa(!showYa)}>
@@ -3765,6 +3816,12 @@ function NewSinhalaHodiya() {
                     </div>
 
                         <div className='AkuruColoms' id='yataAkuruSet'>
+
+                        <div className='akuruAK dvija' id='Dvijaksharabox'>
+                            <div className='akurucontent' onClick={()=>setShowDwijakshara(!showDwijakshara)}>
+                                            <h5>ද්විජාක්ෂර</h5>
+                                        </div>
+                            </div>
                         
                             <div className='akuruAK notAgosha'>
                             <div className='akurucontent' id='anthahLetters' onClick={()=>setShowLetNotInc(!showLetNotInc)}>
@@ -5202,6 +5259,23 @@ function NewSinhalaHodiya() {
                        <div className='MyOkBtn'><a onClick={()=>setShowCatNotInc(!showCatNotInc)}>OK</a></div>
                             <p>මෙම තීරුවේ මෙම අක්ශර ප්‍රවර්ගයට අයත් අක්ශර මේ මොහොතේ අක්රියව පවතී...!</p>
                             <p>The characters belonging to this character category in this column are currently inactive..!</p>
+                        </div>
+                        
+                </div>
+        }
+                {
+            showDwijakshara && <div className='akuruwistharamain' id='Aakuruwistharamainbox' data-aos="fadeInUp">
+               
+                       <div className='AakuruwistharamainboxContent contentVargasTitle'>
+                       <div className='MyCloseBtn'><a onClick={()=>setShowDwijakshara(!showDwijakshara)}><i class="fa-solid fa-circle-xmark"></i></a></div>
+                        <h1>ද්විජාක්ෂර</h1>
+                            <p>මෙහි කලින් දක්වා ඇති කණ්ඨජ, තාලුජ, මූර්ධජ, දන්තජ හා ඕෂ්ඨජ යන සියලු අක්ෂර එක් ස්ථානයක් පමණක් ඇසුරු කරගනිමින් උපදනා බැවින් "ඒකජාක්ෂර" නම් වේ. ද්විජාක්ෂර යනු මුඛයෙහි ස්ථාන දෙකක් පාදක කරගනිමින් හටගන්නා අක්ෂරයන් ය. එලෙස හටගන්නා අක්ෂර වර්ත කිහිපයකි.</p>
+                            <ul>
+                                        <li>1.	කණ්ඨතාලුජාක්ෂර<br/>කණ්ඨතාලුජාක්ෂර යනු උගුර සහ තල්ල ඇසුරෙන් හටගන්නා අක්ෂරයි. ඊට අයත් වන්නේ "එ, ඒ, ඓ" යන අක්ෂර තුනයි. අතීතයේ දී "ඇ, ඈ" යන ස්වර දෙක ද මෙම ගණයට ඇතුළත් කෙරිණි. නමුත් වත්මන් වියරන ඇදුරෝ එම අක්ෂර කණ්ඨජාක්ර ගණයට ඇතුළත් කරති.</li><hr/>
+                                        <li>2.	කණ්ඨෞෂ්ඨජ අක්ෂර<br/>උගුර සහ තොල් ඇසුරෙන් හටගන්නා අක්ෂරයි. ඊට අයත් වන්නේ "ඔ, ඕ, ඖ" යන අක්ෂර තුනයි.</li><hr/>
+                                        <li>3.	දන්තෞෂ්ඨජ අක්ෂර<br/>දත් සහ තොල් ඇසුරෙන් හට ගන්නා අක්ෂරයි. "ව" සහ "ෆ" යන අක්ෂර දෙක මෙම ගණයට අයත් වේ.</li><hr/>
+                                        
+                                   </ul>
                         </div>
                         
                 </div>
