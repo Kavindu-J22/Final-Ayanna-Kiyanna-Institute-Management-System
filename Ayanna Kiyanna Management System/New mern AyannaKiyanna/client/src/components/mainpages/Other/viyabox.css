@@ -1,7 +1,6 @@
 .v-main-box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background: #161623;
     min-height: 100vh;
@@ -39,6 +38,7 @@
     justify-content: center;
     padding: 25px;
     z-index: 1;
+    margin-top: 30px;
 }
 .v-text-container h1{
     display: flex;
