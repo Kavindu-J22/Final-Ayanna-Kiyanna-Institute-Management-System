@@ -252,6 +252,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto serif Sinhala',sans-serif;
 }
 .akuruAK h5{
     font-size: 4em;
@@ -566,7 +567,7 @@
 }
 .agoshamark::before{
     content: 'අඝෝෂ';
-    font-size: 15px;
+    font-size: 12px;
     color: aliceblue;
     width: 80px;
     height: 50px;
@@ -612,6 +613,7 @@
     cursor: pointer;
     padding: 20px;
     animation: animation 3s ease-in-out infinite;
+    font-family: 'Noto serif Sinhala',sans-serif;
 }
 .AakuruwistharamainboxContent::before{
     content: '';
@@ -1067,11 +1069,12 @@
     border-radius: 50%;
 }
 .listboxes h5{
-    font-size: 1.3em;
+    font-size: 1.1em;
     transition: .4s;
-    font-weight: 600;
+    font-weight: 800;
     text-shadow: 0 0 4px rgb(212, 204, 204);
     margin-left: 5px;
+    font-family: 'Noto serif Sinhala',sans-serif;
 }
 .listboxes p{
     margin-left: 5px;
@@ -1397,5 +1400,5 @@
     text-shadow: 0 0 15px rgba(29, 27, 27, 0.923);
 }
 .contentVargasTitle h1{
-    font-size: 5.5em;
+    font-size: 4.5em;
 }
