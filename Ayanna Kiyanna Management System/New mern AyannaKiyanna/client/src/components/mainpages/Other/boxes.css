@@ -156,10 +156,11 @@
     font-size: 30px;
 }
 .B-cards .B-text-card .B-content h3{
-    font-size: 2em;
+    font-size: 1.8em;
     color: #fff;
     margin-bottom: 10px;
     padding: 15px;
+    font-family: 'Noto serif Sinhala',sans-serif;
 }
 .B-cards .B-text-card .B-content p{
     font-size: 1.1em;
