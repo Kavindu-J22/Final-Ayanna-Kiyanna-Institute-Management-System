@@ -12,7 +12,7 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Noto Serif Sinhala' sans-serif,'Noto Sans Sinhala','Josefin Sans' sans-serif;
+  font-family: 'Noto serif Sinhala',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
