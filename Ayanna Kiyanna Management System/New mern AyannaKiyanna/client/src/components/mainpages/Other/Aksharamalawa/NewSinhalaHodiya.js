@@ -582,7 +582,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "hraswaswaraMainBox" && <div className='hraswaswaraMainBox' data-aos="slide-right">
+               {LetterBoxActive === "hraswaswaraMainBox" && <div className='hraswaswaraMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -752,7 +752,7 @@ function NewSinhalaHodiya() {
 
                }
 
-               {LetterBoxActive === "DeergswaswaraMainBox" && <div className='DeergswaswaraMainBox' data-aos="slide-right">
+               {LetterBoxActive === "DeergswaswaraMainBox" && <div className='DeergswaswaraMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -923,7 +923,7 @@ function NewSinhalaHodiya() {
 
                }
 
-               {LetterBoxActive === "AlpapranaDiscMainBox" && <div className='AlpapranaDiscMainBox' data-aos="slide-right">
+               {LetterBoxActive === "AlpapranaDiscMainBox" && <div className='AlpapranaDiscMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -1292,7 +1292,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "MahappranaDiscMainBox" && <div className='MahappranaDiscMainBox' data-aos="slide-right">
+               {LetterBoxActive === "MahappranaDiscMainBox" && <div className='MahappranaDiscMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -1657,7 +1657,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "VargaAnuDiscMainBox" && <div className='VargaAnuDiscMainBox' data-aos="slide-right">
+               {LetterBoxActive === "VargaAnuDiscMainBox" && <div className='VargaAnuDiscMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -2015,7 +2015,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "SanjakaDiscMainBox" && <div className='SanjakaDiscMainBox' data-aos="slide-right">
+               {LetterBoxActive === "SanjakaDiscMainBox" && <div className='SanjakaDiscMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -2371,7 +2371,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "AnthahsDiscMainBox" && <div className='AnthahsDiscMainBox' data-aos="slide-right">
+               {LetterBoxActive === "AnthahsDiscMainBox" && <div className='AnthahsDiscMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -2727,7 +2727,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "UshmakDiscMainBox" && <div className='UshmakDiscMainBox' data-aos="slide-right">
+               {LetterBoxActive === "UshmakDiscMainBox" && <div className='UshmakDiscMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -3084,7 +3084,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-               {LetterBoxActive === "GoshaDiscMainBox" && <div className='GoshaDiscMainBox' data-aos="slide-right">
+               {LetterBoxActive === "GoshaDiscMainBox" && <div className='GoshaDiscMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -3460,7 +3460,7 @@ function NewSinhalaHodiya() {
                </div>
                }
 
-            {LetterBoxActive === "AGoshaDiscMainBox" && <div className='AGoshaDiscMainBox' data-aos="slide-right">
+            {LetterBoxActive === "AGoshaDiscMainBox" && <div className='AGoshaDiscMainBox' data-aos="zoom-in-up">
                <div onClick={()=>setLetterBoxActive("Fristbox")}>
                         <div className='backtoWarnalabel'>
                             <div className='backToWarnamala'>
@@ -3850,7 +3850,7 @@ function NewSinhalaHodiya() {
                 
                     {/* Discriptiop buttons  */}
 
-                    <div className='sinhalaAkuruDiscbox'data-aos="slide-left">
+                    <div className='sinhalaAkuruDiscbox'data-aos="fadeInUp">
                          
                          <div className='swarabtnsboxnn'>
                             <div onClick={()=>setLetterBoxActive("hraswaswaraMainBox")} className="listboxes">
@@ -3859,6 +3859,18 @@ function NewSinhalaHodiya() {
                             </div>
                             <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
                                 <div className='cbforborder DColorbox'><span></span></div><div><h5>දීර්ඝ ස්වර</h5>
+                                <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
+                                <div className='cbforborder SandyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>සන්ධ්‍යක්ෂර</h5>
+                                <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
+                                <div className='cbforborder NamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>නම්‍ය ස්වර</h5>
+                                <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
+                            </div>
+                            <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
+                                <div className='cbforborder AnamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>අනම්‍ය ස්වර</h5>
                                 <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
                             </div>
                          </div>
@@ -5407,8 +5419,8 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent notincludeContent'>
                        <div className='MyOkBtn'><a onClick={()=>setShowCatNotInc(!showCatNotInc)}>OK</a></div>
-                            <p>මෙම අක්ෂර ප්‍රවර්ගය මෙම අක්ෂර කාණ්ඩයට ඇතුලත් නොවේ..!</p>
-                            <p>This category is not included in this character category..!</p>
+                            <p>මෙම තීරුවේ මෙම අක්ශර ප්‍රවර්ගයට අයත් අක්ශර මේ මොහොතේ අක්රියව පවතී...!</p>
+                            <p>The characters belonging to this character category in this column are currently inactive..!</p>
                         </div>
                         
                 </div>

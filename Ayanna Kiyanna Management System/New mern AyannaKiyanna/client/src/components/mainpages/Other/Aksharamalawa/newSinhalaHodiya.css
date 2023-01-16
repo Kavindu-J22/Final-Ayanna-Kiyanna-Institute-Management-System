@@ -870,6 +870,27 @@
 .UshmakDiscMainBox #akvrdv h2{
     animation: none;
 }
+.GoshaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.AGoshaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.AnthahsDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.SanjakaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.VargaAnuDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.MahappranaDiscMainBox #akvrdv h2{
+    animation: none;
+}
+.AlpapranaDiscMainBox #akvrdv h2{
+    animation: none;
+}
 .GoshaDiscMainBox{
     position: relative;
     display: flex;
@@ -1032,6 +1053,58 @@
     background: antiquewhite;
     border-radius: 50%;
 }
+/* sandyakshara */
+.SandyaColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(198, 201, 219, 0.196);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.SandyaColorbox i{
+    font-size: 1.3em;
+    border-radius: 50%;
+    opacity: .8;
+}
+
+/* Namya Swara */
+.NamyaColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(198, 201, 219, 0.196);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.NamyaColorbox i{
+    font-size: 1.3em;
+    border-radius: 50%;
+    opacity: .8;
+}
+
+/* Anamya Swara */
+
+.AnamyaColorbox{
+    width: 50px;
+    height: 50px;
+    background: rgba(198, 201, 219, 0.196);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.AnamyaColorbox i{
+    font-size: 1.3em;
+    border-radius: 50%;
+    opacity: .8;
+}
+
 /* alpaprana */
 .AlColorbox{
     width: 50px;
