@@ -653,7 +653,7 @@
     position: relative;
     list-style: none;
     text-align: center;
-    font-size: 1.2em;
+    font-size: .9em;
     color: rgb(244, 232, 232);
     margin: 20px;
     font-weight: 500;
@@ -661,6 +661,7 @@
 }
 .AakuruwistharamainboxContent ul li{
     margin: 5px;
+    font-family: 'Noto serif Sinhala',sans-serif;
 }
 .AakuruwistharamainboxContent #titleP{
     color: rgb(255, 255, 255);
