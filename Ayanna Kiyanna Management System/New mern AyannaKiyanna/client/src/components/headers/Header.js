@@ -78,11 +78,9 @@ function Header() {
     const loggedRouter = () =>{
         return(
             <>
-                {
-                    isAdmin ? <li><Link to="#">User Requests</Link></li> : <li><Link to="#">My Requests</Link></li>
-                }
+                
                 <li><a to="/" onClick={logoutUser}>Logout</a></li>
-                <li><Link to="#"><i class="fa-solid fa-user-large"></i></Link></li>
+                
             </>
         )
     }

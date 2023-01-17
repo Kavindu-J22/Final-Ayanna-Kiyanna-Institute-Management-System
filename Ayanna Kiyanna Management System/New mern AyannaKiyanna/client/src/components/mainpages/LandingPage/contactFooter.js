@@ -1,6 +1,5 @@
 import React from "react";
 import "./contactfooter.css";
-import Askimg from "../../assets/images/Ask.png"
 
 
 function Contactfooter(){
@@ -196,7 +195,6 @@ function Contactfooter(){
 
                     <div className="SosialIconRack">
                         <ul>
-                            <li id="SR0"><a href="#"><span><img src={Askimg}></img></span> Ask ජගත් Sir - “අයන්න කියන්න”</a></li>
                             <li id="SR1"><a href="#"><span><i class="fa-brands fa-facebook"></i></span> facebook - “අයන්න කියන්න”</a></li>
                             <li id="SR2"><a href="#"><span><i class="fa-brands fa-whatsapp"></i></span> whatsapp - “අයන්න කියන්න”</a></li>
                             <li id="SR3"><a href="#"><span><i class="fa-brands fa-telegram"></i></span> teligram - “අයන්න කියන්න”</a></li>

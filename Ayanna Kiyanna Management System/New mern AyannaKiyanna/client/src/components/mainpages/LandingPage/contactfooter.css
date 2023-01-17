@@ -39,14 +39,7 @@
     padding: 15px;
     transition: 0.5s;
 }
-.SosialIconRack ul li#SR0:hover{
-    transform: translateX(-50px);
-    background:rgb(244, 9, 64);
-}
-.SosialIconRack ul li#SR0 img{
-    width: 25px;
-    filter: grayscale(1);
-}
+
 .SosialIconRack ul li#SR1:hover{
     transform: translateX(-50px);
     background: #1270ea;
@@ -93,9 +86,7 @@
     transform: skewY(45deg);
     transition: 0.5s;
 }
-.SosialIconRack ul li#SR0{
-    z-index: 9;
-}
+
 .SosialIconRack ul li#SR1{
     z-index: 8;
 }
@@ -121,10 +112,7 @@
     z-index: 1;
 }
 
-.SosialIconRack ul li#SR0:hover::before{
-    filter: brightness(0.7);
-    background: rgb(244, 9, 64);
-}
+
 .SosialIconRack ul li#SR1:hover::before{
     filter: brightness(0.7);
     background: #1270ea;
@@ -171,10 +159,7 @@
     transform: skew(45deg);
     transition: 0.5s;
 }
-.SosialIconRack ul li#SR0:hover::after{
-    filter: brightness(0.9);
-    background: rgb(244, 9, 64);
-}
+
 .SosialIconRack ul li#SR1:hover::after{
     filter: brightness(0.9);
     background: #1270ea;
