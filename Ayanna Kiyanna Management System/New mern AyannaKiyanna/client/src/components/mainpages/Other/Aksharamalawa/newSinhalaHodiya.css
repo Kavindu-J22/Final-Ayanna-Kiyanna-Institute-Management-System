@@ -255,8 +255,11 @@
     font-family: 'Noto serif Sinhala',sans-serif;
 }
 .akuruAK h5{
-    font-size: 4em;
+    font-size: 3.3em;
     display: flex;
+    font-family: 'Noto serif Sinhala',sans-serif;
+    font-weight: 800;
+    padding-top: 10px;
 }
 .akuruAK p{
     position: absolute;
@@ -366,7 +369,7 @@
     justify-content: center;
     align-items: center;
     padding: 0;
-    font-size: .9em;
+    font-size: .7em;
     color: rgb(3, 5, 49);
     letter-spacing: 1px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.674);
@@ -385,6 +388,8 @@
     border-left: 1px solid rgba(255, 255, 255, 0.547);
     box-shadow: 10px 10px 30px rgba(71, 67, 67, 0.481);
     animation: animationwargadvidtitle 2s ease-out infinite;
+    font-family: 'Noto serif Sinhala',sans-serif;
+    font-weight: bold;
 }
 @keyframes animationwargadvidtitle{
     0%{
@@ -435,7 +440,7 @@
     animation: animationbacktowr 3s ease-in-out infinite;
 }
 #Dvijaksharabox h5{
-    font-size: 1.3em;
+    font-size: 1em;
     color: rgb(11, 5, 59);
     font-weight: 600;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.656);
@@ -628,19 +633,21 @@
 }
 .AakuruwistharamainboxContent h1{
     position: relative;
-    font-size: 10em;
+    font-size: 9em;
     color: #fff;
     margin-bottom: 30px;
+    font-family: 'Noto serif Sinhala',sans-serif;
 }
 .AakuruwistharamainboxContent p{
     position: relative;
     text-align: center;
     max-width: 500px;
-    font-size: 1.1em;
+    font-size: .9em;
     font-weight: 500;
     color: #fff;
     margin: 20px;
     letter-spacing: 1px;
+    font-family: 'Noto serif Sinhala',sans-serif;
 }
 .AakuruwistharamainboxContent ul{
     position: relative;
