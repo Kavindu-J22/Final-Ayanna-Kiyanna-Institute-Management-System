@@ -7,7 +7,7 @@ function LoadMore() {
     const [result] = state.productsAPI.result
 
     return (
-        <div className='load_more-btn' data-aos="zoom-in-up">
+        <div className='load_more-btn'>
             {
                 result < page * 9 ? ""
                 : <a onClick={() => setPage(page+1)}><span></span>
