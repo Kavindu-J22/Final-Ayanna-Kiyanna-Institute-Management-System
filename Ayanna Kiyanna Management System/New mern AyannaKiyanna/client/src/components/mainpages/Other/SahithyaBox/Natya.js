@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import "./natya.css"
 import Staklogo from '../../../assets/images/AKlogo.png'
 import backbtnmy from '../../../assets/images/B.png'
 
