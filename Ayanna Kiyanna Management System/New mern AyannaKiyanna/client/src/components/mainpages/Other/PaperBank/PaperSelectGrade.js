@@ -18,8 +18,8 @@ function PselectGrade() {
 
                 <div className='G-container'>
                     <div className='v-text-container'>
-                        <h1>✥ සිංහල භාෂාව හා සාහිත්‍යය </h1>
-                        <h2>- ඔබගේ ශ්‍රේණිය තෝරන්න -</h2>
+                        <h1>✥ Paper Bank ✥</h1>
+                        <h2> සිංහල භාෂාව හා සාහිත්‍යය </h2>
                     </div> 
 
                         <div className='G-gcard'>
