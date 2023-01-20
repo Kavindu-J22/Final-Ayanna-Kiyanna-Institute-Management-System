@@ -1,77 +1,125 @@
-.Gadya-main-box{
+.SecPart-main-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     min-height: 100vh;
-    background:rgb(202, 184, 123);
+    background: #2c1c34;
 }
-.Gadya-section{
+.G-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
 }
-.Gadya-container h1{
-    margin: 10px;
-    font-size: 38px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-}
-.Gadya-container h4{
-    font-size: 14px;
-    text-align: center;
-    font-family: 'Noto Sans Sinhala',sans-serif;
-    padding-bottom: 20px;
-    font-style: italic;
-    color: rgb(50, 47, 47);
-    font-weight: 800;
-}
-.Gadya-cards{
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 25px;
-    margin-top: 40px;
-    justify-content: center;
-}
-.Gadya-text-card{
-    background: rgb(242, 216, 182);
-    box-shadow: 0 0 15px rgb(48, 45, 45);
-    margin: 15px;
-    padding: 30px;
-    font-size: 13px;
-    font-weight: 300;
+.G-gcard{
+    position: relative;
+    width: 320px;
+    height: 450px;
+    margin: 40px;
+    background: #287bff;
     border-radius: 20px;
-    transition: background 0.5s, transform 0.5s;
-    cursor: pointer;
-    border: none ;
-    max-width: 300px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    box-shadow: 0 15px 0 #fff,
+    inset 0 -15px 0 rgba(255,255,255,0.25), 0 45px 0 rgba(0,0,0,0.15);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
-.Gadya-text-card:hover{
-    background: rgb(221, 163, 172);
+.G-gcard::before{
+    content: '';
+    position: absolute;
+    top: -140px;
+    left: -100px;
+    width: 100%;
+    height: 120%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2));
+    transform: rotate(30deg);
+    pointer-events: none;
+    filter: blur(5px);
+}
+.G-gcard:nth-child(2)
+{
+    background: linear-gradient(to bottom, #ff2ae0, #645bf6);
+}
+.G-gcard:nth-child(3)
+{
+    background: linear-gradient(to bottom, #ffec61, #f321d7);
+}
+.G-gcard:nth-child(4)
+{
+    background: linear-gradient(to bottom, #24ff72, #9a4eff);
+}
+.G-gcard:nth-child(5)
+{
+    background: linear-gradient(to bottom, #ff8324, #ff4ef9);
+}
+.G-icon{
+    position: relative;
+    width: 140px;
+    height: 120px;
+    background: #2c1c34;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1),
+    inset 0 -8px 0 #fff;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+.G-icon::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    background: transparent;
+    left: -50px;
+    width: 50px;
+    height: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 15px -15px 0 15px #2c1c34;
+}
+.G-icon::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    background: transparent;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: -15px -15px 0 15px #2c1c34;
+}
+.G-icon i{
+    position: relative;
+    color: rgb(244, 239, 239);
+    font-size: 5em;
+    z-index: 6000;
+    text-shadow: 0 0 6px;
+}
+.G-Content{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    transition: .4s;
+}
+.G-Content:hover{
     transform: translateY(-10px);
 }
-.Gadya-text-card h3{
-    font-size: 30px;
-    text-align: center;
+.G-Content h3{
+    font-size: 2em;
+    color: #fff;
     margin-bottom: 10px;
-    padding-bottom: 20px;
+    font-family: 'Noto serif Sinhala',sans-serif;
+    text-shadow: 0 0 5px #333;
 }
-
-.Gadya-text-card i{
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-.Gadya-text-card h5{
-    display: flex;
-    text-align: center;
-    padding-bottom: 15px;
+.G-Content p{
+    color: rgb(244, 241, 241);
+    line-height: 1.5em;
+    font-family: 'Noto serif Sinhala',sans-serif;
     font-size: 15px;
-    color: rgb(85, 26, 26);
-}
-.Gadya-link{
-    color: black;
-}
-
-
-@media (max-width:900px){
-    .Gadya-cards{
-        flex-direction: column;
-    }
+    text-shadow: 0 0 5px #333;
 }
