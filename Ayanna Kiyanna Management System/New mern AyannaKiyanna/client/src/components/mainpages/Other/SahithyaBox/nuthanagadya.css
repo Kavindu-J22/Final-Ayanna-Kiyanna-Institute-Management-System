@@ -3,13 +3,13 @@
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
-    background: #dbdeea;
+    background: #0e1225;
 }
 #TP-Text-Container h1{
-    color: #333;
+    color: rgb(232, 221, 221);
 }
 #TP-Text-Container h4{
-    color: #333;
+    color: rgb(189, 183, 183);
 }
 .TPart-container{
     position: relative;
@@ -24,13 +24,15 @@
     position: relative;
     width: 350px;
     height: 350px;
-    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
-    25px 35px 20px rgba(0, 0, 0, 0.05),
-    25px 30px 30px rgba(0, 0, 0, 0.05), inset -20px -20px 25px rgba(255, 255, 255, 0.666);
+    box-shadow: inset 20px 20px 20px rgba(255, 255, 255, 0.066),
+    25px 35px 20px rgba(0, 0, 0, 0.236),
+    25px 30px 30px rgba(0, 0, 0, 0.05), inset -20px -20px 25px rgba(255, 255, 255, 0.262);
     transition: .5s ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgba(255, 255, 255, 0.036);
+    filter: blur(.5px);
 }
 .TPart-container .TP-Drop:nth-child(2){
     border-radius: 27% 73% 70% 30% / 41% 48% 52% 59% ;
@@ -57,9 +59,10 @@
     left: 85px;
     width: 35px;
     height: 35px;
-    background: rgba(255, 255, 255, 0.705);
+    background: rgba(255, 255, 255, 0.247);
     border-radius: 50%;
     opacity: 0.9;
+    animation: animationbacktowr 3s ease-in-out infinite;
 }
 .TPart-container .TP-Drop::after{
     content: '';
@@ -68,9 +71,10 @@
     left: 110px;
     width: 15px;
     height: 15px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.247);
     border-radius: 50%;
     opacity: 0.9;
+    animation: animationbacktowr 3s ease-in-out infinite;
 }
 .TPart-container .TP-Drop .TP-Drop_content{
     position: relative;
@@ -90,7 +94,7 @@
     background: #dbdeea;
     border-radius: 50%;
     box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
-    inset -2px -5px 10px rgba(255, 255, 255, 0.666),
+    inset -2px -5px 10px rgba(255, 255, 255, 0.497),
     15px 15px 10px rgba(0, 0, 0, 0.05),
     15px 10px 15px rgba(0, 0, 0, 0.025);
     display: flex;
@@ -98,12 +102,14 @@
     align-items: center;
     font-size: 2em;
     color: rgb(255, 0, 89);
+    background: rgba(255, 255, 255, 0.036);
 }
 .TPart-container .TP-Drop .TP-Drop_content h3{
     position: relative;
     font-size: 1.7em;
     font-family: 'Noto serif Sinhala',sans-serif;
     text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.422);
+    color: #fff;
 }
 .TPart-container .TP-Drop .TP-Drop_content a{
     position: relative;
