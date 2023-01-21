@@ -3,6 +3,7 @@ import axios from 'axios'
 import {GlobalState} from '../../../GlobalState'
 import Loading from '../utils/loading/Loading'
 import {useHistory, useParams} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const initialState = {
     product_id: '',
@@ -122,7 +123,11 @@ function CreateProduct() {
         display: images ? "block" : "none"
     }
     return (
+        <>
+        <div className='AddFilesForOthr'><Link to="#">Add Files For Other Pages</Link></div>
+        <div className='ForYouAddTotleBox'>Add Items - For You Page</div>
         <div className="create_product">
+
             <div className="upload">
                 <input type="file" name="file" id="file_up" onChange={handleUpload}/>
                 {
@@ -183,7 +188,9 @@ function CreateProduct() {
 
                 <button type="submit">{onEdit? "Update" : "Create"}</button>
             </form>
+            
         </div>
+        </>
     )
 }
 

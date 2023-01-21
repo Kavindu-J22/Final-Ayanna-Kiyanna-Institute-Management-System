@@ -69,7 +69,7 @@ function Header() {
     const adminRouter = () =>{
         return(
             <>
-                <li><a href="/create_product">Add for -You</a></li>
+                <li><a href="/create_product">Add Items</a></li>
                 <li><a href="/category">Add Categories</a></li>
             </>
         )
