@@ -320,3 +320,11 @@ hr{
     transform: translateY(0.7rem);
   }
 }
+
+@media screen and (max-width: 480px){
+  .newthinkMenu{
+    top: 30px;
+    left: 15px;
+    animation: none;
+  }
+}

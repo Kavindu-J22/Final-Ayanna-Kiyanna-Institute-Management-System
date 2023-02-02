@@ -278,3 +278,32 @@ hr.Myhr:after {
     text-shadow: 0 0 5px rgba(51, 51, 51, 0.788);
     color: rgb(206, 198, 198);
   }
+
+@media screen and (max-width: 520px){
+    .header .content .logo1{
+       width: 300px;
+    }
+    .logo2{
+        width: 330px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .landing1stBtns{
+        margin-top: 15px;
+    }
+    .landing1stBtns a, #LGbtnA{
+       width: 150px;
+       margin: 10px;
+       font-size: 15px;
+       height: 40px;
+    }
+    .fristaflandsosialicon{
+        flex-direction: column;
+        right: 0;
+        align-items: center;
+    }
+    .fristaflandsosialicon i{
+        font-size: 15px;
+    }
+}
