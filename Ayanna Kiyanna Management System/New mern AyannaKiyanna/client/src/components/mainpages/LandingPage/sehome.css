@@ -772,3 +772,39 @@
 .SE2nddotslider input:checked~.s2ndslideimg{
     transform: translateX(100%);
 }
+@media screen and (max-width: 520px){
+    .SeNeonText-tltlebox h2 span{
+        font-size: 22px;
+        text-align: center;
+    }
+    .SeNeonText-tltlebox h2{
+        font-size: 22px;
+        text-align: center;
+    }
+    .Se-Lightbar{
+        top: 85px;
+        width: 4px;
+        height: 20%;
+        animation: animatelightbar 2.5s linear infinite;
+    }
+    .Se-toplayer{
+        animation: animatetoplayer 5s linear infinite;
+    }
+    .SEconteudo{
+        width: 400px;
+        height: 200px;
+        margin: 0;
+    }
+    .Secarrousel{
+        width: 400px;
+        height: 200px;
+    }
+    .Secarrousel-img{
+        width: 400px;
+        height: 200px;
+    }
+    .Secarrousel-img img{
+        width: 400px;
+        height: 200px;
+    }
+}
