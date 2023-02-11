@@ -368,3 +368,26 @@
 .B-section-newupbtns-sidemenu ul li:hover::before{
     opacity: 1;
 }
+
+@media screen and (max-width: 520px){
+    .B-section-newupbtns{
+        width: 90vw;
+        flex-direction: column;
+    }
+    .B-container h1{
+        font-size: 40px;
+    }
+    .B-section h2{
+        font-size: 35px;
+    }
+    .B-section-newupbtns-sidemenu{
+        display: none;
+    }
+    .B-content{
+        width: 250px;
+        height: auto;
+    }
+    .B-cards .B-text-card .B-content h3{
+        font-size: 1.4em;
+    }
+}
