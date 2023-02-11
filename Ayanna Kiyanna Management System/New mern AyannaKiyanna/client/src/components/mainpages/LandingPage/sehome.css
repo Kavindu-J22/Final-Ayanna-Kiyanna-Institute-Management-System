@@ -807,4 +807,28 @@
         width: 400px;
         height: 200px;
     }
+    .Sehome-largeimage-container{
+        width: 200px;
+        height: 500px;
+    }
+    .sinfo{
+        width: 300px;
+        margin-left: 0;
+    }
+    .sinfo p{
+        font-size: 15px;
+    }
+    .Selogbtn_main-box{
+        left: 0;
+        margin-left: 20px;
+    }
+    .SE2nddotslider{
+        display: none;
+    }
+    .info-Awsome-container{
+        display: none;
+    }
+    #tohidephone{
+        display: none;
+    }
 }
