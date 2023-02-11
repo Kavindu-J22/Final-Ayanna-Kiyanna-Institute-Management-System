@@ -202,3 +202,9 @@
     transition: .5s;
     transition-delay: 0.375s;
 }
+@media screen and (max-width: 520px){
+    .product-text-card h1{
+        font-size: 30px;
+        line-height: 28px;
+    }
+}
