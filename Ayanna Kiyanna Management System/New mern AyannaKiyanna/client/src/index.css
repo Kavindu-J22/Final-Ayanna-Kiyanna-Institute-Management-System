@@ -327,4 +327,7 @@ hr{
     left: 15px;
     animation: none;
   }
+  .MainBackbtnmy{
+    display: none;
+  }
 }
