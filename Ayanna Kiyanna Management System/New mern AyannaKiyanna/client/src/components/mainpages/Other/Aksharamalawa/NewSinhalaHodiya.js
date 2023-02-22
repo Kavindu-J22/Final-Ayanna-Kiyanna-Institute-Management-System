@@ -4005,8 +4005,15 @@ function NewSinhalaHodiya() {
                        <div className='MyCloseBtn'><a onClick={()=>setShowAa(!showAa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ආ</h1>
                             <p id='titleP'>'ආ' යන්න. (කණ්ඨජ ඝෝෂ දීර්ඝ ප්‍රාණාක්ෂර)</p>
-                            <p>අක්ෂර මාලාවේ අපට හමුවන දෙවන අකුරයි. එය  ස්වරයකි. එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. එය කණ්ඨජ අක්ෂරයකි. ඝෝෂයකි. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 02 වේ. ආ යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල ඇලපිල්ල ය. (ක් + ආ = කා)</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <ul>
+                            <li> අක්ෂර මාලාවේ අපට හමුවන දෙවන අකුරයි. </li>
+                            <li> එය  ස්වරයකි. </li>
+                            <li>එයිනුදු දීර්ඝ ස්වර ගණයට අයත් වේ. </li>
+                            <li>එය කණ්ඨජ අක්ෂරයකි. </li>
+                            <li> ඝෝෂයකි. (ඝෝෂ අක්ෂර බලන්න) </li>
+                            <li>අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 02 වේ. </li>
+                            <li>ආ යන්න වෙනුවට ව්‍යඤ්ජන අකුරකට යෙදෙන පිල්ල ඇලපිල්ල ය. (ක් + ආ = කා)</li>
+                           </ul>
                         </div>
                         
                 </div>
