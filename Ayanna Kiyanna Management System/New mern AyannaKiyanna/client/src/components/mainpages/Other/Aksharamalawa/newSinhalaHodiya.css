@@ -664,7 +664,7 @@
 .AakuruwistharamainboxContent ul li{
     margin: 5px;
     font-family: 'Noto serif Sinhala',sans-serif;
-    list-style: circle;
+    list-style: disc;
 }
 .AakuruwistharamainboxContent #titleP{
     color: rgb(255, 255, 255);
