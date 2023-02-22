@@ -3983,8 +3983,16 @@ function NewSinhalaHodiya() {
                         <div className='MyCloseBtn'><a onClick={()=>setShowA(!showA)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>අ</h1>
                             <p id='titleP'>'අ' යන්න. (කණ්ඨජ ඝෝෂ හ්‍රස්ව ප්‍රාණාක්ෂර)</p>
-                            <p>අක්ෂර මාලාවේ අපට හමුවන මුල් ම අකුරයි. එය ස්වරයකි. එයිනුදු හ්‍රස්ව ස්වර ගණයට අයත් වේ. එය කණ්ඨජ අක්ෂරයකි. ඝෝෂයකි. එය නම්‍ය ස්වරයකි (අ ❭ ඇ)*. අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 01 වේ. මෙම ස්වරය ව්‍යඤ්ජන අකුරකට ආරෑඪ කළ විට පිල්ලක් නොයෙදේ. (ක් + අ = ක) *නම්‍ය ස්වර බලන්න.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                           <ul>
+                            <li>අක්ෂර මාලාවේ අපට හමුවන මුල් ම අකුරයි. </li>
+                            <li>එය ස්වරයකි. </li>
+                            <li>එයිනුදු හ්‍රස්ව ස්වර (ලඝු/ලුහු) ගණයට අයත් වේ. </li>
+                            <li>එය කණ්ඨජ අක්ෂරයකි.</li>
+                            <li>ඝෝෂයකි. (ඝෝෂ අක්ෂර බලන්න)</li>
+                            <li>එය නම්‍ය ස්වරයකි (අ ❭ ඇ)*නම්‍ය ස්වර බලන්න.</li>
+                            <li>අකාරාදිය පිළිවෙළ අනුව එයට හිමි ස්ථානය අංක 01 වේ. </li>
+                            <li>මෙම ස්වරය ව්‍යඤ්ජන අකුරකට ආරූඪ කළ විට පිල්ලක් නොයෙදේ. (ක් + අ = ක) </li>   
+                           </ul>
                         </div>
                         
                 </div>

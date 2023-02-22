@@ -652,16 +652,19 @@
 .AakuruwistharamainboxContent ul{
     position: relative;
     list-style: none;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     font-size: .9em;
     color: rgb(244, 232, 232);
     margin: 20px;
     font-weight: 500;
     max-width: 500px;
+    padding-left: 70px;
 }
 .AakuruwistharamainboxContent ul li{
     margin: 5px;
     font-family: 'Noto serif Sinhala',sans-serif;
+    list-style: circle;
 }
 .AakuruwistharamainboxContent #titleP{
     color: rgb(255, 255, 255);
