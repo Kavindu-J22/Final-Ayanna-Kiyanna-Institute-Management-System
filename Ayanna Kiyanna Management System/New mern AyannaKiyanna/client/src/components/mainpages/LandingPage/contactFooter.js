@@ -47,7 +47,8 @@ function Contactfooter(){
                         <span id="pp"></span>
                         <span id="qq"></span>
                         <span id="rr"></span>
-                        
+                        <span id="ss"></span>
+                        <span id="tt"></span>
                         
                     </div>
 
