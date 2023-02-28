@@ -1424,3 +1424,15 @@
         height: 50px;
     }
 }
+.SandaysharaMainBox,.NamyaswaswaraMainBox, .AnamyaswaswaraMainBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 5px;
+    background: rgb(154, 147, 147);
+    border-radius: 10px;
+    padding-top: 15px;
+    min-height: 100%;
+}

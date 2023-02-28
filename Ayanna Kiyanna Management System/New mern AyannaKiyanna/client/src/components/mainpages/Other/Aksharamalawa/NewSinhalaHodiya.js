@@ -3902,6 +3902,60 @@ function NewSinhalaHodiya() {
                </div>
                }
 
+               {LetterBoxActive === "SandaysharaMainBox" && <div className='SandaysharaMainBox' data-aos="zoom-in-up">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
+
+               <div className='whatisbox'>
+                         <h1>❐ සන්ධ්‍යක්ෂර ❐</h1>
+                         <p>වෙනත් ස්වර දෙකක් සන්ධි වීමෙන් සෑදෙන අක්ෂර සන්ධ්‍යක්ෂර නම් වේ. (සන්ධි + අක්ෂර = සන්ධ්‍යක්ෂර) සංස්කෘත භාෂාවෙහි සන්ධ්‍යක්ෂර ලෙස දක්වා ඇත්තේ "ඒ,ඓ, ඕ, ඖ" යන ස්වර හතර පමණකි. නමුත් සිංහලයේ "එ, ඒ, ඓ, ඔ, ඕ, ඖ" යන ස්වර හයම සන්ධ්‍යක්ෂර ලෙස දැක්වීමට හැකිය.</p>
+                         <h2>සංයුක්ත ස්වර</h2>
+                         <p>අක්ෂර උච්චාරණයේ දී එකවර අක්ෂර දෙකක් එකට කියවෙන අවස්ථාවක් සේ සළකා සංයුක්ත ස්වර නම් වූ ප්‍රභේදයක් දක්නට ලැබේ. සංස්කෘතයේ සංයුක්ත ස්වර හා සන්ධ්‍යක්ෂර එකක් සේ සළකා ඇති බවක් පෙනේ. සිංහලයේ සංයුක්ත ස්වර ලෙස දක්වා ඇත්තේ "ඓ හා ඖ" යන ස්වර දෙකයි.</p>
+                    </div>
+                    </div>
+                }
+
+                {LetterBoxActive === "NamyaswaswaraMainBox" && <div className='NamyaswaswaraMainBox' data-aos="zoom-in-up">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
+
+               <div className='whatisbox'>
+                         <h1>❐ නම්‍ය ස්වර ❐</h1>
+                         <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+                    </div>
+                    </div>
+                }
+
+                {LetterBoxActive === "AnamyaswaswaraMainBox" && <div className='AnamyaswaswaraMainBox' data-aos="zoom-in-up">
+               <div onClick={()=>setLetterBoxActive("Fristbox")}>
+                        <div className='backtoWarnalabel'>
+                            <div className='backToWarnamala'>
+                                <i class="fa-solid fa-backward"></i>
+                                <img src={VrnaLet}></img>
+                            </div>
+                         </div>
+                         </div>
+
+               <div className='whatisbox'>
+                         <h1>❐ අනම්‍ය ස්වර ❐</h1>
+                         <p>“අයන්න කියන්න” නමින් සිංහල සඟරාවක් පළ කිරීමේ අවශ්‍යතාව අප තුළ ඇතිව තිබූයේ මීට වසර ගණනාවකට ඔබ්බෙහි සිට ය. නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.නොයෙකුත් වූ බාධකයන් හේතුවෙන් දිනෙන් දින ප්‍රමාද වූ එකී සංකල්පය ප්‍රයෝගික යථාර්ථයක් ලෙසින් එළිදැක්වීමට අවස්ථාව උදා වූයේ මෙම වසරේදී ය.</p>
+                    </div>
+                    </div>
+                }
+                    
+
 
                </div>
                 
@@ -3918,15 +3972,15 @@ function NewSinhalaHodiya() {
                                 <div className='cbforborder DColorbox'><span></span></div><div><h5>දීර්ඝ ස්වර</h5>
                                 <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
                             </div>
-                            <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
+                            <div onClick={()=>setLetterBoxActive("SandaysharaMainBox")} className="listboxes">
                                 <div className='cbforborder SandyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>සන්ධ්‍යක්ෂර</h5>
                                 <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
                             </div>
-                            <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
+                            <div onClick={()=>setLetterBoxActive("NamyaswaswaraMainBox")} className="listboxes">
                                 <div className='cbforborder NamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>නම්‍ය ස්වර</h5>
                                 <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
                             </div>
-                            <div onClick={()=>setLetterBoxActive("DeergswaswaraMainBox")} className="listboxes">
+                            <div onClick={()=>setLetterBoxActive("AnamyaswaswaraMainBox")} className="listboxes">
                                 <div className='cbforborder AnamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>අනම්‍ය ස්වර</h5>
                                 <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
                             </div>
@@ -4426,10 +4480,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowKa(!showKa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ක</h1>
-                            <p id='titleP'>'ක' යන්න. (කණ්ඨජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ අපට හමුවන මුල් ම හල් අකුරයි. එය වර්ගාක්ෂරයන්හි ක'වර්ගයේ වර්ගමූල අක්ෂරයයි. එය කණ්ඨජ අක්ෂර ගණයට අයත් වන අඝෝෂයකි. අල්පප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 21 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ක්</h1>
+                            <p id='titleP'>'ක්' යන්න. (කණ්ඨජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li>
+                            <li>ක් + අ = ක (ස්වරයක් ආරූඪ කළ පසු)</li>
+                            <li>ව්‍යඤ්ජන මාලාවේ අපට හමුවන මුල් ම හල් අකුරයි. </li>
+                            <li>එය වර්ගාක්ෂරයන්හි ක'වර්ගයේ වර්ගමූල අක්ෂරයයි.</li> 
+                            <li>එය කණ්ඨජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>එසේම එය අඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 21 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4440,10 +4503,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowKha(!showKha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඛ</h1>
-                            <p id='titleP'>'ඛ' යන්න. (කණ්ඨජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ක'වර්ගයේ අකුරක් වන මෙය කණ්ඨජ අක්ෂර ගණයට අයත් වේ. අඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 22 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඛ්</h1>
+                            <p id='titleP'>'ඛ්' යන්න. (කණ්ඨජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li>
+                            <li>ඛ් + අ = ඛ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ක'වර්ගයට අයත් අකුරකි.</li>
+                            <li>මෙය කණ්ඨජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>අඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි.</li> 
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 22 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4454,10 +4526,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowGa(!showGa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ග</h1>
-                            <p id='titleP'>'ග' යන්න. (කණ්ඨජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ක'වර්ගයේ අකුරක් වන මෙය කණ්ඨජ අක්ෂර ගණයට අයත් වේ. අඝෝෂයකි. අල්පප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 23 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ග්</h1>
+                            <p id='titleP'>'ග්' යන්න. (කණ්ඨජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li>
+                            <li>ග් + අ = ග (ස්වරයක් ආරූඪ කළ පසු)</li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ක'වර්ගයේ අකුරක් වන මෙය කණ්ඨජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 23 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4468,10 +4548,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowGha(!showGha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඝ</h1>
-                            <p id='titleP'>'ඝ' යන්න. (කණ්ඨජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ක'වර්ගයේ අකුරක් වන මෙය කණ්ඨජ අක්ෂර ගණයට අයත් වේ. ඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 24 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඝ්</h1>
+                            <p id='titleP'>'ඝ්' යන්න. (කණ්ඨජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li>
+                            <li>ඝ් + අ = ඝ (ස්වරයක් ආරූඪ කළ පසු)</li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ක'වර්ගයේ අකුරක් වන මෙය කණ්ඨජ අක්ෂර ගණයට අයත් වේ.</li> 
+                            <li>ඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 24 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4482,10 +4570,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent VarAnuContentt'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowXha(!showXha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඞ</h1>
-                            <p id='titleP'>'ඞ' යන්න. (කණ්ඨජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. ක'වර්ගයට අයත් වන මෙය ක'වර්ගයේ වර්ගාන්තාක්ෂරයයි. කණ්ඨජ අක්ෂර ගණයට අයත් වේ. ඝෝෂයකි. එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 25 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඞ්</h1>
+                            <p id='titleP'>'ඞ්' යන්න. (කණ්ඨජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li> 
+                            <li>ඞ් + අ = ඞ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. </li>
+                            <li>ක'වර්ගයට අයත් වන මෙය ක'වර්ගයේ වර්ගාන්තාක්ෂරයයි. </li>
+                            <li>කණ්ඨජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 25 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4498,8 +4595,16 @@ function NewSinhalaHodiya() {
                        <div className='MyCloseBtn'><a onClick={()=>setShowXgha(!showXgha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඟ</h1>
                             <p id='titleP'>'ඟ' යන්න. (කණ්ඨජ ඝෝෂ අර්ධානුනාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ මෙය සඤ්ඤක අක්ෂරයකි. කණ්ඨජ අක්ෂර ගණයට අයත් ඝෝෂයකි. අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ. මෙම අකුරෙන් පටන් ගන්නා කිසිඳු වචනයක් භාෂාවේ හමු නොවේ. මෙය කිසිවිටෙකත් වචනයක හල්ව නොයෙදේ. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 26 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <ul>
+                            <li>නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ මෙය සඤ්ඤක අක්ෂරයකි.</li>
+                            <li>කණ්ඨජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ. </li>
+                            <li>මෙම අකුරෙන් පටන් ගන්නා කිසිඳු වචනයක් භාෂාවේ හමු නොවේ. </li>
+                            <li>මෙය කිසිවිටෙකත් වචනයක හල්ව නොයෙදේ. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 26 වේ.</li>
+                            <li>මෙය සෑදී ඇත්තේ  ඞ් + ඟ් + අ = ඟ යන පරිදිය.</li>
+                            </ul>
                         </div>
                         
                 </div>
@@ -4510,10 +4615,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowCa(!showCa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ච</h1>
-                            <p id='titleP'>'ච' යන්න. (තාලුජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ච'වර්ගයේ වර්ගමූල අක්ෂරය වන මෙය තාලුජ අක්ෂර ගණයට අයත් වේ. අඝෝෂයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 27 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ච්</h1>
+                            <p id='titleP'>'ච්' යන්න. (තාලුජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li> 
+                            <li>ච් + අ = ච (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ච'වර්ගයේ වර්ගමූල අක්ෂරයයි.  </li>
+                            <li>මෙය තාලුජ අක්ෂර ගණයට අයත් වේ.</li> 
+                            <li>අඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණ අක්ෂරයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 27 වේ. </li>
+ 
+                            </ul>
                         </div>
                         
                 </div>
@@ -4524,10 +4638,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowCha(!showCha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඡ</h1>
-                            <p id='titleP'>'ඡ' යන්න. (තාලුජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ච'වර්ගයේ අකුරක් වන මෙය තාලුජ අක්ෂර ගණයට අයත් වේ. අඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 28 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඡ්</h1>
+                            <p id='titleP'>'ඡ්' යන්න. (තාලුජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ඡ් + අ = ඡ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li> ච'වර්ගයේ අකුරකි. </li>
+                            <li> මෙය තාලුජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>අඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 28 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4538,10 +4661,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowJa(!showJa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ජ</h1>
-                            <p id='titleP'>'ජ' යන්න. (තාලුජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ච'වර්ගයේ අකුරක් වන මෙය තාලුජ අක්ෂර ගණයට අයත් ඝෝෂයකි. අල්පප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 29 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ජ්</h1>
+                            <p id='titleP'>'ජ්' යන්න. (තාලුජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li> 
+                            <li>ජ් + අ = ජ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ච'වර්ගයේ අකුරකි.</li>
+                            <li>මෙය තාලුජ අක්ෂර ගණයට අයත් ඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 29 වේ.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4552,10 +4683,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowJha(!showJha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඣ</h1>
-                            <p id='titleP'>'ඣ' යන්න. (තාලුජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ච'වර්ගයේ අකුරක් වන මෙය තාලුජ අක්ෂර ගණයට අයත් ඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 30 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඣ්</h1>
+                            <p id='titleP'>'ඣ්' යන්න. (තාලුජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ඣ් + අ = ඣ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li> ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li> ච'වර්ගයේ අකුරකි. </li>
+                            <li>මෙය තාලුජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 30 වේ. </li>
+                            </ul>
                         </div>
                         
                 </div>
@@ -4566,10 +4705,20 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent VarAnuContentt'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowChaha(!showChaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඤ</h1>
-                            <p id='titleP'>'ඤ' යන්න. (තාලුජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. ච'වර්ගයට අයත් වන මෙය ච'වර්ගයේ වර්ගාන්තාක්ෂරයයි. තාලුජ අක්ෂර ගණයට අයත් වේ. ඝෝෂයකි. එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 31 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඤ්</h1>
+                            <p id='titleP'>'ඤ්' යන්න. (තාලුජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ඤ් + අ = ඤ (ස්වරයක් ආරූඪ කළ පසු)</li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. </li>
+                            <li> ච'වර්ගයට අයත් වන මෙය ච'වර්ගයේ වර්ගාන්තාක්ෂරයයි. </li>
+                            <li>තාලුජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ.</li>
+                            <li>එය ස්පර්ෂ නාසික්‍ය අක්ෂරයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 31 වේ.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4582,9 +4731,15 @@ function NewSinhalaHodiya() {
                        <div className='MyCloseBtn'><a onClick={()=>setShowXJhaha(!showXJhaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඦ</h1>
                             <p id='titleP'>'ඦ' යන්න. (තාලුජ ඝෝෂ අර්ධානුනාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ අක්ෂරයකි. එය සඤ්ඤක අක්ෂරයකි. තාලුජ අක්ෂර ගණයට අයත් ඝෝෂයකි. අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ.</p>
-                            <p>මෙම අක්ෂරය යෙදී ඇති එකම එක වචනයක් භාෂාවේ පවතී. එනම් සුනඛයින්ට අසුරු ගැසීමේ දී යෙදෙන "ඉඦුඃ" යන්නෙහි පමණි. මහාචාර්ය ජේ.බී.දිසානායකයන්ගේ සමකාලීන සිංහල හෝඩියෙන් මෙම අක්ෂරය ඉවත් කොට ඇති අතර එම ස්ථානයට "ඥ" අක්ෂරය එක් කර ඇත. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 32 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <li>නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ අක්ෂරයකි.</li> 
+                            <li>එය සඤ්ඤක අක්ෂරයකි. </li>
+                            <li>තාලුජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ. </li>
+                            <li>මෙම අක්ෂරය යෙදී ඇති එකම එක වචනයක් භාෂාවේ පවතී. එනම් සුනඛයින්ට අසුරු ගැසීමේ දී යෙදෙන "ඉඦුඃ" යන්නෙහි පමණි. මහාචාර්ය ජේ.බී.දිසානායකයන්ගේ සමකාලීන සිංහල හෝඩියෙන් මෙම අක්ෂරය ඉවත් කොට ඇති අතර එම ස්ථානයට "ඥ" අක්ෂරය එක් කර ඇත. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 32 වේ.</li>
+                            <li>මෙය සෑදී ඇත්තේ  ඤ් + ජ් + අ = ඦ යන පරිදිය.</li>
+
                         </div>
                         
                 </div>
@@ -4595,10 +4750,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowTa(!showTa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ට</h1>
-                            <p id='titleP'>'ට' යන්න. (මුර්ධජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ට'වර්ගයේ වර්ගමූල අක්ෂරය වන මෙය මුර්ධජ අක්ෂර ගණයට අයත් අඝෝෂයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 33 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ට්</h1>
+                            <p id='titleP'>'ට්' යන්න. (මුර්ධජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ට් + අ = ට (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ට'වර්ගයේ වර්ගමූල අක්ෂරයයි. </li>
+                            <li>මෙය මුර්ධජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>අඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 33 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4608,10 +4772,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowTtha(!showTtha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඨ</h1>
-                            <p id='titleP'>'ඨ' යන්න. (මුර්ධජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ට'වර්ගයේ අකුරක් වන මෙය මුර්ධජ අක්ෂර ගණයට අයත් වේ. අඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 34 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඨ්</h1>
+                            <p id='titleP'>'ඨ්' යන්න. (මුර්ධජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li> සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ඪ් + අ = ඪ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ට'වර්ගයේ අකුරක් වන මෙය මුර්ධජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>එය අඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 34 වේ.</li>
+ 
+                            </ul>
                         </div>
                         
                 </div>
@@ -4621,10 +4793,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowDa(!showDa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඩ</h1>
-                            <p id='titleP'>'ඩ' යන්න. (මුර්ධජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ට'වර්ගයේ අකුරක් වන මෙය මුර්ධජ අක්ෂර ගණයට අයත් ඝෝෂයකි. අල්පප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 35 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඩ්</h1>
+                            <p id='titleP'>'ඩ්' යන්න. (මුර්ධජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li> 
+                            <li> ඩ් + අ = ඩ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li> ට'වර්ගයේ අකුරකි.</li>
+                            <li> මෙය මුර්ධජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li> ඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණයකි. </li>
+                            <li> අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 35 වේ.</li>
+ 
+                            </ul>
                         </div>
                         
                 </div>
@@ -4634,10 +4815,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowDdha(!showDdha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඪ</h1>
-                            <p id='titleP'>'ඪ' යන්න. (මුර්ධජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ට'වර්ගයේ අකුරක් වන මෙය මුර්ධජ අක්ෂර ගණයට අයත් ඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 36 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඪ්</h1>
+                            <p id='titleP'>'ඪ්' යන්න. (මුර්ධජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li> 
+                            <li>ඪ් + අ = ඪ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ට'වර්ගයේ අකුරකි. </li>
+                            <li>මෙය මුර්ධජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 36 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4647,10 +4837,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent VarAnuContentt'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowMna(!showMna)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ණ</h1>
-                            <p id='titleP'>'ණ' යන්න. (මුර්ධජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. ට'වර්ගයේ අකුරක් වන මෙය ට'වර්ගයේ වර්ගාන්තාක්ෂරයයි. මුර්ධජ අක්ෂර ගණයට අයත් වේ. ඝෝෂයකි. එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 37 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ණ්</h1>
+                            <p id='titleP'>'ණ්' යන්න. (මුර්ධජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ණ් + අ = ණ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. </li>
+                            <li>ට'වර්ගයේ අකුරක් වන මෙය ට'වර්ගයේ වර්ගාන්තාක්ෂරයයි. </li>
+                            <li>මුර්ධජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li> ඝෝෂයකි. </li>
+                            <li>එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ.</li> 
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 37 වේ.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4662,8 +4861,16 @@ function NewSinhalaHodiya() {
                        <div className='MyCloseBtn'><a onClick={()=>setShowMdhaha(!showMdhaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඬ</h1>
                             <p id='titleP'>'ඬ' යන්න. (මුර්ධජ ඝෝෂ අර්ධානුනාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ අකුරක් වන මෙය සඤ්ඤක අක්ෂරයකි. මුර්ධජ අක්ෂර ගණයට අයත් ඝෝෂයකි. අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ. මෙම අකුරෙන් පටන් ගන්නා කිසිඳු වචනයක් භාෂාවේ හමු නොවේ. මෙය කිසිවිටෙකත් වචනයක හල්ව නොයෙදේ. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 38 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <ul>
+                            <li>නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ අකුරකි.</li> 
+                            <li>මෙය සඤ්ඤක අක්ෂරයකි. </li>
+                            <li>මුර්ධජ අක්ෂර ගණයට අයත් ඝෝෂයකි. </li>
+                            <li>අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ. </li>
+                            <li>මෙම අකුරෙන් පටන් ගන්නා කිසිඳු වචනයක් භාෂාවේ හමු නොවේ. මෙය කිසිවිටෙකත් වචනයක හල්ව නොයෙදේ. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 38 වේ.</li>
+                            <li>මෙය සෑදී ඇත්තේ  ණ් + ඩ් + අ = ඬ යන පරිදිය.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4674,10 +4881,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowTha(!showTha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ත</h1>
-                            <p id='titleP'>'ත' යන්න. (දන්තජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ත'වර්ගයේ වර්ගමූල අක්ෂරය වන මෙය මුර්ධජ අක්ෂර ගණයට අයත් අඝෝෂයකි. අල්පප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 39 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ත්</h1>
+                            <p id='titleP'>'ත්' යන්න. (දන්තජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li> 
+                            <li> ත් + අ = ත (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.</li>  
+                            <li> ත'වර්ගයේ වර්ගමූල අක්ෂරයයි. </li>
+                            <li>මුර්ධජ අක්ෂර ගණයට අයත් අඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 39 වේ.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4687,10 +4902,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowThha(!showThha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ථ</h1>
-                            <p id='titleP'>'ථ' යන්න. (දන්තජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ත'වර්ගයේ අකුරක් වන මෙය දන්තජ අක්ෂර ගණයට අයත් අඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 40 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ථ්</h1>
+                            <p id='titleP'>'ථ්' යන්න. (දන්තජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li> 
+                            <li>ථ් + අ = ථ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ත'වර්ගයේ අකුරකි. </li>
+                            <li>මෙය දන්තජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>අඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 40 වේ.</li>
+ 
+                            </ul>
                         </div>
                         
                 </div>
@@ -4700,10 +4924,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowTDa(!showTDa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ද</h1>
-                            <p id='titleP'>'ද' යන්න. (දන්තජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ත'වර්ගයේ අකුරක් වන මෙය දන්තජ අක්ෂර ගණයට අයත් ඝෝෂයකි. අල්පප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 41 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ද්</h1>
+                            <p id='titleP'>'ද්' යන්න. (දන්තජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li> 
+                            <li>ද් + අ = ද (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li> ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. </li> 
+                            <li> ත'වර්ගයේ අකුරකි. </li>
+                            <li> දන්තජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණයකි. </li>
+                            <li> අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 41 වේ.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4713,10 +4946,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowTDdha(!showTDdha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ධ</h1>
-                            <p id='titleP'>'ධ' යන්න. (දන්තජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ත'වර්ගයේ අකුරක් වන මෙය දන්තජ අක්ෂර ගණයට අයත් ඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 42 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ධ්</h1>
+                            <p id='titleP'>'ධ්' යන්න. (දන්තජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li> ධ් + අ = ධ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ත'වර්ගයේ අකුරකි. </li>
+                            <li>දන්තජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 42 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4726,10 +4968,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent VarAnuContentt'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowNa(!showNa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>න</h1>
-                            <p id='titleP'>'න' යන්න. (දන්තජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. ත'වර්ගයේ අකුරක් වන මෙය ත'වර්ගයේ වර්ගාන්තාක්ෂරයයි. දන්තජ අක්ෂර ගණයට අයත් වේ. ඝෝෂයකි. එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 43 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>න්</h1>
+                            <p id='titleP'>'න්' යන්න. (දන්තජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>න් + අ = න (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. </li>
+                            <li>ත'වර්ගයේ අකුරක් වන මෙය ත'වර්ගයේ වර්ගාන්තාක්ෂරයයි. </li>
+                            <li>දන්තජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 43 වේ.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4741,8 +4992,15 @@ function NewSinhalaHodiya() {
                        <div className='MyCloseBtn'><a onClick={()=>setShowdhaha(!showdhaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඳ</h1>
                             <p id='titleP'>'ඳ' යන්න. (දන්තජ ඝෝෂ අර්ධානුනාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ අකුරක් වන මෙය ද සඤ්ඤක අක්ෂරයකි. දන්තජ අක්ෂර ගණයට අයත් ඝෝෂයකි. අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ. මෙම අකුරෙන් පටන් ගන්නා කිසිඳු වචනයක් භාෂාවේ හමු නොවේ. මෙය කිසිවිටෙකත් වචනයක හල්ව නොයෙදේ. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 44 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <ul>
+                            <li> නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ අකුරක් වන මෙය ද සඤ්ඤක අක්ෂරයකි. </li>
+                            <li> දන්තජ අක්ෂර ගණයට වේ.</li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ. මෙම අකුරෙන් පටන් ගන්නා කිසිඳු වචනයක් භාෂාවේ හමු නොවේ. මෙය කිසිවිටෙකත් වචනයක හල්ව නොයෙදේ. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 44 වේ.</li>
+                            <li> මෙය සෑදී ඇත්තේ  න් + ද් + අ = ඳ යන පරිදිය.</li>
+ 
+                            </ul>
                         </div>
                         
                 </div>
@@ -4753,10 +5011,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowPa(!showPa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ප</h1>
-                            <p id='titleP'>'ප' යන්න. (ඕෂ්ඨජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ප'වර්ගයේ වර්ගමූල අක්ෂරය වන මෙය ඕෂ්ඨජ අක්ෂර ගණයට අයත් අඝෝෂයකි. අල්පප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 45 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ප්</h1>
+                            <p id='titleP'>'ප්' යන්න. (ඕෂ්ඨජ අඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ප් + අ = ප (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ප'වර්ගයේ වර්ගමූල අක්ෂරයයි. </li>
+                            <li>ඕෂ්ඨජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>අඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණයකි. </li>
+                            <li> අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 45 වේ.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4766,10 +5033,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowPha(!showPha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ඵ</h1>
-                            <p id='titleP'>'ඵ' යන්න. (ඕෂ්ඨජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ප'වර්ගයේ අකුරක් වන මෙය ඕෂ්ඨජ අක්ෂර ගණයට අයත් අඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 46 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ඵ්</h1>
+                            <p id='titleP'>'ඵ්' යන්න. (ඕෂ්ඨජ අඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li> සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ඵ් + අ = ඵ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ප'වර්ගයේ අකුරකි. </li>
+                            <li> ඕෂ්ඨජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li> අඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි. </li>
+                            <li> අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 46 වේ.</li>
+ 
+                            </ul>
                         </div>
                         
                 </div>
@@ -4779,10 +5055,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAlpaa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowBa(!showBa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>බ</h1>
-                            <p id='titleP'>'බ' යන්න. (ඕෂ්ඨජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ප'වර්ගයේ අකුරක් වන මෙය ඕෂ්ඨජ අක්ෂර ගණයට අයත් ඝෝෂයකි. අල්පප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 47 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>බ්</h1>
+                            <p id='titleP'>'බ්' යන්න. (ඕෂ්ඨජ ඝෝෂ අල්පප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී.</li> 
+                            <li>බ් + අ = බ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ප'වර්ගයේ අකුරකි. </li>
+                            <li>ඕෂ්ඨජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>අල්පප්‍රාණයකි. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 47 වේ.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4792,10 +5077,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentmarapraa'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowBha(!showBha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>භ</h1>
-                            <p id='titleP'>'භ' යන්න. (ඕෂ්ඨජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  ප'වර්ගයේ අකුරක් වන මෙය ඕෂ්ඨජ අක්ෂර ගණයට අයත් ඝෝෂයකි. මහප්‍රාණයකි. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 48 වේ. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>භ්</h1>
+                            <p id='titleP'>'භ්' යන්න. (ඕෂ්ඨජ ඝෝෂ මහප්‍රාණ ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li> භ් + අ = භ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි.  </li>
+                            <li>ප'වර්ගයේ අකුරකි. </li>
+                            <li>ඕෂ්ඨජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>මහප්‍රාණයකි. </li>
+                            <li> අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 48 වේ. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4805,10 +5099,20 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent VarAnuContentt'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowMa(!showMa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ම</h1>
-                            <p id='titleP'>'ම' යන්න. (ඕෂ්ඨජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. ප'වර්ගයේ අකුරක් වන මෙය ප'වර්ගයේ වර්ගාන්තාක්ෂරයයි. ඕෂ්ඨජ අක්ෂර ගණයට අයත් වේ. ඝෝෂයකි. එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 49 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ම්</h1>
+                            <p id='titleP'>'ම්' යන්න. (ඕෂ්ඨජ ඝෝෂ වර්ගාන්ත නාසික්‍ය ගාත්‍රාක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li> ම් + අ = ම (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>ව්‍යඤ්ජන මාලාවේ ඇති වර්ගාක්ෂරයකි. </li>
+                            <li>ප'වර්ගයේ අකුරකි. </li>
+                            <li>ප'වර්ගයේ වර්ගාන්තාක්ෂරයයි. </li>
+                            <li>ඕෂ්ඨජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>එය නාසයට බරව උච්චාරණය කෙරෙන හෙයින් නාසික්‍ය හෙවත් අනුනාසික ගණයට අයත් වේ. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 49 වේ.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4820,8 +5124,15 @@ function NewSinhalaHodiya() {
                        <div className='MyCloseBtn'><a onClick={()=>setShowBhaha(!showBhaha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ඹ</h1>
                             <p id='titleP'>'ඹ' යන්න. (ඕෂ්ඨජ ඝෝෂ අර්ධානුනාසික්‍ය ගාත්‍රාක්ෂරය)</p>
-                            <p>නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ අකුරක් වන මෙය ද සඤ්ඤක අක්ෂරයකි. ඕෂ්ඨජ අක්ෂර ගණයට අයත් ඝෝෂයකි. අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ. මෙම අකුරෙන් පටන් ගන්නා කිසිඳු වචනයක් භාෂාවේ හමු නොවේ. මෙය කිසිවිටෙකත් වචනයක හල්ව නොයෙදේ. අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 50 වේ.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <ul>
+                            <li>නූතන සිංහල වර්ණ මාලාවට අලුතෙන් ම හඳුන්වාදෙනු ලැබූ අකුරක් වන මෙය ද සඤ්ඤක අක්ෂරයකි. </li>
+                            <li> ඕෂ්ඨජ අක්ෂර ගණයට අයත් වේ. </li>
+                            <li> ඝෝෂයකි. </li>
+                            <li>අර්ධයක් නාසයට බරව උච්චාරණය කෙරෙන බැවින් එය අර්ධානුනාසික ශබ්දයක් ලෙස හැඳින්වේ. මෙම අකුරෙන් පටන් ගන්නා කිසිඳු වචනයක් භාෂාවේ හමු නොවේ. මෙය කිසිවිටෙකත් වචනයක හල්ව නොයෙදේ. </li>
+                            <li>අක්ෂර මාලාවෙහි එයට හිමි ස්ථානය 50 වේ.</li>
+                            <li>මෙය සෑදී ඇත්තේ  ම් + බ් + අ = ඹ යන පරිදිය.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4833,10 +5144,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowYa(!showYa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ය</h1>
-                            <p id='titleP'>'ය' යන්න. (තාලුජ ඝෝෂ අර්ධස්වරය)</p>
-                            <p>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ. උප්පත්ති ස්ථානය අනුව තාලුජ අක්ෂර ගණයට අයත් වන මෙය ඝෝෂයකි. අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 51 යි. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ය්</h1>
+                            <p id='titleP'>'ය්' යන්න. (තාලුජ ඝෝෂ අර්ධස්වරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ය් + අ = ය (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li> අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. </li>
+                            <li> ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ. </li>
+                            <li> උප්පත්ති ස්ථානය අනුව තාලුජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>ඝෝෂයකි. </li>
+                            <li> අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 51 යි. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4846,10 +5165,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowRa(!showRa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ර</h1>
-                            <p id='titleP'>'ර' යන්න. (මුර්ධජ ඝෝෂ අර්ධස්වරය)</p>
-                            <p>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ. උප්පත්ති ස්ථානය අනුව මුර්ධජ අක්ෂර ගණයට අයත් වන මෙය ඝෝෂයකි. අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 52 යි.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ර්</h1>
+                            <p id='titleP'>'ර්' යන්න. (මුර්ධජ ඝෝෂ අර්ධස්වරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li> ර් + අ = ර (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. </li>
+                            <li>ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ. </li>
+                            <li>උප්පත්ති ස්ථානය අනුව මුර්ධජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li> ඝෝෂයකි. </li>
+                            <li> අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 52 යි.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4859,10 +5186,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowLa(!showLa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ල</h1>
-                            <p id='titleP'>'ල' යන්න. (දන්තජ ඝෝෂ අර්ධස්වරය)</p>
-                            <p>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ. උප්පත්ති ස්ථානය අනුව දන්තජ අක්ෂර ගණයට අයත් වන මෙය ඝෝෂයකි. අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 53 යි.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ල්</h1>
+                            <p id='titleP'>'ල්' යන්න. (දන්තජ ඝෝෂ අර්ධස්වරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ල් + අ = ල (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි.</li> 
+                            <li>ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ.</li> 
+                            <li>උප්පත්ති ස්ථානය අනුව දන්තජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 53 යි.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4872,10 +5207,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowWa(!showWa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ව</h1>
-                            <p id='titleP'>'ව' යන්න. (දන්තෞෂ්ඨජ ඝෝෂ අර්ධස්වරය)</p>
-                            <p>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ. උප්පත්ති ස්ථානය අනුව දන්තෞෂ්ඨජ අක්ෂර ගණයට අයත් වන මෙය ඝෝෂයකි. ද්විජාක්ෂරයකි. අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 54 යි.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ව්</h1>
+                            <p id='titleP'>'ව්' යන්න. (දන්තෞෂ්ඨජ ඝෝෂ අර්ධස්වරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li> ව් + අ = ව (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. </li>
+                            <li>ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ. </li>
+                            <li>උප්පත්ති ස්ථානය අනුව දන්තෞෂ්ඨජ අක්ෂර ගණයට අයත් වේ.</li>
+                            <li>ඝෝෂයකි. </li>
+                            <li>ද්විජාක්ෂරයකි. </li>
+                            <li>අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 54 යි.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4885,10 +5229,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowSha(!showSha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ශ</h1>
-                            <p id='titleP'>'ශ' යන්න. (තාලුජ අඝෝෂ ඝර්ෂ අක්ෂරය)</p>
-                            <p>උණුසුම්ව උසුරුවන බැවින් හෙවත් මෙම අක්ෂරය උච්චාරණය කිරීමේ දී මුඛයෙන් වායු ධාරාව උණුසුම් ව පිට කෙරෙන බැවින් ඌෂ්මන් අක්ෂරයක් ලෙස හැඳින්වේ. මාතෘ භාෂාවන්ගෙන් සිංහලයට පැමිණි අක්ෂරයකි. ඝර්ෂ යන නම ද එබඳු අක්ෂර හැඳින්වීම සඳහා යෙදේ. එය තාලුජ ගණයට අයත් අඝෝෂ අක්ෂරයකි. අක්ෂර මාලාවේ එයට හිමි ස්ථානය වී ඇත්තේ 55 යි.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ශ්</h1>
+                            <p id='titleP'>'ශ්' යන්න. (තාලුජ අඝෝෂ ඝර්ෂ අක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ශ් + අ = ශ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>උණුසුම්ව උසුරුවන බැවින් හෙවත් මෙම අක්ෂරය උච්චාරණය කිරීමේ දී මුඛයෙන් වායු ධාරාව උණුසුම් ව පිට කෙරෙන බැවින් ඌෂ්මන් අක්ෂරයක් ලෙස හැඳින්වේ. </li>
+                            <li>මාතෘ භාෂාවන්ගෙන් සිංහලයට පැමිණි අක්ෂරයකි. </li>
+                            <li>ඝර්ෂ යන නම ද එබඳු අක්ෂර හැඳින්වීම සඳහා යෙදේ. </li>
+                            <li>එය තාලුජ ගණයට අයත් වේ. </li>
+                            <li>අඝෝෂ අක්ෂරයකි. </li>
+                            <li>අක්ෂර මාලාවේ එයට හිමි ස්ථානය වී ඇත්තේ 55 යි.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4898,10 +5251,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowSsha(!showSsha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ෂ</h1>
-                            <p id='titleP'>'ෂ' යන්න. (මුර්ධජ අඝෝෂ ඝර්ෂ අක්ෂරය)</p>
-                            <p>උණුසුම්ව උසුරුවන බැවින් හෙවත් මෙම අක්ෂරය උච්චාරණය කිරීමේ දී මුඛයෙන් වායු ධාරාව උණුසුම් ව පිට කෙරෙන බැවින් ඌෂ්මන් අක්ෂරයක් ලෙස හැඳින්වේ. මාතෘ භාෂාවන්ගෙන් සිංහලයට පැමිණි අක්ෂරයකි. ඝර්ෂ යන නම ද එබඳු අක්ෂර හැඳින්වීම සඳහා යෙදේ. එය මුර්ධජ ගණයට අයත් අඝෝෂ අක්ෂරයකි. අක්ෂර මාලාවේ එයට හිමි ස්ථානය වී ඇත්තේ 56 යි. </p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ෂ්</h1>
+                            <p id='titleP'>'ෂ්' යන්න. (මුර්ධජ අඝෝෂ ඝර්ෂ අක්ෂරය)</p>
+                            <ul>
+                            <li> සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ෂ් + අ = ෂ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>උණුසුම්ව උසුරුවන බැවින් හෙවත් මෙම අක්ෂරය උච්චාරණය කිරීමේ දී මුඛයෙන් වායු ධාරාව උණුසුම් ව පිට කෙරෙන බැවින් ඌෂ්මන් අක්ෂරයක් ලෙස හැඳින්වේ. </li>
+                            <li>මාතෘ භාෂාවන්ගෙන් සිංහලයට පැමිණි අක්ෂරයකි. </li>
+                            <li>ඝර්ෂ යන නම ද එබඳු අක්ෂර හැඳින්වීම සඳහා යෙදේ. </li>
+                            <li>එය මුර්ධජ ගණයට අයත් වේ.</li>
+                            <li>අඝෝෂ අක්ෂරයකි. </li>
+                            <li> අක්ෂර මාලාවේ එයට හිමි ස්ථානය වී ඇත්තේ 56 යි. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4911,10 +5273,19 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowSa(!showSa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ස</h1>
-                            <p id='titleP'>'ස' යන්න. (දන්තජ අඝෝෂ ඝර්ෂ අක්ෂරය)</p>
-                            <p>උණුසුම්ව උසුරුවන බැවින් හෙවත් මෙම අක්ෂරය උච්චාරණය කිරීමේ දී මුඛයෙන් වායු ධාරාව උණුසුම් ව පිට කෙරෙන බැවින් ඌෂ්මන් අක්ෂරයක් ලෙස හැඳින්වේ. ආරම්භයේ පටන් ම සිංහල හෝඩියෙහි දක්තට ලැබුනු අක්ෂරයකි. මෙය ද ඝර්ෂ අක්ෂරයකි. එය දන්තජ ගණයට අයත් අඝෝෂ අක්ෂරයකි. අක්ෂර මාලාවේ එයට හිමි ස්ථානය වී ඇත්තේ 57 යි.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ස්</h1>
+                            <p id='titleP'>'ස්' යන්න. (දන්තජ අඝෝෂ ඝර්ෂ අක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ස් + අ = ස (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>උණුසුම්ව උසුරුවන බැවින් හෙවත් මෙම අක්ෂරය උච්චාරණය කිරීමේ දී මුඛයෙන් වායු ධාරාව උණුසුම් ව පිට කෙරෙන බැවින් ඌෂ්මන් අක්ෂරයක් ලෙස හැඳින්වේ.</li>
+                            <li>ආරම්භයේ පටන් ම සිංහල හෝඩියෙහි දක්නට ලැබුනු අක්ෂරයකි. </li>
+                            <li>මෙය ද ඝර්ෂ අක්ෂරයකි. </li>
+                            <li>එය දන්තජ ගණයට අයත් වේ.</li>
+                            <li>අඝෝෂ අක්ෂරයකි. </li>
+                            <li>අක්ෂර මාලාවේ එයට හිමි ස්ථානය වී ඇත්තේ 57 යි. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4924,10 +5295,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentUshh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowha(!showha)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>හ</h1>
-                            <p id='titleP'>'හ' යන්න. (කණ්ඨජ ඝෝෂ ඝර්ෂ අක්ෂරය)</p>
-                            <p>උණුසුම්ව උසුරුවන බැවින් හෙවත් මෙම අක්ෂරය උච්චාරණය කිරීමේ දී මුඛයෙන් වායු ධාරාව උණුසුම් ව පිට කෙරෙන බැවින් ඌෂ්මන් අක්ෂරයක් ලෙස හැඳින්වේ. මෙය ද ඝර්ෂ අක්ෂරයකි. එය කණ්ඨජ ගණයට අයත් ඝෝෂ අක්ෂරයකි. අක්ෂර මාලාවේ එයට හිමි ස්ථානය වී ඇත්තේ 57 යි.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>හ්</h1>
+                            <p id='titleP'>'හ්' යන්න. (කණ්ඨජ ඝෝෂ ඝර්ෂ අක්ෂරය)</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>හ් + අ = හ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>උණුසුම්ව උසුරුවන බැවින් හෙවත් මෙම අක්ෂරය උච්චාරණය කිරීමේ දී මුඛයෙන් වායු ධාරාව උණුසුම් ව පිට කෙරෙන බැවින් ඌෂ්මන් අක්ෂරයක් ලෙස හැඳින්වේ. </li>
+                            <li>මෙය ද ඝර්ෂ අක්ෂරයකි. </li>
+                            <li>එය කණ්ඨජ ගණයට අයත් වේ.</li>
+                            <li>ඝෝෂ අක්ෂරයකි. </li>
+                            <li>අක්ෂර මාලාවේ එයට හිමි ස්ථානය වී ඇත්තේ 58 යි.</li>
+
+                            </ul>
                         </div>
                         
                 </div>
@@ -4937,10 +5316,18 @@ function NewSinhalaHodiya() {
                
                        <div className='AakuruwistharamainboxContent contentAnthahh'>
                        <div className='MyCloseBtn'><a onClick={()=>setShowLLa(!showLLa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
-                            <h1>ළ</h1>
-                            <p id='titleP'>'ළ' යන්න. (මුර්ධජ ඝෝෂ අර්ධස්වරය)</p>
-                            <p>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ. මුර්ධජ අක්ෂර ප්‍රභේදයට අයත් වන මෙය ඝෝෂයකි. අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 59 යි.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <h1>ළ්</h1>
+                            <p id='titleP'>'ළ්' යන්න. (මුර්ධජ ඝෝෂ අර්ධස්වරය)</p>
+                           <ul>
+                           <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                           <li> ළ් + අ = ළ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                           <li>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. </li>
+                           <li>ස්වරයක් හා ව්‍යඤ්ජනයක් අතර මැද පවත්නා බැවින් අන්තඃස්ථාක්ෂර යන කොටසට හෙවත් අර්ධස්වර ගණයට අයත් වේ. </li>
+                           <li>මුර්ධජ අක්ෂර ප්‍රභේදයට අයත් වේ. </li>
+                           <li>මෙය ඝෝෂයකි. </li>
+                           <li>අක්ෂර මාලාවේ එයට හිමි ස්ථානය වන්නේ 59 යි.</li>
+
+                           </ul>
                         </div>
                         
                 </div>
@@ -4952,8 +5339,16 @@ function NewSinhalaHodiya() {
                        <div className='MyCloseBtn'><a onClick={()=>setShowFa(!showFa)}><i class="fa-solid fa-circle-xmark"></i></a></div>
                             <h1>ෆ</h1>
                             <p id='titleP'>'ෆ' යන්න. (දන්තෞෂ්ඨජ අඝෝෂ ඝර්ෂ අක්ෂරය)</p>
-                            <p>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. නූතන සිංහල අක්ෂර මාලාවට අලුතෙන් ම එක් කෙරුණු මෙය ඉංග්‍රීසි තත්සම වචන සිංහලෙන් ලියා දැක්වීමේ කාලීන අවශ්‍යතාව සලකා අක්ෂර මාලාවට එක් කරන ලද්දකි. එය ද උච්චාරණයේ දී උණුසම් වායු ධාරවක් මුඛයෙන් පිටවන බැවින් ඌෂ්මන් අක්ෂර ගණයට අයත් වේ. අක්ෂර උප්පත්ති ස්ථාන අනුව දන්තෞෂ්ඨජ අක්ෂරයක් වන මෙය අඝෝෂ ඝර්ෂයකි. මෙය නූතන සිංහල අක්ෂර මාලාවේ අවසාන අක්ෂරයයි.</p>
-                            <p id='EngP'>The Sinhalese alphabet is one of the South Indian alphabets. It is a so-called “Abugida” alphabet. Its letters originate from the Brahman script, whose oldest documents date back to the 3rd Century B.C. The Sinhalese alphabet comprises 58 letters of which 42 are consonants and 16 vowels.</p>
+                            <ul>
+                            <li>සාමාන්‍යයෙන් හල් අකුරක් වශයෙන් පවතී. </li>
+                            <li>ෆ් + අ = ෆ (ස්වරයක් ආරූඪ කළ පසු) </li>
+                            <li>අවර්ගාක්ෂර ගණයට අයත් ව්‍යඤ්ජනයකි. </li>
+                            <li>නූතන සිංහල අක්ෂර මාලාවට අලුතෙන් ම එක් කෙරුණු මෙය ඉංග්‍රීසි තත්සම වචන සිංහලෙන් ලියා දැක්වීමේ කාලීන අවශ්‍යතාව සලකා අක්ෂර මාලාවට එක් කරන ලද්දකි.</li> 
+                            <li>එය ද උච්චාරණයේ දී උණුසුම් වායු ධාරවක් මුඛයෙන් පිටවන බැවින් ඌෂ්මන් අක්ෂර ගණයට අයත් වේ. </li>
+                            <li>අක්ෂර උප්පත්ති ස්ථාන අනුව දන්තෞෂ්ඨජ අක්ෂරයක් වේ.</li>
+                            <li>අඝෝෂ ඝර්ෂයකි. </li>
+
+                            </ul>
                         </div>
                         
                 </div>
