@@ -3974,15 +3974,15 @@ function NewSinhalaHodiya() {
                             </div>
                             <div onClick={()=>setLetterBoxActive("SandaysharaMainBox")} className="listboxes">
                                 <div className='cbforborder SandyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>සන්ධ්‍යක්ෂර</h5>
-                                <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
+                                </div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("NamyaswaswaraMainBox")} className="listboxes">
                                 <div className='cbforborder NamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>නම්‍ය ස්වර</h5>
-                                <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
+                                </div>
                             </div>
                             <div onClick={()=>setLetterBoxActive("AnamyaswaswaraMainBox")} className="listboxes">
                                 <div className='cbforborder AnamyaColorbox'><i class="fa-sharp fa-solid fa-pen-nib"></i></div><div><h5>අනම්‍ය ස්වර</h5>
-                                <p>(ගුරු ස්වර දික් ස්වර) 10</p></div>
+                                </div>
                             </div>
                          </div>
 
