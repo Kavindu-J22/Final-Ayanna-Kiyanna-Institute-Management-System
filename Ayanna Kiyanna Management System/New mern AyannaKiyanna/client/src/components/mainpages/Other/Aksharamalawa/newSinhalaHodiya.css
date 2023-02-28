@@ -1436,3 +1436,16 @@
     padding-top: 15px;
     min-height: 100%;
 }
+.NewnewUlNewThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.NewnewUlNewThree li{
+    font-family: 'Noto serif Sinhala',sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    list-style: circle;
+}
